@@ -1,0 +1,24 @@
+.logo {
+  height: 40px; // adjust as needed
+  vertical-align: middle;
+}
+
+/* Default: light logo visible, dark logo hidden */
+.logo-dark {
+  display: none;
+}
+
+.logo-light {
+  display: inline;
+}
+
+/* If body or html has class 'dark', switch */
+body.dark .logo-light,
+html.dark .logo-light {
+  display: none;
+}
+
+body.dark .logo-dark,
+html.dark .logo-dark {
+  display: inline;
+}
