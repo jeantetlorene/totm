@@ -4,8 +4,15 @@ layout: default
 <div class="post">
   
   {% if page.top_image %}
-    <div class="top-image mb-4">
-      <img src="{{ 'assets/img/' | append: page.top_image | relative_url }}" class="img-fluid w-100" alt="Top banner image">
+    <div class="top-banner" style="background-image: url('{{ 'assets/img/' | append: page.top_image | relative_url }}');">
+      <div class="top-banner-overlay">
+        <div class="top-banner-content container">
+          <h1 class="display-4 text-white font-weight-bold">
+            {{ site.title }}
+          </h1>
+          <p class="lead text-white">{{ page.subtitle }}</p>
+        </div>
+      </div>
     </div>
   {% endif %}
 
