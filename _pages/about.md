@@ -4,6 +4,8 @@ title: TOTM
 permalink: /
 subtitle: «L’océan nous relie, veillons sur ses doyennes»
 
+top_image: banner_tv_fabien.jpg
+
 profile:
   align: right
   image: prof_pic.jpg
