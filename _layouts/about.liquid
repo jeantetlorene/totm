@@ -25,6 +25,26 @@ layout: default
       </p>
     </div>
 
+    {% if page.custom_sections %}
+      <div class="container my-5">
+        <div class="row">
+          {% for section in page.custom_sections %}
+            <div class="col-md-6 d-flex align-items-stretch mb-4">
+              <div class="card flex-row shadow" style="width: 100%;">
+                <img class="card-img-left img-fluid" src="{{ 'assets/img/' | append: section.image | relative_url }}" alt="{{ section.title }}" style="width: 40%; object-fit: cover;">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <div>
+                    <h5 class="card-title font-weight-bold">{{ section.title }}</h5>
+                    <p class="card-text">{{ section.description }}</p>
+                  </div>
+                  <a href="{{ section.link }}" class="btn btn-primary mt-3 align-self-start">{{ section.button_text }}</a>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
 
 
     <!-- News -->

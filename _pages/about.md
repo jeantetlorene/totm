@@ -12,8 +12,28 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
 
+custom_sections:
+  - title: "Programme scientifique"
+    image: "1.jpg"
+    description: "Découvrez nos axes de recherche pour la protection des tortues marines."
+    link: "/blog/"
+    button_text: "En savoir plus"
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+  - title: "Nos missions"
+    image: "2.jpg"
+    description: "Rencontrez les acteurs engagés dans la conservation."
+    link: "/profiles/"
+    button_text: "Voir l’équipe"
+
+  - title: "Outils & Ressources"
+    image: "3.jpg"
+    description: "Accédez aux outils et ressources produits par le projet TOTM."
+    link: "/projects/"
+    button_text: "Explorer"
+
+
+
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
