@@ -12,13 +12,11 @@
   display: inline;
 }
 
-/* If body or html has class 'dark', switch */
-body.dark .logo-light,
-html.dark .logo-light {
+
+[data-theme="dark"] .logo-light {
   display: none;
 }
 
-body.dark .logo-dark,
-html.dark .logo-dark {
+[data-theme="dark"] .logo-dark {
   display: inline;
 }
