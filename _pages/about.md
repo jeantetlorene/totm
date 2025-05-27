@@ -28,4 +28,5 @@ latest_posts:
 ---
 
 Les tortues existent depuis plus de 100 millions d’années et pourtant, six des sept espèces sont `menacées d’extinction`. Pêche non durable, braconnage, changement climatique, pollution, dégradation des littoraux et dérangement… Les menaces qui pèsent sur elles, touchent aussi `des écosystèmes marins tout entiers`. La répartition des territoires français à travers le monde constitue une formidable opportunité de `déployer des stratégies de conservation aux niveaux national et international`.
+
 C’est la mission de `TOTM`.
