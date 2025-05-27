@@ -1,8 +1,8 @@
 ---
-layout: TOTM
+layout: about
 title: TOTM
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: «L’océan nous relie, veillons sur ses doyennes»
 
 profile:
   align: right
