@@ -25,6 +25,24 @@ layout: default
       </p>
     </div>
 
+    {% if page.about %}
+    <section class="section">
+      <div class="container">
+        <div class="row g-6 align-items-center justify-content-between">
+          <div class="col-lg-6">
+            <div class="pe-0 pe-lg-5">
+              <h1 class="section-title h2">{{ page.about.title }}</h1>
+              <p class="mb-0">{{ page.about.content }}</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="{{ 'assets/img/' | append: page.about.image | relative_url }}" alt="About image" class="w-100 rounded-1">
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
     {% if page.clients_logo_slider.enable %}
       <section class="section overflow-hidden">
         <div class="container">

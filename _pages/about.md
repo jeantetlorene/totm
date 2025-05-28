@@ -12,6 +12,13 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
 
+about: 
+  title: "About Us"
+  content: >
+    We are dedicated to the protection and study of marine turtles across the oceans.
+    Our mission is to connect territories and foster international collaboration.
+  image: "1.jpg"  
+
 clients_logo_slider:
   enable: true
   title: "MERCI A NOS PARTENAIRES FINANCIERS"
