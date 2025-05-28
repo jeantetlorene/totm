@@ -12,12 +12,24 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
 
-about: 
-  title: "About Us"
-  content: >
-    We are dedicated to the protection and study of marine turtles across the oceans.
-    Our mission is to connect territories and foster international collaboration.
-  image: "1.jpg"  
+banners:
+  - title: "Together for a Blue Future"
+    content: "Our mission connects coastal communities and marine conservation across the globe."
+    image: "1.jpg"
+    image_position: "right"
+    button:
+      enable: true
+      label: "Learn More"
+      link: "/projects/"
+
+  - title: "Science Meets Action"
+    content: "Empowering ocean solutions through data and community collaboration."
+    image: "2.jpg"
+    image_position: "left"
+    button:
+      enable: true
+      label: "Get Involved"
+      link: "/blog/" 
 
 clients_logo_slider:
   enable: true
