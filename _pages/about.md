@@ -12,6 +12,14 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
 
+clients_logo_slider:
+  enable: true
+  title: "MERCI A NOS PARTENAIRES FINANCIERS"
+  logos:
+    - logo_totm.png
+    - logo-dark.png
+    - logo-light.png
+
 custom_sections:
   - title: "Programme scientifique"
     image: "1.jpg"
