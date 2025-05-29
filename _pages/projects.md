@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: Programme Initiatives TOTM
+permalink: /nosinitiatives/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
