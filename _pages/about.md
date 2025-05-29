@@ -43,9 +43,9 @@ clients_logo_slider:
   enable: true
   title: "MERCI A NOS PARTENAIRES FINANCIERS"
   logos:
-    - logo_totm.png
-    - logo-dark.png
-    - logo-light.png
+    - logo_ministere.png
+    - logo-anyama.png
+    - logo-credit.png
 
 footer_menu_left:
   title: "About"
