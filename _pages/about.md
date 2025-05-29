@@ -17,6 +17,7 @@ banners:
     content: "Our mission connects coastal communities and marine conservation across the globe."
     image: "1.jpg"
     image_position: "right"
+    background: "bg-blue-100 dark:bg-blue-900"
     button:
       enable: true
       label: "Learn More"
@@ -26,10 +27,12 @@ banners:
     content: "Empowering ocean solutions through data and community collaboration."
     image: "2.jpg"
     image_position: "left"
+    background: "bg-green-100 dark:bg-green-900"
     button:
       enable: true
       label: "Get Involved"
       link: "/blog/" 
+
 
 clients_logo_slider:
   enable: true
@@ -39,24 +42,6 @@ clients_logo_slider:
     - logo-dark.png
     - logo-light.png
 
-custom_sections:
-  - title: "Programme scientifique"
-    image: "1.jpg"
-    description: "Découvrez nos axes de recherche pour la protection des tortues marines."
-    link: "/blog/"
-    button_text: "En savoir plus"
-
-  - title: "Nos missions"
-    image: "2.jpg"
-    description: "Rencontrez les acteurs engagés dans la conservation."
-    link: "/profiles/"
-    button_text: "Voir l’équipe"
-
-  - title: "Outils & Ressources"
-    image: "3.jpg"
-    description: "Accédez aux outils et ressources produits par le projet TOTM."
-    link: "/projects/"
-    button_text: "Explorer"
 
 
 

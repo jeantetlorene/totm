@@ -27,47 +27,41 @@ layout: default
 
     {% if page.banners %}
       {% for banner in page.banners %}
-        <section class="section bg-light my-5">
-          <div class="container">
-            <div class="row align-items-center justify-content-center">
-              {% assign image_left = banner.image_position == "left" %}
-              
-              {% if image_left %}
-                <!-- Image first -->
-                <div class="col-lg-6 text-center mb-4 mb-lg-0">
-                  <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" style="max-width: 550px;">
-                </div>
-                <div class="col-lg-6 col-md-10">
-                  <div class="pe-0 pe-lg-5 text-center text-lg-start">
-                    <h1 class="section-title h2">{{ banner.title }}</h1>
-                    <p class="mb-5">{{ banner.content }}</p>
-                    {% if banner.button and banner.button.enable %}
-                      <a href="{{ banner.button.link | relative_url }}" title="{{ banner.button.label }}" class="btn btn-outline-primary">
-                        {{ banner.button.label }}
-                      </a>
-                    {% endif %}
-                  </div>
-                </div>
-              {% else %}
-                <!-- Text first -->
-                <div class="col-lg-6 col-md-10 mb-4 mb-lg-0">
-                  <div class="pe-0 pe-lg-5 text-center text-lg-start">
-                    <h1 class="section-title h2">{{ banner.title }}</h1>
-                    <p class="mb-5">{{ banner.content }}</p>
-                    {% if banner.button and banner.button.enable %}
-                      <a href="{{ banner.button.link | relative_url }}" title="{{ banner.button.label }}" class="btn btn-outline-primary">
-                        {{ banner.button.label }}
-                      </a>
-                    {% endif %}
-                  </div>
-                </div>
-                <div class="col-lg-6 text-center">
-                  <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" style="max-width: 550px;">
-                </div>
-              {% endif %}
+      <section class="section {{ banner.background | default: 'bg-light' }} my-5 py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            {% if banner.image_position == "left" %}
+            <!-- Image on Left -->
+            <div class="col-lg-6 text-center mb-4 mb-lg-0">
+              <img src="{{ banner.image | relative_url }}" alt="banner image" class="img-fluid rounded-3" />
             </div>
+            <div class="col-lg-6">
+              <div class="px-lg-4 text-center text-lg-start">
+                <h2 class="h2 mb-3">{{ banner.title }}</h2>
+                <p class="mb-4">{{ banner.content }}</p>
+                {% if banner.button.enable %}
+                  <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
+                {% endif %}
+              </div>
+            </div>
+            {% else %}
+            <!-- Image on Right -->
+            <div class="col-lg-6 order-lg-2 text-center mb-4 mb-lg-0">
+              <img src="{{ banner.image | relative_url }}" alt="banner image" class="img-fluid rounded-3" />
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="px-lg-4 text-center text-lg-start">
+                <h2 class="h2 mb-3">{{ banner.title }}</h2>
+                <p class="mb-4">{{ banner.content }}</p>
+                {% if banner.button.enable %}
+                  <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
+                {% endif %}
+              </div>
+            </div>
+            {% endif %}
           </div>
-        </section>
+        </div>
+      </section>
       {% endfor %}
     {% endif %}
 
