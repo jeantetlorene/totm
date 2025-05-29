@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/totm/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/totm/blog/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
+  },{id: "nav-programme-initiatives-totm",
+          title: "Programme Initiatives TOTM",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/totm/projects/";
+            window.location.href = "/totm/nosinitiatives/";
+          },
+        },{id: "nav-nos-actualités",
+          title: "Nos Actualités",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/totm/nosactualites/index.html";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
+        },{id: "nav-a-propos",
+          title: "A propos",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/totm/people/";
+            window.location.href = "/totm/apropos/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
