@@ -80,18 +80,19 @@ layout: default
 
     <!-- Partenair logos -->
     {% if page.clients_logo_slider.enable %}
-      <section class="section overflow-hidden my-5">
+      <section class="section overflow-hidden py-6 my-5">
         <div class="container">
           <div class="row">
             <div class="col-12 text-center mb-5">
-              <h2 class="h6">{{ page.clients_logo_slider.title }}</h2>
+              <h2 class="h3">{{ page.clients_logo_slider.title }}</h2>
             </div>
             <div class="col-12">
               <div class="swiper brand-carousel">
                 <div class="swiper-wrapper">
                   {% for logo in page.clients_logo_slider.logos %}
                     <div class="swiper-slide brand-item d-flex align-items-center justify-content-center">
-                      <img src="{{ 'assets/img/' | append: logo | relative_url }}" alt="Brands logo" height="35">
+                      <img src="{{ 'assets/img/' | append: logo | relative_url }}" alt="Brand logo" 
+                            class="img-fluid w-auto" style="max-height: 80px;">
                     </div>
                   {% endfor %}
                 </div>
