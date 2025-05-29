@@ -161,23 +161,7 @@ layout: default
 
               <!-- Logo and Description -->
               <div class="col-lg-3 col-sm-6">
-                <a class="d-block h5 mb-3" href="{{ '/' | relative_url }}">
-                  {% include logo.html %}
-                </a>
-                <p class="mb-4">{{ page.footer_content }}</p>
-
-                <!-- Social Icons -->
-                {% if page.social %}
-                <ul class="list-inline social-icons">
-                  {% for item in page.social %}
-                  <li class="list-inline-item">
-                    <a href="{{ item.link | escape }}" title="{{ item.title }}">
-                      <i class="{{ item.icon }}"></i>
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-                {% endif %}
+                <div class="contact-icons">{% include social.liquid %}</div>
               </div>
 
             </div>
