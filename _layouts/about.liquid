@@ -77,13 +77,6 @@ layout: default
     </div>
 
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
 
     <!-- Partenair logos -->
     {% if page.clients_logo_slider.enable %}
@@ -122,4 +115,84 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
+
+  <footer class="bg-light section pb-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-11">
+          <div class="section pt-0">
+            <div class="row gy-4">
+
+              <!-- Footer Menu Left -->
+              <div class="col-lg-3 col-sm-6">
+                {% if page.footer_menu_left %}
+                <div class="h5 mb-4">{{ page.footer_menu_left.title }}</div>
+                <ul class="list-unstyled footer-list">
+                  {% for item in page.footer_menu_left.links %}
+                  <li><a href="{{ item.url | relative_url }}" title="{{ item.name }}">{{ item.name }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </div>
+
+              <!-- Footer Menu Middle -->
+              <div class="col-lg-3 col-sm-6">
+                {% if page.footer_menu_middle %}
+                <div class="h5 mb-4">{{ page.footer_menu_middle.title }}</div>
+                <ul class="list-unstyled footer-list">
+                  {% for item in page.footer_menu_middle.links %}
+                  <li><a href="{{ item.url | relative_url }}" title="{{ item.name }}">{{ item.name }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </div>
+
+              <!-- Footer Menu Right -->
+              <div class="col-lg-3 col-sm-6">
+                {% if page.footer_menu_right %}
+                <div class="h5 mb-4">{{ page.footer_menu_right.title }}</div>
+                <ul class="list-unstyled footer-list">
+                  {% for item in page.footer_menu_right.links %}
+                  <li><a href="{{ item.url | relative_url }}" title="{{ item.name }}">{{ item.name }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </div>
+
+              <!-- Logo and Description -->
+              <div class="col-lg-3 col-sm-6">
+                <a class="d-block h5 mb-3" href="{{ '/' | relative_url }}">
+                  {% include logo.html %}
+                </a>
+                <p class="mb-4">{{ page.footer_content }}</p>
+
+                <!-- Social Icons -->
+                {% if page.social %}
+                <ul class="list-inline social-icons">
+                  {% for item in page.social %}
+                  <li class="list-inline-item">
+                    <a href="{{ item.link | escape }}" title="{{ item.title }}">
+                      <i class="{{ item.icon }}"></i>
+                    </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Copyright -->
+          {% if page.copyright %}
+          <div class="border-top border-default text-center py-4">
+            <small class="content">{{ page.copyright }}</small>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
 </div>

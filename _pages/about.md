@@ -47,7 +47,44 @@ clients_logo_slider:
     - logo-dark.png
     - logo-light.png
 
+footer_menu_left:
+  title: "About"
+  links:
+    - name: "Mission"
+      url: "/mission/"
+    - name: "Team"
+      url: "/team/"
 
+footer_menu_middle:
+  title: "Pages du site web"
+  links:
+    - name: "A Propos"
+      url: "/apropos/"
+    - name: "Programme Initiatives TOTM"
+      url: "/blog/"
+    - name: "Nos Actualités"
+      url: "/nosactualites/"
+
+
+
+
+footer_menu_right:
+  title: "Support"
+  links:
+    - name: "Contact"
+      url: "/contact/"
+    - name: "Nous Soutenir"
+      url: "/donate/"
+
+footer_content: "TOTM is dedicated to the conservation of sea turtles and their habitats."
+
+social:
+  - title: "Twitter"
+    link: "https://twitter.com/yourhandle"
+    icon: "fab fa-twitter"
+  - title: "Facebook"
+    link: "https://facebook.com/yourpage"
+    icon: "fab fa-facebook"
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
