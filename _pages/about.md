@@ -45,7 +45,7 @@ clients_logo_slider:
   logos:
     - logo_ministere.png
     - logo_anyama.png
-    - logo_credit.png
+    - logo_credit.jpg
 
 footer_menu_left:
   title: "About"
