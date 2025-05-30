@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/totm/";
     },
-  },{id: "nav-programme-initiatives",
+  },{id: "nav-a-propos",
+          title: "A propos",
+          description: "members of the lab or group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/totm/apropos/";
+          },
+        },{id: "nav-programme-initiatives",
           title: "Programme Initiatives",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
@@ -23,19 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/nosactualites/index.html";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
+        },{id: "nav-nous-soutenir",
+          title: "Nous soutenir",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/totm/teaching/";
-          },
-        },{id: "nav-a-propos",
-          title: "A propos",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/totm/apropos/";
+            window.location.href = "/totm/noussoutenir/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
