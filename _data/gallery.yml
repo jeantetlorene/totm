@@ -1,0 +1,37 @@
+- url: "/projects/"
+  thumb: 1.jpg
+  title: Aspects réglementaires
+  description: 
+- url: "/projects/"
+  thumb: 2.jpg
+  title: Climat, buit et énergie renouvelables
+  description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
+- url: "/projects/"
+  thumb: 3.jpg
+  title: Identification
+  description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
+- url: "/projects/"
+  thumb: 4.jpg
+  title: Formations
+  description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
+- url: "/projects/"
+  thumb: 5.jpg
+  title: Indicateurs et minima standard
+  description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
+- url: "/projects/"
+  thumb: 6.jpg
+  title: Interactions pêche
+  description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
+- url: "/projects/"
+  thumb: 7.jpg
+  title: Interactions déchets marins
+  description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
+- url: "/projects/"
+  thumb: 8.jpg
+  title: Pathologie et centre de soin
+  description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
+- url: "/projects/"
+  thumb: 9.jpg
+  title: Sensibilisation
+  description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
+

@@ -21,7 +21,7 @@ banners:
     button:
       enable: true
       label: "Learn More"
-      link: "/projects/"
+      link: "/apropos/"
 
   - title: "Science Meets Action"
     content: |
@@ -36,7 +36,7 @@ banners:
     button:
       enable: true
       label: "Get Involved"
-      link: "/blog/" 
+      link: "/nosinitiatives/" 
 
 
 clients_logo_slider:
