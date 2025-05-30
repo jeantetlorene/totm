@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /nosactualites/
-title: Nos Actualités
+title: Actualités
 nav: true
 nav_order: 4
 pagination:

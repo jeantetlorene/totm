@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Programme Initiatives TOTM
+title: Programme Initiatives
 permalink: /nosinitiatives/
 description: A growing collection of your cool projects.
 nav: true
