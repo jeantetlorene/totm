@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Programme Initiatives TOTM
+title: Programme Initiatives
 permalink: /nosinitiatives/
-description: Un programme de conservation transocéanique
+description: 
 
 nav: true
 nav_order: 2
