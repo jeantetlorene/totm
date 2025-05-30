@@ -26,10 +26,11 @@ banners:
   - title: "Science Meets Action"
     content: |
       TOTM a pour buts la promotion, l’étude et la conservation des tortues marines et de leurs habitats, plus précisément :
-  
-      - La mise en œuvre d’actions selon les priorités identifiées par les groupes scientifiques et techniques d’experts,
-      - Le soutien à la mise en œuvre d’actions transversales aux échelles internationale, inter-régionale, nationale ou supranationale. Ce soutien peut prendre différentes formes, notamment scientifique, technique, logistique et financier,
-      - La réalisation et la diffusion de supports et d’outils pédagogiques.
+      <ul>
+        <li> La mise en œuvre d’actions selon les priorités identifiées par les groupes scientifiques et techniques d’experts,</li>
+        <li> Le soutien à la mise en œuvre d’actions transversales aux échelles internationale, inter-régionale, nationale ou supranationale. Ce soutien peut prendre différentes formes, notamment scientifique, technique, logistique et financier,</li>
+        <li> La réalisation et la diffusion de supports et d’outils pédagogiques.</li>
+      </ul>
     image: "2.jpg"
     image_position: "left"
     background: "bg-green-100 dark:bg-green-900"
