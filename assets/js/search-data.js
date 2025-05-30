@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/apropos/";
           },
-        },{id: "nav-programme-initiatives-totm",
-          title: "Programme Initiatives TOTM",
-          description: "Un programme de conservation transocéanique",
+        },{id: "nav-programme-initiatives",
+          title: "Programme Initiatives",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/totm/nosinitiatives/";
