@@ -9,15 +9,15 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/totm/";
     },
-  },{id: "nav-programme-initiatives-totm",
-          title: "Programme Initiatives TOTM",
+  },{id: "nav-programme-initiatives",
+          title: "Programme Initiatives",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/totm/nosinitiatives/";
           },
-        },{id: "nav-nos-actualités",
-          title: "Nos Actualités",
+        },{id: "nav-actualités",
+          title: "Actualités",
           description: "",
           section: "Navigation",
           handler: () => {
