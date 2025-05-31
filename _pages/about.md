@@ -45,7 +45,7 @@ gallery:
     title: Aspects réglementaires
     description: 
   - url: "/projects/"
-    thumb: 2.jpg
+    thumb: 10.jpg
     title: Climat, buit et énergie renouvelables
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/projects/"
