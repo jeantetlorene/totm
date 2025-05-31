@@ -1,7 +1,7 @@
 ---
+layout: team-member
 title: "Prof Wilfred Ndifon"
 date: 2023-01-15T10:00:00+02:00
-permalink: /apropos/team/lorene/
 draft: false
 image: "team/team-member-1.jpg"
 association: "CA"
