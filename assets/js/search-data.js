@@ -484,7 +484,7 @@ ninja.data = [{
           title: 'Prof Wilfred Ndifon',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/lorene/";
+              window.location.href = "/totm/apropos/team/wilfred-ndifon/";
             },},{id: "team-wolfram-decker",
           title: 'Wolfram Decker',
           description: "",
