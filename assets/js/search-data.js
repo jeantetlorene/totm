@@ -480,6 +480,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/lorene-jeantet/";
+            },},{id: "team-wolfram-decker",
+          title: 'Wolfram Decker',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/manue-decker/";
             },},{id: "team-prof-wilfred-ndifon",
           title: 'Prof Wilfred Ndifon',
           description: "",
