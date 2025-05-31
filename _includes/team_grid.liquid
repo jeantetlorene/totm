@@ -3,9 +3,9 @@
     <div class="row gy-4 justify-content-center">
       {% assign members = site.team %}
       {% for member in members %}
-        <div class="col-xl-3 col-lg-4 col-md-6 team-card d-flex justify-content-center" data-association="{{ member.association | downcase }}">
-          <a href="{{ member.url | relative_url }}" class="text-decoration-none text-reset">
-            <div class="card bg-transparent border-0 text-center h-100">
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex justify-content-center team-card" data-association="{{ member.association | downcase }}">
+          <a href="{{ member.url | relative_url }}" class="text-decoration-none text-reset w-100">
+            <div class="card bg-transparent border-0 text-center h-100 p-3">
               {% if member.image %}
                 <img src="{{ 'assets/img/' | append: member.image | relative_url }}" alt="{{ member.title }}" class="card-img-top rounded-circle mx-auto" style="object-fit: cover; width: 200px; height: 200px;">
               {% endif %}
