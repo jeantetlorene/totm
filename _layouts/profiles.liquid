@@ -8,19 +8,7 @@ layout: page
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <div class="content text-start text-justify">
-            {{ content | split: '## Notre équipe' | first }}
-          
-          
-            {% if page.image %}
-              <img src="{{ 'assets/img/' | append: page.image | relative_url }}"
-                   alt="Notre gouvernance"
-                   class="img-fluid d-block mx-auto my-4"
-                   style="max-width: 100%; height: auto;">
-            {% endif %}
-          
-            <h2>Notre équipe</h2>
-            {{ content | split: '## Notre équipe' | last }}
-          
+            {{ content }}          
           </div>
         </div>
       </div>
