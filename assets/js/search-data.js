@@ -479,17 +479,17 @@ ninja.data = [{
           title: 'Lorene Jeantet',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/team/lorene-jeantet/";
+              window.location.href = "/totm/apropos/team/lorene-jeantet/";
             },},{id: "team-prof-wilfred-ndifon",
           title: 'Prof Wilfred Ndifon',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/team/wilfred-ndifon/";
+              window.location.href = "/totm/apropos/team/lorene/";
             },},{id: "team-wolfram-decker",
           title: 'Wolfram Decker',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/team/wolfram-decker/";
+              window.location.href = "/totm/apropos/team/wolfram-decker/";
             },},{
         id: 'social-email',
         title: 'email',
