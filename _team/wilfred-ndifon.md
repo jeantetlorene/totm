@@ -4,7 +4,7 @@ title: "Prof Wilfred Ndifon"
 date: 2023-01-15T10:00:00+02:00
 draft: false
 image: "team/team-member-1.jpg"
-association: "CA"
+association: "ca"
 research_areas: ["Biomathematics", "Mathematical Biology", "Immunology"]
 email: "wilfred.ndifon@example.org"
 website: ""

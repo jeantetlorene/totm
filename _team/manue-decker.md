@@ -4,7 +4,7 @@ title: "Wolfram Decker"
 date: 2023-01-15T10:00:00+02:00
 draft: false
 image: "team/team-member-2.jpg"
-association: "CA"
+association: "ca"
 research_areas: ["Algebraic Geometry", "Computer Algebra"]
 email: "wolfram.decker@example.org"
 website: ""
