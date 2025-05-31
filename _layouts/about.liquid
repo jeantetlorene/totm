@@ -67,11 +67,18 @@ layout: default
 
 
     <section class="container my-5">
+      <!-- Gallery CSS -->
       <link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
+      
       <div class="inner">
-        <h2> <a href="{{ '/nosinitiatives/' | relative_url }} class="h2 mb-3">Programme Initiatives TOTM </h2>
-        <p class="mb-4">{{ page.gallery.description }}</p>
+        <h2 class="h2 mb-3">
+          <a href="{{ '/nosinitiatives/' | relative_url }}">
+            Programme Initiatives TOTM
+          </a>
+        </h2>
+        <p class="mb-4">{{ page.gallery.text }}</p>
       </div>
+
       <div class="gallery style2 medium lightbox onscroll-fade-in">
         {% for item in page.gallery %}
           <article>
