@@ -23,47 +23,30 @@
     <!-- Header -->
     {% include header.liquid %}
 
-    
-    
-    <!-- Content -->
-    {% if page.url == '/' and page.top_image %}
-      <!-- Allow full-width for top banner -->
-      {% assign is_home_with_banner = true %}
-    {% endif %}
-
-    {% if is_home_with_banner %}
-      <!-- Home page: banner should be full width -->
-      <div role="main">
-        {{ content }}
-      </div>
-    {% else %}
-      <!-- All other pages: content stays centered -->   
-      <div class="container mt-5" role="main">
-        {% if page.toc and page.toc.sidebar %}
+    <!-- Content (full width for all pages) -->
+    <div role="main">
+      {% if page.toc and page.toc.sidebar %}
+        <div class="container mt-5">
           {% if page.toc.sidebar == 'right' %}
             <div class="row">
-              <!-- main content area -->
               <div class="col-sm-9">{{ content }}</div>
-              <!-- sidebar, which will move to the top on a small screen -->
               <div class="col-sm-3">
                 <nav id="toc-sidebar" class="sticky-top"></nav>
               </div>
             </div>
           {% else %}
             <div class="row">
-              <!-- sidebar, which will move to the top on a small screen -->
               <div class="col-sm-3">
                 <nav id="toc-sidebar" class="sticky-top"></nav>
               </div>
-              <!-- main content area -->
               <div class="col-sm-9">{{ content }}</div>
             </div>
           {% endif %}
-        {% else %}
-          {{ content }}
-        {% endif %}
-      </div>
-    {% endif %}
+        </div>
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </div>
 
     <!-- Footer -->
     {% include footer.liquid %}
