@@ -2,8 +2,8 @@
 title: "Wolfram Decker"
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: "images/researchers/default-profile.jpg"
-association: "distinguished research fellow"
+image: "team/lorene-jeantet.jpg"
+association: "CA"
 research_areas: ["Algebraic Geometry", "Computer Algebra"]
 email: "wolfram.decker@example.org"
 website: ""

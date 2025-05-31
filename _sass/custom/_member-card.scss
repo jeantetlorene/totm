@@ -1,0 +1,50 @@
+// Researcher styles
+.team-card {
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #f8f9fa;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  &:hover .card-img-top {
+    border-color: #0056b3;
+  }
+}
+
+.team-filters {
+  .filter-btn {
+    transition: all 0.3s ease;
+    
+    &.active {
+      font-weight: 500;
+    }
+  }
+}
+
+.team-areas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  .badge {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.2;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

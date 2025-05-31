@@ -2,6 +2,8 @@
 layout: page
 ---
 <div class="post">
+  
+  
   <article>
     {% if page.profiles %}
       {% for profile in page.profiles %}
@@ -33,4 +35,28 @@ layout: page
       {% endfor %}
     {% endif %}
   </article>
+
+  <!-- Team Section -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <!-- Team Filters -->
+          <div class="team-filters text-center mb-5">
+            <button class="btn btn-sm btn-primary m-1 filter-btn active" data-filter="all">All</button>
+            <button class="btn btn-sm btn-outline-primary m-1 filter-btn" data-filter="bureau">Bureau</button>
+            <button class="btn btn-sm btn-outline-primary m-1 filter-btn" data-filter="CA">CA</button>
+          </div>
+
+          {% include team-grid.liquid %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
 </div>
+
+

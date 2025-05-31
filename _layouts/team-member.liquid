@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <!-- Left column: profile image and basic info -->
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        {% if page.image %}
+          <img src="{{ 'assets/img/' | append: page.image | relative_url }}" alt="{{ page.title }}" class="rounded-circle mx-auto" style="object-fit: cover;" width="300" height="300">
+        {% endif %}
+
+        <h1 class="mt-4">{{ page.title }}</h1>
+        <p class="text-muted text-capitalize">{{ page.association }}</p>
+
+        {% if page.email %}
+        <p><i class="fas fa-envelope me-2"></i><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+        {% endif %}
+
+        {% if page.website %}
+        <p><i class="fas fa-globe me-2"></i><a href="{{ page.website }}" target="_blank">Personal Website</a></p>
+        {% endif %}
+
+        {% if page.social %}
+        <div class="social-icons mt-4">
+          {% for social in page.social %}
+            <a href="{{ social.link }}" class="me-3" target="_blank"><i class="{{ social.icon }} fa-lg"></i></a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
+      <!-- Right column: research areas and content -->
+      <div class="col-lg-8">
+        {% if page.research_areas %}
+        <div class="mb-4">
+          <h3>Research Areas</h3>
+          <div>
+            {% for area in page.research_areas %}
+              <span class="badge bg-light text-dark me-2 mb-2 p-2">{{ area }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+

@@ -1,9 +1,10 @@
 ---
 title: "Lorene Jeantet"
+layout: team-member
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: "images/researchers/lorene-jeantet.jpg"
-association: "postdoctoral fellow"
+image: "team/lorene-jeantet.jpg"
+association: "bureau"
 research_areas: ["Machine Learning"]
 email: "lorene.jeantet@example.org"
 website: ""
@@ -18,7 +19,7 @@ social:
     icon: "fas fa-graduation-cap"
     link: "#"
 
-type: "research/researchers"
+
 ---
 
 Lorene Jeantet is a Postdoctoral Fellow specializing in Machine Learning. Her research focuses on developing and applying advanced machine learning techniques to solve complex computational problems across various domains.
