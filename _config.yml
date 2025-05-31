@@ -152,7 +152,7 @@ collections:
     output: true
   team:
     output: true
-    permalink: /team/:name/
+    permalink: /apropos/team/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
