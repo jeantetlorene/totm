@@ -13,6 +13,10 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+
+    <!-- Custom Gallery Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
+
   </head>
 
   <!-- Body -->
@@ -67,5 +71,11 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+
+    <!-- Custom Gallery Scripts -->
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jquery.scrollex.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>
+
   </body>
 </html>
