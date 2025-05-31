@@ -19,3 +19,7 @@ Les Président.e.s de commission communiquent régulièrement sur le contenu de 
 Les commissions sont regroupées en deux pôles : un pôle « Actions » relatif aux projets de TOTM et un pôle « Support et développement » qui travaille à la structuration et aux stratégies de l’association.
 
 Depuis début 2024, l’association est épaulée par une salariée « Chargée de mission » qui est impliquée sur tous les projets de l’association.
+
+## Notre équipe 
+
+La force de TOTM est d’être composée de professionnel.les de la conservation des tortues marines dans tous les territoires français, et donc tout autour du monde. 
