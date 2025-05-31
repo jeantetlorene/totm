@@ -1029,6 +1029,9 @@ body.is-preload .gallery.onload-fade-in article .image img {
         .gallery.style2 article .image {
             display: block;
             width: 100%;
+            height: 250px;           /* fixed height for all images */
+            object-fit: cover;       /* crop the image to fit */
+            object-position: center;
             border-radius: 0;
         }
 
