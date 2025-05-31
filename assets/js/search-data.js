@@ -475,6 +475,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/totm/projects/9_project/";
+            },},{id: "team-lorene-jeantet",
+          title: 'Lorene Jeantet',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/team/lorene-jeantet/";
+            },},{id: "team-prof-wilfred-ndifon",
+          title: 'Prof Wilfred Ndifon',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/team/wilfred-ndifon/";
+            },},{id: "team-wolfram-decker",
+          title: 'Wolfram Decker',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/team/wolfram-decker/";
             },},{
         id: 'social-email',
         title: 'email',
