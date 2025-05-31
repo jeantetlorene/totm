@@ -104,6 +104,34 @@ layout: default
     </section>
 
 
+    <section class="container my-5">
+      <div class="inner">
+        <h2 class="h2 mb-3">Les 9 initiatives TOTM</h2>
+        <p class="mb-4">
+          La collaboration entre tous les acteurs de la conservation des tortues marines a conduit à l’élaboration du programme “Initiatives TOTM” initié en 2021 qui vise à répondre aux priorités établies autour de neuf thématiques répondant aux enjeux actuels. Ces initiatives sont destinées à s’inscrire dans les Plans d’Actions locaux et les stratégies internationales, sans s’y substituer.
+        </p>
+      </div>
+
+      <div class="row">
+
+        {% for item in page.gallery %}
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <a href="{{ item.url | relative_url }}">
+                <img src="{{ 'assets/img/' | append: item.thumb | relative_url }}" class="card-img-top" alt="{{ item.title }}">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center p-0">
+                  <div class="w-100 text-center bg-dark bg-opacity-50 text-white py-2">
+                    <h5 class="mb-0">{{ item.title }}</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+
     <div class="container my-5">
       <!-- Latest posts -->
       {% if page.latest_posts and page.latest_posts.enabled %}
