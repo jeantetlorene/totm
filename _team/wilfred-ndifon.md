@@ -3,7 +3,7 @@ title: "Prof Wilfred Ndifon"
 date: 2023-01-15T10:00:00+02:00
 permalink: /apropos/team/lorene/
 draft: false
-image: "team/lorene-jeantet.jpg"
+image: "team/team-member-1.jpg"
 association: "CA"
 research_areas: ["Biomathematics", "Mathematical Biology", "Immunology"]
 email: "wilfred.ndifon@example.org"
@@ -19,7 +19,7 @@ social:
     icon: "fas fa-graduation-cap"
     link: "#"
 
-type: "research/researchers"
+
 ---
 
 Professor Wilfred Ndifon is an Associate Research Fellow at AIMS. His research focuses on biomathematics and mathematical immunology, developing quantitative approaches to understand complex biological systems, particularly the immune system and its response to infections.

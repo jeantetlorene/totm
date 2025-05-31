@@ -2,7 +2,7 @@
 title: "Wolfram Decker"
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: "team/lorene-jeantet.jpg"
+image: "team/team-member-2.jpg"
 association: "CA"
 research_areas: ["Algebraic Geometry", "Computer Algebra"]
 email: "wolfram.decker@example.org"
@@ -18,7 +18,7 @@ social:
     icon: "fas fa-graduation-cap"
     link: "#"
 
-type: "research/researchers"
+
 ---
 
 Wolfram Decker is a Distinguished Research Fellow from TU Kaiserslautern, renowned for his contributions to algebraic geometry and computer algebra. His research focuses on developing computational methods and software for solving problems in algebraic geometry and related fields.
