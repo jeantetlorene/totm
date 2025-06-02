@@ -1,81 +1,22 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Aspects réglementaires
+description: ajouter une description ? 
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Les tortues marines sont fortement affectées par les activités humaines pendant leurs migrations, confrontées à la dégradation des habitats, au braconnage et au commerce illégal. En mer, la pêche non réglementée et la pollution les menacent, tandis que sur terre, les sites de ponte souffrent de détritus, de pollution lumineuse et d’urbanisation. La France, avec le deuxième plus grand espace maritime mondial, a ratifié des conventions internationales et publié un arrêté ministériel en 2022 pour renforcer la protection nationale. Les experts de TOTM s’engagent à mettre en œuvre ces mesures, notamment à Mayotte, où le braconnage persiste. TOTM cherche des fonds pour renforcer la lutte et soutenir les autorités locales et prévoit l’utilisation d’outils juridiques internationaux tels que la convention RAMSAR pour renforcer la protection en France, proposant le classement de nouveaux sites. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Objectif : Appuyer le renforcement et l’application des règlementations en faveur de la conservation des tortues marines
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<ul> 
+    <li>Accompagner la rédaction et l’application d’un nouvel arrêté ministériel fixant la liste des tortues marines protégées sur le territoire national et les modalités de leur protection</li>
+    <li>Formuler des propositions sur les sites à classer selon la résolution XII-24 de la convention RAMSAR et sur la rédaction des plans de gestion des sites existants ou en création</li>
+    <li>Appuyer les mesures de lutte contre le braconnage à Mayotte</li>
+    <li>Appuyer l’entrée en vigueur d’une règlementation qui interdise les lâchers de ballons sur le territoire national</li>
+</ul>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+![Apesct reglemantaires]({{ 'assets/img/12.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
