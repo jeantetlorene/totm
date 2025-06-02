@@ -22,8 +22,4 @@ social:
 
 ---
 
-Lorene Jeantet is a Postdoctoral Fellow specializing in Machine Learning. Her research focuses on developing and applying advanced machine learning techniques to solve complex computational problems across various domains.
-
-As a postdoctoral researcher, Jeantet contributes to the advancement of machine learning methodologies, exploring innovative approaches to data analysis, pattern recognition, and predictive modeling. Her work bridges theoretical machine learning research with practical applications.
-
-Through collaborative research initiatives, she works alongside faculty and graduate students to push the boundaries of machine learning capabilities, contributing to both fundamental algorithmic development and domain-specific applications of these powerful computational techniques.
+Lorène Jeantet a réalisé sa thèse sur les tortues marines sous la direction de Damien Chevallier au CNRS de Strasbourg. Au cours de sa thèse, elle a développé un algorithme permettant d’étudier les comportements sous-marins des tortues marines. Ses recherches l’ont conduite sur le terrain en Guyane Française et en Martinique, où elle a équipé des tortues vertes et des tortues luth de capteurs et/ou de caméras embarquées, afin de collecter des données sur leur environnement et leurs comportements. Aujourd’hui postdoctorante en Afrique du Sud, elle poursuit ses travaux en collaboration avec Damien Chevallier. Elle analyse notamment les données sur les populations de tortues vertes immatures en Martinique et les tortues adultes en Guyane Française, dans l’objectif d’approfondir les connaissances sur ces espèces et de renforcer les efforts de conservation.
