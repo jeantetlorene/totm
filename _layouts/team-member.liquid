@@ -34,7 +34,6 @@ layout: default
 
       <!-- Right column: research areas and content -->
       <div class="col-lg-8">
-        {% if page.research_areas %}
         <div>
           <h3 class="mb-4">{{ page.title }}</h3>
             {% if page.research_areas %}
@@ -42,7 +41,7 @@ layout: default
                 <span class="badge bg-light text-dark me-2 mb-2 p-2">{{ area }}</span>
               {% endfor %}
              </div>
-             {% endif %}
+            {% endif %}
         </div>
         <div class="content">
           {{ content }}
