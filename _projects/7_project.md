@@ -2,7 +2,7 @@
 layout: page
 title: project 7
 description: with background image
-img: assets/img/4.jpg
+img: assets/img/7.jpg
 importance: 7
 category: Thématiques
 related_publications: true

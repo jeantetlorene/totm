@@ -1,8 +1,8 @@
 ---
 layout: page
 title: project 4
-description: another without an image
-img:
+description: 
+img: assets/img/4.jpg
 importance: 4
 category: Thématiques
 ---
