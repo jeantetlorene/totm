@@ -486,6 +486,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/totm/projects/9_project/";
+            },},{id: "team-wolfram-decker",
+          title: 'Wolfram Decker',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/eric-decker/";
+            },},{id: "team-wolfram-decker",
+          title: 'Wolfram Decker',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/flora-decker/";
             },},{id: "team-lorene-jeantet",
           title: 'Lorene Jeantet',
           description: "",
@@ -496,6 +506,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/manue-decker/";
+            },},{id: "team-wolfram-decker",
+          title: 'Wolfram Decker',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/tony-decker/";
             },},{id: "team-prof-wilfred-ndifon",
           title: 'Prof Wilfred Ndifon',
           description: "",
