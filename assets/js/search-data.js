@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/totm/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-signez-la-pétiton-wwf-pour-protéger-les-tortues",
+        
+          title: "Signez la pétiton WWF pour protéger les tortues",
+        
+        description: "Alors que la troisième Conférence des Nations Unies pour l&#39;Océan débutera à Nice dans quelques jours, le WWF a hier publié une pétition appelant à protéger les tortues marines.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/petition-wwf/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
