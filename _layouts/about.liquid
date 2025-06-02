@@ -177,9 +177,9 @@ layout: default
               <div class="swiper brand-carousel">
                 <div class="swiper-wrapper">
                   {% for logo in page.clients_logo_slider.logos %}
-                    <div class="swiper-slide brand-item d-flex align-items-center justify-content-center">
+                    <div class="swiper-slide brand-item d-flex align-items-center justify-content-center" style="height: 120px;">
                       <img src="{{ 'assets/img/' | append: logo | relative_url }}" alt="Brand logo" 
-                            class="img-fluid" style="width: 200px; height: 100px;">
+                        class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain;">
                     </div>
                   {% endfor %}
                 </div>
