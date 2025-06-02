@@ -16,7 +16,7 @@
   }
   
   &:hover .card-img-top {
-    border-color: #0056b3;
+    border-color: var(--global-hover-color);
   }
 }
 
