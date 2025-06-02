@@ -4,7 +4,7 @@ title: Aspects réglementaires
 description: ajouter une description ? 
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Thématiques
 related_publications: true
 ---
 
