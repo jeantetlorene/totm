@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/totm/";
     },
   },{id: "nav-a-propos",
-          title: "A propos",
+          title: "A Propos",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
