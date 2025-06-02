@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /apropos/
-title: A propos
+title: A Propos
 description: members of the lab or group
 nav: true
 nav_order: 1
