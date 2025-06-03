@@ -56,7 +56,7 @@ gallery:
     thumb: 4.jpg
     title: Formations
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/projects/5_project/"
     thumb: 5.jpg
     title: Indicateurs et minima standard
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
