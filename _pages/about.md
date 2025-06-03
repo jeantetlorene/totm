@@ -40,19 +40,19 @@ banners:
       link: "/nosinitiatives/" 
 
 gallery:
-  - url: "/projects/"
+  - url: "/projects/1_project/"
     thumb: 1.jpg
     title: Aspects réglementaires
     description: 
-  - url: "/projects/"
+  - url: "/projects/2_project/"
     thumb: 10.jpg
     title: Climat, buit et énergie renouvelables
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/projects/3_project/"
     thumb: 3.jpg
     title: Identification
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/projects/4_project/"
     thumb: 4.jpg
     title: Formations
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
