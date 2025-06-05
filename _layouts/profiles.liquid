@@ -53,9 +53,11 @@ layout: page
           console.log("Filter selected:", assoc)
           if (filter === "all" || assoc === filter) {
             card.style.display = "flex";
+            card.classList.remove("hidden");
             console.log(`Showing card with association: "${assoc}"`)
           } else {
             card.style.display = "none";
+            card.classList.add("hidden");
             console.log(`Hidding card with association: "${assoc}"`)
           }
         });
