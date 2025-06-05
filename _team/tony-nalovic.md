@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title: Tony Nalovic
-date: 2019-01-15T10:00:00+02:00
+date: 2023-01-15T10:00:00+02:00
 draft: false
 image: "team/Tony-Nalovic.jpg
 association: bureau

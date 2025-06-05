@@ -5,7 +5,7 @@ date: 2023-01-15T10:00:00+02:00
 draft: false
 image: "team/Eric-Delcroix.jpg"
 association: bureau
-representation: Trésorier Adj
+representation: Trésorier Adjoint
 research_areas: ["Guadeloupe", "Computer Algebra"]
 email: eric.delcroix@totm.ong
 website: ""
