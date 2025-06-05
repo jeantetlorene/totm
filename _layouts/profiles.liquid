@@ -52,12 +52,10 @@ layout: page
           const assoc = card.getAttribute("data-association");
           console.log("Filter selected:", assoc)
           if (filter === "all" || assoc === filter) {
-            card.style.display = "flex";
-            card.classList.remove("hidden");
+            card.style.setProperty("display", "", "important");
             console.log(`Showing card with association: "${assoc}"`)
           } else {
-            card.style.display = "none";
-            card.classList.add("hidden");
+            card.style.setProperty("display", "none", "important");
             console.log(`Hidding card with association: "${assoc}"`)
           }
         });
