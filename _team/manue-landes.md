@@ -3,7 +3,7 @@ layout: team-member
 title: Anne-Emmanuelle Landes
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: "team/team-member-2.jpg"
+image: "team/Anne_Emmanuelle_Landes.jpg"
 association: bureau
 representation: Trésorière
 research_areas: ["La Reunion", "Computer Algebra"]

@@ -3,7 +3,7 @@ layout: team-member
 title: Éric Delcroix 
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: "team/Eric-delcroix.jpg"
+image: "team/Eric-Delcroix.jpg"
 association: bureau
 representation: Trésorier Adj
 research_areas: ["Guadeloupe", "Computer Algebra"]
