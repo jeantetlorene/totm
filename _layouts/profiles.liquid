@@ -29,25 +29,29 @@ layout: page
 
 
 <script>
-  console.log("Filtering script is running!");
-  console.log("Clicked filter:", filter);
-  console.log("Card association:", association);
   document.addEventListener("DOMContentLoaded", function () {
-    const buttons = document.querySelectorAll(".filter-btn");
-    const cards = document.querySelectorAll(".team-card");
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const teamCards = document.querySelectorAll(".team-card");
 
-    buttons.forEach(button => {
+    filterButtons.forEach(button => {
       button.addEventListener("click", function () {
-        // Remove "active" class from all buttons
-        buttons.forEach(btn => btn.classList.remove("active"));
-        this.classList.add("active");
+        // Reset all buttons
+        filterButtons.forEach(btn => {
+          btn.classList.remove("active", "btn-primary");
+          btn.classList.add("btn-outline-primary");
+        });
+
+        // Activate current button
+        this.classList.add("active", "btn-primary");
+        this.classList.remove("btn-outline-primary");
 
         const filter = this.getAttribute("data-filter");
 
-        cards.forEach(card => {
-          const association = card.getAttribute("data-association");
-          if (filter === "all" || filter === association) {
-            card.style.display = "flex"; // d-flex card wrapper
+        // Filter cards
+        teamCards.forEach(card => {
+          const assoc = card.getAttribute("data-association");
+          if (filter === "all" || assoc === filter) {
+            card.style.display = "";
           } else {
             card.style.display = "none";
           }
