@@ -22,10 +22,13 @@
         // Filter cards
         teamCards.forEach(card => {
           const assoc = card.getAttribute("data-association");
+          console.log("Filter selected:", assoc)
           if (filter === "all" || assoc === filter) {
             card.style.display = "";
+            console.log(`Showing card with association: "${assoc}"`)
           } else {
             card.style.display = "none";
+            console.log(`Showing card with association: "${assoc}"`)
           }
         });
       });
