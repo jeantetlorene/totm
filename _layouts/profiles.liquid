@@ -16,7 +16,7 @@ layout: page
           <!-- Team Filters -->
           <div class="team-filters text-center mb-5">
             <button class="btn btn-sm btn-primary m-1 filter-btn active" data-filter="all">All</button>
-            <button class="btn btn-sm btn-outline-primary m-1 filter-btn" data-filter="bureau">Bureau</button>
+            <button class="btn btn-sm btn-outline-primary m-1 filter-btn" data-filter="bureau">bureau</button>
             <button class="btn btn-sm btn-outline-primary m-1 filter-btn" data-filter="ca">CA</button>
           </div>
 
@@ -29,6 +29,7 @@ layout: page
 
 
 <script>
+  console.log("Filtering script is running!");
   document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".filter-btn");
     const cards = document.querySelectorAll(".team-card");
