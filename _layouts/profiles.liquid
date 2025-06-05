@@ -25,10 +25,31 @@ layout: page
       </div>
     </div>
   </section>
-
-  <script src="{{ '/assets/js/team-filter.js' | relative_url }}"></script>
-
-
 </div>
 
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".filter-btn");
+    const cards = document.querySelectorAll(".team-card");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", function () {
+        // Remove "active" class from all buttons
+        buttons.forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+
+        const filter = this.getAttribute("data-filter");
+
+        cards.forEach(card => {
+          const association = card.getAttribute("data-association");
+          if (filter === "all" || filter === association) {
+            card.style.display = "flex"; // d-flex card wrapper
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    });
+  });
+</script>
