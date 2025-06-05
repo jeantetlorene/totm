@@ -506,6 +506,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/manue-landes/";
+            },},{id: "team-mayeul-dalleau",
+          title: 'Mayeul Dalleau',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/mayeul-dalleau/";
             },},{id: "team-",
           title: '',
           description: "",
@@ -516,11 +521,6 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/tyffen-read/";
-            },},{id: "team-mayeul-dalleau",
-          title: 'Mayeul Dalleau',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/wolfram-decker/";
             },},{
         id: 'social-email',
         title: 'email',
