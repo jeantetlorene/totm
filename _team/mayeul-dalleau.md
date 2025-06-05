@@ -6,7 +6,7 @@ draft: false
 image: "team/Mayeul-Dalleau.jpg"
 association: ca
 representation: Administrateur
-research_areas: ["La Réunion"]
+research_areas: ["La Réunion", "recherche"]
 email: mayeul.dalleau@totm.ong
 website: ""
 social:
