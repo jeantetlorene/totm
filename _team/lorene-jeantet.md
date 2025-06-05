@@ -5,8 +5,9 @@ date: 2023-01-15T10:00:00+02:00
 draft: false
 image: team/lorene-jeantet.jpg
 association: bureau
+representation: Secrétaire
 research_areas: ["Machine Learning"]
-email: lorene.jeantet@example.org
+email: lorene.jeantet@totm.ong
 website: ""
 social:
   - name: "LinkedIn"
