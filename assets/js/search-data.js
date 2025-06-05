@@ -486,38 +486,38 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/totm/projects/9_project/";
-            },},{id: "team-wolfram-decker",
-          title: 'Wolfram Decker',
+            },},{id: "team-éric-delcroix",
+          title: 'Éric Delcroix',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/eric-decker/";
-            },},{id: "team-wolfram-decker",
-          title: 'Wolfram Decker',
+              window.location.href = "/totm/apropos/team/eric-delcroix/";
+            },},{id: "team-flora-siegwalt",
+          title: 'Flora Siegwalt',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/flora-decker/";
+              window.location.href = "/totm/apropos/team/flora-siegwalt/";
             },},{id: "team-lorene-jeantet",
           title: 'Lorene Jeantet',
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/lorene-jeantet/";
-            },},{id: "team-wolfram-decker",
-          title: 'Wolfram Decker',
+            },},{id: "team-anne-emmanuelle-landes",
+          title: 'Anne-Emmanuelle Landes',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/manue-decker/";
-            },},{id: "team-wolfram-decker",
-          title: 'Wolfram Decker',
+              window.location.href = "/totm/apropos/team/manue-landes/";
+            },},{id: "team-",
+          title: '',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/tony-decker/";
-            },},{id: "team-prof-wilfred-ndifon",
-          title: 'Prof Wilfred Ndifon',
+              window.location.href = "/totm/apropos/team/tony-nalovic/";
+            },},{id: "team-tyffen-read",
+          title: 'Tyffen Read',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/wilfred-ndifon/";
-            },},{id: "team-wolfram-decker",
-          title: 'Wolfram Decker',
+              window.location.href = "/totm/apropos/team/tyffen-read/";
+            },},{id: "team-mayeul-dalleau",
+          title: 'Mayeul Dalleau',
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/wolfram-decker/";
