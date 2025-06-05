@@ -52,11 +52,11 @@ layout: page
           const assoc = card.getAttribute("data-association");
           console.log("Filter selected:", assoc)
           if (filter === "all" || assoc === filter) {
-            card.style.display = "";
+            card.style.display = "flex";
             console.log(`Showing card with association: "${assoc}"`)
           } else {
             card.style.display = "none";
-            console.log(`Showing card with association: "${assoc}"`)
+            console.log(`Hidding card with association: "${assoc}"`)
           }
         });
       });
