@@ -30,6 +30,8 @@ layout: page
 
 <script>
   console.log("Filtering script is running!");
+  console.log("Clicked filter:", filter);
+  console.log("Card association:", association);
   document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".filter-btn");
     const cards = document.querySelectorAll(".team-card");
