@@ -46,7 +46,7 @@ layout: page
         this.classList.remove("btn-outline-primary");
 
         const filter = this.getAttribute("data-filter");
-
+        console.log("Filter selected:", filter); 
         // Filter cards
         teamCards.forEach(card => {
           const assoc = card.getAttribute("data-association");
