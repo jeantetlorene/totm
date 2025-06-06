@@ -35,7 +35,7 @@ banners:
     image_position: "left"
     background: "bg-green-100 dark:bg-green-900"
     button:
-      enable: true
+      enable: false
       label: "Get Involved"
       link: "/nosinitiatives/" 
 
@@ -44,7 +44,7 @@ gallery:
     thumb: 1.jpg
     title: Aspects réglementaires
     description: 
-  - url: "/projects/2_project/"
+  - url: "/nosinitiatives/initiative_2/"
     thumb: 10.jpg
     title: Climat, buit et énergie renouvelables
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
