@@ -511,6 +511,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/tony-nalovic/";
+            },},{id: "team-tyffen-read",
+          title: 'Tyffen Read',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/tyffen-read/";
             },},{
         id: 'social-email',
         title: 'email',
