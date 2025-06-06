@@ -516,6 +516,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/flora-siegwalt/";
+            },},{id: "team-francois-elie-paute",
+          title: 'Francois-Elie Paute',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/francois-paute/";
             },},{id: "team-jonathan-monsinjon",
           title: 'Jonathan Monsinjon',
           description: "",
