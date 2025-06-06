@@ -486,6 +486,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/totm/projects/9_project/";
+            },},{id: "team-anne-emmanuelle-landes",
+          title: 'Anne-Emmanuelle Landes',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/emmanuelle-landes/";
             },},{id: "team-lorene-jeantet",
           title: 'Lorene Jeantet',
           description: "",
