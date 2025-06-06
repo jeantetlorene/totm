@@ -491,8 +491,8 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/lorene-jeantet/";
-            },},{id: "team-",
-          title: '',
+            },},{id: "team-tony-nalovic",
+          title: 'Tony Nalovic',
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/tony-nalovic/";
