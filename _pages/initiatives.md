@@ -3,7 +3,7 @@ layout: initiatives
 title: Programme Initiatives
 permalink: /nosinitiatives/
 description: 
-
+nav: true
 
 gallery:
   - url: "/nosinitiatives/initiative_1/"
