@@ -451,6 +451,21 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-2/";
+            },},{id: "nosinitiatives-identification",
+          title: 'Identification',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-3/";
+            },},{id: "nosinitiatives-formations",
+          title: 'Formations',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-4/";
+            },},{id: "nosinitiatives-indicateurs-et-minima-standard",
+          title: 'Indicateurs et minima standard',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-5/";
             },},{id: "team-alexandra-le-moal",
           title: 'Alexandra Le Moal',
           description: "",
