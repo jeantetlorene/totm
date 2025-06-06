@@ -3,7 +3,7 @@ layout: team-member
 title: Francois-Elie Paute
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/team-no-picture.jpg
+image: team/team-no-picture.png
 association: ca
 representation: Administrateur
 research_areas: ["Mayotte"]
