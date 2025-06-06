@@ -496,6 +496,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/cecile-gaspar/";
+            },},{id: "team-claire-jean",
+          title: 'Claire Jean',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/claire-jean/";
             },},{id: "team-damien-chevallier",
           title: 'Damien Chevallier',
           description: "",
