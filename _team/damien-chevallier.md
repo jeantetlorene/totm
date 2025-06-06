@@ -3,7 +3,7 @@ layout: team-member
 title: Damien Chevallier
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/mayeul-dalleau.jpg
+image: team/damien-chevallier.jpg
 association: ca
 representation: Administrateur
 research_areas: ["Martinique"]
