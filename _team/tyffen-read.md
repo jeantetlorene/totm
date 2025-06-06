@@ -3,7 +3,7 @@ layout: team-member
 title: Tyffen Read
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/tony-nalovic.jpg
+image: team/tyffen-read.jpg
 association: bureau
 representation: Secrétaire Adjointe
 research_areas: ["Nouvelle-Calédonie"]
