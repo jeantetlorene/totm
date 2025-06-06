@@ -486,6 +486,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/totm/projects/9_project/";
+            },},{id: "team-cécile-gaspar",
+          title: 'Cécile Gaspar',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/cecile-gaspar/";
             },},{id: "team-anne-emmanuelle-landes",
           title: 'Anne-Emmanuelle Landes',
           description: "",
