@@ -3,7 +3,7 @@ layout: team-member
 title: Flora Siegwalt
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/tony-nalovic.jpg
+image: team/Flora_Siegwalt.jpg
 association: bureau
 representation: Vice-Présidente
 research_areas: ["Martinique"]
