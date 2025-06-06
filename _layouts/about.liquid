@@ -26,16 +26,6 @@ layout: default
     </div>
 
 
-    <h2 class="h4 text-center">Debug: Initiatives found</h2>
-    <ul>
-      {% for page in site.nosinitiatives %}
-        <li>
-          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-          – {{ page.path }}
-        </li>
-      {% endfor %}
-    </ul>
-
     {% if page.banners %}
       {% for banner in page.banners %}
       <section class="section {{ banner.background | default: 'bg-light' }} my-5 py-5">
@@ -137,7 +127,7 @@ layout: default
                 <img src="{{ 'assets/img/' | append: item.thumb | relative_url }}" class="card-img-top" alt="{{ item.title }}">
                 <div class="card-img-overlay d-flex align-items-center justify-content-center p-0">
                   <div class="w-100 text-center bg-dark bg-opacity-50 text-white py-2">
-                    <h5 class="mb-0">{{ item.title }}</h5>
+                    <h5 style="color: white;", class="mb-0">{{ item.title }}</h5>
                   </div>
                 </div>
               </a>

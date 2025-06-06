@@ -7,11 +7,11 @@ nav: true
 nav_order: 2
 
 gallery:
-  - url: "/nosinitiatives/initiative_1/"
+  - url: "/nosinitiatives/initiative-1/"
     thumb: 1.jpg
     title: Aspects réglementaires
     description: 
-  - url: "/nosinitiatives/initiative_2/"
+  - url: "/nosinitiatives/initiative-2/"
     thumb: 10.jpg
     title: Climat, buit et énergie renouvelables
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
