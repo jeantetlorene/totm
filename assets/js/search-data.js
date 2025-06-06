@@ -486,41 +486,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/totm/projects/9_project/";
-            },},{id: "team-éric-delcroix",
-          title: 'Éric Delcroix',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/eric-delcroix/";
-            },},{id: "team-flora-siegwalt",
-          title: 'Flora Siegwalt',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/flora-siegwalt/";
             },},{id: "team-lorene-jeantet",
           title: 'Lorene Jeantet',
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/lorene-jeantet/";
-            },},{id: "team-anne-emmanuelle-landes",
-          title: 'Anne-Emmanuelle Landes',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/manue-landes/";
-            },},{id: "team-mayeul-dalleau",
-          title: 'Mayeul Dalleau',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/mayeul-dalleau/";
             },},{id: "team-",
           title: '',
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/tony-nalovic/";
-            },},{id: "team-tyffen-read",
-          title: 'Tyffen Read',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/tyffen-read/";
             },},{
         id: 'social-email',
         title: 'email',
