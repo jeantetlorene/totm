@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/totm/";
     },
-  },{id: "nav-programme-initiatives",
-          title: "Programme Initiatives",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/totm/nosinitiatives/";
-          },
-        },{id: "nav-a-propos",
+  },{id: "nav-a-propos",
           title: "A Propos",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
             window.location.href = "/totm/apropos/";
+          },
+        },{id: "nav-programme-initiatives",
+          title: "Programme Initiatives",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/totm/nosinitiatives/";
           },
         },{id: "nav-actualités",
           title: "Actualités",
