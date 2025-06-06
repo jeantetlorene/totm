@@ -25,6 +25,17 @@ layout: default
       </p>
     </div>
 
+
+    <h2 class="h4 text-center">Debug: Initiatives found</h2>
+    <ul>
+      {% for page in site.nosinitiatives %}
+        <li>
+          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          – {{ page.path }}
+        </li>
+      {% endfor %}
+    </ul>
+
     {% if page.banners %}
       {% for banner in page.banners %}
       <section class="section {{ banner.background | default: 'bg-light' }} my-5 py-5">
