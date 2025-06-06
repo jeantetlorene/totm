@@ -526,6 +526,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/mayeul-dalleau/";
+            },},{id: "team-mireille-quillard",
+          title: 'Mireille Quillard',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/mireille-quillard/";
             },},{id: "team-tony-nalovic",
           title: 'Tony Nalovic',
           description: "",
