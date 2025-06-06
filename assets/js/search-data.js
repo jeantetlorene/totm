@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/apropos/";
           },
-        },{id: "nav-programme-initiatives",
-          title: "Programme Initiatives",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/totm/nosinitiatives/";
-          },
         },{id: "nav-actualités",
           title: "Actualités",
           description: "",
@@ -441,51 +434,51 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-aspects-réglementaires",
-          title: 'Aspects réglementaires',
-          description: "ajouter une description ?",
-          section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/2_project/";
+              window.location.href = "/totm/nosinitiatives/2-project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/3_project/";
+              window.location.href = "/totm/nosinitiatives/3-project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/4_project/";
+              window.location.href = "/totm/nosinitiatives/4-project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/5_project/";
+              window.location.href = "/totm/nosinitiatives/5-project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/6_project/";
+              window.location.href = "/totm/nosinitiatives/6-project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/7_project/";
+              window.location.href = "/totm/nosinitiatives/7-project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/8_project/";
+              window.location.href = "/totm/nosinitiatives/8-project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/9_project/";
+              window.location.href = "/totm/nosinitiatives/9-project/";
+            },},{id: "projects-aspects-réglementaires",
+          title: 'Aspects réglementaires',
+          description: "ajouter une description ?",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiatives-1/";
             },},{id: "team-alexandra-le-moal",
           title: 'Alexandra Le Moal',
           description: "",
