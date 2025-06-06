@@ -3,7 +3,7 @@ layout: team-member
 title: Alexandra Le Moal
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/mayeul-dalleau.jpg
+image: team/alexandra-le-moal.jpg
 association: ca
 representation: Administratrice
 research_areas: ["Guadeloupe"]
