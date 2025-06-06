@@ -486,6 +486,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/totm/projects/9_project/";
+            },},{id: "team-alexandra-le-moal",
+          title: 'Alexandra Le Moal',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/alexandra-moal/";
             },},{id: "team-cécile-gaspar",
           title: 'Cécile Gaspar',
           description: "",
