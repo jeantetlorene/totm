@@ -3,7 +3,7 @@ layout: team-member
 title: Mayeul Dalleau
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/tony-nalovic.jpg
+image: team/mayeul-dalleau.jpg
 association: ca
 representation: Administrateur
 research_areas: ["La Réunion"]
