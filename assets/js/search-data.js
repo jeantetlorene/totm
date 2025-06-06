@@ -491,6 +491,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/emmanuelle-landes/";
+            },},{id: "team-eric-delcroix",
+          title: 'Eric Delcroix',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/eric-delcroix/";
             },},{id: "team-lorene-jeantet",
           title: 'Lorene Jeantet',
           description: "",
