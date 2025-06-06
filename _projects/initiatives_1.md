@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Aspects réglementaires
-description: ajouter une description ? 
+description:  
 img: assets/img/1.jpg
 importance: 1
 category: Thématiques
