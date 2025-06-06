@@ -3,7 +3,7 @@ layout: team-member
 title: Mireille Quillard
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/mayeul-dalleau.jpg
+image: team/mireille-quillard.jpg
 association: ca
 representation: Administratrice
 research_areas: ["Mayotte"]
