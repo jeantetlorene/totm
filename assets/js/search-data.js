@@ -466,6 +466,26 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-5/";
+            },},{id: "nosinitiatives-interactions-avec-les-activités-de-pêche",
+          title: 'Interactions avec les activités de pêche',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-6/";
+            },},{id: "nosinitiatives-interactions-avec-les-déchets-marins",
+          title: 'Interactions avec les déchets marins',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-7/";
+            },},{id: "nosinitiatives-pathologie-et-centre-de-soins",
+          title: 'Pathologie et centre de soins',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-8/";
+            },},{id: "nosinitiatives-sensibilisation",
+          title: 'Sensibilisation',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-9/";
             },},{id: "team-alexandra-le-moal",
           title: 'Alexandra Le Moal',
           description: "",
