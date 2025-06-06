@@ -15,31 +15,31 @@ gallery:
     thumb: 10.jpg
     title: Climat, buit et énergie renouvelables
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative_3/"
+  - url: "/nosinitiatives/initiative-3/"
     thumb: 3.jpg
     title: Identification
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative_4/"
+  - url: "/nosinitiatives/initiative-4/"
     thumb: 4.jpg
     title: Formations
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative_5/"
+  - url: "/nosinitiatives/initiative-5/"
     thumb: 5.jpg
     title: Indicateurs et minima standard
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/nosinitiatives/initiative-6/"
     thumb: 6.jpg
     title: Interactions pêche
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/nosinitiatives/initiative-7/"
     thumb: 7.jpg
     title: Interactions déchets marins
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/nosinitiatives/initiative-8/"
     thumb: 8.jpg
     title: Pathologie et centre de soin
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/nosinitiatives/initiative-9/"
     thumb: 9.jpg
     title: Sensibilisation
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.

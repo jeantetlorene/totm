@@ -40,39 +40,39 @@ banners:
       link: "/nosinitiatives/" 
 
 gallery:
-  - url: "/projects/1_project/"
+  - url: "/nosinitiatives/initiative-1/"
     thumb: 1.jpg
     title: Aspects réglementaires
     description: 
-  - url: "/nosinitiatives/initiative_2/"
+  - url: "/nosinitiatives/initiative-2/"
     thumb: 10.jpg
     title: Climat, buit et énergie renouvelables
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/3_project/"
+  - url: "/nosinitiatives/initiative-3/"
     thumb: 3.jpg
     title: Identification
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/4_project/"
+  - url: "/nosinitiatives/initiative-4/"
     thumb: 4.jpg
     title: Formations
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/5_project/"
+  - url: "/nosinitiatives/initiative-5/"
     thumb: 5.jpg
     title: Indicateurs et minima standard
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/nosinitiatives/initiative-6/"
     thumb: 6.jpg
     title: Interactions pêche
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/nosinitiatives/initiative-7/"
     thumb: 7.jpg
     title: Interactions déchets marins
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/nosinitiatives/initiative-8/"
     thumb: 8.jpg
     title: Pathologie et centre de soin
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/projects/"
+  - url: "/nosinitiatives/initiative-9/"
     thumb: 9.jpg
     title: Sensibilisation
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
