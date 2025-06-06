@@ -446,6 +446,11 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-1/";
+            },},{id: "nosinitiatives-climat-bruit-et-énergies-renouvelables",
+          title: 'Climat, bruit et énergies renouvelables',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-2/";
             },},{id: "team-alexandra-le-moal",
           title: 'Alexandra Le Moal',
           description: "",
