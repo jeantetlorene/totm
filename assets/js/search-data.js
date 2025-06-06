@@ -476,7 +476,7 @@ ninja.data = [{
               window.location.href = "/totm/nosinitiatives/9-project/";
             },},{id: "projects-aspects-réglementaires",
           title: 'Aspects réglementaires',
-          description: "ajouter une description ?",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiatives-1/";
             },},{id: "team-alexandra-le-moal",
