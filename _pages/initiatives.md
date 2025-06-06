@@ -4,6 +4,7 @@ title: Programme Initiatives
 permalink: /nosinitiatives/
 description: 
 nav: true
+nav_order: 2
 
 gallery:
   - url: "/nosinitiatives/initiative_1/"
