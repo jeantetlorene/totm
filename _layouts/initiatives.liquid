@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<div class="post">
+  
+  <article>
+    {{ content }}
+  </article>
+
+
+    <section class="container my-5">
+        {% for item in page.gallery %}
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                <a href="{{ item.url | relative_url }}"class="position-relative d-block">
+                    <img src="{{ 'assets/img/' | append: item.thumb | relative_url }}" class="card-img-top" alt="{{ item.title }}">
+                    <div class="card-img-overlay d-flex align-items-center justify-content-center p-0">
+                    <div class="w-100 text-center bg-dark bg-opacity-50 text-white py-2">
+                        <h5 class="mb-0">{{ item.title }}</h5>
+                    </div>
+                    </div>
+                </a>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
