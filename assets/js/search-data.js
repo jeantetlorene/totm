@@ -496,6 +496,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/apropos/team/eric-delcroix/";
+            },},{id: "team-flora-siegwalt",
+          title: 'Flora Siegwalt',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/apropos/team/flora-siegwalt/";
             },},{id: "team-lorene-jeantet",
           title: 'Lorene Jeantet',
           description: "",
