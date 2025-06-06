@@ -3,7 +3,7 @@ layout: team-member
 title: Tony Nalovic
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: "team/Tony-Nalovic.jpg
+image: "team/team-member-1.jpg
 association: bureau
 representation: Président
 research_areas: ["Guyane", "Capture accidentelle"]
