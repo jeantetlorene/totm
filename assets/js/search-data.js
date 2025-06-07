@@ -66,9 +66,9 @@ ninja.data = [{
             window.location.href = "/totm/nosactualites/2025/voeux-2025/";
           
         },
-      },{id: "post-recrutement-d-39-une-chargé-de-mission",
+      },{id: "post-recrutement-d-39-une-chargée-de-mission",
         
-          title: "Recrutement d&#39;une chargé de mission",
+          title: "Recrutement d&#39;une chargée de mission",
         
         description: "",
         section: "Posts",
