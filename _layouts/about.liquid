@@ -52,7 +52,7 @@ layout: default
             </div>
             <div class="col-lg-6 order-lg-1">
               <div class="px-lg-4 text-start">
-                <h2 class="h2 mb-3">{{ banner.title }}</h2>
+                <h2 class="h2 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h2>
                 <p class="mb-4">{{ banner.content }}</p>
                 {% if banner.button.enable %}
                   <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
