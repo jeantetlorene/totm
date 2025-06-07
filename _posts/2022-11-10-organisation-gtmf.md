@@ -3,7 +3,7 @@ layout: post
 title: Organisation du colloque GTMF 2022
 date: 2022-11-01 14:24:00
 description: 
-tags: formatting charts
+tags: action
 categories: sample-posts
 image: assets/img/9.jpg
 

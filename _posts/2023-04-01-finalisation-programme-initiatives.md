@@ -3,7 +3,7 @@ layout: post
 title: Finalisation du programme initiatives
 date: 2023-04-01 14:24:00
 description: 
-tags: formatting charts
+tags: initiatives
 categories: sample-posts
 image: assets/img/9.jpg
 pdf: example_pdf.pdf
