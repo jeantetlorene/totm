@@ -1,9 +1,9 @@
 <div class="team-grid">
   <div class="container">
-    <div class="row gy-4 justify-content-center">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4 justify-content-center">
       {% assign members = site.team %}
       {% for member in members %}
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex justify-content-center team-card" data-association="{{ member.association | downcase }}">
+        <div class="col d-flex justify-content-center team-card" data-association="{{ member.association | downcase }}">
           <a href="{{ member.url | relative_url }}" class="text-decoration-none text-reset w-100">
             <div class="card bg-transparent border-0 text-center h-100 p-3">
               {% if member.image %}
