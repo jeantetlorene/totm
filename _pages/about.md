@@ -41,7 +41,7 @@ banners:
 
 gallery:
   - url: "/nosinitiatives/initiative-1/"
-    thumb: 1.jpg
+    thumb: initiatives/initiative_1.JPG
     title: Aspects réglementaires
     description: 
   - url: "/nosinitiatives/initiative-2/"

@@ -5,7 +5,7 @@ date: 2022-11-01 14:24:00
 description: 
 tags: action
 categories: sample-posts
-image: assets/img/post/gtmf-2022.jpg
+image: assets/img/post/gtmf-2022.png
 
 
 ---

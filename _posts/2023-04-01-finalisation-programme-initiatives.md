@@ -5,7 +5,7 @@ date: 2023-04-01 14:24:00
 description: 
 tags: initiatives
 categories: sample-posts
-image: assets/img/post/programme-initiative.jpg
+image: assets/img/post/programme-initiative.png
 featured: true
 
 ---
