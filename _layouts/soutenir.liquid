@@ -1,0 +1,87 @@
+---
+layout: page
+---
+
+<div class="post">
+    {% if page.banners %}
+        {% for banner in page.banners %}
+        <section class="section {{ banner.background | default: 'bg-light' }} my-5 py-5">
+            <div class="container">
+            <div class="row align-items-center">
+                {% if banner.image_position == "left" %}
+                <!-- Image on Left -->
+                <div class="col-lg-6 text-center mb-4 mb-lg-0">
+                <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" class="img-fluid rounded-3" />
+                </div>
+                <div class="col-lg-6">
+                <div class="px-lg-4 text-start">
+                    <h2 class="h2 mb-3">{{ banner.title }}</h2>
+                    <p class="mb-4">{{ banner.content }}</p>
+                    {% if banner.button.enable %}
+                    <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
+                    {% endif %}
+                </div>
+                </div>
+                {% else %}
+                <!-- Image on Right -->
+                <div class="col-lg-6 order-lg-2 text-center mb-4 mb-lg-0">
+                <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" class="img-fluid rounded-3" />
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                <div class="px-lg-4 text-start">
+                    <h2 class="h2 mb-3">{{ banner.title }}</h2>
+                    <p class="mb-4">{{ banner.content }}</p>
+                    {% if banner.button.enable %}
+                        {% assign is_external = banner.button.link contains '://' %}
+                        <a
+                        href="{% if is_external %}{{ banner.button.link }}{% else %}{{ banner.button.link | relative_url }}{% endif %}"
+                        class="btn btn-outline-primary"
+                        {% if is_external %} target="_blank" rel="noopener" {% endif %}
+                        >
+                        {{ banner.button.label }}
+                        </a>
+                    {% endif %}
+                </div>
+                </div>
+                {% endif %}
+            </div>
+            </div>
+        </section>
+        {% endfor %}
+        {% endif %}
+
+    <article>
+    <div class="text-center my-5 px-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
+      <h2 class="display-4 mb-4">Contact</h2>
+      <p class="lead" style="font-size: 2.0rem;">
+         Pour toute question, recommandation, candidature spontanée, prise de contact, écrivez-nous à totm@totm.ong.
+      </p>
+    </div>
+
+
+    <!-- Partenair logos -->
+    {% if page.clients_logo_slider.enable %}
+      <section class="section overflow-hidden py-6 my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center mb-5">
+              <h2 class="h3">{{ page.clients_logo_slider.title }}</h2>
+            </div>
+            <div class="col-12">
+              <div class="swiper brand-carousel">
+                <div class="swiper-wrapper">
+                  {% for logo in page.clients_logo_slider.logos %}
+                    <div class="swiper-slide brand-item d-flex align-items-center justify-content-center" style="height: 120px;">
+                      <img src="{{ 'assets/img/' | append: logo | relative_url }}" alt="Brand logo" 
+                        class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain;">
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+</div>
