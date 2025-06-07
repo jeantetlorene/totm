@@ -103,7 +103,18 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/totm/nosactualites/2024/finalisation-programme-initiatives/";
+            window.location.href = "/totm/nosactualites/2023/finalisation-programme-initiatives/";
+          
+        },
+      },{id: "post-organisation-du-colloque-gtmf-2022",
+        
+          title: "Organisation du colloque GTMF 2022",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2022/organisation-gtmf/";
           
         },
       },{id: "books-the-godfather",
