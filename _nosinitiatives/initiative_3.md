@@ -2,7 +2,7 @@
 layout: page
 title: Identification
 description:  
-img: assets/img/3.jpg
+img: assets/img/initiatives/initiative_3_2.jpg
 
 
 ---

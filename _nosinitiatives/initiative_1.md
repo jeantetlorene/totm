@@ -2,7 +2,7 @@
 layout: page
 title: Aspects réglementaires
 description:  
-img: assets/img/1.jpg
+img: assets/img/initiatives/initiative_1_2.jpg
 importance: 1
 category: Thématiques
 

@@ -2,7 +2,7 @@
 layout: page
 title: Climat, bruit et énergies renouvelables
 description:  
-img: assets/img/10.jpg
+img: assets/img/initiatives/initiative_2_2.JPG
 
 
 ---
