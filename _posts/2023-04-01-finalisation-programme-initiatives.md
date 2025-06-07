@@ -7,6 +7,7 @@ tags: formatting charts
 categories: sample-posts
 image: assets/img/9.jpg
 pdf: example_pdf.pdf
+featured: true
 
 ---
 

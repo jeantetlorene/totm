@@ -3,10 +3,27 @@ layout: page
 ---
 
 <div class="post">
+    <header class="post-header">
+        {% if page.pdf %}
+            <a
+                {% if page.pdf contains '://' %}
+                href="{{ page.pdf }}"
+                {% else %}
+                href="{{ page.pdf | prepend: 'assets/pdf/' | relative_url }}"
+                {% endif %}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="float-right"
+            >
+                <i class="fa-solid fa-file-pdf"></i>
+            </a>
+        {% endif %}
+    </header>
+
   
-  <article>
-    {{ content }}
-  </article>
+    <article>
+        {{ content }}
+    </article>
 
 
     <section class="container my-5">
@@ -27,3 +44,4 @@ layout: page
             {% endfor %}
         </div>
     </section>
+</div>

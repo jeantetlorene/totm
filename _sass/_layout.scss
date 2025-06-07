@@ -44,6 +44,17 @@ body.sticky-bottom-footer {
   }
 }
 
+.post-image {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.post-image img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
