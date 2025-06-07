@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /apropos/
 title: A Propos
-description: members of the lab or group
+description: 
 nav: true
 nav_order: 1
 
@@ -10,6 +10,11 @@ profiles:
 
 image: Gouvernance.png
 ---
+
+## Notre histoire
+
+Association loi 1901, Trans Océans Tortues Marines (TOTM) regroupe les acteurs des territoires français pour la conservation des tortues marines à travers le monde. Son statut juridique lui permet de rechercher et gérer des financements nécessaires à l’accomplissement d’actions nationales fédératrices sur les tortues marines.
+
 
 ## Notre fonctionnement
 

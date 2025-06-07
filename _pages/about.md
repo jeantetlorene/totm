@@ -141,10 +141,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Les tortues existent depuis plus de 100 millions d’années et pourtant, six des sept espèces sont <span style="color: var(--global-theme-color);">menacées d’extinction</span>. Pêche non durable, braconnage, changement climatique, pollution, dégradation des littoraux et dérangement…
+Les tortues existent depuis plus de 100 millions d’années et pourtant, six des sept espèces sont <span style="color: var(--global-theme-color);"><strong>menacées d’extinction</strong></span>. Pêche non durable, braconnage, changement climatique, pollution, dégradation des littoraux et dérangement…
 
-Les menaces qui pèsent sur elles, touchent aussi <span style="color: var(--global-theme-color);">des écosystèmes marins tout entiers</span>. 
+Les menaces qui pèsent sur elles, touchent aussi <span style="color: var(--global-theme-color);"><strong>des écosystèmes marins tout entiers</strong></span>. 
 
-La répartition des territoires français à travers le monde constitue une formidable opportunité de <span style="color: var(--global-theme-color);">déployer des stratégies de conservation aux niveaux national et international</span>.
+La répartition des territoires français à travers le monde constitue une formidable opportunité de <span style="color: var(--global-theme-color);"><strong>déployer des stratégies de conservation aux niveaux national et international</strong></span>.
 
-C’est la mission de <span style="color: var(--global-theme-color);">TOTM</span>.
+C’est la mission de <span style="color: var(--global-theme-color);"><strong>TOTM</strong></span>.
