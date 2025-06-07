@@ -55,16 +55,27 @@
                   {% endif %}
                 {% endfor %}
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    {{- p.title }}
+                      <div class="nav-link d-flex align-items-center justify-content-between" style="gap: 0.25rem;">
+                        <a
+                          href="{{ p.url | relative_url }}"
+                          class="text-decoration-none text-body"
+                          style="flex-grow: 1;"
+                        >
+                          {{- p.title }}
+                        </a>
+                        <a
+                          href="#"
+                          class="dropdown-toggle"
+                          id="navbarDropdown"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          style="flex-shrink: 0;"
+                        >
+                          ▾
+                        </a>
+                      </div>
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
