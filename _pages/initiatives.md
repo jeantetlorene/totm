@@ -5,6 +5,7 @@ permalink: /nosinitiatives/
 description: 
 nav: true
 nav_order: 2
+pdf: example_pdf.pdf
 
 dropdown: true
 children:
@@ -52,7 +53,7 @@ gallery:
     title: Sensibilisation
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
 
-pdf: example_pdf.pdf
+
 ---
 
 La collaboration de tous les experts de TOTM a conduit à l’élaboration du programme “Initiatives TOTM” initié en 2021, grâce au soutien du Ministère de la Transition Ecologique (MTE). Ce programme propose un large éventail d’initiatives visant à répondre aux priorités établies par les experts et portées par l’association TOTM dans le cadre de neuf thématiques répondant aux enjeux actuels. Leurs objectifs sont souvent complémentaires voire interdépendants, à l’image des enjeux de conservation des tortues marines.
