@@ -6,6 +6,14 @@ description:
 nav: true
 nav_order: 2
 
+dropdown: true
+children:
+  - title: Aspects réglementaires
+    permalink: /nosinitiatives/initiative-1/
+  - title: divider
+  - title: blog
+    permalink: /nosinitiatives/initiative-2/
+
 gallery:
   - url: "/nosinitiatives/initiative-1/"
     thumb: 1.jpg
