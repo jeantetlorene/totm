@@ -15,7 +15,7 @@ profile:
 banners:
   - title: "A Propos de l'Association"
     content: "Association loi 1901, Trans Océans Tortues Marines (TOTM) regroupe les acteurs des territoires français pour la conservation des tortues marines à travers le monde. Créée en 2019, son statut lui permet de rechercher et de gérer les financements nécessaires pour l’accomplissement d’actions nationales fédératrices sur les tortues marines."
-    image: "1.jpg"
+    image: "aporpos.JPG"
     image_position: "right"
     background: "bg-blue-100 dark:bg-blue-900"
     button:
@@ -31,7 +31,7 @@ banners:
         <li> Le soutien à la mise en œuvre d’actions transversales aux échelles internationale, inter-régionale, nationale ou supranationale. Ce soutien peut prendre différentes formes, notamment scientifique, technique, logistique et financier,</li>
         <li> La réalisation et la diffusion de supports et d’outils pédagogiques.</li>
       </ul>
-    image: "2.jpg"
+    image: "nosmissions.jpg"
     image_position: "left"
     background: "bg-green-100 dark:bg-green-900"
     button:
@@ -141,7 +141,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Les tortues existent depuis plus de 100 millions d’années et pourtant, six des sept espèces sont <span style="color: var(--global-theme-color);"><strong>menacées d’extinction</strong></span>. Pêche non durable, braconnage, changement climatique, pollution, dégradation des littoraux et dérangement…
+Les tortues existent depuis plus de 100 millions d’années et pourtant, six des sept espèces sont <strong><span style="color: var(--global-theme-color);">menacées d’extinction</span></strong>. Pêche non durable, braconnage, changement climatique, pollution, dégradation des littoraux et dérangement…
 
 Les menaces qui pèsent sur elles, touchent aussi <span style="color: var(--global-theme-color);"><strong>des écosystèmes marins tout entiers</strong></span>. 
 

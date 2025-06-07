@@ -19,4 +19,4 @@ Objectif : Appuyer le renforcement et l’application des règlementations en fa
     <li>Appuyer l’entrée en vigueur d’une règlementation qui interdise les lâchers de ballons sur le territoire national</li>
 </ul>
 
-![Apesct reglemantaires]({{ 'assets/img/12.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_1_2.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
