@@ -5,7 +5,7 @@ date: 2024-01-31 14:24:00
 description: 
 tags: formatting charts
 categories: sample-posts
-
+image: assets/img/9.jpg
 
 ---
 
