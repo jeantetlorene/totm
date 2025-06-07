@@ -95,6 +95,17 @@ ninja.data = [{
             window.location.href = "/totm/nosactualites/2024/voeux-2024/";
           
         },
+      },{id: "post-finalisation-du-programme-initiatives",
+        
+          title: "Finalisation du programme initiatives",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2024/finalisation-programme-initiatives/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
