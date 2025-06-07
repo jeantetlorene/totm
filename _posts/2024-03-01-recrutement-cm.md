@@ -5,7 +5,7 @@ date: 2024-03-01 14:24:00
 description: 
 tags: membre
 categories: sample-posts
-image: assets/img/9.jpg
+image: assets/img/post/margaux-cm.jpg
 
 ---
 
