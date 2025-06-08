@@ -17,15 +17,15 @@ children:
 
 gallery:
   - url: "/nosinitiatives/initiative-1/"
-    thumb: /initiatives/initiative_1.JPG
+    thumb: /initiatives/initiative_1.webp
     title: Aspects réglementaires
     description: 
   - url: "/nosinitiatives/initiative-2/"
-    thumb: /initiatives/initiative_2.jpg
+    thumb: /initiatives/initiative_2.webp
     title: Climat, buit et énergie renouvelables
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-3/"
-    thumb: /initiatives/initiative_3.JPG
+    thumb: /initiatives/initiative_3.webp
     title: Identification
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-4/"

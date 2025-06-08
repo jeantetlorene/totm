@@ -34,4 +34,4 @@ Objectif 3 : Faciliter le partage des données d’identification individuelle
 </ul>
     
 
-![Apesct reglemantaires]({{ 'assets/img/3.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_3_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
