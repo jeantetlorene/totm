@@ -45,7 +45,7 @@ gallery:
     title: Aspects réglementaires
     description: 
   - url: "/nosinitiatives/initiative-2/"
-    thumb: /initiatives/initiative_2.jpg
+    thumb: /initiatives/initiative_2.webp
     title: Climat, buit et énergie renouvelables
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-3/"
