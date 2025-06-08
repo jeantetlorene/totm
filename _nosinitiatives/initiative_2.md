@@ -2,7 +2,7 @@
 layout: page
 title: Climat, bruit et énergies renouvelables
 description:  
-img: assets/img/initiatives/initiative_2_2.JPG
+img: assets/img/initiatives/initiative_2_2.webp
 
 
 ---
@@ -50,6 +50,5 @@ Objectif 5 : Évaluer l’impact des bruits sous-marins sur les individus
 </ul>
     
 
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_2_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
 
-
-![Apesct reglemantaires]({{ 'assets/img/12.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
