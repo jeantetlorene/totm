@@ -54,22 +54,26 @@
                     {% assign has_active_child = true %}
                   {% endif %}
                 {% endfor %}
-                <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
-                  <!-- Link to main page -->
-                  <a 
-                    href="{{ p.url | relative_url }}" 
-                    class="nav-link dropdown-toggle" 
-                    id="navbarDropdown-{{ forloop.index }}" 
-                    role="button" 
-                    data-bs-toggle="dropdown" 
-                    aria-haspopup="true" 
-                    aria-expanded="false"
-                  >
-                    {{ p.title }}
-                  </a>
+                <li class="nav-item dropdown position-relative {% if page.title == p.title or has_active_child %}active{% endif %}">
+                  <div class="d-flex align-items-center" style="padding-right: 2rem;">
+                    <!-- Main link to the page -->
+                    <a href="{{ p.url | relative_url }}" class="nav-link">
+                      {{ p.title }}
+                    </a>
 
+                    <!-- Dropdown toggle (arrow only) -->
+                    <button 
+                      class="btn dropdown-toggle border-0 bg-transparent px-2 position-absolute" 
+                      style="right: 0; top: 50%; transform: translateY(-50%);" 
+                      id="navbarDropdownToggle-{{ forloop.index }}" 
+                      data-bs-toggle="dropdown" 
+                      aria-expanded="false"
+                    >
+                    </button>
+                  </div>
 
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown-{{ forloop.index }}">
+                  <!-- Dropdown menu -->
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownToggle-{{ forloop.index }}">
                     {% for child in p.children %}
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
@@ -84,7 +88,7 @@
                     {% endfor %}
                   </div>
                 </li>
-              {% else %}
+                {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
