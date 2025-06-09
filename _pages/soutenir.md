@@ -9,7 +9,7 @@ nav_order: 5
 banners:
   - title: "Adhésion"
     content: "Si vous êtes engagés auprès de la conservation des tortues marines et/ou de leurs habitats, vous pouvez devenir membre de TOTM en adhérant ici."
-    image: "1.jpg"
+    image: soutenir_membre.webp
     image_position: "left"
     background: "bg-blue-100 dark:bg-blue-900"
     button:
@@ -41,7 +41,7 @@ banners:
     content: Le bénévolat est extrêmement important pour TOTM, il a permis le développement de l’association depuis ses débuts. C’est pourquoi nous mettons un point d’honneur à comptabiliser et valoriser les heures de bénévolat de nos membres. Nous sommes très reconnaissants et tenons à remercier toutes les personnes qui se sont impliquées et qui s’impliqueront, à leur échelle. En 2022, nous avons comptabilisé 612 heures des bénévolat !
 
         Si vous souhaitez participer, vous pouvez nous contacter en présentant vos envies et vos compétences en lien avec les missions de TOTM, à l’adresse totm@totm.ong.
-    image: "2.jpg"
+    image: soutenir_benevole.webp
     image_position: "right"
     background: "bg-green-100 dark:bg-green-900"
     button:

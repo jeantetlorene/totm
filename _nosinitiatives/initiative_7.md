@@ -30,4 +30,4 @@ Objectif 3 : Fédérer les acteurs impliqués autour de projets communs
     <li>Monter un projet de recherche et développement national sur les interactions entre tortues et déchets marins sur le territoire français</li>
 </ul>
 
-![Apesct reglemantaires]({{ 'assets/img/7.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_7_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }

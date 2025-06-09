@@ -57,19 +57,19 @@ gallery:
     title: Formations
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-5/"
-    thumb: 5.jpg
+    thumb: /initiatives/initiative_5.webp
     title: Indicateurs et minima standard
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-6/"
-    thumb: 6.jpg
+    thumb: /initiatives/initiative_6.webp
     title: Interactions pêche
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-7/"
-    thumb: 7.jpg
+    thumb: /initiatives/initiative_7.webp
     title: Interactions déchets marins
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-8/"
-    thumb: 8.jpg
+    thumb: /initiatives/initiative_8.webp
     title: Pathologie et centre de soin
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-9/"
