@@ -19,7 +19,7 @@ banners:
 
   - title: Donation
     content: Les donations, comme toutes formes de soutien financier, matériel ou intellectuel, sont vitales au fonctionnement de l’association TOTM. Ils nous permettent de monter des projets et de maintenir une équipe fixe. Vous pouvez donner sur HelloAsso.
-    image: "2.jpg"
+    image: soutenir_donation.webp
     image_position: "right"
     background: "bg-green-100 dark:bg-green-900"
     button:
