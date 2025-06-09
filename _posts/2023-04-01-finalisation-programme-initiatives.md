@@ -17,7 +17,7 @@ L’objectif de 2022 était de mettre en oeuvre l’élaboration du programme d�
 
 Les listes des participant.e.s aux groupes restent ouvertes.
 
-<a href="{{ 'assets/pdf/example_pdf.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Télécharger le Programme Initiatives TOTM ici !</a>
+<a href="{{ 'assets/pdf/Initiatives_TOTM_21_12_2022.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Télécharger le Programme Initiatives TOTM ici !</a>
 
 
 

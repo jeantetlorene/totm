@@ -5,7 +5,7 @@ permalink: /nosinitiatives/
 description: 
 nav: true
 nav_order: 2
-pdf: example_pdf.pdf
+pdf: Initiatives_TOTM_21_12_2022.pdf
 
 dropdown: true
 children:
