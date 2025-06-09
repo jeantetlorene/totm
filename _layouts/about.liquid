@@ -28,11 +28,7 @@ layout: default
 
     {% if page.banners %}
       {% for banner in page.banners %}
-      {% assign background = banner.background | default: 'bg-light' %}
-      <section 
-        class="section my-5 py-5 {% unless background contains 'var(' %}{{ background }}{% endunless %}" 
-        {% if background contains 'var(' %}style="background: {{ background }}"{% endif %}
-      >
+      <section class="section {{ banner.background | default: 'bg-light' }} my-5 py-5">
         <div class="container">
           <div class="row align-items-center">
             {% if banner.image_position == "left" %}
