@@ -16,21 +16,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/apropos/";
           },
-        },{id: "dropdown-aspects-réglementaires",
-              title: "Aspects réglementaires",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/totm/nosinitiatives/initiative-1/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/totm/nosinitiatives/initiative-2/";
-              },
-            },{id: "nav-actualités",
+        },{id: "nav-programme-initiatives",
+          title: "Programme Initiatives",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/totm/nosinitiatives/";
+          },
+        },{id: "nav-actualités",
           title: "Actualités",
           description: "",
           section: "Navigation",
