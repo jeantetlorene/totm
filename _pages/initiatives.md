@@ -7,13 +7,7 @@ nav: true
 nav_order: 2
 pdf: Initiatives_TOTM_21_12_2022.pdf
 
-dropdown: true
-children:
-  - title: Aspects réglementaires
-    permalink: /nosinitiatives/initiative-1/
-  - title: divider
-  - title: blog
-    permalink: /nosinitiatives/initiative-2/
+
 
 gallery:
   - url: "/nosinitiatives/initiative-1/"
