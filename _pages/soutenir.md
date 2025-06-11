@@ -11,7 +11,6 @@ banners:
     content: "Si vous êtes engagés auprès de la conservation des tortues marines et/ou de leurs habitats, vous pouvez devenir membre de TOTM en adhérant ici."
     image: soutenir_membre.webp
     image_position: "left"
-    background: "bg-blue-100 dark:bg-blue-900"
     button:
       enable: true
       label: "Devenir Membre"
@@ -21,7 +20,7 @@ banners:
     content: Les donations, comme toutes formes de soutien financier, matériel ou intellectuel, sont vitales au fonctionnement de l’association TOTM. Ils nous permettent de monter des projets et de maintenir une équipe fixe. Vous pouvez donner sur HelloAsso.
     image: soutenir_donation.webp
     image_position: "right"
-    background: "bg-green-100 dark:bg-green-900"
+    background: true
     button:
       enable: true
       label: Faire un Don
@@ -31,7 +30,6 @@ banners:
     content: Bientôt des lycras en vente.
     image: "2.jpg"
     image_position: "left"
-    background: "bg-green-100 dark:bg-green-900"
     button:
       enable: false
       label: "Faire un Don"
@@ -43,7 +41,7 @@ banners:
         Si vous souhaitez participer, vous pouvez nous contacter en présentant vos envies et vos compétences en lien avec les missions de TOTM, à l’adresse totm@totm.ong.
     image: soutenir_benevole.webp
     image_position: "right"
-    background: "bg-green-100 dark:bg-green-900"
+    background: true
     button:
       enable: false
       label: "Faire un Don"
