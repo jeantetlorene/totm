@@ -169,7 +169,7 @@ layout: default
 
     <!-- Partenair logos -->
     {% if page.clients_logo_slider.enable %}
-      <section class="section overflow-hidden py-6 my-5 bg-light">
+      <section class="section overflow-hidden py-6 my-5">
         <div class="container">
           <div class="row">
             <div class="col-12 text-center mb-5">
@@ -194,10 +194,10 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social bg-light">
+      <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note bg-light">{{ site.contact_note }}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
 
