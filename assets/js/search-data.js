@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/noussoutenir/";
           },
-        },{id: "post-signez-la-pétiton-wwf-pour-protéger-les-tortues",
+        },{id: "post-une-pétition-citoyenne-pour-les-tortues-marines",
+        
+          title: "Une pétition citoyenne pour les tortues marines",
+        
+        description: "Chaque année, des dizaines milliers de tortues marines sont capturées accidentellement dans les filets de chalutiers ciblant les crevettes tropicales. Il existe pourtant des solutions parmis elles, le Dispositif d’Exclusion des Tortues (TED).",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/petition-ted/";
+          
+        },
+      },{id: "post-signez-la-pétiton-wwf-pour-protéger-les-tortues",
         
           title: 'Signez la pétiton WWF pour protéger les tortues <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
