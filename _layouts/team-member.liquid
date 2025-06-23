@@ -7,9 +7,10 @@ layout: default
     <div class="row">
       <!-- Left column: profile image and basic info -->
       <div class="col-lg-4 text-center mb-4 mb-lg-0">
-        {% if page.image %}
-          <img src="{{ 'assets/img/' | append: page.image | relative_url }}" alt="{{ page.title }}" class="img-fluid z-depth-1
-      rounded>
+        {% if page.image_2 %}
+          <img src="{{ 'assets/img/' | append: page.image_2 | relative_url }}" alt="{{ page.title }}" class="img-fluid z-depth-1 rounded">
+        {% elsif page.image %}
+          <img src="{{ 'assets/img/' | append: page.image | relative_url }}" alt="{{ page.title }}" class="img-fluid z-depth-1 rounded">
         {% endif %}
 
         

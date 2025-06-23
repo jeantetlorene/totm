@@ -3,7 +3,8 @@ layout: team-member
 title: Lorene Jeantet
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/lorene-jeantet.jpg
+image: team/lorene-jeantet_1.jpg
+image_2: team/lorene-jeantet_2.jpg
 association: bureau
 representation: Secrétaire
 research_areas: ["Machine Learning"]
