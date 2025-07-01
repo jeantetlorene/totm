@@ -140,7 +140,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Les tortues existent depuis plus de 100 millions d’années et pourtant, six des sept espèces sont <strong><span style="color: var(--global-theme-color);">menacées d’extinction</span></strong>. Pêche non durable, braconnage, changement climatique, pollution, dégradation des littoraux et dérangement…
+Les tortues marines existent depuis plus de 100 millions d’années et pourtant, six des sept espèces sont <strong><span style="color: var(--global-theme-color);">menacées d’extinction</span></strong>. Pêche non durable, braconnage, changement climatique, pollution, dégradation des littoraux et dérangement…
 
 Les menaces qui pèsent sur elles, touchent aussi <strong><span style="color: var(--global-theme-color);">des écosystèmes marins tout entiers</span></strong>. 
 
