@@ -7,11 +7,24 @@ layout: default
     <div class="top-banner" style="background-image: url('{{ 'assets/img/' | append: page.top_image | relative_url }}');">
       <div class="top-banner-overlay">
         <div class="top-banner-content container">
-          <h2 style="color: white; font-size: 2rem; margin-top: -10vh; margin-bottom: 2rem;">
-            <em style="color: white;">«L’océan nous relie, veillons sur ses doyennes»</em>
-          </h2>
-          <h1 class="display-4 text-white font-weight-bold mb-3">TRANS OCÉANS TORTUES MARINES</h1>
-          <p class="lead text-white">Les acteurs des territoires français pour la conservation des tortues marines à travers le monde</p>
+          {% if page.quote %}
+            <h2 style="color: white; font-size: 2rem; margin-top: -10vh; margin-bottom: 2rem;">
+              <em style="color: white;">{{ page.quote }}</em>
+            </h2>
+          {% endif %}
+
+          {% if page.banner_title %}
+            <h1 class="display-4 text-white font-weight-bold mb-3">{{ page.banner_title }}</h1>
+          {% endif %}
+          
+          {% if page.banner_subtitle %}
+            <p class="lead text-white">{{ page.banner_subtitle }}</p>
+          {% endif %}
+
+          {% if banner.button.enable %}
+              <a href="{{ button.link | relative_url }}" class="btn btn-outline-primary">{{ button.label }}</a>
+          {% endif %}
+
         </div>
       </div>
     </div>
