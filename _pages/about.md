@@ -5,12 +5,13 @@ permalink: /
 subtitle: 
 
 top_image: banner_tv_fabien.webp
-
-profile:
-  align: right
-  image: 
-  image_circular: false # crops the image to make it circular
-  more_info: >
+quote: "«L’océan nous relie, veillons sur ses doyennes»"
+banner_title: TRANS OCÉANS TORTUES MARINES
+banner_subtitle: Les acteurs des territoires français pour la conservation des tortues marines à travers le monde
+button:
+  enable: true
+  label: "Nous Rejoindre"
+  link: "/noussoutenir/"
 
 banners:
   - title: "A Propos de l'Association"
