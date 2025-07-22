@@ -13,6 +13,5 @@ children:
   - title: divider
   - title: Publications
     permalink: /nosinitiatives/
-  - title: divider
 
 ---
