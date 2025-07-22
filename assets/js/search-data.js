@@ -23,14 +23,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/equipe/";
           },
-        },{id: "nav-programme-initiatives",
-          title: "Programme Initiatives",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/totm/nosinitiatives/";
-          },
-        },{id: "nav-actualités",
+        },{id: "dropdown-programme-initiatives",
+              title: "Programme Initiatives",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/nosinitiatives/";
+              },
+            },{id: "dropdown-nos-projets",
+              title: "Nos Projets",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/nosinitiatives/";
+              },
+            },{id: "dropdown-publications",
+              title: "Publications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/nosinitiatives/";
+              },
+            },{id: "dropdown-nos-actions",
+              title: "Nos Actions",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/nosinitiatives/";
+              },
+            },{id: "nav-actualités",
           title: "Actualités",
           description: "",
           section: "Navigation",
