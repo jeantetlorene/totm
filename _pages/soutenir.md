@@ -1,7 +1,7 @@
 ---
 layout: soutenir
 permalink: /noussoutenir/
-title: Nous soutenir
+title: Nous Soutenir
 description: 
 nav: true
 nav_order: 5
