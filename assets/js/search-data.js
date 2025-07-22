@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/apropos/";
           },
+        },{id: "nav-notre-equipe",
+          title: "Notre Equipe",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/totm/equipe/";
+          },
         },{id: "nav-programme-initiatives",
           title: "Programme Initiatives",
           description: "",
@@ -168,77 +175,77 @@ ninja.data = [{
           title: 'Alexandra Le Moal',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/alexandra-moal/";
+              window.location.href = "/totm/equipe/team/alexandra-moal/";
             },},{id: "team-cécile-gaspar",
           title: 'Cécile Gaspar',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/cecile-gaspar/";
+              window.location.href = "/totm/equipe/team/cecile-gaspar/";
             },},{id: "team-claire-jean",
           title: 'Claire Jean',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/claire-jean/";
+              window.location.href = "/totm/equipe/team/claire-jean/";
             },},{id: "team-damien-chevallier",
           title: 'Damien Chevallier',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/damien-chevallier/";
+              window.location.href = "/totm/equipe/team/damien-chevallier/";
             },},{id: "team-anne-emmanuelle-landes",
           title: 'Anne-Emmanuelle Landes',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/emmanuelle-landes/";
+              window.location.href = "/totm/equipe/team/emmanuelle-landes/";
             },},{id: "team-eric-delcroix",
           title: 'Eric Delcroix',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/eric-delcroix/";
+              window.location.href = "/totm/equipe/team/eric-delcroix/";
             },},{id: "team-flora-siegwalt",
           title: 'Flora Siegwalt',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/flora-siegwalt/";
+              window.location.href = "/totm/equipe/team/flora-siegwalt/";
             },},{id: "team-francois-elie-paute",
           title: 'Francois-Elie Paute',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/francois-paute/";
+              window.location.href = "/totm/equipe/team/francois-paute/";
             },},{id: "team-jonathan-monsinjon",
           title: 'Jonathan Monsinjon',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/jonathan-monsinjon/";
+              window.location.href = "/totm/equipe/team/jonathan-monsinjon/";
             },},{id: "team-lorene-jeantet",
           title: 'Lorene Jeantet',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/lorene-jeantet/";
+              window.location.href = "/totm/equipe/team/lorene-jeantet/";
             },},{id: "team-mathieu-barret",
           title: 'Mathieu Barret',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/mathieu-barret/";
+              window.location.href = "/totm/equipe/team/mathieu-barret/";
             },},{id: "team-mayeul-dalleau",
           title: 'Mayeul Dalleau',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/mayeul-dalleau/";
+              window.location.href = "/totm/equipe/team/mayeul-dalleau/";
             },},{id: "team-mireille-quillard",
           title: 'Mireille Quillard',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/mireille-quillard/";
+              window.location.href = "/totm/equipe/team/mireille-quillard/";
             },},{id: "team-tony-nalovic",
           title: 'Tony Nalovic',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/tony-nalovic/";
+              window.location.href = "/totm/equipe/team/tony-nalovic/";
             },},{id: "team-tyffen-read",
           title: 'Tyffen Read',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/totm/apropos/team/tyffen-read/";
+              window.location.href = "/totm/equipe/team/tyffen-read/";
             },},{
         id: 'social-email',
         title: 'email',
