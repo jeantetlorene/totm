@@ -44,13 +44,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/totm/nosinitiatives/";
               },
-            },{id: "dropdown-nos-actions",
-              title: "Nos Actions",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/totm/nosinitiatives/";
-              },
             },{id: "nav-actualités",
           title: "Actualités",
           description: "",
