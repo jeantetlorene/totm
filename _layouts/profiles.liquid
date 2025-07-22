@@ -28,38 +28,3 @@ layout: page
 </div>
 
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const filterButtons = document.querySelectorAll(".filter-btn");
-    const teamCards = document.querySelectorAll(".team-card");
-
-    filterButtons.forEach(button => {
-      button.addEventListener("click", function () {
-        // Reset all buttons
-        filterButtons.forEach(btn => {
-          btn.classList.remove("active", "btn-primary");
-          btn.classList.add("btn-outline-primary");
-        });
-
-        // Activate current button
-        this.classList.add("active", "btn-primary");
-        this.classList.remove("btn-outline-primary");
-
-        const filter = this.getAttribute("data-filter");
-        console.log("Filter selected:", filter); 
-        // Filter cards
-        teamCards.forEach(card => {
-          const assoc = card.getAttribute("data-association");
-          console.log("Filter selected:", assoc)
-          if (filter === "all" || assoc === filter) {
-            card.style.setProperty("display", "", "important");
-            console.log(`Showing card with association: "${assoc}"`)
-          } else {
-            card.style.setProperty("display", "none", "important");
-            console.log(`Hidding card with association: "${assoc}"`)
-          }
-        });
-      });
-    });
-  });
-</script>
