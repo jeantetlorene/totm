@@ -3,7 +3,7 @@ layout: initiatives
 title: Programme Initiatives
 permalink: /nosinitiatives/
 description: 
-nav: true
+nav: false
 nav_order: 2
 pdf: Initiatives_TOTM_21_12_2022.pdf
 

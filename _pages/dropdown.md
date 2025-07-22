@@ -2,12 +2,18 @@
 layout: page
 title: submenus
 nav: true
-nav_order: 8
+nav_order: 3
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: Programme Initiatives
+    permalink: /nosinitiatives/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Nos Projets
+    permalink: /nosinitiatives/
+  - title: divider
+  - title: Publications
+    permalink: /nosinitiatives/
+  - title: divider
+  - title: Nos Actions
+    permalink: /nosinitiatives/
 ---
