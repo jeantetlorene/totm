@@ -59,7 +59,7 @@ ninja.data = [{
             window.location.href = "/totm/nosactualites/index.html";
           },
         },{id: "nav-nous-soutenir",
-          title: "Nous soutenir",
+          title: "Nous Soutenir",
           description: "",
           section: "Navigation",
           handler: () => {
