@@ -78,6 +78,16 @@ gallery:
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
 
 
+hero_heading: "Agissons ensemble pour les tortues marines"
+hero_text: "Participez à notre mission de conservation à travers les territoires français d’outre-mer."
+btn1_text: "Devenir membre"
+btn1_url: "https://www.helloasso.com/associations/trans-oceans-tortues-marines/adhesions/cotisation-totm"
+btn2_text: "Faire un Don"
+btn2_url: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
+btn3_text: "Nous Soutenir"
+btn3_url: "/noussoutenir/"
+
+
 
 clients_logo_slider:
   enable: true
