@@ -39,6 +39,11 @@ banners:
       label: "Get Involved"
       link: "/nosinitiatives/" 
 
+
+
+initiatives_heading: "Les 9 initiatives TOTM"
+initiatives_link: "/nosinitiatives/"
+initiatives_text: "La collaboration entre tous les acteurs de la conservation des tortues marines a conduit à l’élaboration du programme “Initiatives TOTM” initié en 2021 qui vise à répondre aux priorités établies autour de neuf thématiques répondant aux enjeux actuels. Ces initiatives sont destinées à s’inscrire dans les Plans d’Actions locaux et les stratégies internationales, sans s’y substituer."
 gallery:
   - url: "/nosinitiatives/initiative-1/"
     thumb: /initiatives/initiative_1.webp

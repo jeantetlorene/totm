@@ -21,8 +21,8 @@ layout: default
             <p class="lead text-white">{{ page.banner_subtitle }}</p>
           {% endif %}
 
-          {% if button.enable %}
-              <a href="{{ button.link | relative_url }}" class="btn btn-outline-primary">{{ button.label }}</a>
+          {% if page.button.enable %}
+              <a href="{{ page.button.link | relative_url }}" class="btn btn-outline-primary">{{ page.button.label }}</a>
           {% endif %}
 
         </div>
@@ -122,13 +122,13 @@ layout: default
     <section class="container my-5 bg-light">
       <div class="inner">
         <h2 class="h2 mb-3">
-          <a href="{{ '/nosinitiatives/' | relative_url }}">
-            Les 9 initiatives TOTM</h2>
+          <a href="{{ page.initiatives_link | relative_url }}">
+            {{ page.initiatives_heading }}</h2>
           </a>
         </h2>
         
         <p class="mb-4">
-          La collaboration entre tous les acteurs de la conservation des tortues marines a conduit à l’élaboration du programme “Initiatives TOTM” initié en 2021 qui vise à répondre aux priorités établies autour de neuf thématiques répondant aux enjeux actuels. Ces initiatives sont destinées à s’inscrire dans les Plans d’Actions locaux et les stratégies internationales, sans s’y substituer.
+          {{ page.initiatives_text }}
         </p>
       </div>
 
