@@ -877,7 +877,7 @@ footer.sticky-bottom {
 .news-post-card {
   border: 1px solid #e0e0e0;
   border-radius: 0.5rem;
-  background-color: #fff;
+  background-color: var(--global-card-bg-color);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -902,18 +902,19 @@ footer.sticky-bottom {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
 }
 
 .news-post-date {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--global-text-color-light);
 }
 
 .news-post-text {
   font-size: 1rem;
   flex-grow: 1;
   margin-bottom: 1rem;
+  color: var(--global-text-color)
 }
 
 
