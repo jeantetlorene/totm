@@ -35,14 +35,14 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/totm/nosinitiatives/";
+                window.location.href = "/totm/nosprojets/";
               },
             },{id: "dropdown-publications",
               title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/totm/nosinitiatives/";
+                window.location.href = "/totm/publications/";
               },
             },{id: "nav-actualités",
           title: "Actualités",
