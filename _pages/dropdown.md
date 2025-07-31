@@ -9,9 +9,9 @@ children:
     permalink: /nosinitiatives/
   - title: divider
   - title: Nos Projets
-    permalink: /nosinitiatives/
+    permalink: /nosprojets/
   - title: divider
   - title: Publications
-    permalink: /nosinitiatives/
+    permalink: /publications/
 
 ---

@@ -24,7 +24,7 @@ banners:
       label: "En Savoir Plus"
       link: "/apropos/"
 
-  - title: "Nos missions"
+  - title: "Nos Missions"
     content: |
       TOTM a pour buts la promotion, l’étude et la conservation des tortues marines et de leurs habitats, plus précisément :
       <ul>
@@ -41,7 +41,7 @@ banners:
 
 
 
-initiatives_heading: "Les 9 initiatives TOTM"
+initiatives_heading: "Initiatives TOTM : 9 Thématiques"
 initiatives_link: "/nosinitiatives/"
 initiatives_text: "La collaboration entre tous les acteurs de la conservation des tortues marines a conduit à l’élaboration du programme “Initiatives TOTM” initié en 2021 qui vise à répondre aux priorités établies autour de neuf thématiques répondant aux enjeux actuels. Ces initiatives sont destinées à s’inscrire dans les Plans d’Actions locaux et les stratégies internationales, sans s’y substituer."
 gallery:
