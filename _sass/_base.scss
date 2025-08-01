@@ -192,6 +192,19 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+// Button
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #004080; /* dark blue */
+  border-color: #004080;
+  color: #ffffff;
+}
+
 // Profile
 
 .profile {
