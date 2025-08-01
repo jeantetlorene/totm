@@ -1,5 +1,5 @@
 <div class="news row" style="font-size: 1.2rem;">
-  {% assign latest_posts = site.posts | slice: 0, 3 %}
+  {% assign latest_posts = site.posts | slice: 0, 4 %}
 
   {% if latest_posts.size > 0 %}
     {% for post in latest_posts %}
@@ -14,7 +14,7 @@
             {% if post.description %}
               <p class="news-post-text">{{ post.description | strip_html | truncate: 150 }}</p>
             {% endif %}
-            <a href="{{ post.url | relative_url }}" class="mt-auto btn btn-primary">Read more</a>
+            <a href="{{ post.url | relative_url }}" class="mt-auto btn btn-outline-primaryy">Read more</a>
           </div>
         </div>
       </div>
