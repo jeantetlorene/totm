@@ -156,7 +156,7 @@ layout: default
 
       <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center text-white" style="position: relative; z-index: 1;">
         <h2 style="color: white;" class="display-4 mb-4">{{page.hero_heading}}</h2>
-        <p style="color: white;" class="lead mb-4">{{ page.hero_text }}</p>
+        <p style="color: white;" class="lead mb-5">{{ page.hero_text }}</p>
         <div>
           <a href="{{ page.btn1_url }}" class="btn btn-outline-light btn-lg">{{ page.btn1_text }}</a>
           <a href="{{ page.btn2_url }}" class="btn btn-outline-light btn-lg">{{ page.btn2_text }}</a>
@@ -170,7 +170,7 @@ layout: default
       <div class="container my-5">
         <!-- Latest posts -->
         {% if page.latest_posts and page.latest_posts.enabled %}
-          <h2 class="h2 mb-3 text-center">
+          <h2 class="h2 mb-5 text-center">
             <a href="{{ '/nosactualites/' | relative_url }}">
               {{ page.news_heading }}
             </a>
