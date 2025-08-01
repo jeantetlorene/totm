@@ -166,15 +166,18 @@ layout: default
     </section>
 
 
-    <div class="container my-5">
-      <!-- Latest posts -->
-      {% if page.latest_posts and page.latest_posts.enabled %}
-        <h2 class="h2 mb-3 text-center">
-          <a href="{{ '/nosactualites/' | relative_url }}" >
-           {{ page.news_heading }}</a>
-        </h2>
-        {% include latest_posts.liquid %}
-      {% endif %}
+    <div class="bg-light py-5">
+      <div class="container my-5">
+        <!-- Latest posts -->
+        {% if page.latest_posts and page.latest_posts.enabled %}
+          <h2 class="h2 mb-3 text-center">
+            <a href="{{ '/nosactualites/' | relative_url }}">
+              {{ page.news_heading }}
+            </a>
+          </h2>
+          {% include latest_posts.liquid %}
+        {% endif %}
+      </div>
     </div>
 
 
