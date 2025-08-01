@@ -1,34 +1,25 @@
-<div id="newsCarousel" class="carousel slide bg-light py-4" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    {% assign latest_posts = site.posts | slice: 0, 5 %}
+<div class="news row" style="font-size: 1.2rem;">
+  {% assign latest_posts = site.posts | slice: 0, 4 %}
+
+  {% if latest_posts.size > 0 %}
     {% for post in latest_posts %}
-      <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <div class="container d-flex justify-content-center">
-          <div class="card" style="width: 80%; max-width: 600px;">
-            {% if post.image %}
-              <img src="{{ post.image | relative_url }}" class="card-img-top" alt="{{ post.title }}">
+      <div class="col-md-3 mb-4">
+        <div class="news-post-card h-100 shadow-sm">
+          {% if post.image %}
+            <img src="{{ post.image | relative_url }}" class="news-post-img" alt="{{ post.title }}" style="object-fit: cover; height: 200px;">
+          {% endif %}
+          <div class="news-post-body d-flex flex-column">
+            <h5 class="news-post-title">{{ post.title }}</h5>
+            <h6 class="news-post-date text-muted mb-2">{{ post.date | date: "%B %d, %Y" }}</h6>
+            {% if post.description %}
+              <p class="news-post-text">{{ post.description | strip_html | truncate: 150 }}</p>
             {% endif %}
-            <div class="card-body">
-              <h5 class="card-title">{{ post.title }}</h5>
-              <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%B %d, %Y" }}</h6>
-              {% if post.description %}
-                <p class="card-text">{{ post.description | strip_html | truncate: 150 }}</p>
-              {% endif %}
-              <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary">Read more</a>
-            </div>
+            <a href="{{ post.url | relative_url }}" class="mt-auto btn btn-outline-primary">Read more</a>
           </div>
         </div>
       </div>
     {% endfor %}
-  </div>
-
-  <!-- Controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  {% else %}
+    <p class="col-12">No posts so far...</p>
+  {% endif %}
 </div>
