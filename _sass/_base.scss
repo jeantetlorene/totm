@@ -1395,6 +1395,13 @@ ninja-keys::part(ninja-input-wrapper) {
     border-bottom-color: var(--global-divider-color);
   }
 }
+// banner in about page
+.banner-image {
+  max-height: 250px; // Adjust this to control height
+  width: auto;
+  object-fit: cover;
+}
+
 
 // highlight-search-term
 ::highlight(search) {
