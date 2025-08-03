@@ -135,10 +135,10 @@ layout: default
     {% endcomment %}
 
 
-    <section class="container-fluid bg-light py-5">
+    <section class="container-fluid bg-light pt-0 py-5">
       <div class="container">
         <!-- White card-like inner content -->
-        <div class="p-4 p-md-5 shadow-sm mb-4 rounded">
+        <div class="p-4 p-md-5 shadow-sm mb-4 rounded custom-card-bg">
           <h2 class="h2 mb-3">
             <a href="{{ page.initiatives_link | relative_url }}">
               {{ page.initiatives_heading }}</h2>
@@ -154,7 +154,7 @@ layout: default
 
           {% for item in page.gallery %}
             <div class="col-md-4 mb-4">
-              <div class="card h-100 border-0 shadow-sm">
+              <div class="card h-100 border-0 shadow-sm custom-card-bg">
                 <a href="{{ item.url | relative_url }}"class="position-relative d-block">
                   <img src="{{ 'assets/img/' | append: item.thumb | relative_url }}" class="card-img-top" alt="{{ item.title }}">
                   <div class="card-img-overlay d-flex align-items-center justify-content-center p-0">
