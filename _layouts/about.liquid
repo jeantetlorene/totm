@@ -32,7 +32,18 @@ layout: default
 
 
   <article>
-    <div class="bg-light py-3">
+
+    
+    
+    
+    
+    <div class="text-center my-5 px-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
+      <p class="lead" style="font-size: 2.0rem;">
+         {{ content }}
+      </p>
+    </div>
+
+    <div class="py-3">
       <div class="container my-3">
         <!-- Latest posts -->
         {% if page.latest_posts and page.latest_posts.enabled %}
@@ -44,15 +55,6 @@ layout: default
           {% include latest_posts.liquid %}
         {% endif %}
       </div>
-    </div>
-    
-    
-    
-    
-    <div class="text-center my-5 px-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-      <p class="lead" style="font-size: 2.0rem;">
-         {{ content }}
-      </p>
     </div>
 
 
