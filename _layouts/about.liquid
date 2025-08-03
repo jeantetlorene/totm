@@ -43,7 +43,7 @@ layout: default
       </p>
     </div>
 
-    <div class="py-3">
+    <div class=" bg-light py-3">
       <div class="container my-3">
         <!-- Latest posts -->
         {% if page.latest_posts and page.latest_posts.enabled %}
@@ -68,7 +68,7 @@ layout: default
             {% if banner.image_position == "left" %}
             <!-- Image on Left -->
             <div class="col-lg-6 text-center mb-4 mb-lg-0">
-              <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" class="img-fluid banner-image rounded-3" />
+              <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" class="img-fluid rounded-3" />
             </div>
             <div class="col-lg-6">
               <div class="px-lg-4 text-start">
@@ -82,7 +82,7 @@ layout: default
             {% else %}
             <!-- Image on Right -->
             <div class="col-lg-6 order-lg-2 text-center mb-4 mb-lg-0">
-              <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" class="img-fluid banner-image rounded-3" />
+              <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" class="img-fluid rounded-3" />
             </div>
             <div class="col-lg-6 order-lg-1">
               <div class="px-lg-4 text-start">

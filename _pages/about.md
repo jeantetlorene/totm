@@ -18,7 +18,6 @@ banners:
     content: "Association loi 1901, Trans Océans Tortues Marines (TOTM) regroupe les acteurs des territoires français pour la conservation des tortues marines à travers le monde. Créée en 2019, son statut lui permet de rechercher et de gérer les financements nécessaires pour l’accomplissement d’actions nationales fédératrices sur les tortues marines."
     image: "apropos.webp"
     image_position: "right"
-    background: true
     button:
       enable: true
       label: "En Savoir Plus"
@@ -34,6 +33,7 @@ banners:
       </ul>
     image: "nosmissions.webp"
     image_position: "left"
+    background: true
     button:
       enable: false
       label: "Get Involved"
