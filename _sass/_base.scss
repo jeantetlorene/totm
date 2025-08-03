@@ -1402,6 +1402,20 @@ ninja-keys::part(ninja-input-wrapper) {
   object-fit: cover;
 }
 
+// Responsive size control
+@media (min-width: 992px) {
+  .banner-image {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-image {
+    max-height: none;
+    height: auto;
+  }
+}
+
 
 // highlight-search-term
 ::highlight(search) {
