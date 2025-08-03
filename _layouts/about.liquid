@@ -38,6 +38,20 @@ layout: default
       </p>
     </div>
 
+    <div class="bg-light py-3">
+      <div class="container my-3">
+        <!-- Latest posts -->
+        {% if page.latest_posts and page.latest_posts.enabled %}
+          <h2 class="h2 mb-5 text-center">
+            <a href="{{ '/nosactualites/' | relative_url }}">
+              {{ page.news_heading }}
+            </a>
+          </h2>
+          {% include latest_posts.liquid %}
+        {% endif %}
+      </div>
+    </div>
+
 
     {% if page.banners %}
       {% for banner in page.banners %}
@@ -166,19 +180,7 @@ layout: default
     </section>
 
 
-    <div class="bg-light py-3">
-      <div class="container my-3">
-        <!-- Latest posts -->
-        {% if page.latest_posts and page.latest_posts.enabled %}
-          <h2 class="h2 mb-5 text-center">
-            <a href="{{ '/nosactualites/' | relative_url }}">
-              {{ page.news_heading }}
-            </a>
-          </h2>
-          {% include latest_posts.liquid %}
-        {% endif %}
-      </div>
-    </div>
+
 
 
 
