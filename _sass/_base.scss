@@ -1397,8 +1397,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 // banner in about page
 .banner-image {
-  height: 100%;
-  max-height: 650px; // Adjust this to control height
+  height: auto;
   width: auto;
   object-fit: cover;
 }
