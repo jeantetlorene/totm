@@ -1413,7 +1413,7 @@ ninja-keys::part(ninja-input-wrapper) {
   font-size: 2rem;
 
   @media (max-width: 768px) {
-    margin-bottom: 1rem; // smaller gap on mobile
+    margin-bottom: 0rem; // smaller gap on mobile
     font-size: 1.5rem;
   }
 }
