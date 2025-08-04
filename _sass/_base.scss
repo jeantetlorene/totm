@@ -1407,17 +1407,42 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 
+.top-banner-content {
+  padding: 6vh 1rem; // Add some vertical space inside the banner
+  text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 3vh 1rem; // Less padding on mobile
+  }
+}
+
+
 .top-banner-content h2.quote-heading {
   margin-top: 0;
-  margin-bottom: 3rem; // pushes the title down
+  margin-bottom: 3rem;
   font-size: 2rem;
 
   @media (max-width: 768px) {
-    margin-bottom: 0rem; // smaller gap on mobile
+    margin-bottom: 1rem; // reduce space below quote on mobile
     font-size: 1.5rem;
   }
 }
 
+.top-banner-content h1 {
+  margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 0.75rem; // tighter spacing below main title
+  }
+}
+
+.top-banner-content p.lead {
+  margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 1rem; // reduce gap between subtitle and button
+  }
+}
 
 
 // Responsive size control
