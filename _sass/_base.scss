@@ -1406,6 +1406,21 @@ ninja-keys::part(ninja-input-wrapper) {
   object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .top-banner-content h2 {
+    margin-top: 0 !important;
+    font-size: 1.5rem;
+  }
+  .top-banner-content .btn {
+    margin-bottom: 2rem;
+  }
+  .top-banner-content {
+    padding-bottom: 4rem;
+  }
+}
+
+
+
 // Responsive size control
 @media (min-width: 992px) {
   .banner-image {
