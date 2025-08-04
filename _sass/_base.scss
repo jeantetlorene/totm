@@ -1408,11 +1408,12 @@ ninja-keys::part(ninja-input-wrapper) {
 
 
 .top-banner-content h2.quote-heading {
-  margin-top: -10vh; // adjust this value to your preference
+  margin-top: 0;
+  margin-bottom: 3rem; // pushes the title down
   font-size: 2rem;
 
   @media (max-width: 768px) {
-    margin-top: 0 !important;
+    margin-bottom: 1rem; // smaller gap on mobile
     font-size: 1.5rem;
   }
 }

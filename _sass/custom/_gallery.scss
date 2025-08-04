@@ -16,6 +16,9 @@
   transition: background-color 0.3s ease;
 }
 
+.card:hover .card-img-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+}
 
 .card-img-top {
   width: 100%;
