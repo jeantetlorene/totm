@@ -67,7 +67,7 @@ layout: default
             </div>
             <div class="col-lg-6">
               <div class="px-lg-4 text-start">
-                <h2 class="h1 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h1>
+                <h1 class="h1 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h1>
                 <p class="mb-4">{{ banner.content }}</p>
                 {% if banner.button.enable %}
                   <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
@@ -81,7 +81,7 @@ layout: default
             </div>
             <div class="col-lg-6 order-lg-1">
               <div class="px-lg-4 text-start">
-                <h2 class="h1 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h1>
+                <h1 class="h1 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h1>
                 <p class="mb-4">{{ banner.content }}</p>
                 {% if banner.button.enable %}
                   <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
@@ -101,11 +101,11 @@ layout: default
       <link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
       
       <div class="inner">
-        <h2 class="h2 mb-3">
+        <h1 class="h1 mb-3">
           <a href="{{ '/nosinitiatives/' | relative_url }}">
             Programme Initiatives TOTM
           </a>
-        </h2>
+        </h1>
       </div>
 
       <!-- Explanatory paragraph -->
@@ -139,11 +139,11 @@ layout: default
       <div class="container">
         <!-- White card-like inner content -->
         <div class="p-4 p-md-5 shadow-sm mb-4 rounded custom-card-bg">
-          <h2 class="h2 mb-3">
+          <h1 class="h1 mb-3">
             <a href="{{ page.initiatives_link | relative_url }}">
-              {{ page.initiatives_heading }}</h2>
+              {{ page.initiatives_heading }}</h1>
             </a>
-          </h2>
+          </h1>
           
           <p class="mb-0">
             {{ page.initiatives_text }}
