@@ -102,8 +102,8 @@ clients_logo_slider:
       dark: logo_ministere_light_.png
     - light: logo_anyama_light.png
       dark: logo_anyama_dark.png
-    - light: logo_credit_light.jpg
-      dark: logo_credit_dark.jpg
+    - light: logo_credit_light.png
+      dark: logo_credit_dark.pngs
 
 footer_menu_left:
   title: "About"
