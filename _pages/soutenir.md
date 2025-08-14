@@ -47,14 +47,17 @@ banners:
       label: "Faire un Don"
       link: "/nosinitiatives/"
 
+
 clients_logo_slider:
   enable: true
   title: "Ils nous ont déjà soutenu"
   logos:
-    - logo_ministere.png
-    - logo_anyama.png
-    - logo_credit.jpg
-
+    - light: logo_ministere_light.png
+      dark: logo_ministere_light.png
+    - light: logo_anyama_light.png
+      dark: logo_anyama_dark.png
+    - light: logo_credit_light.png
+      dark: logo_credit_dark.png
 ---
 
 

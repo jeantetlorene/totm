@@ -72,8 +72,14 @@ layout: page
                 <div class="swiper-wrapper">
                   {% for logo in page.clients_logo_slider.logos %}
                     <div class="swiper-slide brand-item d-flex align-items-center justify-content-center" style="height: 120px;">
-                      <img src="{{ 'assets/img/' | append: logo | relative_url }}" alt="Brand logo" 
-                        class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain;">
+                      <img src="{{ 'assets/img/' | append: logo.light | relative_url }}" 
+                          alt="Brand logo light" 
+                          class="img-fluid logo-light" 
+                          style="max-height: 100px; width: auto; object-fit: contain;">
+                      <img src="{{ 'assets/img/' | append: logo.dark | relative_url }}" 
+                          alt="Brand logo dark" 
+                          class="img-fluid logo-dark" 
+                          style="max-height: 100px; width: auto; object-fit: contain;">
                     </div>
                   {% endfor %}
                 </div>
