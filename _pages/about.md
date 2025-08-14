@@ -98,9 +98,12 @@ clients_logo_slider:
   enable: true
   title: "MERCI A NOS PARTENAIRES FINANCIERS"
   logos:
-    - logo_ministere.png
-    - logo_anyama.png
-    - logo_credit.jpg
+    - light: logo_ministere-light.png
+      dark: logo_ministere-dark.png
+    - light: logo_anyama_light.png
+      dark: logo_anyama_dark.png
+    - light: logo_credit-light.jpg
+      dark: logo_credit-dark.jpg
 
 footer_menu_left:
   title: "About"
