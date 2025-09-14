@@ -5,7 +5,7 @@ permalink: /
 subtitle: 
 
 top_image: banner_tv_fabien.webp
-quote: "«L’océan nous relie, veillons sur ses doyennes»"
+quote: "L’océan nous relie, veillons sur ses doyennes"
 banner_title: TRANS OCÉANS TORTUES MARINES
 banner_subtitle: Les acteurs des territoires français pour la conservation des tortues marines à travers le monde
 button:
