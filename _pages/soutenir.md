@@ -58,6 +58,8 @@ clients_logo_slider:
       dark: logo_anyama_dark.png
     - light: logo_credit_light.png
       dark: logo_credit_dark.png
+    - light: fondation-de-france-light.jpg
+      dark: fondation-de-france-dark.jpg
 ---
 
 
