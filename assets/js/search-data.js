@@ -250,6 +250,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/mireille-quillard/";
+            },},{id: "team-nicolas-paranthoen",
+          title: 'Nicolas Paranthoen',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/nicolas-paranthoen/";
             },},{id: "team-tony-nalovic",
           title: 'Tony Nalovic',
           description: "",
