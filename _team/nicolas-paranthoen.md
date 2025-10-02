@@ -3,7 +3,8 @@ layout: team-member
 title: Nicolas Paranthoen 
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/nicolas-paranthoen.JPG
+image: team/nicolas-paranthoen_1.jpg
+image_2: team/nicolas-paranthoen.JPG
 association: salarie
 representation: Animateur Guadeloupe du PNATMAF
 research_areas: ["Guadeloupe"]
