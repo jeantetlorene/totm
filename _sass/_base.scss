@@ -193,25 +193,25 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Button
-.btn-outline-primary {
+.btn-outline-custom-primary {
   border-color: #06ABDA !important ;
   color: #06ABDA !important;
   transition: all 0.3s ease;
 }
 
-.btn-outline-primary:hover {
+.btn-outline-custom-primary:hover {
   background-color: #06ABDA !important; /* dark blue */
   border-color: #06ABDA !important;
   color: #ffffff !important;
 }
 
-.btn-outline-light {
+.btn-outline-custom-light {
   border-color: #ffffff;
   color: #ffffff;
   transition: all 0.3s ease;
 }
 
-.btn-outline-light:hover {
+.btn-outline-custom-light:hover {
   background-color: #06ABDA !important; /* or any color you want */
   border-color: #06ABDA !important;
   color: #ffffff; /* keep text white */

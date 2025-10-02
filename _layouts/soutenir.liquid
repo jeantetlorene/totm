@@ -18,7 +18,7 @@ layout: page
                     <h2 class="h2 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h2>
                     <p class="mb-4">{{ banner.content }}</p>
                     {% if banner.button.enable %}
-                    <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
+                    <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-custom-primary">{{ banner.button.label }}</a>
                     {% endif %}
                 </div>
                 </div>
@@ -35,7 +35,7 @@ layout: page
                         {% assign is_external = banner.button.link contains '://' %}
                         <a
                         href="{% if is_external %}{{ banner.button.link }}{% else %}{{ banner.button.link | relative_url }}{% endif %}"
-                        class="btn btn-outline-primary"
+                        class="btn btn-outline-custom-primary"
                         {% if is_external %} target="_blank" rel="noopener" {% endif %}
                         >
                         {{ banner.button.label }}

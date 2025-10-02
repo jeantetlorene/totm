@@ -22,7 +22,7 @@ layout: default
           {% endif %}
 
           {% if page.button.enable %}
-              <a href="{{ page.button.link | relative_url }}" class="btn btn-outline-primary btn-lg" style="padding: 1rem 2rem; font-size: 1.25rem;">{{ page.button.label }}</a>
+              <a href="{{ page.button.link | relative_url }}" class="btn btn-outline-custom-primary btn-lg" style="padding: 1rem 2rem; font-size: 1.25rem;">{{ page.button.label }}</a>
           {% endif %}
 
         </div>
@@ -70,7 +70,7 @@ layout: default
                 <h1 class="h1 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h1>
                 <p class="mb-4">{{ banner.content }}</p>
                 {% if banner.button.enable %}
-                  <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
+                  <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-custom-primary">{{ banner.button.label }}</a>
                 {% endif %}
               </div>
             </div>
@@ -84,7 +84,7 @@ layout: default
                 <h1 class="h1 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h1>
                 <p class="mb-4">{{ banner.content }}</p>
                 {% if banner.button.enable %}
-                  <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
+                  <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-custom-primary">{{ banner.button.label }}</a>
                 {% endif %}
               </div>
             </div>
@@ -177,9 +177,9 @@ layout: default
         <h2 style="color: white;" class="display-4 mb-4">{{page.hero_heading}}</h2>
         <p style="color: white;" class="lead mb-5">{{ page.hero_text }}</p>
         <div>
-          <a href="{{ page.btn1_url }}" class="btn btn-outline-light btn-lg">{{ page.btn1_text }}</a>
-          <a href="{{ page.btn2_url }}" class="btn btn-outline-light btn-lg">{{ page.btn2_text }}</a>
-          <a href="{{ page.btn3_url | relative_url }}" class="btn btn-outline-light btn-lg">{{ page.btn3_text }}</a>
+          <a href="{{ page.btn1_url }}" class="btn btn-outline-custom-light btn-lg">{{ page.btn1_text }}</a>
+          <a href="{{ page.btn2_url }}" class="btn btn-outline-custom-light btn-lg">{{ page.btn2_text }}</a>
+          <a href="{{ page.btn3_url | relative_url }}" class="btn btn-outline-custom-light btn-lg">{{ page.btn3_text }}</a>
         </div>
       </div>
     </section>
