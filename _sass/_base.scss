@@ -200,9 +200,9 @@ ul.task-list input[type="checkbox"] {
 }
 
 .btn-outline-primary:hover {
-  background-color: #004080; /* dark blue */
-  border-color: #004080;
-  color: #ffffff;
+  background-color: #004080 !important; /* dark blue */
+  border-color: #004080 !important;
+  color: #ffffff !important;
 }
 
 // Profile
