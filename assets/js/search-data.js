@@ -190,6 +190,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/alexandra-moal/";
+            },},{id: "team-alexis-guilleux",
+          title: 'Alexis Guilleux',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/alexis-guilleux/";
             },},{id: "team-cécile-gaspar",
           title: 'Cécile Gaspar',
           description: "",
@@ -235,6 +240,16 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/lorene-jeantet/";
+            },},{id: "team-manon-nivière",
+          title: 'Manon Nivière',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/manon-niviere/";
+            },},{id: "team-margaux-boyer",
+          title: 'Margaux Boyer',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/margaux-boyer/";
             },},{id: "team-mathieu-barret",
           title: 'Mathieu Barret',
           description: "",
