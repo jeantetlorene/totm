@@ -7,7 +7,7 @@ image: team/lorene-jeantet_1.jpg
 image_2: team/lorene-jeantet.jpg
 association: bureau
 representation: Secrétaire
-research_areas: ["Machine Learning"]
+research_areas: ["Martinique", "Guyane"]
 email: lorene.jeantet@totm.ong
 website: ""
 social:

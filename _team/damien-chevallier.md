@@ -6,7 +6,7 @@ draft: false
 image: team/damien-chevallier.jpg
 association: ca
 representation: Administrateur
-research_areas: ["Martinique"]
+research_areas: ["Martinique", "Guyane"]
 email: damien.chevallier@totm.ong
 website: ""
 social:
