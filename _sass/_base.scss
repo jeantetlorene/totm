@@ -224,6 +224,80 @@ ul.task-list input[type="checkbox"] {
   color: #ffffff; /* keep text white */
 }
 
+//Projets
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: #2a1f4d;
+  border-radius: 12px;
+  margin: 30px 0;
+  padding: 20px;
+  color: #f5f5f5;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.project img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.project-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+.project h2 {
+  margin-top: 0;
+  color: #c9a6ff;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.description .full-text {
+  display: none;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #6d41c1;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #8c5eff;
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    text-align: center;
+  }
+  .project img {
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
 
 // Profile
 
