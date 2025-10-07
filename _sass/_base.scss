@@ -263,16 +263,25 @@ ul.task-list input[type="checkbox"] {
 
 .description {
   margin-top: 10px;
-}
-
-.description {
   overflow: hidden;
   max-height: 4.5em; /* about 3 lines */
   transition: max-height 0.5s ease;
-}
 
-.description.expanded {
-  max-height: 700px; /* large enough to show all content */
+  .full-text {
+    display: none;
+  }
+
+  &.expanded {
+    max-height: 700px; /* large enough to show all content */
+
+    .short-text {
+      display: none;
+    }
+
+    .full-text {
+      display: inline;
+    }
+  }
 }
 
 .buttons {
