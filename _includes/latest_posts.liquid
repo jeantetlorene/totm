@@ -1,18 +1,18 @@
 <div class="news row" style="font-size: 1.2rem;">
-  {% assign latest_posts = site.posts | slice: 0, 4 %}
+  {% assign latest_posts = site.posts | slice: 0, 3 %}
 
   {% if latest_posts.size > 0 %}
     {% for post in latest_posts %}
-      <div class="col-md-3 mb-4">
+      <div class="col-md-4 mb-4">
         <div class="news-post-card h-100 shadow-sm">
           {% if post.image %}
             <img src="{{ post.image | relative_url }}" class="news-post-img" alt="{{ post.title }}" style="object-fit: cover; height: 200px;">
           {% endif %}
           <div class="news-post-body d-flex flex-column">
             <h5 class="news-post-title">{{ post.title }}</h5>
-            <h6 class="news-post-date text-muted mb-2">{{ post.date | date: "%B %d, %Y" }}</h6>
+            <h6 class="news-post-date text-muted mb-2">{{ post.date | date: "%d %B %Y" }}</h6>
             {% if post.description %}
-              <p class="news-post-text">{{ post.description | strip_html | truncate: 150 }}</p>
+              <p class="news-post-text">{{ post.description | strip_html | truncate: 100 }}</p>
             {% endif %}
             <a href="{{ post.url | relative_url }}" class="mt-auto btn btn-outline-primary">Lire la suite</a>
           </div>
