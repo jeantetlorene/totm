@@ -225,6 +225,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 //Projets
+
 .project {
   display: flex;
   flex-wrap: wrap;
@@ -263,8 +264,14 @@ ul.task-list input[type="checkbox"] {
   margin-top: 10px;
 }
 
-.description .full-text {
-  display: none;
+.description {
+  overflow: hidden;
+  max-height: 4.5em; /* about 3 lines */
+  transition: max-height 0.5s ease;
+}
+
+.description.expanded {
+  max-height: 500px; /* large enough to show all content */
 }
 
 .buttons {

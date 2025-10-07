@@ -28,19 +28,8 @@ layout: page
     document.querySelectorAll('.show-more').forEach(btn => {
       btn.addEventListener('click', () => {
         const desc = btn.closest('.project-content').querySelector('.description');
-        const shortText = desc.querySelector('.short-text');
-        const fullText = desc.querySelector('.full-text');
-        const isExpanded = fullText.style.display === 'inline';
-        
-        if (isExpanded) {
-          fullText.style.display = 'none';
-          shortText.style.display = 'inline';
-          btn.textContent = 'En savoir plus';
-        } else {
-          fullText.style.display = 'inline';
-          shortText.style.display = 'none';
-          btn.textContent = 'Réduire';
-        }
+        const isExpanded = desc.classList.toggle('expanded');
+        btn.textContent = isExpanded ? 'Réduire' : 'En savoir plus';
       });
     });
   });

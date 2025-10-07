@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: projets
 title: Nos Projets
 permalink: /nosprojets/
 
