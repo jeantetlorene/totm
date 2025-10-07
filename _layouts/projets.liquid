@@ -6,7 +6,7 @@ layout: page
 
 {% for banner in page.banners %}
   <div class="project">
-    <img src="{{ banner.image | relative_url }}" alt="{{ banner.title }}">
+    <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="{{ banner.title }}">
     <div class="project-content">
       <h2>{{ banner.title }}</h2>
       <p><strong>Partenaires :</strong> {{ banner.partenaires }}</p>
