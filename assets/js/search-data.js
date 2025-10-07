@@ -285,7 +285,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6C%6F%72%65%6E%65@%61%69%6D%73.%61%63.%7A%61", "_blank");
+          window.open("mailto:", "_blank");
         },
       },{
         id: 'social-facebook',
@@ -306,7 +306,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/lorène-jeantet-2241a6b3", "_blank");
+          window.open("https://www.linkedin.com/in/", "_blank");
         },
       },{
       id: 'light-theme',
