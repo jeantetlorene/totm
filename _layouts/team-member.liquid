@@ -14,7 +14,7 @@ layout: default
         {% endif %}
 
         
-        <p class="text-muted text-capitalize">{{ page.representation }}</p>
+        
 
         {% if page.email %}
         <p><i class="fas fa-envelope me-2"></i><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
@@ -37,6 +37,7 @@ layout: default
       <div class="col-lg-8">
         <div>
           <h3 class="mb-4">{{ page.title }}</h3>
+          <h2 class="text-muted text-capitalize">{{ page.representation }}</h2>
             {% if page.research_areas %}
               <div>{% for area in page.research_areas %}
                 <span class="badge theme-badge me-2 mb-2 p-2">{{ area }}</span>
