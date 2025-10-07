@@ -12,7 +12,7 @@ layout: page
       <p><strong>Partenaires :</strong> {{ banner.partenaires }}</p>
       <p><strong>Contacts :</strong> {{ banner.contacts }}</p>
       <div class="description">
-        <span class="short-text">{{ banner.description | truncate: 100 }}</span>
+        <span class="short-text">{{ banner.short | truncate: 100 }}</span>
         <span class="full-text">{{ banner.description }}</span>
       </div>
       <div class="buttons">
