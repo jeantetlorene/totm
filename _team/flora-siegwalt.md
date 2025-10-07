@@ -7,18 +7,16 @@ image: team/Flora_Siegwalt.jpg
 association: bureau
 representation: Vice-Présidente
 research_areas: ["Martinique"]
-email: flora.siegwalt@totm.ong
-website: ""
+email: 
+website: "https://adeppa.eu/"
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+    link: "www.linkedin.com/in/flora-siegwalt"
+  - name: "Facebook"
+    icon: "fab fa-facebook"
+    link: "https://www.facebook.com/AdeppaVigy"
+
 
 
 ---

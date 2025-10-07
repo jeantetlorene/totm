@@ -21,7 +21,7 @@ layout: default
         {% endif %}
 
         {% if page.website %}
-        <p><i class="fas fa-globe me-2"></i><a href="{{ page.website }}" target="_blank">Personal Website</a></p>
+        <p class="website-line"><i class="fas fa-globe"></i><a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
         {% endif %}
 
         {% if page.social %}
@@ -39,7 +39,7 @@ layout: default
           <h3 class="mb-4">{{ page.title }}</h3>
             {% if page.research_areas %}
               <div>{% for area in page.research_areas %}
-                <span class="badge bg-light text-dark me-2 mb-2 p-2">{{ area }}</span>
+                <span class="badge theme-badge me-2 mb-2 p-2">{{ area }}</span>
               {% endfor %}
              </div>
             {% endif %}
