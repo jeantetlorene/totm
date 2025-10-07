@@ -280,7 +280,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .btn {
-  background-color: var(global-theme-color) !important;
+  background-color: var(--global-theme-color) !important;
   color: #fff;
   border: none;
   padding: 8px 14px;
@@ -291,7 +291,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .btn:hover {
-  background-color: var(global-theme-color) !important;
+  background-color: var(--global-theme-color) !important;
 }
 
 @media (max-width: 768px) {
