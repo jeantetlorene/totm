@@ -266,22 +266,28 @@ ul.task-list input[type="checkbox"] {
   overflow: hidden;
   max-height: 4.5em; /* about 3 lines */
   transition: max-height 0.5s ease;
+}
 
-  .full-text {
-    display: none;
-  }
+/* by default: show short text, hide full text */
+.description .full-text {
+  display: none !important;
+}
 
-  &.expanded {
-    max-height: 700px; /* large enough to show all content */
+.description .short-text {
+  display: inline !important;
+}
 
-    .short-text {
-      display: none;
-    }
+/* when expanded: show full, hide short */
+.description.expanded {
+  max-height: 700px; /* big enough to reveal all content */
+}
 
-    .full-text {
-      display: inline;
-    }
-  }
+.description.expanded .short-text {
+  display: none !important;
+}
+
+.description.expanded .full-text {
+  display: inline !important;
 }
 
 .buttons {
