@@ -8,18 +8,18 @@ image_2: team/lorene-jeantet.jpg
 association: bureau
 representation: Secrétaire
 research_areas: ["Martinique", "Guyane"]
-email: lorene.jeantet@totm.ong
-website: ""
+email: 
+website: "https://jeantetlorene.github.io/"
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
+    link: "https://www.linkedin.com/in/lor%C3%A8ne-jeantet-2241a6b3/"
+  - name: "Bluesky"
+    icon: "fab fa-bluesky"
+    link: "https://bsky.app/profile/lorenejeantet.bsky.social"
   - name: "Google Scholar"
     icon: "fas fa-graduation-cap"
-    link: "#"
+    link: "https://scholar.google.com/citations?user=FUQASFgAAAAJ"
 
 
 ---
