@@ -25,11 +25,11 @@ layout: page
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.show-more').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const desc = btn.closest('.project-content').querySelector('.description');
+    document.querySelectorAll('.show-more').forEach(btn_projets => {
+      btn_projets.addEventListener('click', () => {
+        const desc = btn_projets.closest('.project-content').querySelector('.description');
         const isExpanded = desc.classList.toggle('expanded');
-        btn.textContent = isExpanded ? 'Réduire' : 'En savoir plus';
+        btn_projets.textContent = isExpanded ? 'Réduire' : 'En savoir plus';
       });
     });
   });
