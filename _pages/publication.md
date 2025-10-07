@@ -1,10 +1,19 @@
 ---
 layout: page
 title: Publications
+description: Publications par ordre chronologique décroissant.
 permalink: /publications/
 
 
 ---
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography %}
+
+</div>
 
 
 <header class="post-header">
