@@ -235,8 +235,8 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/jonathan-monsinjon/";
-            },},{id: "team-lorene-jeantet",
-          title: 'Lorene Jeantet',
+            },},{id: "team-lorène-jeantet",
+          title: 'Lorène Jeantet',
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/lorene-jeantet/";
