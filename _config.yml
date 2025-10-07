@@ -273,7 +273,7 @@ scholar:
   first_name: [Albert, A.]
 
   style: apa
-  locale: en
+  locale: fr
 
   source: /_bibliography/
   bibliography: papers.bib
