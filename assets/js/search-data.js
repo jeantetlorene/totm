@@ -14,7 +14,21 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
+            window.location.href = "/totm/en/apropos/";
+          },
+        },{id: "nav-a-propos",
+          title: "A Propos",
+          description: "",
+          section: "Navigation",
+          handler: () => {
             window.location.href = "/totm/apropos/";
+          },
+        },{id: "nav-notre-equipe",
+          title: "Notre Equipe",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/totm/en/equipe/";
           },
         },{id: "nav-notre-equipe",
           title: "Notre Equipe",
@@ -44,12 +58,47 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/totm/publications/";
               },
+            },{id: "dropdown-programme-initiatives",
+              title: "Programme Initiatives",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/nosinitiatives/";
+              },
+            },{id: "dropdown-nos-projets",
+              title: "Nos Projets",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/nosprojets/";
+              },
+            },{id: "dropdown-publications",
+              title: "Publications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/publications/";
+              },
             },{id: "nav-actualités",
           title: "Actualités",
           description: "",
           section: "Navigation",
           handler: () => {
+            window.location.href = "/totm/en/nosactualites/index.html";
+          },
+        },{id: "nav-actualités",
+          title: "Actualités",
+          description: "",
+          section: "Navigation",
+          handler: () => {
             window.location.href = "/totm/nosactualites/index.html";
+          },
+        },{id: "nav-nous-soutenir",
+          title: "Nous Soutenir",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/totm/en/noussoutenir/";
           },
         },{id: "nav-nous-soutenir",
           title: "Nous Soutenir",
