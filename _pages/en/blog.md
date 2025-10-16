@@ -1,7 +1,7 @@
 ---
 layout: default
-lang: fr
-permalink: /nosactualites/
+lang: en
+permalink: /en/nosactualites/
 title: Actualités
 nav: true
 nav_order: 3

@@ -1,8 +1,8 @@
 ---
 layout: projets
 title: Nos Projets
-lang: fr
-permalink: /nosprojets/
+lang: en
+permalink: /en/nosprojets/
 
 banners:
   - title: "Définir une méthodologie pour sélectionner les techniques d’identification "

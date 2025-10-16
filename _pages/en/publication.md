@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Publications
+lang: en
 description: Publications par ordre chronologique décroissant.
-lang: fr
-permalink: /publications/
+permalink: /en/publications/
 
 
 ---

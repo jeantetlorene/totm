@@ -1,7 +1,7 @@
 ---
 layout: soutenir
-lang: fr
-permalink: /noussoutenir/
+lang: en
+permalink: /en/noussoutenir/
 title: Nous Soutenir
 description: 
 nav: true

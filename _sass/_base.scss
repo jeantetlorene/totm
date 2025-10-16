@@ -185,6 +185,18 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+//language button
+.language-toggle a {
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.language-toggle a:hover {
+  opacity: 1;
+}
+
 // Citation
 
 .citation,

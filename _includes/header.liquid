@@ -114,6 +114,16 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language toggle -->
+          <li class="nav-item language-toggle">
+            {% if page.lang == "fr" %}
+              <a class="nav-link" href="{{ page.url | replace_first:'/fr','/en' }}">English</a>
+            {% elsif page.lang == "en" %}
+              <a class="nav-link" href="{{ page.url | replace_first:'/en','/fr' }}">Français</a>
+            {% else %}
+              <a class="nav-link" href="/en/">English</a>
+            {% endif %}
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">

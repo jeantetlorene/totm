@@ -1,8 +1,8 @@
 ---
 layout: initiatives
 title: Programme Initiatives
-lang: fr
-permalink: /nosinitiatives/
+lang: en
+permalink: /en/nosinitiatives/
 description: 
 nav: false
 nav_order: 2

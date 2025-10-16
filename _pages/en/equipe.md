@@ -1,7 +1,7 @@
 ---
 layout: equipe
-lang: fr
-permalink: /equipe/
+lang: en
+permalink: /en/equipe/
 title: Notre Equipe
 description: 
 nav: true

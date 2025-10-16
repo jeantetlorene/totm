@@ -1,7 +1,7 @@
 ---
 layout: profiles
-lang: fr
-permalink: /apropos/
+permalink: /en/apropos/
+lang: en
 title: A Propos
 description: 
 nav: true
