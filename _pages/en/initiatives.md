@@ -6,6 +6,7 @@ permalink: /en/initiatives/
 description: 
 nav: false
 nav_order: 2
+ref: nosinitiatives
 pdf: Initiatives_TOTM_21_12_2022.pdf
 
 

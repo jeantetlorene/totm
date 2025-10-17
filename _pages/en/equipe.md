@@ -6,6 +6,7 @@ title: Our Team
 description: 
 nav: true
 nav_order: 2
+ref: equipe
 
 ---
 

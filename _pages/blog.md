@@ -3,6 +3,7 @@ layout: default
 lang: fr
 permalink: /nosactualites/
 title: Actualités
+ref: news
 nav: true
 nav_order: 3
 pagination:

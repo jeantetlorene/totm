@@ -1,10 +1,11 @@
 ---
 layout: default
 lang: en
-permalink: /en/nosactualites/
-title: Actualités
+permalink: /en/news/
+title: News
 nav: true
 nav_order: 3
+ref: nosactualites
 pagination:
   enabled: true
   collection: posts

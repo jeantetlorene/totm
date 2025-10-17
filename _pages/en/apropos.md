@@ -1,11 +1,12 @@
 ---
 layout: profiles
-permalink: /en/apropos/
+permalink: /en/aboutus/
 lang: en
-title: A Propos
+title: About Us
 description: 
 nav: true
 nav_order: 1
+ref: apropos
 
 profiles:
 

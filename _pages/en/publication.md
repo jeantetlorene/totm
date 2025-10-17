@@ -4,6 +4,7 @@ title: Publications
 lang: en
 description: Publications par ordre chronologique décroissant.
 permalink: /en/publications/
+ref: publications
 
 
 ---

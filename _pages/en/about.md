@@ -11,7 +11,7 @@ banner_title: TRANS OCÉANS TORTUES MARINES
 banner_subtitle: Les acteurs des territoires français pour la conservation des tortues marines à travers le monde
 button:
   enable: true
-  label: "Nous Rejoindre"
+  label: "Joins us"
   link: "/noussoutenir/"
 
 banners:

@@ -3,6 +3,7 @@ layout: projets
 title: Our Projects
 lang: en
 permalink: /en/projects/
+ref: nosprojets
 
 banners:
   - title: "Définir une méthodologie pour sélectionner les techniques d’identification "
