@@ -1551,6 +1551,13 @@ ninja-keys::part(ninja-input-wrapper) {
   object-fit: cover;
 }
 
+.top-banner {
+  width: 100%;            /* full width */
+  height: 60vh;            /* adjust height */
+  background-size: cover;  /* cover entire div */
+  background-position: center;
+}
+
 
 .top-banner-content {
   padding: 6vh 1rem; // Add some vertical space inside the banner

@@ -6,7 +6,7 @@ permalink: /en/projects/
 ref: nosprojets
 
 banners:
-  - title: "Définir une méthodologie pour sélectionner les techniques d’identification "
+  - title: "Defining a Methodology to Select Identification Techniques"
     contacts: "Anouck Baudouin, Claire Jean, Margaux Boyer, Manon Nivière"
     partenaires: "Réunion des Musées Régionaux (Kélonia, l’observatoire des tortues)"
     image: "apropos.webp"
