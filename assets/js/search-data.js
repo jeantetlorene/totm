@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/totm/";
     },
-  },{id: "nav-a-propos",
-          title: "A Propos",
+  },{id: "nav-about-us",
+          title: "About Us",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/totm/en/apropos/";
+            window.location.href = "/totm/en/aboutus/";
           },
         },{id: "nav-a-propos",
           title: "A Propos",
@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/equipe/";
           },
-        },{id: "dropdown-initiatives",
-              title: "Initiatives",
+        },{id: "dropdown-program-initiatives",
+              title: "Program Initiatives",
               description: "",
               section: "Dropdown",
               handler: () => {
@@ -79,12 +79,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/totm/publications/";
               },
-            },{id: "nav-actualités",
-          title: "Actualités",
+            },{id: "nav-news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/totm/en/nosactualites/index.html";
+            window.location.href = "/totm/en/news/index.html";
           },
         },{id: "nav-actualités",
           title: "Actualités",
@@ -93,12 +93,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/nosactualites/index.html";
           },
-        },{id: "nav-nous-soutenir",
-          title: "Nous Soutenir",
+        },{id: "nav-support-us",
+          title: "Support Us",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/totm/en/noussoutenir/";
+            window.location.href = "/totm/en/supportus/";
           },
         },{id: "nav-nous-soutenir",
           title: "Nous Soutenir",
