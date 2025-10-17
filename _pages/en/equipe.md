@@ -1,8 +1,8 @@
 ---
 layout: equipe
 lang: en
-permalink: /en/equipe/
-title: Notre Equipe
+permalink: /en/team/
+title: Our Team
 description: 
 nav: true
 nav_order: 2

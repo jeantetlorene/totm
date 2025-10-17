@@ -22,7 +22,7 @@ banners:
     button:
       enable: true
       label: "En Savoir Plus"
-      link: "/apropos/"
+      link: "/en/apropos/"
 
   - title: "Nos Missions"
     content: |

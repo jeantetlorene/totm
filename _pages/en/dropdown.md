@@ -1,17 +1,18 @@
 ---
 layout: page
-title: Nos Actions
+title: Our Actions
+lang: en
 nav: true
 nav_order: 3
 dropdown: true
 children:
-  - title: Programme Initiatives
-    permalink: /nosinitiatives/
+  - title: Initiatives
+    permalink: /en/initiatives/
   - title: divider
-  - title: Nos Projets
-    permalink: /nosprojets/
+  - title: Our Projects
+    permalink: /en/projects/
   - title: divider
   - title: Publications
-    permalink: /publications/
+    permalink: /en/publications/
 
 ---

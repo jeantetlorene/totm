@@ -117,12 +117,16 @@
               </button>
             </li>
           {% endif %}
-          <!-- Language toggle -->
+          <!-- Language toggle with flags -->
           <li class="nav-item language-toggle">
             {% if page.lang == "fr" %}
-              <a class="nav-link" href="{{ site.baseurl }}/en{{ page.url | remove: site.baseurl }}">English</a>
+              <a href="{{ site.baseurl }}/en/" title="Switch to English">
+                🇬🇧
+              </a>
             {% else %}
-              <a class="nav-link" href="{{ site.baseurl }}{{ page.url | remove_first: '/en' }}">Français</a>
+              <a href="{{ site.baseurl }}/" title="Basculer en français">
+                🇫🇷
+              </a>
             {% endif %}
           </li>
           {% if site.enable_darkmode %}
