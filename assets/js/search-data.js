@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/apropos/";
           },
-        },{id: "nav-notre-equipe",
-          title: "Notre Equipe",
+        },{id: "nav-our-team",
+          title: "Our Team",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/totm/en/equipe/";
+            window.location.href = "/totm/en/team/";
           },
         },{id: "nav-notre-equipe",
           title: "Notre Equipe",
@@ -37,26 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/equipe/";
           },
-        },{id: "dropdown-programme-initiatives",
-              title: "Programme Initiatives",
+        },{id: "dropdown-initiatives",
+              title: "Initiatives",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/totm/nosinitiatives/";
+                window.location.href = "/totm/en/initiatives/";
               },
-            },{id: "dropdown-nos-projets",
-              title: "Nos Projets",
+            },{id: "dropdown-our-projects",
+              title: "Our Projects",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/totm/nosprojets/";
+                window.location.href = "/totm/en/projects/";
               },
             },{id: "dropdown-publications",
               title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/totm/publications/";
+                window.location.href = "/totm/en/publications/";
               },
             },{id: "dropdown-programme-initiatives",
               title: "Programme Initiatives",
