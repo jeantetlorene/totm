@@ -31,9 +31,12 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+          {% for p in site.pages %}
+            {% if (p.permalink == '/' and page.lang == 'fr') or (p.permalink == '/en/' and page.lang == 'en') %}
+              {% assign about_title = p.title %}
+            {% endif %}
           {% endfor %}
+
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
@@ -46,7 +49,7 @@
           </li>
 
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+          {% assign sorted_pages = site.pages | where: "lang", page.lang | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
               {% if p.dropdown %}
@@ -117,9 +120,9 @@
           <!-- Language toggle -->
           <li class="nav-item language-toggle">
             {% if page.lang == "fr" %}
-              <a href="/en/">English</a>
+              <a class="nav-link" href="{{ site.baseurl }}/en{{ page.url | remove: site.baseurl }}">English</a>
             {% else %}
-              <a href="/">Français</a>
+              <a class="nav-link" href="{{ site.baseurl }}{{ page.url | remove_first: '/en' }}">Français</a>
             {% endif %}
           </li>
           {% if site.enable_darkmode %}
