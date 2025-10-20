@@ -26,11 +26,12 @@
     
     
     <!-- Content -->
-    {% if (page.url == site.baseurl | append: '/' or page.url == site.baseurl | append: '/en/' ) and page.top_image %}
+    {% assign home_fr = site.baseurl | append: '/' %}
+    {% assign home_en = site.baseurl | append: '/en/' %}
+    {% if (page.url == home_fr or page.url == home_en)}
       <!-- Allow full-width for home pages (FR + EN) -->
       {% assign is_home_with_banner = true %}
     {% endif %}
-
     {% if is_home_with_banner %}
       <!-- Home page: banner should be full width -->
       <div role="main">
