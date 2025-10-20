@@ -3,6 +3,7 @@ layout: page
 title: Publications
 description: Publications par ordre chronologique décroissant.
 lang: fr
+ref: publications
 permalink: /publications/
 
 

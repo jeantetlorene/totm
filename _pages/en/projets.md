@@ -3,7 +3,7 @@ layout: projets
 title: Our Projects
 lang: en
 permalink: /en/projects/
-ref: nosprojets
+ref: projets
 
 banners:
   - title: "Defining a Methodology to Select Identification Techniques"

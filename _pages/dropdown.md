@@ -2,6 +2,8 @@
 layout: page
 title: Nos Actions
 nav: true
+lang: fr
+ref: menu
 nav_order: 3
 dropdown: true
 children:

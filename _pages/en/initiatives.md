@@ -2,6 +2,7 @@
 layout: initiatives
 title: Initiatives
 lang: en
+ref: initiatives
 permalink: /en/initiatives/
 description: 
 nav: false

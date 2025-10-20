@@ -1,6 +1,7 @@
 ---
 layout: equipe
 lang: fr
+ref: equipe
 permalink: /equipe/
 title: Notre Equipe
 description: 
