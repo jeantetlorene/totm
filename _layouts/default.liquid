@@ -26,8 +26,8 @@
     
     
     <!-- Content -->
-    {% if page.url == '/' and page.top_image %}
-      <!-- Allow full-width for top banner -->
+    {% if (page.url == site.baseurl | append: '/' or page.url == site.baseurl | append: '/en/' ) and page.top_image %}
+      <!-- Allow full-width for home pages (FR + EN) -->
       {% assign is_home_with_banner = true %}
     {% endif %}
 
