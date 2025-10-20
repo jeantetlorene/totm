@@ -26,10 +26,8 @@
     
     
     <!-- Content -->
-    {% assign home_fr = site.baseurl | append: '/' %}
-    {% assign home_en = site.baseurl | append: '/en/' %}
-    {% if (page.url == home_fr or page.url == home_en)}
-      <!-- Allow full-width for home pages (FR + EN) -->
+    {% if page.url == '/' and page.top_image %}
+      <!-- Allow full-width for top banner -->
       {% assign is_home_with_banner = true %}
     {% endif %}
     {% if is_home_with_banner %}
