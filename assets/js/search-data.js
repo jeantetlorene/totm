@@ -79,14 +79,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/totm/publications/";
               },
-            },{id: "nav-news",
-          title: "News",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/totm/en/news/index.html";
-          },
-        },{id: "nav-actualités",
+            },{id: "nav-actualités",
           title: "Actualités",
           description: "",
           section: "Navigation",
