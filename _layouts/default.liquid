@@ -26,7 +26,7 @@
     
     
     <!-- Content -->
-    {% if page.url == '/' and page.top_image %}
+    {% if page.url == '/' or page.url == '/en/' %}
       <!-- Allow full-width for top banner -->
       {% assign is_home_with_banner = true %}
     {% endif %}
