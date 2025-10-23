@@ -1558,6 +1558,13 @@ ninja-keys::part(ninja-input-wrapper) {
   background-position: center;
 }
 
+/* Overlay layer above the banner image */
+.top-banner-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* optional subtle dark filter */
+}
 
 .top-banner-content {
   padding: 6vh 1rem; // Add some vertical space inside the banner
@@ -1596,6 +1603,21 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
+/* Copyright styling */
+.banner-copyright {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+  font-size: 0.9rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.4); /* ensures visibility on bright areas */
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+  text-align: right;
+  pointer-events: none; /* prevents interfering with clicks */
+  white-space: nowrap;
+}
+
 
 // Responsive size control
 @media (min-width: 992px) {
@@ -1608,6 +1630,15 @@ ninja-keys::part(ninja-input-wrapper) {
   .banner-image {
     max-height: none;
     height: auto;
+  }
+}
+
+/* Optional: smaller size on mobile */
+@media (max-width: 768px) {
+  .banner-copyright {
+    font-size: 0.75rem;
+    right: 0.5rem;
+    bottom: 0.3rem;
   }
 }
 
