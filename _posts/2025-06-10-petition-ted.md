@@ -5,7 +5,7 @@ date: 2025-06-10 14:24:00
 description: Chaque année, des dizaines milliers de tortues marines sont capturées accidentellement dans les filets de chalutiers ciblant les crevettes tropicales. Il existe pourtant des solutions parmis elles, le Dispositif d’Exclusion des Tortues (TED).
 tags: action
 categories: sample-posts
-featured: true
+
 
 
 ---

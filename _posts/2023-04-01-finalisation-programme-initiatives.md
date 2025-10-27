@@ -6,7 +6,7 @@ description:
 tags: initiatives
 categories: sample-posts
 image: assets/img/post/programme-initiative.png
-featured: true
+
 
 ---
 
