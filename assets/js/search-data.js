@@ -327,7 +327,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/company/tortuesmarines", "_blank");
+          window.open("https://www.linkedin.com/in/company/tortuesmarines/posts", "_blank");
         },
       },{
       id: 'light-theme',
