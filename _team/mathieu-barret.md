@@ -3,7 +3,7 @@ layout: team-member
 title: Mathieu Barret
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/team-no-picture.png
+image: team/mathieu-barret.webp
 association: ca
 representation: Administrateur
 research_areas: ["La Réunion"]
