@@ -3,7 +3,7 @@ layout: team-member
 title: Alexis Guilleux
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/team-no-picture.png
+image: team/alexis-guilleux.webp
 association: salarie
 representation: Animateur Martinique du PNATMAF
 research_areas: ["Martinique"]
