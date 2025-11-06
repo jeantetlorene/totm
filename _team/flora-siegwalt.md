@@ -12,7 +12,7 @@ website: "https://adeppa.eu/"
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "www.linkedin.com/in/flora-siegwalt"
+    link: "https://www.linkedin.com/in/flora-siegwalt"
   - name: "Facebook"
     icon: "fab fa-facebook"
     link: "https://www.facebook.com/AdeppaVigy"
