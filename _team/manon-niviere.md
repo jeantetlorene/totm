@@ -3,7 +3,7 @@ layout: team-member
 title: Manon Nivière
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/team-no-picture.png
+image: team/manon-niviere.webp
 association: salarie
 representation: Chargée de mission « Conservation »
 research_areas: ["Martinique", "La Réunion", "Guyane"]

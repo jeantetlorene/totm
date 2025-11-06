@@ -3,7 +3,7 @@ layout: team-member
 title: Margaux Boyer
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/team-no-picture.png
+image: team/margaux-boyer.webp
 association: salarie
 representation: Chargée de mission « Développement et déploiement »
 research_areas: ["Métropole"]
