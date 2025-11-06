@@ -277,6 +277,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/jonathan-monsinjon/";
+            },},{id: "team-katia-ballorain",
+          title: 'Katia Ballorain',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/katia-ballorain/";
             },},{id: "team-lorène-jeantet",
           title: 'Lorène Jeantet',
           description: "",
