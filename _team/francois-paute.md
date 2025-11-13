@@ -7,7 +7,7 @@ image: team/francois-rlie-paute.webp
 association: ca
 representation: Administrateur
 research_areas: ["Mayotte"]
-email: fe.paute@totm.ong
+email: 
 website: ""
 social:
   - name: "LinkedIn"

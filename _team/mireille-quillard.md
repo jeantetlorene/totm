@@ -7,7 +7,7 @@ image: team/mireille-quillard.jpg
 association: ca
 representation: Administratrice
 research_areas: ["Mayotte"]
-email: mireille.quillard@totm.ong
+email: 
 website: ""
 social:
   - name: "LinkedIn"
