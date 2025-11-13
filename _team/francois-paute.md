@@ -3,6 +3,7 @@ layout: team-member
 title: Francois-Elie Paute
 date: 2023-01-15T10:00:00+02:00
 draft: false
+lang : fr
 image: team/francois-rlie-paute.webp
 association: ca
 representation: Administrateur

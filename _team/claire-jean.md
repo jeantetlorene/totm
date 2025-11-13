@@ -3,6 +3,7 @@ layout: team-member
 title: Claire Jean
 date: 2023-01-15T10:00:00+02:00
 draft: false
+lang : fr
 image: team/claire-jean.webp
 association: ca
 representation: Administratrice

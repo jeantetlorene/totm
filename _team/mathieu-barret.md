@@ -3,6 +3,7 @@ layout: team-member
 title: Mathieu Barret
 date: 2023-01-15T10:00:00+02:00
 draft: false
+lang : fr
 image: team/mathieu-barret.webp
 association: ca
 representation: Administrateur

@@ -3,6 +3,7 @@ layout: team-member
 title: Lorène Jeantet
 date: 2023-01-15T10:00:00+02:00
 draft: false
+lang : fr
 image: team/lorene-jeantet_1.jpg
 image_2: team/lorene-jeantet.jpg
 association: bureau
