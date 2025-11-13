@@ -7,18 +7,18 @@ image: team/damien-chevallier.jpg
 association: ca
 representation: Administrateur
 research_areas: ["Martinique", "Guyane"]
-email: damien.chevallier@totm.ong
+email: 
 website: ""
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
+    link: "https://www.linkedin.com/in/damien-chevallier-0a520b42/"
+  - name: "Facebook"
+    icon: "fab fa-facebook"
+    link: "https://www.facebook.com/damien.chevallier.35"
   - name: "Google Scholar"
     icon: "fas fa-graduation-cap"
-    link: "#"
+    link: "https://scholar.google.com/citations?user=rVUOIOMAAAAJ&hl=en&oi=sra"
 
 
 ---
