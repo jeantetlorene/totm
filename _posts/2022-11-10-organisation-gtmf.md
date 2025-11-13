@@ -2,6 +2,7 @@
 layout: post
 title: Organisation du colloque GTMF 2022
 date: 2022-11-01 14:24:00
+lang : fr
 description: 
 tags: action
 categories: sample-posts
