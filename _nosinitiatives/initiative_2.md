@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Climat, bruit et énergies renouvelables
+lang : fr
 description:  
 img: assets/img/initiatives/initiative_2_2.webp
 

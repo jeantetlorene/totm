@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Interactions avec les activités de pêche
+lang : fr
 description:  
 img: assets/img/6.jpg
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Indicateurs et minima standard
+lang : fr
 description:  
 img: assets/img/10.jpg
 

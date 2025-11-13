@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sensibilisation
+lang : fr
 description:  
 img: assets/img/9.jpg
 

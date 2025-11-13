@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Formations
+lang : fr
 description:  
 img: assets/img/4.jpg
 

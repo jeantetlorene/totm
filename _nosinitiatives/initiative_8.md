@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pathologie et centre de soins
+lang : fr
 description:  
 img: assets/img/8.jpg
 

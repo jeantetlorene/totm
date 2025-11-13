@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Identification
+lang : fr
 description:  
 img: assets/img/initiatives/initiative_3_2.jpg
 
