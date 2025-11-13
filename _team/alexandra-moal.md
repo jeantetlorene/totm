@@ -5,6 +5,7 @@ date: 2023-01-15T10:00:00+02:00
 draft: false
 image: team/alexandra-le-moal.jpg
 association: ca
+lang : fr
 representation: Administratrice
 research_areas: ["Guadeloupe"]
 email: alexandra.lemoal@totm.ong
