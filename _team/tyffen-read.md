@@ -7,7 +7,7 @@ image: team/tyffen-read.jpg
 association: bureau
 representation: Secrétaire Adjointe
 research_areas: ["Nouvelle-Calédonie"]
-email: tyffen.read@totm.ong
+email: 
 website: ""
 social:
   - name: "LinkedIn"
