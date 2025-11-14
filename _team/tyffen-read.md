@@ -13,13 +13,10 @@ website: ""
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+    link: "https://www.linkedin.com/in/tyffen-read-76770580/"
+  - name: "Research Gate"
+    icon: "fab fa-researchgate"
+    link: "https://www.researchgate.net/profile/Tyffen-Read"
 
 
 ---
