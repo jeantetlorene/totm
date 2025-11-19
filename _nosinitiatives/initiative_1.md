@@ -2,6 +2,7 @@
 layout: page
 title: Aspects réglementaires
 lang : fr
+ref :  initiative1
 description:  
 img: assets/img/initiatives/initiative_1_2.jpg
 importance: 1

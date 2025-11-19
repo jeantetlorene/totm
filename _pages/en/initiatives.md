@@ -7,13 +7,13 @@ permalink: /en/initiatives/
 description: 
 nav: false
 nav_order: 2
-ref: nosinitiatives
+ref: initiatives
 pdf: Initiatives_TOTM_21_12_2022.pdf
 
 
 
 gallery:
-  - url: "/nosinitiatives/initiative-1/"
+  - url: "/nosinitiatives/initiative-1-en/"
     thumb: /initiatives/initiative_1.webp
     title: Aspects réglementaires
     description: 
