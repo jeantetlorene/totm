@@ -43,19 +43,21 @@ layout: default
       </p>
     </div>
 
-    <div class="bg-light py-3">
-      <div class="container my-3">
-        <!-- Latest posts -->
-        {% if page.latest_posts and page.latest_posts.enabled %}
-          <h1 class="h1 mb-3">
-            <a href="{{ '/nosactualites/' | relative_url }}">
-              {{ page.news_heading }}
-            </a>
-          </h1>
-          {% include latest_posts.liquid %}
-        {% endif %}
+    {% if page.lang == "fr" %}
+      <div class="bg-light py-3">
+        <div class="container my-3">
+          <!-- Latest posts -->
+          {% if page.latest_posts and page.latest_posts.enabled %}
+            <h1 class="h1 mb-3">
+              <a href="{{ '/nosactualites/' | relative_url }}">
+                {{ page.news_heading }}
+              </a>
+            </h1>
+            {% include latest_posts.liquid %}
+          {% endif %}
+        </div>
       </div>
-    </div>
+    {% endif %}
 
 
 

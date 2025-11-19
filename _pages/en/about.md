@@ -6,7 +6,7 @@ permalink: /en/
 subtitle: 
 
 top_image: banner_tv_fabien.webp
-quote: "The ocean connects us all, let us protect its elders"
+quote: 
 banner_title: TRANS OCÉANS TORTUES MARINES
 banner_subtitle: Les acteurs des territoires français pour la conservation des tortues marines à travers le monde
 button:
