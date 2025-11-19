@@ -15,10 +15,17 @@ layout: page
         <div class="col-lg-10 mx-auto">
           <!-- Team Filters -->
           <div class="team-filters text-center mb-5">
-            <button class="btn btn-outline-primary m-1 filter-btn active" data-filter="all">Tous les membres</button>
-            <button class="btn btn-outline-primary m-1 filter-btn" data-filter="bureau">Bureau</button>
-            <button class="btn btn-outline-primary m-1 filter-btn" data-filter="ca">CA</button>
-            <button class="btn btn-outline-primary m-1 filter-btn" data-filter="salarie">Chargés de mission</button>
+            {% if page.lang == "fr" %}
+              <button class="btn btn-outline-primary m-1 filter-btn active" data-filter="all">Tous les membres</button>
+              <button class="btn btn-outline-primary m-1 filter-btn" data-filter="bureau">Bureau</button>
+              <button class="btn btn-outline-primary m-1 filter-btn" data-filter="ca">CA</button>
+              <button class="btn btn-outline-primary m-1 filter-btn" data-filter="salarie">Chargés de mission</button>
+            {% else %}
+              <button class="btn btn-outline-primary m-1 filter-btn active" data-filter="all">All members</button>
+              <button class="btn btn-outline-primary m-1 filter-btn" data-filter="bureau">Executive Committee</button>
+              <button class="btn btn-outline-primary m-1 filter-btn" data-filter="ca">Board</button>
+              <button class="btn btn-outline-primary m-1 filter-btn" data-filter="salarie">Staff</button>
+            {% endif %}
           </div>
 
           {% include team_grid.liquid %}

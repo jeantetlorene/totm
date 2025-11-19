@@ -6,9 +6,10 @@ draft: false
 image: team/alexandra-le-moal.jpg
 association: ca
 lang : fr
+ref : alexandralemoal
 representation: Administratrice
 research_areas: ["Guadeloupe"]
-email: alexandra.lemoal@totm.ong
+email: 
 website: ""
 social:
   - name: "LinkedIn"
