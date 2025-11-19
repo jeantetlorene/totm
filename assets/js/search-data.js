@@ -231,6 +231,11 @@ ninja.data = [{
           title: 'Alexandra Le Moal',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/alexandra-moal-en/";
+            },},{id: "team-alexandra-le-moal",
+          title: 'Alexandra Le Moal',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/alexandra-moal/";
             },},{id: "team-alexis-guilleux",
           title: 'Alexis Guilleux',
