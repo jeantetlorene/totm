@@ -182,7 +182,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "nosinitiatives-aspects-réglementaires",
+          section: "News",},{id: "nosinitiatives-regulatory-aspects",
+          title: 'Regulatory aspects',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-1-en/";
+            },},{id: "nosinitiatives-aspects-réglementaires",
           title: 'Aspects réglementaires',
           description: "",
           section: "Nosinitiatives",handler: () => {
