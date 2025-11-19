@@ -15,7 +15,7 @@ pdf: Initiatives_TOTM_21_12_2022.pdf
 gallery:
   - url: "/nosinitiatives/initiative-1-en/"
     thumb: /initiatives/initiative_1.webp
-    title: Aspects réglementaires
+    title: Regulatory aspects
     description: 
   - url: "/nosinitiatives/initiative-2/"
     thumb: /initiatives/initiative_2.webp
