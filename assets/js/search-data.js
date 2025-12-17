@@ -331,6 +331,11 @@ ninja.data = [{
           title: 'Tony Nalovic',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/tony-nalovic-en/";
+            },},{id: "team-tony-nalovic",
+          title: 'Tony Nalovic',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/tony-nalovic/";
             },},{id: "team-tyffen-read",
           title: 'Tyffen Read',
