@@ -8,18 +8,10 @@ image: team/mathieu-barret.webp
 association: ca
 representation: Administrateur
 research_areas: ["La Réunion"]
-email: mathieu.barret@totm.ong
-website: ""
+email: 
+website: 
 social:
-  - name: "LinkedIn"
-    icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+
 
 
 ---

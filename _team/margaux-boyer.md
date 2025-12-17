@@ -9,7 +9,7 @@ association: salarie
 representation: Chargée de mission « Développement et déploiement »
 research_areas: ["Métropole"]
 email: 
-website: ""
+website: 
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"

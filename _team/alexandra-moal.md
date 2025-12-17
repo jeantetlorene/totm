@@ -10,7 +10,7 @@ ref : alexandralemoal
 representation: Administratrice
 research_areas: ["Guadeloupe"]
 email: contact@missocom.com 
-website: ""
+website: 
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"

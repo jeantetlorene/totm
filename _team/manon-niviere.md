@@ -9,7 +9,7 @@ association: salarie
 representation: Chargée de mission « Conservation »
 research_areas: ["Martinique", "La Réunion", "Guyane"]
 email: 
-website: ""
+website: 
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"

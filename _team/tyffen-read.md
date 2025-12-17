@@ -9,7 +9,7 @@ association: bureau
 representation: Secrétaire Adjointe
 research_areas: ["Nouvelle-Calédonie"]
 email: 
-website: ""
+website: 
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"

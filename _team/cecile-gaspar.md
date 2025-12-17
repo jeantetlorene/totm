@@ -18,10 +18,10 @@ social:
     icon: "fab fa-facebook"
     link: "https://www.facebook.com/temanaotemoana.moorea/"
   - name: "Instagram"
-    icon: "fas fa-instagram"
+    icon: "fa-brands fa-instagram"
     link: "https://www.instagram.com/temanaotemoana"
   - name: "Youtube"
-    icon: "fas fa-youtube"
+    icon: "fa-brands fa-youtube"
     link: "https://youtube.com/@temanaotemoana26?si=4ZY628jMuYq-6nGs"
 
 

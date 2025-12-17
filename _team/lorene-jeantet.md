@@ -24,6 +24,9 @@ social:
   - name: "Google Scholar"
     icon: "fas fa-graduation-cap"
     link: "https://scholar.google.com/citations?user=FUQASFgAAAAJ"
+  - name: "Flickr"
+    icon: "fa-brands fa-flickr"
+    link: "https://www.flickr.com/photos/203313828@N07/"
 
 
 ---

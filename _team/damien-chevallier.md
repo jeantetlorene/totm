@@ -9,7 +9,7 @@ association: ca
 representation: Administrateur
 research_areas: ["Martinique", "Guyane"]
 email: 
-website: ""
+website: 
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
