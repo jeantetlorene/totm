@@ -8,18 +8,9 @@ image: team/eric-delcroix.jpg
 association: bureau
 representation: Trésorier Adjoint
 research_areas: ["Guadeloupe"]
-email: eric.delcroix@totm.ong
-website: ""
-social:
-  - name: "LinkedIn"
-    icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+email: 
+website: "https://ofb.gouv.fr/antilles"
+
 
 
 ---

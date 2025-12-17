@@ -8,18 +8,13 @@ image: team/tony-nalovic.jpg
 association: bureau
 representation: Président
 research_areas: ["Guyane", "Capture accidentelle"]
-email: michel.nalovic@totm.ong
-website: ""
+email: 
+website: "https://fishingcleaner.com/"
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+    link: "https://www.linkedin.com/in/michel-tony-nalovic-a76839/"
+
 
 
 ---

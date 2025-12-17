@@ -10,17 +10,8 @@ association: salarie
 representation: Animateur Guadeloupe du PNATMAF
 research_areas: ["Guadeloupe"]
 email: 
-website: ""
-social:
-  - name: "LinkedIn"
-    icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+website: "https://www.tortues-marines-antilles.org/ "
+
 
 
 ---

@@ -20,6 +20,9 @@ social:
   - name: "Google Scholar"
     icon: "fas fa-graduation-cap"
     link: "https://scholar.google.com/citations?user=rVUOIOMAAAAJ&hl=en&oi=sra"
+  - name: "Research Gate"
+    icon: "fab fa-researchgate"
+    link: "https://www.researchgate.net/profile/Chevallier-Damien"
 
 
 ---

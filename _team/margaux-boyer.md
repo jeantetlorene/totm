@@ -13,13 +13,8 @@ website: ""
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+    link: "https://www.linkedin.com/in/margaux-boyer-639090105/ "
+
 
 
 ---

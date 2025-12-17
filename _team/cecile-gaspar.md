@@ -8,18 +8,21 @@ image: team/cecile-gaspar.jpg
 association: ca
 representation: Administratrice
 research_areas: ["Polynésie française"]
-email: cecile.gaspar@totm.ong
-website: ""
+email: 
+website: "https://www.temanaotemoana.org"
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+    link: "https://www.linkedin.com/company/te-mana-o-te-moana/"
+  - name: "Facebook"
+    icon: "fab fa-facebook"
+    link: "https://www.facebook.com/temanaotemoana.moorea/"
+  - name: "Instagram"
+    icon: "fas fa-instagram"
+    link: "https://www.instagram.com/temanaotemoana"
+  - name: "Youtube"
+    icon: "fas fa-youtube"
+    link: "https://youtube.com/@temanaotemoana26?si=4ZY628jMuYq-6nGs"
 
 
 ---

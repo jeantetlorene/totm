@@ -8,18 +8,15 @@ image: team/mayeul-dalleau.jpg
 association: ca
 representation: Administrateur
 research_areas: ["La Réunion"]
-email: mayeul.dalleau@totm.ong
-website: ""
+email:
+website: 
 social:
   - name: "LinkedIn"
     icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+    link: "https://fr.linkedin.com/in/mayeul"
+  - name: "Research Gate"
+    icon: "fab fa-researchgate"
+    link: "https://www.researchgate.net/profile/Mayeul-Dalleau"
 
 
 ---

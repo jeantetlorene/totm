@@ -8,18 +8,9 @@ image: team/claire-jean.webp
 association: ca
 representation: Administratrice
 research_areas: ["La Réunion"]
-email: claire.jean@totm.ong
-website: ""
-social:
-  - name: "LinkedIn"
-    icon: "fab fa-linkedin"
-    link: "#"
-  - name: "Twitter"
-    icon: "fab fa-twitter"
-    link: "#"
-  - name: "Google Scholar"
-    icon: "fas fa-graduation-cap"
-    link: "#"
+email: 
+website: "https://museesreunion.fr/kelonia/ "
+
 
 
 ---
