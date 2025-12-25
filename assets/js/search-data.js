@@ -111,6 +111,17 @@ ninja.data = [{
             window.location.href = "/totm/nosactualites/2025/petition-ted/";
           
         },
+      },{id: "post-recrutement-d-une-nouvelle-chargée-de-mission-conservation-chez-totm",
+        
+          title: "Recrutement d’une nouvelle chargée de mission Conservation chez TOTM",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/recrutement-cm-vs2/";
+          
+        },
       },{id: "post-voeux-2025",
         
           title: "Voeux 2025",
