@@ -4,7 +4,7 @@ title: Tania Gilbert
 date: 2023-01-15T10:00:00+02:00
 draft: false
 lang : fr
-image: team/tania-gilbert.jpg
+image: team/tania-gilbert.webp
 ref: taniagilbert
 association: salarie
 representation: Chargée d’étude « Stress et douleur »
