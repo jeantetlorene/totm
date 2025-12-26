@@ -3,7 +3,7 @@ layout: team-member
 title: Tania Gilbert
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/alexandra-le-moal.jpg
+image: team/tania-gilbert.jpg
 association: salarie
 lang : en
 ref : taniagilbert

@@ -4,8 +4,7 @@ title: Tania Gilbert
 date: 2023-01-15T10:00:00+02:00
 draft: false
 lang : fr
-image: team/nicolas-paranthoen_1.jpg
-image_2: team/nicolas-paranthoen.JPG
+image: team/tania-gilbert.jpg
 ref: taniagilbert
 association: salarie
 representation: Chargée d’étude « Stress et douleur »
