@@ -38,3 +38,11 @@ ref: publications
 <h2>
   <a href="{{ '/assets/pdf/RA_TOTM_2021_vf.pdf' | relative_url }}" target="_blank">2021 Activity Report - French Version  </a>
 </h2>
+
+<h2>
+  <a href="{{ '/assets/pdf/RA-TOTM-2020.pdf' | relative_url }}" target="_blank">2020 Activity Report - French Version </a>
+</h2>
+
+<h2>
+  <a href="{{ '/assets/pdf/RA TOTM 2019.pdf' | relative_url }}" target="_blank">2019 Activity Report - French Version</a>
+</h2>

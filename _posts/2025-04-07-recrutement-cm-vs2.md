@@ -10,7 +10,7 @@ image: assets/img/team/manon-niviere.webp
 
 ---
 
-Bienvenue à Manon Niviere, notre nouvelle Chargée de mission Conservation chez TOTM ! 🐢✨ 
+Bienvenue à Manon Nivière, notre nouvelle Chargée de mission Conservation chez TOTM ! 🐢✨ 
  
 Nous sommes ravis d’accueillir Manon dans l’équipe, qui vient renforcer notre dynamique en contribuant à la mise en œuvre des actions issues des différentes initiatives portées par TOTM. 
  
