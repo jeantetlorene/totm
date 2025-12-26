@@ -28,5 +28,13 @@ permalink: /publications/
 </h2>
 
 <h2>
-  <a href="{{ '/assets/pdf/Initiatives_TOTM_21_12_2022.pdf' | relative_url }}" target="_blank">Rapport d’activités 2023 </a>
+  <a href="{{ '/assets/pdf/Rapport d'activités TOTM 2023.pdf' | relative_url }}" target="_blank">Rapport d’activités 2023 </a>
+</h2>
+
+<h2>
+  <a href="{{ '/assets/pdf/Rapport d'activités 2022 TOTM.pdf' | relative_url }}" target="_blank">Rapport d’activités 2022 </a>
+</h2>
+
+<h2>
+  <a href="{{ '/assets/pdf/RA_TOTM_2021_vf.pdf' | relative_url }}" target="_blank">Rapport d’activités 2021 </a>
 </h2>

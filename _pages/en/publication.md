@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 lang: en
-description: Publications par ordre chronologique décroissant.
+description: Publications in descending chronological order.
 permalink: /en/publications/
 ref: publications
 
@@ -24,9 +24,17 @@ ref: publications
 
 
 <h2>
-  <a href="{{ '/assets/pdf/Initiatives_TOTM_21_12_2022.pdf' | relative_url }}" target="_blank">Rapport d’activités 2023 </a>
+  <a href="{{ '/assets/pdf/Rapport activité 2024-FINAL-sept2025.pdf' | relative_url }}" target="_blank">2024 Activity Report - French Version </a>
 </h2>
 
 <h2>
-  <a href="{{ '/assets/pdf/Rapport activité 2024-FINAL-sept2025.pdf' | relative_url }}" target="_blank">Rapport d’activités 2024 </a>
+  <a href="{{ '/assets/pdf/Rapport d'activités TOTM 2023.pdf' | relative_url }}" target="_blank">2023 Activity Report - French Version  </a>
+</h2>
+
+<h2>
+  <a href="{{ '/assets/pdf/Rapport d'activités 2022 TOTM.pdf' | relative_url }}" target="_blank">2022 Activity Report - French Version </a>
+</h2>
+
+<h2>
+  <a href="{{ '/assets/pdf/RA_TOTM_2021_vf.pdf' | relative_url }}" target="_blank">2021 Activity Report - French Version  </a>
 </h2>
