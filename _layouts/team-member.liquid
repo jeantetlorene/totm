@@ -1,60 +1,71 @@
-
 ---
 layout: page
 ---
 
 
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <!-- Left column: profile image and basic info -->
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        {% if page.image_2 %}
+          <img src="{{ 'assets/img/' | append: page.image_2 | relative_url }}" alt="{{ page.title }}" class="img-fluid z-depth-1 rounded">
+        {% elsif page.image %}
+          <img src="{{ 'assets/img/' | append: page.image | relative_url }}" alt="{{ page.title }}" class="img-fluid z-depth-1 rounded">
+        {% endif %}
 
+        
+        
 
-<!-- Wrap everything in .team-member-content for modal -->
-<div class="team-member-content">
+        {% if page.email %}
+        <p><i class="fas fa-envelope me-2"></i><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+        {% endif %}
 
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <!-- Left column: profile image and basic info -->
-        <div class="col-lg-4 text-center mb-4 mb-lg-0">
-          {% if page.image_2 %}
-            <img src="{{ 'assets/img/' | append: page.image_2 | relative_url }}" alt="{{ page.title }}" class="img-fluid z-depth-1 rounded">
-          {% elsif page.image %}
-            <img src="{{ 'assets/img/' | append: page.image | relative_url }}" alt="{{ page.title }}" class="img-fluid z-depth-1 rounded">
-          {% endif %}
+        {% if page.website %}
+        <p class="website-line"><i class="fas fa-globe"></i><a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
+        {% endif %}
 
-          {% if page.email %}
-          <p><i class="fas fa-envelope me-2"></i><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-          {% endif %}
-
-          {% if page.website %}
-          <p class="website-line"><i class="fas fa-globe"></i><a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
-          {% endif %}
-
-          {% if page.social %}
-          <div class="social-icons mt-4">
-            {% for social in page.social %}
-              <a href="{{ social.link }}" class="me-3" target="_blank"><i class="{{ social.icon }} fa-lg"></i></a>
-            {% endfor %}
-          </div>
-          {% endif %}
+        {% if page.social %}
+        <div class="social-icons mt-4">
+          {% for social in page.social %}
+            <a href="{{ social.link }}" class="me-3" target="_blank"><i class="{{ social.icon }} fa-lg"></i></a>
+          {% endfor %}
         </div>
+        {% endif %}
+      </div>
 
-        <!-- Right column: research areas and content -->
-        <div class="col-lg-8">
-          <div>
-            <h2 class="text-muted text-capitalize">{{ page.representation }}</h2>
-              {% if page.research_areas %}
-                <div>
-                  {% for area in page.research_areas %}
-                    <span class="badge theme-badge me-2 mb-2 p-2">{{ area }}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
-          </div>
-          <div class="content">
-            {{ content }}
-          </div>
+      <!-- Right column: research areas and content -->
+      <div class="col-lg-8">
+        <div>
+          <h2 class="text-muted text-capitalize">{{ page.representation }}</h2>
+            {% if page.research_areas %}
+              <div>{% for area in page.research_areas %}
+                <span class="badge theme-badge me-2 mb-2 p-2">{{ area }}</span>
+              {% endfor %}
+             </div>
+            {% endif %}
+        </div>
+        <div class="content">
+          {{ content }}
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
+<div class="team-member-content">
+  <h1>{{ page.title }}</h1>
+
+  {% if page.image %}
+    <img src="{{ 'assets/img/' | append: page.image | relative_url }}"
+         class="rounded-circle mb-3"
+         style="width:180px;height:180px;object-fit:cover;">
+  {% endif %}
+
+  <p class="text-muted">{{ page.representation }}</p>
+
+  {{ content }}
 </div>
+
+
+
