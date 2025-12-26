@@ -384,6 +384,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
 //team page
 .website-line i {
   margin-right: 6px;
@@ -393,6 +394,35 @@ ul.task-list input[type="checkbox"] {
   background-color: var(--global-theme-color) !important;
   color: #fff; /* white text */
 }
+
+.team-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.team-modal .modal-content {
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  margin: 6% auto;
+  padding: 2rem;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.4);
+  position: relative;
+}
+
+.team-modal .close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
 
 // Navbar customization
 
