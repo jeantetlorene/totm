@@ -338,6 +338,16 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/nicolas-paranthoen/";
+            },},{id: "team-tania-gilbert",
+          title: 'Tania Gilbert',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/tania-gilbert-en/";
+            },},{id: "team-tania-gilbert",
+          title: 'Tania Gilbert',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/tania-gillbert/";
             },},{id: "team-tony-nalovic",
           title: 'Tony Nalovic',
           description: "",
