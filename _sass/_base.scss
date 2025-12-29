@@ -403,25 +403,39 @@ ul.task-list input[type="checkbox"] {
   background: rgba(0, 0, 0, 0.6);
 }
 
+/* The modal window */
 .team-modal .modal-content {
   background: var(--global-bg-color);
   color: var(--global-text-color);
-  margin: 6% auto;
-  padding: 2rem;
+
+  /* SIZE */
   width: 90%;
-  max-width: 700px;
-  border-radius: 16px;
+  max-width: 900px;
+  max-height: 85vh;
+
+  /* CENTER */
+  margin: 5vh auto;
+
+  /* SCROLL */
+  overflow-y: auto;
+
+  /* STYLE */
+  padding: 2.5rem;
+  border-radius: 18px;
   box-shadow: 0 20px 40px rgba(0,0,0,.4);
+
   position: relative;
 }
 
+/* Close button */
 .team-modal .close {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 28px;
-  cursor: pointer;
+  position: sticky;
+  top: 0;
+  background: var(--global-bg-color);
+  padding: 0.25rem 0.5rem;
 }
+
+
 
 
 // Navbar customization
