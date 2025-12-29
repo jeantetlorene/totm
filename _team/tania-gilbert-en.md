@@ -9,7 +9,7 @@ lang : en
 ref : taniagilbert
 
 representation: Research Officer – “Stress and Pain”
-research_areas: ["LA Réunion"]
+research_areas: ["La Réunion"]
 email: 
 website: 
 social:
