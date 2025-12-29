@@ -431,8 +431,10 @@ ul.task-list input[type="checkbox"] {
 .team-modal .close {
   position: sticky;
   top: 0;
-  background: var(--global-bg-color);
-  padding: 0.25rem 0.5rem;
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 10;
 }
 
 @media (max-width: 768px) {
