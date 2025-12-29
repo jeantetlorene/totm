@@ -4,7 +4,7 @@
       {% assign members = site.team | where: "lang", page.lang %}
       {% for member in members %}
         <div class="d-flex justify-content-center team-card" data-association="{{ member.association | downcase }}">
-          <a href="{{ member.url | relative_url }}" class="text-decoration-none text-reset w-100">
+          <a href="{{ member.url | relative_url }}" class="text-decoration-none text-reset w-100 team-link" data-url="{{ member.url | relative_url }}">
             <div class="card bg-transparent border-0 text-center w-100 h-100 p-3">
               {% if member.image %}
                 <img src="{{ 'assets/img/' | append: member.image | relative_url }}" alt="{{ member.title }}" class="card-img-top rounded-circle mx-auto" style="object-fit: cover; width: 200px; height: 200px;">

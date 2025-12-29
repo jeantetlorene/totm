@@ -35,6 +35,58 @@ layout: page
   </section>
 </div>
 
+<!-- Team Member Modal -->
+<div id="team-modal" class="team-modal">
+  <div class="modal-content">
+    <span class="close" id="team-modal-close">&times;</span>
+    <div id="team-modal-body"></div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const modal = document.getElementById("team-modal");
+  const modalBody = document.getElementById("team-modal-body");
+  const closeBtn = document.getElementById("team-modal-close");
+
+  document.querySelectorAll(".team-link").forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const url = this.dataset.url;
+
+      fetch(url)
+        .then(response => response.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, "text/html");
+
+          const content = doc.querySelector(".team-member-content");
+
+          modalBody.innerHTML = content
+            ? content.innerHTML
+            : "<p>Content not found.</p>";
+
+          modal.style.display = "block";
+          document.body.style.overflow = "hidden";
+        });
+    });
+  });
+
+  closeBtn.onclick = () => {
+    modal.style.display = "none";
+    modalBody.innerHTML = "";
+    document.body.style.overflow = "";
+  };
+
+  window.onclick = (e) => {
+    if (e.target === modal) closeBtn.onclick();
+  };
+
+});
+</script>
+
 
 
 <script>
