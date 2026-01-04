@@ -6,7 +6,7 @@ description:
 tags: membre
 categories: sample-posts
 lang : fr
-image: assets/img/team/manon-niviere.webp
+image: assets/img/post/recrutement-lena.webp
 
 ---
 
