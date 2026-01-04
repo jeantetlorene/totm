@@ -10,14 +10,17 @@ image: assets/img/post/recrutement-lena.webp
 
 ---
 
-Nous sommes heureux d’accueillir Léna Bourdois pour son stage de master 2 avec pour sujet : évaluer l’impact de la pêche au chalut sur les tortues marines dans les pêcheries de crevettes tropicales exportant vers l’UE sous l'encadrement de Michel (Tony) Nalovic et Margaux Boyer 🦐 
+Nous sommes heureux d’accueillir <strong>Léna Bourdois<strong> pour son stage de master 2 avec pour sujet : <strong>évaluer l’impact de la pêche au chalut sur les tortues marines dans les pêcheries de crevettes tropicales exportant vers l’UE<strong> sous l'encadrement de Michel (Tony) Nalovic et Margaux Boyer 🦐 
  
 💡 Pourquoi est-ce important ? 
 L’UE  est le plus grand importateur de crevettes au monde, mais contrairement aux États-Unis, elle n’impose pas l’usage de dispositifs d’exclusion des tortues (TED) aux pays exportateurs. Cela encourage un commerce alternatif, augmentant les risques pour la biodiversité marine. 
  
 🔍 Sa mission : 
-🔹         Analyser et quantifier les importations de crevettes tropicales et identifier les pays pratiquant encore un chalutage non sélectif. 
-🔹        Étudier les réglementations et programmes existants pour limiter les captures accidentelles. 
-🔹         Collaborer avec des experts pour combler les manques d’information et fournir des arguments scientifiques en faveur d’une réglementation européenne plus stricte. 
+
+🔹Analyser et quantifier les importations de crevettes tropicales et identifier les pays pratiquant encore un chalutage non sélectif.
+
+🔹Étudier les réglementations et programmes existants pour limiter les captures accidentelles. 
+
+🔹Collaborer avec des experts pour combler les manques d’information et fournir des arguments scientifiques en faveur d’une réglementation européenne plus stricte. 
  
 Ce stage s'inscrit également dans un projet plus large porté par Théa Jacob de WWF France. 
