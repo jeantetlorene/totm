@@ -100,7 +100,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/noussoutenir/";
           },
-        },{id: "post-une-pétition-citoyenne-pour-les-tortues-marines",
+        },{id: "post-en-avant-pour-l-39-unoc-2025",
+        
+          title: "En avant pour l&#39;UNOC 2025 !",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/UNOC-2025/";
+          
+        },
+      },{id: "post-une-pétition-citoyenne-pour-les-tortues-marines",
         
           title: "Une pétition citoyenne pour les tortues marines",
         
