@@ -122,6 +122,17 @@ ninja.data = [{
             window.location.href = "/totm/nosactualites/2025/recrutement-cm-vs2/";
           
         },
+      },{id: "post-recrutement-de-léna-pour-son-stage-de-master-2-sur-l-39-impact-de-la-pêche-au-chalut-sur-les-tortues-marines",
+        
+          title: "Recrutement de Léna pour son stage de Master 2 sur l&#39;impact de la...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/recrutement-Lena/";
+          
+        },
       },{id: "post-voeux-2025",
         
           title: "Voeux 2025",
