@@ -100,9 +100,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/noussoutenir/";
           },
-        },{id: "post-dernière-ligne-doirte-pour-laure-et-son-stage-sur-la-pêcherie-crevettière-au-chalut-en-guyane-française-et-son-adoption-des-ted",
+        },{id: "post-participation-de-totm-à-l-assemblée-générale-du-ccrup-aux-canaries",
         
-          title: "Dernière ligne doirte pour Laure et son stage sur la pêcherie crevettière au...",
+          title: "Participation de TOTM à l’assemblée générale du CCRUP aux Canaries",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/ccrup/";
+          
+        },
+      },{id: "post-dernière-ligne-droite-pour-laure-et-son-stage-sur-la-pêcherie-crevettière-au-chalut-en-guyane-française-et-son-adoption-des-ted",
+        
+          title: "Dernière ligne droite pour Laure et son stage sur la pêcherie crevettière au...",
         
         description: "",
         section: "Posts",
