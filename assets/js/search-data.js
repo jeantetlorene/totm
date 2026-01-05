@@ -100,7 +100,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/noussoutenir/";
           },
-        },{id: "post-en-avant-pour-l-39-unoc-2025",
+        },{id: "post-recrutement-d-39-anouck-pour-une-mission-de-6-mois-sur-l-identification-individuelle-des-tortues-marines",
+        
+          title: "Recrutement d&#39;Anouck pour une mission de 6 mois sur l’identification individuelle des tortues...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/recrutement-anouck/";
+          
+        },
+      },{id: "post-en-avant-pour-l-39-unoc-2025",
         
           title: "En avant pour l&#39;UNOC 2025 !",
         
