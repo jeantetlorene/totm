@@ -100,7 +100,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/noussoutenir/";
           },
-        },{id: "post-totm-a-remporté-le-marché-de-l-39-animation-du-plan-national-d-39-actions-en-faveur-des-tortues-marines-des-antilles-françaises",
+        },{id: "post-totm-participe-à-la-conférence-sur-le-climat-cop30-à-belém",
+        
+          title: "TOTM participe à la Conférence sur le climat COP30 à Belém",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/cop30/";
+          
+        },
+      },{id: "post-totm-a-remporté-le-marché-de-l-39-animation-du-plan-national-d-39-actions-en-faveur-des-tortues-marines-des-antilles-françaises",
         
           title: "TOTM a remporté le marché de l&#39;animation du Plan National d&#39;Actions en faveur...",
         
