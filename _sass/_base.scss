@@ -440,7 +440,8 @@ ul.task-list input[type="checkbox"] {
 .team-modal .close {
   position: sticky;
   top: 0;
-  float: right;
+  display: flex;
+  justify-content: flex-end;
 
   font-size: 28px;
   cursor: pointer;
