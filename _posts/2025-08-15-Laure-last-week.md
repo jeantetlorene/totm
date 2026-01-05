@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dernière ligne doirte pour Laure et son stage sur la pêcherie crevettière au chalut en Guyane française et son adoption des TED 
-date: 2025-08-01 14:24:00
+title: Dernière ligne droite pour Laure et son stage sur la pêcherie crevettière au chalut en Guyane française et son adoption des TED 
+date: 2025-08-15 14:24:00
 description: 
 tags: membre
 categories: sample-posts
