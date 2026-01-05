@@ -100,7 +100,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/noussoutenir/";
           },
-        },{id: "post-recrutement-d-39-anouck-pour-une-mission-de-6-mois-sur-l-identification-individuelle-des-tortues-marines",
+        },{id: "post-dernière-ligne-doirte-pour-laure-et-son-stage-sur-la-pêcherie-crevettière-au-chalut-en-guyane-française-et-son-adoption-des-ted",
+        
+          title: "Dernière ligne doirte pour Laure et son stage sur la pêcherie crevettière au...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/Laure-last-week/";
+          
+        },
+      },{id: "post-recrutement-d-39-anouck-pour-une-mission-de-6-mois-sur-l-identification-individuelle-des-tortues-marines",
         
           title: "Recrutement d&#39;Anouck pour une mission de 6 mois sur l’identification individuelle des tortues...",
         
