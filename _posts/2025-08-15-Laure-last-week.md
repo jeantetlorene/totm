@@ -22,8 +22,6 @@ Laure a travaillé sur la pêcherie crevettière au chalut de Guyane française 
 🌍 <strong>Pourquoi c’est important</strong> : l’adoption de dispositifs de réduction des prises accessoires est essentielle pour diminuer les menaces qui pèsent sur les tortues marines. Aux États-Unis, les TED sont obligatoires depuis 1989 (chaluts crevettiers et importations). À l’inverse, l’UE n’exige pas de TED pour les importations de crevettes, créant un marché alternatif pour les flottilles qui ne les utilisent pas. Les appels en faveur d’une adoption par l’UE se multiplient, et ce projet vise à soutenir cette démarche ! 
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/totm-unoc-2025.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls-1.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls-2.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/laure-last-week-1.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/laure-last-week-1.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
