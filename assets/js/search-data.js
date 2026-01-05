@@ -100,7 +100,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/noussoutenir/";
           },
-        },{id: "post-participation-de-totm-à-l-assemblée-générale-du-ccrup-aux-canaries",
+        },{id: "post-totm-a-remporté-le-marché-de-l-39-animation-du-plan-national-d-39-actions-en-faveur-des-tortues-marines-des-antilles-françaises",
+        
+          title: "TOTM a remporté le marché de l&#39;animation du Plan National d&#39;Actions en faveur...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/totm/nosactualites/2025/pna-antilles/";
+          
+        },
+      },{id: "post-participation-de-totm-à-l-assemblée-générale-du-ccrup-aux-canaries",
         
           title: "Participation de TOTM à l’assemblée générale du CCRUP aux Canaries",
         
