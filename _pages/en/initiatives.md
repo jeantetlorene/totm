@@ -15,11 +15,11 @@ pdf: Initiatives_TOTM_21_12_2022.pdf
 gallery:
   - url: "/nosinitiatives/initiative-1-en/"
     thumb: /initiatives/initiative_1.webp
-    title: Regulatory aspects
+    title: Regulatory Aspects
     description: 
   - url: "/nosinitiatives/initiative-2/"
     thumb: /initiatives/initiative_2.webp
-    title: Climat, buit et énergie renouvelables
+    title: Climate, Noise, and Renewable Energy
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-3/"
     thumb: /initiatives/initiative_3.webp
@@ -27,33 +27,32 @@ gallery:
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-4/"
     thumb: 4.jpg
-    title: Formations
+    title: Training
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-5/"
     thumb: /initiatives/initiative_5.webp
-    title: Indicateurs et minima standard
+    title: Indicators and Standard Minimums
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-6/"
     thumb: /initiatives/initiative_6.webp
-    title: Interactions pêche
+    title: Fishing Interactions
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-7/"
     thumb: /initiatives/initiative_7.webp
-    title: Interactions déchets marins
+    title: Marine Debris Interactions
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-8/"
     thumb: /initiatives/initiative_8.webp
-    title: Pathologie et centre de soin
+    title: Pathology and Care Centers
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-9/"
     thumb: 9.jpg
-    title: Sensibilisation
+    title: Awareness
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
 
 
 ---
 
-La collaboration de tous les experts de TOTM a conduit à l’élaboration du programme “Initiatives TOTM” initié en 2021, grâce au soutien du Ministère de la Transition Ecologique (MTE). Ce programme propose un large éventail d’initiatives visant à répondre aux priorités établies par les experts et portées par l’association TOTM dans le cadre de neuf thématiques répondant aux enjeux actuels. Leurs objectifs sont souvent complémentaires voire interdépendants, à l’image des enjeux de conservation des tortues marines.
+Collaboration among all TOTM experts led to the development of the “TOTM Initiatives” program, launched in 2021 with the support of the French Ministry of Ecological Transition (MTE). This program offers a wide range of initiatives designed to address priorities identified by experts and carried forward by TOTM across nine themes reflecting current challenges. Their objectives are often complementary, and sometimes interdependent, mirroring the complex issues involved in marine turtle conservation.
 
-Ces initiatives sont destinées à s’inscrire dans les plans d’actions locaux et les stratégies internationales, sans s’y substituer. Par ses actions, le programme vise à activer les synergies possibles entre les différents territoires, en capitalisant sur leurs expériences respectives. Il a par ailleurs vocation à donner une dimension nationale, voire internationale, aux initiatives locales déjà mises en œuvre. Son contenu est amené à évoluer selon un cycle triennal, celui des colloques nationaux du GTMF, tout en s’adaptant aux défis émergents
-
+These initiatives are intended to complement local Action Plans and international strategies, without replacing them. Through its activities, the program seeks to foster synergies between different territories, building on their respective experiences. It also aims to give a national—and even international—dimension to local initiatives already in place. The program’s content is designed to evolve on a three-year cycle, aligned with the national GTMF conferences, while remaining adaptable to emerging challenges.

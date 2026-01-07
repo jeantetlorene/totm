@@ -12,4 +12,4 @@ ref: equipe
 
 
 
-La force de TOTM est d’être composée de professionnel.les de la conservation des tortues marines dans tous les territoires français, et donc tout autour du monde. 
+TOTM’s strength lies in being made up of marine turtle conservation professionals across all French territories, and therefore all around the world.

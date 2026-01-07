@@ -8,29 +8,29 @@ subtitle:
 top_image: banner_tv_fabien.webp
 quote: 
 banner_title: TRANS OCÉANS TORTUES MARINES
-banner_subtitle: Les acteurs des territoires français pour la conservation des tortues marines à travers le monde
+banner_subtitle: French stakeholders in marine turtle conservation around the world
 button:
   enable: true
   label: "Joins us"
   link: "/noussoutenir/"
 
 banners:
-  - title: "A Propos de l'Association"
-    content: "Association loi 1901, Trans Océans Tortues Marines (TOTM) regroupe les acteurs des territoires français pour la conservation des tortues marines à travers le monde. Créée en 2019, son statut lui permet de rechercher et de gérer les financements nécessaires pour l’accomplissement d’actions nationales fédératrices sur les tortues marines."
+  - title: "About the Association"
+    content: "Trans Océans Tortues Marines (TOTM) is a non-profit association under the French Law of 1901, bringing together stakeholders from French territories to conserve marine turtles worldwide. Founded in 2019, its status allows it to seek and manage funding necessary to carry out national initiatives that unite efforts for marine turtle conservation."
     image: "apropos.webp"
     image_position: "right"
     button:
       enable: true
-      label: "En Savoir Plus"
+      label: "Learn more"
       link: "/en/apropos/"
 
-  - title: "Nos Missions"
+  - title: "Our Missions"
     content: |
-      TOTM a pour buts la promotion, l’étude et la conservation des tortues marines et de leurs habitats, plus précisément :
+      TOTM aims to promote, study, and conserve marine turtles and their habitats, specifically:
       <ul>
-        <li> La mise en œuvre d’actions selon les priorités identifiées par les groupes scientifiques et techniques d’experts,</li>
-        <li> Le soutien à la mise en œuvre d’actions transversales aux échelles internationale, inter-régionale, nationale ou supranationale. Ce soutien peut prendre différentes formes, notamment scientifique, technique, logistique et financier,</li>
-        <li> La réalisation et la diffusion de supports et d’outils pédagogiques.</li>
+         <li>Implementing actions based on priorities identified by scientific and technical expert groups,</li> 
+         <li>Supporting the execution of initiatives across international, inter-regional, national, or supranational scales. This support can take various forms, including scientific, technical, logistical, and financial assistance,</li> 
+         <li>Creating and sharing educational materials and tools.</li> 
       </ul>
     image: "nosmissions.webp"
     image_position: "left"
@@ -42,17 +42,17 @@ banners:
 
 
 
-initiatives_heading: "Initiatives TOTM : 9 Thématiques"
+initiatives_heading: "TOTM Initiatives: 9 Themes"
 initiatives_link: "/nosinitiatives/"
-initiatives_text: "La collaboration entre tous les acteurs de la conservation des tortues marines a conduit à l’élaboration du programme “Initiatives TOTM” initié en 2021 qui vise à répondre aux priorités établies autour de neuf thématiques répondant aux enjeux actuels. Ces initiatives sont destinées à s’inscrire dans les Plans d’Actions locaux et les stratégies internationales, sans s’y substituer."
+initiatives_text: "Collaboration among all stakeholders in marine turtle conservation led to the development of the 'TOTM Initiatives' program, launched in 2021, which aims to address priorities organized around nine themes that reflect current challenges. These initiatives are designed to complement local Action Plans and international strategies, without replacing them."
 gallery:
-  - url: "/nosinitiatives/initiative-1/"
+  - url: "/nosinitiatives/initiative-1-en/"
     thumb: /initiatives/initiative_1.webp
-    title: Aspects réglementaires
+    title: Regulatory Aspects
     description: 
   - url: "/nosinitiatives/initiative-2/"
     thumb: /initiatives/initiative_2.webp
-    title: Climat, buit et énergie renouvelables
+    title: Climate, Noise, and Renewable Energy
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-3/"
     thumb: /initiatives/initiative_3.webp
@@ -60,37 +60,37 @@ gallery:
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-4/"
     thumb: 4.jpg
-    title: Formations
+    title: Training
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-5/"
     thumb: /initiatives/initiative_5.webp
-    title: Indicateurs et minima standard
+    title: Indicators and Standard Minimums
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-6/"
     thumb: /initiatives/initiative_6.webp
-    title: Interactions pêche
+    title: Fishing Interactions
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-7/"
     thumb: /initiatives/initiative_7.webp
-    title: Interactions déchets marins
+    title: Marine Debris Interactions
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-8/"
     thumb: /initiatives/initiative_8.webp
-    title: Pathologie et centre de soin
+    title: Pathology and Care Centers
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-9/"
     thumb: 9.jpg
-    title: Sensibilisation
+    title: Awareness
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
 
 
-hero_heading: "Agissons ensemble pour les tortues marines"
-hero_text: "Participez à notre mission de conservation à travers les territoires français d’outre-mer."
-btn1_text: "Devenir membre"
+hero_heading: "Let’s Act Together for Marine Turtles"
+hero_text: "Join our conservation mission across the French overseas territories."
+btn1_text: "Become a Member"
 btn1_url: "https://www.helloasso.com/associations/trans-oceans-tortues-marines/adhesions/cotisation-totm"
-btn2_text: "Faire un Don"
+btn2_text: "Make a Donation"
 btn2_url: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
-btn3_text: "Nous Soutenir"
+btn3_text: "Support Us"
 btn3_url: "/noussoutenir/"
 
 
@@ -158,10 +158,10 @@ latest_posts:
   limit: 5 # leave blank to include all the blog posts
 ---
 
-Les tortues marines existent depuis plus de 100 millions d’années et pourtant, six des sept espèces sont <strong><span style="color: var(--global-theme-color);">menacées d’extinction</span></strong>. Pêche non durable, braconnage, changement climatique, pollution, dégradation des littoraux et dérangement…
+Marine turtles have existed for over 100 million years, yet six of the seven species are <strong><span style="color: var(--global-theme-color);">threatened with extinction</span></strong>. Unsustainable fishing, poaching, climate change, pollution, coastal degradation, and human disturbance…
 
-Les menaces qui pèsent sur elles, touchent aussi <strong><span style="color: var(--global-theme-color);">des écosystèmes marins tout entiers</span></strong>. 
+The threats they face also affect <strong><span style="color: var(--global-theme-color);">entire marine ecosystems</span></strong>.
 
-La répartition des territoires français à travers le monde constitue une formidable opportunité de <strong><span style="color: var(--global-theme-color);">déployer des stratégies de conservation aux niveaux national et international</span></strong>.
+The global distribution of French territories represents a unique opportunity to <strong><span style="color: var(--global-theme-color);">implement conservation strategies at both national and international levels</span></strong>.
 
-C’est la mission de <strong><span style="color: var(--global-theme-color);">TOTM</span></strong>.
+This is the mission of <strong><span style="color: var(--global-theme-color);">TOTM</span></strong>.
