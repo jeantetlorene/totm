@@ -52,5 +52,5 @@ Le développement de pratiques de pêche durables est un enjeu majeur pour la pr
     <li>Contribuer au renforcement des moyens de lutte contre la pêche illégale</li>
 </ul>
 
-![Apesct reglemantaires]({{ 'assets/img/16.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/12.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
     
