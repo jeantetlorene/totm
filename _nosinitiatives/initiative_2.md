@@ -8,7 +8,7 @@ img: assets/img/initiatives/initiative_2_2.webp
 
 ---
 
-Évaluer les capacités d’adaptation des tortues marines aux changements globaux et prioriser les efforts de conservation associés, en recommandant des méthodes d’acquisition de données.
+**Évaluer les capacités d’adaptation des tortues marines aux changements globaux et prioriser les efforts de conservation associés, en recommandant des méthodes d’acquisition de données.**
 
 Les tortues marines sont mises à rude épreuve par le dérèglement climatique et les activités humaines, dans l’ensemble des habitats qu’elles fréquentent tout au long de leur cycle de vie. Le réchauffement du sable dans lequel elles pondent, a un impact considérable sur le succès d’incubation des nids et la proportion femelles-mâles.
 
@@ -18,25 +18,25 @@ Ce groupe de travail s’attache à caractériser les propriétés des plages et
 
 Les missions et études envisagées apporteront de nouveaux éclairages sur les variations démographiques des tortues et leur potentiel d’adaptation. Les initiatives visant à protéger les zones d’alimentation, de reproduction et de ponte, seront déployées pour assurer la résilience des populations.
 
-Objectif 1 : Évaluer la qualité des sites de ponte
+**Objectif 1 : Évaluer la qualité des sites de ponte**
 
 <ul> 
     <li>Caractériser les propriétés des plages en vue d’évaluer leur disponibilité pour la ponte et leur qualité pour l’incubation des œufs</li>
 </ul>
 
-Objectif 2 : Évaluer la qualité des zones d’alimentation 
+**Objectif 2 : Évaluer la qualité des zones d’alimentation**
 <ul> 
     <li>Anticiper l’évolution des stratégies d’alimentation sous contrainte du changement climatique</li>
 </ul>
 
-Objectif 3 :  Évaluer l’état des populations et anticiper leurs dynamiques
+**Objectif 3 :  Évaluer l’état des populations et anticiper leurs dynamiques**
 
 <ul> 
     <li>Obtenir des données démographiques, physiologiques et génétiques pour évaluer leur résilience</li>
 </ul>
     
 
-Objectif 4 : Évaluer les capacités d’adaptation des populations
+**Objectif 4 : Évaluer les capacités d’adaptation des populations**
 
 <ul> 
     <li>Identifier les populations susceptibles de pouvoir s’adapter via des changements de phénologie
@@ -44,7 +44,7 @@ Objectif 4 : Évaluer les capacités d’adaptation des populations
 </ul>
     
 
-Objectif 5 : Évaluer l’impact des bruits sous-marins sur les individus
+**Objectif 5 : Évaluer l’impact des bruits sous-marins sur les individus**
 
 <ul> 
     <li>Étudier la capacité auditive des tortues marines et identifier les sources de sons impactantes</li>
