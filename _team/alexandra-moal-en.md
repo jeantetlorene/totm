@@ -8,7 +8,7 @@ association: ca
 lang : en
 ref : alexandralemoal
 
-representation: Administrator
+representation: Board Member
 research_areas: ["Guadeloupe"]
 email: contact@missocom.com 
 website: 
