@@ -50,7 +50,7 @@ gallery:
     thumb: /initiatives/initiative_1.webp
     title: Regulatory Aspects
     description: 
-  - url: "/nosinitiatives/initiative-2/"
+  - url: "/nosinitiatives/initiative-2-en/"
     thumb: /initiatives/initiative_2.webp
     title: Climate, Noise, and Renewable Energy
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
