@@ -1,35 +1,38 @@
 ---
 layout: page
-title: Sensibilisation
-lang : fr
+title: Awareness
+lang : en
 description:  
 img: assets/img/9.jpg
 
 
 ---
 
-Diffuser les connaissances existantes et sensibiliser aux enjeux de la conservation des tortues marines. Créer du lien entre les experts et les publics susceptibles d’interagir avec les tortues marines, compiler et partager des supports pédagogiques et induire une participation active de ces publics à leur préservation, éventuellement par des projets communs.
 
-De nombreux acteurs sont concernés par la conservation des tortues marines, qu’ils interagissent directement avec elles ou non. Le partage des connaissances sur la biologie des tortues et la sensibilisation aux enjeux de leur conservation, sont essentiels pour que ces acteurs soient impliqués. Comme nous le rappelle la célèbre citation de Jacques-Yves Cousteau, « On aime ce qui nous a émerveillé, et on protège ce que l’on aime ». C’est un des objectifs qui guide les projets menés par ce groupe de travail, auprès de différentes cibles : scolaires, enseignants, socio-professionnels, usagers de la mer ou des plages, opérateurs du tourisme, etc. Les organismes qui étudient les tortues marines et/ou mènent des actions de sensibilisation en France métropolitaine et dans les territoires d’Outre-Mer sont nombreux. Les projets pédagogiques et les supports de communication qu’ils diffusent, sont réalisés sur la base de connaissances communes et mettent aussi en lumière les spécificités (espèce, territoire géographique, enjeu de conservation, etc.), à l’image de la diversité des zones géographiques dans lesquelles ils sont implantés.
+**Disseminate existing knowledge and raise awareness of marine turtle conservation issues. Build connections between experts and audiences likely to interact with marine turtles, compile and share educational resources, and encourage the active involvement of these audiences in their protection, potentially through joint projects.**
 
-Objectif 1 : Mettre en réseau et structurer les échanges entre les acteurs impliqués dans les actions de sensibilisation
+Many stakeholders are involved in marine turtle conservation, whether or not they interact directly with turtles. Sharing knowledge about turtle biology and raising awareness of conservation challenges are essential to engage these actors. As the famous quote by Jacques-Yves Cousteau reminds us, *“People protect what they love.”* This principle guides the projects carried out by this working group, targeting a wide range of audiences: students, teachers, socio-professional groups, sea and beach users, tourism operators, and others.
 
-<ul> 
-    <li>Créer et animer le groupe de travail</li>
+Numerous organizations study marine turtles and/or conduct awareness-raising activities in mainland France and in overseas territories. The educational projects and communication materials they produce are based on shared knowledge while also highlighting specific characteristics (species, geographic area, conservation issue, etc.), reflecting the diversity of the regions in which they operate.
+
+**Objective 1: Build networks and structure exchanges among stakeholders involved in awareness-raising activities**
+
+<ul>
+    <li>Create and facilitate the working group</li>
 </ul>
 
-Objectif 2 : compiler les supports pédagogiques existants, les mettre en valeur et contribuer à leur diffusion
-<ul> 
-    <li>Rassembler les documents pédagogiques existants</li>
-    <li>Valoriser les supports et travaux déployés sur les différents territoires, à l’échelle nationale</li>
+**Objective 2: Compile existing educational materials, enhance their visibility, and contribute to their dissemination**
+
+<ul>
+    <li>Collect existing educational resources</li>
+    <li>Promote materials and initiatives developed across different territories at the national level</li>
 </ul>
 
+**Objective 3: Bring stakeholders together around joint projects**
 
-Objectif 3 : Fédérer les parties prenantes autour de projets communs
-
-<ul> 
-    <li>Élaborer et mettre en oeuvre un programme fédérateur transversal de sensibilisation</li>
+<ul>
+    <li>Design and implement a cross-cutting, unifying awareness-raising program</li>
 </ul>
-    
+
 
 ![Apesct reglemantaires]({{ 'assets/img/9.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }

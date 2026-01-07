@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Indicateurs et minima standard
+title: Indicators and Standard Minimums
 lang : en
 description:  
 img: assets/img/10.jpg
@@ -8,35 +8,27 @@ img: assets/img/10.jpg
 
 ---
 
-Évaluer l’état de conservation des populations de tortues marines et de leurs habitats en optimisant les méthodes de collecte de données et en développant des indicateurs pour informer et sensibiliser les instances publiques.
+Assess the conservation status of marine turtle populations and their habitats by optimizing data collection methods and developing indicators to inform and raise awareness among public authorities.
 
-Les indicateurs qui renseignent sur l‘état de santé des tortues, reflètent également celui des écosystèmes marins. Un indicateur est une mesure qui synthétise une multitude de données sur la biodiversité, pour illustrer des phénomènes complexes, de façon simplifiée et accessible.
+Indicators that reflect the health of turtles also provide insight into the state of marine ecosystems. An indicator is a measure that synthesizes a multitude of biodiversity data to illustrate complex phenomena in a simplified and accessible way.
 
-Il permet ainsi d’informer la communauté scientifique mais aussi les décideurs politiques et le grand public de l’évolution des populations de tortues, de l’impact des menaces qui pèsent
+It helps inform not only the scientific community but also policymakers and the general public about changes in turtle populations, the impacts of threats they face, and the quality of their habitats. The information comes primarily from field stakeholders.
 
-sur elles et de la qualité de leurs habitats. Les informations qui le constituent sont principalement fournies par les acteurs de terrain.
+These data, collected and recorded according to defined protocols and standards, are then compiled, analyzed, and synthesized to maximize their value and accessibility.
 
-Ces données, collectées et enregistrées selon des protocoles et des standards définis, sont ensuite compilées, analysées et synthétisées, pour les valoriser et les rendre accessibles. 
+Creating and providing an online platform will enable an inventory of the protocols used across French territories.
 
-La création et la mise à disposition d’une plateforme en ligne permettront de dresser un inventaire des protocoles utilisés dans les différents territoires français.
+TOTM’s complementary role will be to strengthen communication between field actors and the organizations producing the indicators.
 
-L’action de TOTM consistera en complément à renforcer la communication entre les acteurs de terrain et les structures qui produisent les indicateurs. 
+Objective 1: Align data collection protocols with standard minimums and centralize the data
 
-Objectif 1 : Mettre les protocoles de collecte en cohérence avec les minima standars et bancardiser les données en commun
+<ul> <li>Share data collection protocols among stakeholders</li> <li>Establish standard minimums to be applied in data collection protocols</li> </ul>
 
-<ul> 
-    <li>Partager les protocoles de collecte de données entre les acteurs</li>
-    <li>Construire des minima standards à appliquer dans les protocoles de collecte de données</li>
-</ul>
+Objective 2: Contribute to international indicators (OSPAR, Barcelona Convention, IUCN SSC-MTSG, SWOT)
 
-Objectif 2 : Contribuer aux indicateurs internationaux (convention OSPAR, Barcelone, IUCN SSC-MTSG, SWOT) 
-<ul> 
-    <li>Diffuser les résultats indicateurs des tortues marines et participer aux indicateurs utiles aux acteurs et aux décideurs internationaux</li>
-</ul>
+<ul> <li>Disseminate marine turtle indicator results and participate in indicators useful for international stakeholders and decision-makers</li> </ul>
 
-Objectif 3 : Construire de nouveaux indicateurs
+Objective 3: Develop new indicators
 
-<ul> 
-    <li>Fédérer les acteurs pour définir de nouveaux indicateurs communs nationaux (habitats côtiers et impact de la pêche), et assurer la concertation lors de l’établissement de minima standard</li>
-</ul>
+<ul> <li>Bring stakeholders together to define new national common indicators (coastal habitats and fishing impacts) and ensure consultation when establishing standard minimums</li> </ul>
     

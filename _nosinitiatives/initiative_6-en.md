@@ -1,56 +1,61 @@
 ---
 layout: page
-title: Interactions avec les activités de pêche
-lang : fr
+title: Fishing Interactions
+lang : en
 description:  
 img: assets/img/6.jpg
 
 
 ---
 
-Développer les pratiques de pêche durables pour réduire les captures accidentelles dans les engins de pêche, en proposant des évolutions techniques et réglementaires.
 
-Le développement de pratiques de pêche durables est un enjeu majeur pour la protection des tortues marines : les captures accidentelles constituent l’une des principales menaces. Notre capacité à concilier la protection de la biodiversité et la pérennité d’un pilier de l’économie maritime est désormais une condition sine qua non au succès des stratégies de conservation. Le groupe de travail consacré aux interactions de la pêche avec les tortues marines s’emploiera à actionner les leviers législatifs nationaux et internationaux pour réduire l’impact de cette activité, tout en préservant les intérêts des professionnels qui la pratiquent. Il s’attachera à sensibiliser les institutions qui financent les activités de pêche respectueuses de la faune marine et sur la nécessité de soutenir des projets qui protègent les tortues à l’échelle de leur aire de répartition. Cette aire couvre en effet toutes les zones géographiques qu’elles fréquentent au cours de leur cycle de vie, au-delà des frontières.
+**Develop sustainable fishing practices to reduce bycatch in fishing gear by proposing technical and regulatory improvements.**
 
-Objectif 1 : Adapter les modalités de financements de projets de réduction de captures accidentelles, à l’échelle des aires de répartition des espèces concernées
+Developing sustainable fishing practices is a major challenge for marine turtle conservation, as bycatch represents one of the main threats. Our ability to reconcile biodiversity protection with the sustainability of a key pillar of the maritime economy is now a sine qua non for successful conservation strategies. The working group focused on interactions between fisheries and marine turtles will work to leverage national and international legislative measures to reduce the impact of fishing, while safeguarding the interests of professionals involved. It will also raise awareness among institutions that fund marine-friendly fishing activities about the need to support projects that protect turtles across their entire range, which spans all the geographic areas they use throughout their life cycle, beyond national borders.
 
-<ul> 
-    <li>Attirer l’attention des autorités françaises et européennes sur la nécessité de concevoir des projets applicablesà l’échelle internationale de la distribution des tortues marines</li>
-</ul>
+**Objective 1: Adapt project funding methods for bycatch reduction to the scale of species’ distribution ranges**
 
-Objectif 2 : Réduire les captures accidentelles de tortues marines imputées à la pêche à la crevette sauvage tropicale
-<ul> 
-    <li>Contribuer au renforcement des contrôles d’utilisation du «dispositif d’exclusion des tortues» (TED) dans les pêcheries européennes de l’Océan Indien et de l’Atlantique Ouest</li>
-    <li>Évaluer les CPUE (captures par unité d’effort) de tortues pour chaque pays exportateur de crevette sauvage vers l’UE</li>
-    <li>Demander une réglementation communautaire en faveur de l’utilisation du TED dans les pêcheries extra- communautaires exportatrices de crevette sauvage tropicale vers l’UE</li>
-    <li>Accompagner les pêcheries extra-communautaires exportatrices de crevette sauvage tropicale vers l’UE dans la préparation d’une réglementation imposant le TED</li>
-    <li>Participer à l’approvisionnement des pêcheries extra-communautaires volontaires et formées en kits TED</li>
-</ul>
+<ul>
+    <li>Draw the attention of French and European authorities to the need to design projects applicable across the international range of marine turtles</li>
+</ul>  
 
-Objectif 3 :  Développer des programmes d’observation embarquée dans les pêcheries dont les engins capturent accidentellement des tortues marines
+**Objective 2: Reduce marine turtle bycatch in tropical wild shrimp fisheries**
 
-<ul> 
-    <li>Favoriser la mise en place de programmes d’observation embarquée dans les DOM-TOM</li>
-</ul>
+<ul>
+    <li>Support strengthened enforcement of Turtle Excluder Device (TED) use in European fisheries in the Indian Ocean and Western Atlantic</li>
+    <li>Assess turtle CPUE (catch per unit effort) for each country exporting wild shrimp to the EU</li>
+    <li>Advocate for EU regulations requiring TED use in non-EU shrimp fisheries exporting to the EU</li>
+    <li>Assist non-EU shrimp fisheries exporting to the EU in preparing for TED regulations</li>
+    <li>Participate in supplying TED kits to willing and trained non-EU fisheries</li>
+</ul>  
 
-Objectif 4 : Évaluer des méthodes de pêche alternatives dans les territoires où des captures accidentelles de tortues marines sont confirmées
+**Objective 3: Develop onboard observer programs in fisheries with confirmed marine turtle bycatch**
 
-<ul> 
-    <li>Identifier et déployer des méthodes de pêche alternatives dans les territoires concernés des DOM-TOM</li>
-    <li>Accompagner le déploiement de tests de LEDs sur les engins de pêche à l’échelle du territoire national, outre-mer compris</li>
-</ul>
+<ul>
+    <li>Promote the implementation of onboard observer programs in the French overseas territories (DOM-TOM)</li>
+</ul>  
 
-Objectif 5 : Doter les Comités des pêches de moyens humains leurs permettant de s’investir auprès des pêcheurs afin d’avancer vers des pratiques de pêche dites «douces»
+**Objective 4: Evaluate alternative fishing methods in areas with confirmed marine turtle bycatch**
 
-<ul> 
-    <li>Évaluer les besoins financiers et techniques des CRPMEM pour réduire les captures accidentelles de tortues</li>
-</ul>
+<ul>
+    <li>Identify and implement alternative fishing methods in affected DOM-TOM territories</li>
+    <li>Support the deployment of LED tests on fishing gear across national territory, including overseas</li>
+</ul>  
 
-Objectif 6 : Réduire les captures accidentelles imputées à la pêche illégale
+**Objective 5: Provide Fisheries Committees with human resources to engage fishers in adopting “gentle” fishing practices**
 
-<ul> 
-    <li>Contribuer au renforcement des moyens de lutte contre la pêche illégale</li>
-</ul>
+<ul>
+    <li>Assess the financial and technical needs of CRPMEM to reduce turtle bycatch</li>
+</ul>  
+
+**Objective 6: Reduce bycatch caused by illegal fishing**
+
+<ul>
+    <li>Contribute to strengthening efforts to combat illegal fishing</li>
+</ul>  
+
+
+
 
 ![Apesct reglemantaires]({{ 'assets/img/16.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
     
