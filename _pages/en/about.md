@@ -54,31 +54,31 @@ gallery:
     thumb: /initiatives/initiative_2.webp
     title: Climate, Noise, and Renewable Energy
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative-3/"
+  - url: "/nosinitiatives/initiative-3-en/"
     thumb: /initiatives/initiative_3.webp
     title: Identification
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative-4/"
+  - url: "/nosinitiatives/initiative-4-en/"
     thumb: 4.jpg
     title: Training
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative-5/"
+  - url: "/nosinitiatives/initiative-5-en/"
     thumb: /initiatives/initiative_5.webp
     title: Indicators and Standard Minimums
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative-6/"
+  - url: "/nosinitiatives/initiative-6-en/"
     thumb: /initiatives/initiative_6.webp
     title: Fishing Interactions
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative-7/"
+  - url: "/nosinitiatives/initiative-7-en/"
     thumb: /initiatives/initiative_7.webp
     title: Marine Debris Interactions
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative-8/"
+  - url: "/nosinitiatives/initiative-8-en/"
     thumb: /initiatives/initiative_8.webp
     title: Pathology and Care Centers
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
-  - url: "/nosinitiatives/initiative-9/"
+  - url: "/nosinitiatives/initiative-9-en/"
     thumb: 9.jpg
     title: Awareness
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
