@@ -97,7 +97,7 @@ btn3_url: "/noussoutenir/"
 
 clients_logo_slider:
   enable: true
-  title: "MERCI A NOS PARTENAIRES FINANCIERS"
+  title: "THANKS TO OUR FINANCIAL PARTNERS"
   logos:
     - light: logo_ministere_light.png
       dark: logo_ministere_light.png
