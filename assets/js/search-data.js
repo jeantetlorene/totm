@@ -385,7 +385,17 @@ ninja.data = [{
           title: 'Alexis Guilleux',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/alexis-guilleux-en/";
+            },},{id: "team-alexis-guilleux",
+          title: 'Alexis Guilleux',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/alexis-guilleux/";
+            },},{id: "team-cécile-gaspar",
+          title: 'Cécile Gaspar',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/cecile-gaspar-en/";
             },},{id: "team-cécile-gaspar",
           title: 'Cécile Gaspar',
           description: "",
@@ -395,7 +405,17 @@ ninja.data = [{
           title: 'Claire Jean',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/claire-jean-en/";
+            },},{id: "team-claire-jean",
+          title: 'Claire Jean',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/claire-jean/";
+            },},{id: "team-damien-chevallier",
+          title: 'Damien Chevallier',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/damien-chevallier-en/";
             },},{id: "team-damien-chevallier",
           title: 'Damien Chevallier',
           description: "",
@@ -405,7 +425,17 @@ ninja.data = [{
           title: 'Anne-Emmanuelle Landes',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/emmanuelle-landes-en/";
+            },},{id: "team-anne-emmanuelle-landes",
+          title: 'Anne-Emmanuelle Landes',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/emmanuelle-landes/";
+            },},{id: "team-eric-delcroix",
+          title: 'Eric Delcroix',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/eric-delcroix-en/";
             },},{id: "team-eric-delcroix",
           title: 'Eric Delcroix',
           description: "",
@@ -415,7 +445,17 @@ ninja.data = [{
           title: 'Flora Siegwalt',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/flora-siegwalt-en/";
+            },},{id: "team-flora-siegwalt",
+          title: 'Flora Siegwalt',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/flora-siegwalt/";
+            },},{id: "team-francois-elie-paute",
+          title: 'Francois-Elie Paute',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/francois-paute-en/";
             },},{id: "team-francois-elie-paute",
           title: 'Francois-Elie Paute',
           description: "",
