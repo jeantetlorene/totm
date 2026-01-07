@@ -291,6 +291,11 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-1/";
+            },},{id: "nosinitiatives-climate-noise-and-renewable-energy",
+          title: 'Climate, Noise, and Renewable Energy',
+          description: "",
+          section: "Nosinitiatives",handler: () => {
+              window.location.href = "/totm/nosinitiatives/initiative-2-en/";
             },},{id: "nosinitiatives-climat-bruit-et-énergies-renouvelables",
           title: 'Climat, bruit et énergies renouvelables',
           description: "",
@@ -316,8 +321,8 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-4/";
-            },},{id: "nosinitiatives-indicateurs-et-minima-standard",
-          title: 'Indicateurs et minima standard',
+            },},{id: "nosinitiatives-indicators-and-standard-minimums",
+          title: 'Indicators and Standard Minimums',
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-5-en/";
@@ -326,8 +331,8 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-5/";
-            },},{id: "nosinitiatives-interactions-avec-les-activités-de-pêche",
-          title: 'Interactions avec les activités de pêche',
+            },},{id: "nosinitiatives-fishing-interactions",
+          title: 'Fishing Interactions',
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-6-en/";
@@ -336,8 +341,8 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-6/";
-            },},{id: "nosinitiatives-interactions-avec-les-déchets-marins",
-          title: 'Interactions avec les déchets marins',
+            },},{id: "nosinitiatives-marine-debris-interactions",
+          title: 'Marine Debris Interactions',
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-7-en/";
@@ -356,8 +361,8 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-8/";
-            },},{id: "nosinitiatives-sensibilisation",
-          title: 'Sensibilisation',
+            },},{id: "nosinitiatives-awareness",
+          title: 'Awareness',
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-9-en/";
@@ -366,11 +371,6 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-9/";
-            },},{id: "nosinitiatives-climate-noise-and-renewable-energy",
-          title: 'Climate, Noise, and Renewable Energy',
-          description: "",
-          section: "Nosinitiatives",handler: () => {
-              window.location.href = "/totm/nosinitiatives/initiatives-2-en/";
             },},{id: "team-alexandra-le-moal",
           title: 'Alexandra Le Moal',
           description: "",
