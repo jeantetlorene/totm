@@ -10,7 +10,7 @@ nav_order: 2
 ref: initiatives
 pdf: Initiatives_TOTM_21_12_2022.pdf
 
-
+button: "Download the TOTM Initiatives Program"
 
 gallery:
   - url: "/nosinitiatives/initiative-1-en/"
