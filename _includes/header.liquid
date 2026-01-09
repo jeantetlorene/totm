@@ -120,7 +120,9 @@
           
           <!-- Language toggle with flags -->
           <li class="nav-item language-toggle"> 
+
             {% if page.collection == "nosinitiatives" %}
+
               {% if page.lang == "fr" %}
                 {% assign alt_page = site.nosinitiatives
                   | where: "translation", page.translation
@@ -145,19 +147,32 @@
 
             {% else %}
 
+              {% if page.lang == "fr" %} 
+                {% assign alt_page = site.pages
+                  | where: "ref", page.ref
+                  | where: "lang", "en"
+                  | first %} 
+                {% if alt_page %}
+                  <a href="{{ alt_page.url | relative_url }}" title="Switch to English">🇬🇧</a> 
+                {% else %}
+                  <a href="{{ site.baseurl }}/en/" title="Switch to English">🇬🇧</a> 
+                {% endif %} 
+              {% else %} 
+                {% assign alt_page = site.pages
+                  | where: "ref", page.ref
+                  | where: "lang", "fr"
+                  | first %} 
+                {% if alt_page %}
+                  <a href="{{ alt_page.url | relative_url }}" title="Basculer en français">🇫🇷</a> 
+                {% else %}
+                  <a href="{{ site.baseurl }}/" title="Basculer en français">🇫🇷</a> 
+                {% endif %} 
+              {% endif %}
 
-            {% if page.lang == "fr" %} 
-              {% assign alt_page = site.pages | where: "ref", page.ref | where: "lang", "en" | first %} 
-              {% if alt_page %} <a href="{{ alt_page.url | relative_url }}" title="Switch to English">🇬🇧</a> 
-              {% else %} <a href="{{ site.baseurl }}/en/" title="Switch to English">🇬🇧</a> 
-              {% endif %} 
-            {% else %} 
-              {% assign alt_page = site.pages | where: "ref", page.ref | where: "lang", "fr" | first %} 
-              {% if alt_page %} <a href="{{ alt_page.url | relative_url }}" title="Basculer en français">🇫🇷</a> 
-              {% else %} <a href="{{ site.baseurl }}/" title="Basculer en français">🇫🇷</a> 
-              {% endif %} 
-            {% endif %} 
+            {% endif %}
+
           </li>
+
 
 
 
