@@ -3,7 +3,7 @@ layout: initiative
 order : 3
 title: Identification
 lang : fr
-
+ref :  initiative3
 description:  
 img: assets/img/initiatives/initiative_3_2.jpg
 

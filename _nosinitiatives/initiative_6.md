@@ -3,6 +3,7 @@ layout: initiative
 order : 6
 title: Interactions avec les activités de pêche
 lang : fr
+ref :  initiative6
 description:  
 img: assets/img/6.jpg
 

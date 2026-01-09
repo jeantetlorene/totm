@@ -3,6 +3,7 @@ layout: initiative
 order : 5
 title: Indicateurs et minima standard
 lang : fr
+ref :  initiative5
 description:  
 img: assets/img/10.jpg
 

@@ -3,6 +3,7 @@ layout: initiative
 order : 4
 title: Training
 lang : en
+ref :  initiative4
 description:  
 img: assets/img/4.jpg
 

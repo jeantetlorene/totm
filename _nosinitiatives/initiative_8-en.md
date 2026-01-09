@@ -3,6 +3,7 @@ layout: initiative
 order : 8
 title: Pathologie et centre de soins
 lang : en
+ref :  initiative8
 description:  
 img: assets/img/8.jpg
 

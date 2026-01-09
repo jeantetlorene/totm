@@ -3,6 +3,7 @@ layout: initiative
 order : 9
 title: Sensibilisation
 lang : fr
+ref :  initiative9
 description:  
 img: assets/img/9.jpg
 
