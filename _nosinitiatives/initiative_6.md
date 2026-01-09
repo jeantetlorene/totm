@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 6
 title: Interactions avec les activités de pêche
 lang : fr
 description:  

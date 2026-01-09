@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 8
 title: Pathologie et centre de soins
 lang : fr
 description:  

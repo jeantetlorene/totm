@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 4
 title: Formations
 lang : fr
 description:  

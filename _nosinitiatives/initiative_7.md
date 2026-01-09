@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 7
 title: Interactions avec les déchets marins
 lang : fr
 description:  

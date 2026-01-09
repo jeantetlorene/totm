@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 5
 title: Indicateurs et minima standard
 lang : fr
 description:  
