@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 2
 title: Climate, Noise, and Renewable Energy
 lang : en
 description:  

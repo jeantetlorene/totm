@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 5
 title: Indicators and Standard Minimums
 lang : en
 description:  

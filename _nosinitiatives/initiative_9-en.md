@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 9
 title: Awareness
 lang : en
 description:  

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 7
 title: Marine Debris Interactions
 lang : en
 description:  

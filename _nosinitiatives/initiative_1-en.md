@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: initiative
+order : 1
 title: Regulatory aspects
 lang : en
 ref :  initiative1
