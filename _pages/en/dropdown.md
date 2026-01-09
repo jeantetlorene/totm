@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 dropdown: true
 children:
-  - title: Program Initiatives
+  - title: Initiatives Program 
     permalink: /en/initiatives/
   - title: divider
   - title: Our Projects
