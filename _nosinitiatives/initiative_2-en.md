@@ -3,6 +3,7 @@ layout: initiative
 order : 2
 title: Climate, Noise, and Renewable Energy
 lang : en
+ref :  initiative2
 description:  
 img: assets/img/initiatives/initiative_2_2.webp
 

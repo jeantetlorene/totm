@@ -3,6 +3,7 @@ layout: initiative
 title: Climat, bruit et énergies renouvelables
 lang : fr
 order : 2
+ref :  initiative2
 description:  
 img: assets/img/initiatives/initiative_2_2.webp
 
