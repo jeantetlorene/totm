@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/equipe/";
           },
-        },{id: "dropdown-program-initiatives",
-              title: "Program Initiatives",
+        },{id: "dropdown-initiatives-program",
+              title: "Initiatives Program",
               description: "",
               section: "Dropdown",
               handler: () => {
