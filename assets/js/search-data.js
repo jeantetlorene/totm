@@ -465,7 +465,17 @@ ninja.data = [{
           title: 'Jonathan Monsinjon',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/jonathan-monsinjon-en/";
+            },},{id: "team-jonathan-monsinjon",
+          title: 'Jonathan Monsinjon',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/jonathan-monsinjon/";
+            },},{id: "team-katia-ballorain",
+          title: 'Katia Ballorain',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/katia-ballorain-en/";
             },},{id: "team-katia-ballorain",
           title: 'Katia Ballorain',
           description: "",
@@ -475,7 +485,17 @@ ninja.data = [{
           title: 'Lorène Jeantet',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/lorene-jeantet-en/";
+            },},{id: "team-lorène-jeantet",
+          title: 'Lorène Jeantet',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/lorene-jeantet/";
+            },},{id: "team-manon-nivière",
+          title: 'Manon Nivière',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/manon-niviere-en/";
             },},{id: "team-manon-nivière",
           title: 'Manon Nivière',
           description: "",
@@ -485,7 +505,17 @@ ninja.data = [{
           title: 'Margaux Boyer',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/margaux-boyer-en/";
+            },},{id: "team-margaux-boyer",
+          title: 'Margaux Boyer',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/margaux-boyer/";
+            },},{id: "team-mathieu-barret",
+          title: 'Mathieu Barret',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/mathieu-barret-en/";
             },},{id: "team-mathieu-barret",
           title: 'Mathieu Barret',
           description: "",
@@ -495,12 +525,27 @@ ninja.data = [{
           title: 'Mayeul Dalleau',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/mayeul-dalleau-en/";
+            },},{id: "team-mayeul-dalleau",
+          title: 'Mayeul Dalleau',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/mayeul-dalleau/";
             },},{id: "team-mireille-quillard",
           title: 'Mireille Quillard',
           description: "",
           section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/mireille-quillard-en/";
+            },},{id: "team-mireille-quillard",
+          title: 'Mireille Quillard',
+          description: "",
+          section: "Team",handler: () => {
               window.location.href = "/totm/equipe/mireille-quillard/";
+            },},{id: "team-nicolas-paranthoen",
+          title: 'Nicolas Paranthoen',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/nicolas-paranthoen-en/";
             },},{id: "team-nicolas-paranthoen",
           title: 'Nicolas Paranthoen',
           description: "",
@@ -526,6 +571,11 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/tony-nalovic/";
+            },},{id: "team-tyffen-read",
+          title: 'Tyffen Read',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/tyffen-read-en/";
             },},{id: "team-tyffen-read",
           title: 'Tyffen Read',
           description: "",
