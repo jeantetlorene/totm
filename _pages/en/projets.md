@@ -20,6 +20,26 @@ banners:
     description: "Text to be added; can be very long."
     fiche: "Initiatives_TOTM_21_12_2022.pdf"
 
+  - title: "Assessing the impact of trawl fishing on marine turtles in tropical shrimp fisheries exporting to the EU"
+    contacts: "Léna Bourdois, Tony Nalovic, Margaux Boyer"
+    partenaires: "Ifremer, WWF French Guiana"
+    image: "apropos.webp"
+    description: "Text to be added; this section may be very detailed."
+    fiche: "Initiatives_TOTM_21_12_2022.pdf"
+
+  - title: "Assessing the positive impacts of the voluntary adoption of Turtle Excluder Devices (TEDs) by the shrimp trawler fleet of French Guiana"
+    contacts: "Laure Newby, Tony Nalovic, Margaux Boyer"
+    partenaires: "Ifremer"
+    image: "apropos.webp"
+    description: "Text to be added; this section may be very detailed."
+    fiche: "Initiatives_TOTM_21_12_2022.pdf"
+
+  - title: "Developing methods to assess pain and stress in marine turtles"
+    contacts: "Tania Gilbert, Mathieu Barret, Margaux Boyer"
+    partenaires: "Regional Museum Network of Réunion (Kélonia, the Sea Turtle Observatory), University of Valencia"
+    image: "apropos.webp"
+    description: "Text to be added; this section may be very detailed."
+    fiche: "Initiatives_TOTM_21_12_2022.pdf"
 
 
 
