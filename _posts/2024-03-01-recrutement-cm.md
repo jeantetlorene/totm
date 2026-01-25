@@ -3,8 +3,8 @@ layout: post
 title: Recrutement d'une chargée de mission
 date: 2024-03-01 14:24:00
 description: 
-tags: membre
-categories: sample-posts
+tags: Membre
+categories: post
 lang : fr
 image: assets/img/post/margaux-cm.jpg
 

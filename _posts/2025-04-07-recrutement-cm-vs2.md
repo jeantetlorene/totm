@@ -3,8 +3,8 @@ layout: post
 title: Recrutement d’une nouvelle chargée de mission Conservation chez TOTM 
 date: 2025-04-07 14:24:00
 description: 
-tags: membre
-categories: sample-posts
+tags: Membre
+categories: post
 lang : fr
 image: assets/img/team/manon-niviere.webp
 

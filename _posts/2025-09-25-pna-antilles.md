@@ -3,8 +3,8 @@ layout: post
 title: TOTM a remporté le marché de l'animation du Plan National d'Actions en faveur des tortues marines des Antilles françaises
 date: 2025-09-25 14:24:00
 description: 
-tags: team
-categories: sample-posts
+tags: Membre
+categories: post
 lang : fr
 image: assets/img/post/pna.webp
 

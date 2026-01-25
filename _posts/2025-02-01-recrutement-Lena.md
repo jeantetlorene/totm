@@ -3,8 +3,8 @@ layout: post
 title: Recrutement de Léna pour son stage de Master 2 sur l'impact de la pêche au chalut sur les tortues marines
 date: 2025-02-01 14:24:00
 description: 
-tags: membre
-categories: sample-posts
+tags: Membre
+categories: post
 lang : fr
 image: assets/img/post/recrutement-lena.webp
 

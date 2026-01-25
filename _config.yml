@@ -269,8 +269,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["voeux", "membre", "action", "initiatives"] # these tags will be displayed on the front page of your blog
-display_categories: ["lien-externe"] # these categories will be displayed on the front page of your blog
+display_tags: ["Voeux", "Membre", "Action", "Initiatives"] # these tags will be displayed on the front page of your blog
+display_categories: ["post","lien-externe"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

@@ -3,8 +3,8 @@ layout: post
 title: Recrutement d'Anouck pour une mission de 6 mois sur l’identification individuelle des tortues marines
 date: 2025-08-01 14:24:00
 description: 
-tags: membre
-categories: sample-posts
+tags: Membre
+categories: post
 lang : fr
 image: assets/img/post/recrutement-anouck.webp
 

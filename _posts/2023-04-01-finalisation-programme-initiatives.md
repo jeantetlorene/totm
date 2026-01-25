@@ -4,8 +4,8 @@ title: Finalisation du programme initiatives
 date: 2023-04-01 14:24:00
 description: 
 lang : fr
-tags: initiatives
-categories: sample-posts
+tags: Initiatives
+categories: post
 image: assets/img/post/programme-initiative.png
 
 
