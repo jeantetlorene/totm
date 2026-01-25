@@ -8,46 +8,60 @@ description:
 nav: true
 nav_order: 5
 
-banners:
-  - title: "Adhésion"
-    content: "Si vous êtes engagés auprès de la conservation des tortues marines et/ou de leurs habitats, vous pouvez devenir membre de TOTM en adhérant ici."
+sections::
+  - title: "Devenir membre"
     image: soutenir_membre.webp
-    image_position: "left"
-    button:
-      enable: true
-      label: "Devenir Membre"
-      link: "https://www.helloasso.com/associations/trans-oceans-tortues-marines/adhesions/cotisation-totm"
+    image_position: left
+    intro: >
+      Si vous êtes engagés auprès de la conservation des tortues marines et/ou de leurs habitats, vous pouvez devenir membre de TOTM. Vous pouvez adhérer en tant qu’individu ou en tant que personne morale.
+    blocks:
+    - subtitle: "Pourquoi adhérer ?"
+      content: >
+        La force de TOTM réside dans son réseau. Ses membres sont des scientifiques,
+        gestionnaires, acteurs associatifs, agents publics, experts de terrain…
+        engagés au quotidien sur des territoires aux réalités très diverses.
 
-  - title: Donation
-    content: Les donations, comme toutes formes de soutien financier, matériel ou intellectuel, sont vitales au fonctionnement de l’association TOTM. Ils nous permettent de monter des projets et de maintenir une équipe fixe. Vous pouvez donner sur HelloAsso.
-    image: soutenir_donation.webp
-    image_position: "right"
-    background: true
+        Les membres contribuent à faire remonter les problématiques rencontrées
+        sur le terrain, les enjeux spécifiques et les besoins de leurs territoires.
+    - content: >
+        Grâce à ce réseau, l’équipe opérationnelle de TOTM peut s’appuyer sur une
+        expertise technique, scientifique et territoriale de haut niveau.
     button:
       enable: true
       label: Faire un Don
       link: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
 
-  - title: "Achat"
-    content: Bientôt des lycras en vente.
-    image: "2.jpg"
-    image_position: "left"
-    button:
-      enable: false
-      label: "Faire un Don"
-      link: "/nosinitiatives/" 
-
-  - title: Bénévolat
-    content: Le bénévolat est extrêmement important pour TOTM, il a permis le développement de l’association depuis ses débuts. C’est pourquoi nous mettons un point d’honneur à comptabiliser et valoriser les heures de bénévolat de nos membres. Nous sommes très reconnaissants et tenons à remercier toutes les personnes qui se sont impliquées et qui s’impliqueront, à leur échelle. En 2022, nous avons comptabilisé 612 heures des bénévolat !
-
-        Si vous souhaitez participer, vous pouvez nous contacter en présentant vos envies et vos compétences en lien avec les missions de TOTM, à l’adresse totm@totm.ong.
-    image: soutenir_benevole.webp
-    image_position: "right"
+  - title: "Devenir mécène"
+    image: soutenir_donation.webp
+    image_position: right
     background: true
+    intro: >
+      Les tortues marines sont des espèces migratrices emblématiques, au carrefour
+      de nombreux enjeux environnementaux.
+    blocks:
+      - subtitle: "Que finance votre soutien ?"
+        content: >
+          Votre mécénat peut soutenir le projet global de TOTM, la coordination
+          nationale et transocéanique des acteurs, l’animation du réseau, etc.
+      - subtitle: "Un projet ou une thématique spécifique"
+        content: >
+          Vous pouvez également choisir de soutenir un projet précis ou l’une des
+          thématiques du Programme Initiatives de TOTM.
     button:
-      enable: false
-      label: "Faire un Don"
-      link: "/nosinitiatives/"
+      enable: true
+      label: "Nous contacter"
+      link: "/contact/"
+
+  - title: "Faire une donation"
+    image: soutenir_donation.webp
+    image_position: left
+    intro: >
+      Vous pouvez également contribuer à votre échelle en tant qu’individu à
+      l’action de TOTM en faisant une donation sur HelloAsso.
+    button:
+      enable: true
+      label: "Faire un don"
+      link: "https://www.helloasso.com/..."
 
 
 clients_logo_slider:

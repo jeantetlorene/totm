@@ -3,52 +3,59 @@ layout: page
 ---
 
 <div class="post">
-    {% if page.banners %}
-        {% for banner in page.banners %}
-        <section class="section my-5 py-5 {% if banner.background %} bg-light{% endif %}">
-            <div class="container">
-            <div class="row align-items-center">
-                {% if banner.image_position == "left" %}
-                <!-- Image on Left -->
-                <div class="col-lg-6 text-center mb-4 mb-lg-0">
-                <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" class="img-fluid rounded-3" />
-                </div>
-                <div class="col-lg-6">
-                <div class="px-lg-4 text-start">
-                    <h2 class="h2 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h2>
-                    <p class="mb-4">{{ banner.content }}</p>
-                    {% if banner.button.enable %}
-                    <a href="{{ banner.button.link | relative_url }}" class="btn btn-outline-primary">{{ banner.button.label }}</a>
-                    {% endif %}
-                </div>
-                </div>
-                {% else %}
-                <!-- Image on Right -->
-                <div class="col-lg-6 order-lg-2 text-center mb-4 mb-lg-0">
-                <img src="{{ 'assets/img/' | append: banner.image | relative_url }}" alt="banner image" class="img-fluid rounded-3" />
-                </div>
-                <div class="col-lg-6 order-lg-1">
-                <div class="px-lg-4 text-start">
-                    <h2 class="h2 mb-3" style="color: var(--global-theme-color);">{{ banner.title }}</h2>
-                    <p class="mb-4">{{ banner.content }}</p>
-                    {% if banner.button.enable %}
-                        {% assign is_external = banner.button.link contains '://' %}
-                        <a
-                        href="{% if is_external %}{{ banner.button.link }}{% else %}{{ banner.button.link | relative_url }}{% endif %}"
-                        class="btn btn-outline-primary"
-                        {% if is_external %} target="_blank" rel="noopener" {% endif %}
-                        >
-                        {{ banner.button.label }}
-                        </a>
-                    {% endif %}
-                </div>
-                </div>
-                {% endif %}
+    {% if page.sections %}
+      {% for section in page.sections %}
+      <section class="section my-5 py-5 {% if section.background %}bg-light{% endif %}">
+        <div class="container">
+          <div class="row align-items-start">
+
+            {% if section.image_position == "left" %}
+            <div class="col-lg-5 text-center mb-4 mb-lg-0">
+              <img src="{{ 'assets/img/' | append: section.image | relative_url }}"
+                  alt=""
+                  class="img-fluid rounded-3" />
             </div>
+            {% endif %}
+
+            <div class="col-lg-7">
+              <h2 class="h2 mb-3" style="color: var(--global-theme-color);">
+                {{ section.title }}
+              </h2>
+
+              {% if section.intro %}
+                <p class="lead mb-4">{{ section.intro }}</p>
+              {% endif %}
+
+              {% if section.blocks %}
+                {% for block in section.blocks %}
+                  {% if block.subtitle %}
+                    <h3 class="h5 mt-4 mb-2">{{ block.subtitle }}</h3>
+                  {% endif %}
+                  <p>{{ block.content | markdownify }}</p>
+                {% endfor %}
+              {% endif %}
+
+              {% if section.button.enable %}
+                <a href="{{ section.button.link }}"
+                  class="btn btn-outline-primary mt-3">
+                  {{ section.button.label }}
+                </a>
+              {% endif %}
             </div>
-        </section>
-        {% endfor %}
-        {% endif %}
+
+            {% if section.image_position == "right" %}
+            <div class="col-lg-5 text-center mt-4 mt-lg-0">
+              <img src="{{ 'assets/img/' | append: section.image | relative_url }}"
+                  alt=""
+                  class="img-fluid rounded-3" />
+            </div>
+            {% endif %}
+
+          </div>
+        </div>
+      </section>
+      {% endfor %}
+    {% endif %}
 
     <article>
     <div class="text-center my-5 px-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
