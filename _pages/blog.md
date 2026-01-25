@@ -86,7 +86,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ read_time }} min read &nbsp; &middot; &nbsp;
+                      {{ read_time }} min de lecture &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/nosactualites/' | relative_url }}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
@@ -121,6 +121,9 @@ pagination:
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
+    {% assign month_names_fr = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," %}
+    {% assign month_index = post.date | date: "%-m" | minus: 1 %}
+    {% assign month_fr = month_names_fr[month_index] %}
 
     <li>
 
@@ -143,8 +146,8 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %d, %Y' }}
+        {{ read_time }} min de lecture &nbsp; &middot; &nbsp;
+        {{ post.date | date: "%d" }} {{ month_fr }} {{ post.date | date: "%Y" }}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
