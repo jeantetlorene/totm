@@ -1,0 +1,11 @@
+fr:
+  created_on: "Publié le"
+  by: "par"
+  updated_on: "mis à jour le"
+  references: "Références"
+
+en:
+  created_on: "Created on"
+  by: "by"
+  updated_on: "last updated on"
+  references: "References"
