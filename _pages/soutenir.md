@@ -56,15 +56,7 @@ sections:
       label: "Nous contacter"
       link: "/contact/"
 
-  - title: "Faire une donation"
-    image: soutenir_donation.webp
-    image_position: left
-    intro: >
-      Vous pouvez également contribuer à votre échelle en tant qu’individu à l’action de TOTM et faisant une donation sur Hello Asso (lien). Chaque soutien est vital pour l’association et nous encourage à poursuivre notre travail. 
-    button:
-      enable: true
-      label: "Faire un don"
-      link: "https://www.helloasso.com/..."
+
 
 
 clients_logo_slider:
