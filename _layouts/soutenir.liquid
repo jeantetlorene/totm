@@ -28,10 +28,20 @@ layout: page
 
               {% if section.blocks %}
                 {% for block in section.blocks %}
+
                   {% if block.subtitle %}
-                    <h3 class="h5 mt-4 mb-2">{{ block.subtitle }}</h3>
+                    <h3 class="h5 mt-5 mb-3">{{ block.subtitle }}</h3>
+                    <p>{{ block.content | markdownify }}</p>
                   {% endif %}
-                  <p>{{ block.content | markdownify }}</p>
+
+                  {% if block.highlight %}
+                    <div class="p-4 mb-4 rounded-3 bg-white shadow-sm border-start border-4"
+                        style="border-color: var(--global-theme-color);">
+                      <h4 class="h6 fw-semibold mb-2">{{ block.title }}</h4>
+                      <p class="mb-0">{{ block.content | markdownify }}</p>
+                    </div>
+                  {% endif %}
+
                 {% endfor %}
               {% endif %}
 
@@ -57,13 +67,7 @@ layout: page
       {% endfor %}
     {% endif %}
 
-    <article>
-    <div class="text-center my-5 px-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-      <h2 class="display-4 mb-4">Contact</h2>
-      <p class="lead" style="font-size: 2.0rem;">
-         Pour toute question, recommandation, candidature spontanée, prise de contact, écrivez-nous à totm@totm.ong.
-      </p>
-    </div>
+
 
 
     <!-- Partenair logos -->
@@ -96,5 +100,13 @@ layout: page
         </div>
       </section>
     {% endif %}
+
+    <article>
+    <div class="text-center my-5 px-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
+      <h2 class="display-4 mb-4">Contact</h2>
+      <p class="lead" style="font-size: 2.0rem;">
+         Pour toute question, recommandation, prise de contact, écrivez-nous à totm@totm.ong.
+      </p>
+    </div>
 
 </div>

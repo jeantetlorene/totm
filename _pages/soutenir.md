@@ -35,27 +35,45 @@ sections:
     image: soutenir_donation.webp
     image_position: right
     background: true
+
     intro: >
-      es tortues marines sont des espèces migratrices emblématiques, au carrefour de nombreux enjeux environnementaux : protection des habitats côtiers et marins, pêche durable, pollution, changement climatique et coopération internationale. 
-      
-      En devenant mécène, vous participez à une action collective à fort impact, fondée sur la science, l’expertise de terrain et la mise en réseau des acteurs. 
+      Les tortues marines sont des espèces migratrices emblématiques, au carrefour de
+      nombreux enjeux environnementaux : protection des habitats côtiers et marins,
+      pêche durable, pollution, changement climatique et coopération internationale.
+
+      En devenant mécène, vous participez à une action collective à fort impact,
+      fondée sur la science, l’expertise de terrain et la mise en réseau des acteurs.
+
     blocks:
       - subtitle: "Que finance votre soutien ?"
         content: >
-          Votre mécénat peut soutenir : 
-          <ul> 
-          <li>Le projet global de TOTM  
-              Vous contribuez à la coordination nationale et transocéanique des acteurs, à l’animation du réseau, à la veille sur les besoins et opportunités de terrain, à la structuration de projets, ainsi qu’aux actions de sensibilisation et de valorisation des enjeux liés aux tortues marines et à leurs habitats. Ce soutien permet de renforcer durablement l’impact de la conservation. </li>
-          <li>Un projet ou une thématique spécifique 
-              Vous pouvez également choisir de soutenir un projet précis ou l’une des thématiques du Programme Initiatives de TOTM. Ces thématiques couvrent un large éventail d’enjeux, allant des interactions avec les activités humaines à la protection des habitats, en passant par le suivi des populations, la santé des tortues ou la sensibilisation. Les projets et thématiques en cours sont présentés ici </li>
-          </ul>
-          Pour échanger sur vos priorités, identifier les modalités de soutien les plus adaptées et construire un partenariat sur mesure, nous vous invitons à contacter notre chargée de développement et de déploiement : margaux.boyer@totm.ong 
+          Votre mécénat peut soutenir :
 
-    button:
-      enable: false
-      label: "Nous contacter"
-      link: "/contact/"
+      - highlight: true
+        title: "Le projet global de TOTM"
+        content: >
+          Vous contribuez à la coordination nationale et transocéanique des acteurs,
+          à l’animation du réseau, à la veille sur les besoins et opportunités de
+          terrain, à la structuration de projets, ainsi qu’aux actions de
+          sensibilisation et de valorisation des enjeux liés aux tortues marines et
+          à leurs habitats.  
+          Ce soutien permet de renforcer durablement l’impact de la conservation.
 
+      - highlight: true
+        title: "Un projet ou une thématique spécifique"
+        content: >
+          Vous pouvez choisir de soutenir un projet précis ou l’une des thématiques
+          du Programme Initiatives de TOTM : interactions avec les activités humaines,
+          protection des habitats, suivi des populations, santé des tortues ou
+          sensibilisation.  
+          Les projets et thématiques en cours sont présentés ici.
+
+      - subtitle: 
+        content: >
+          Pour échanger sur vos priorités, identifier les modalités de soutien les
+          plus adaptées et construire un partenariat sur mesure, nous vous invitons
+          à contacter notre chargée de développement et de déploiement :  
+          **margaux.boyer@totm.ong**
 
 
 
