@@ -89,6 +89,14 @@ clients_logo_slider:
       dark: logo_credit_dark.png
     - light: fondation-de-france-light.jpg
       dark: fondation-de-france-dark.jpg
+
+
+
+hero_heading: "Faire une donation"
+hero_text: "Vous pouvez également contribuer à votre échelle en tant qu’individu à l’action de TOTM et faisant une donation sur Hello Asso. Chaque soutien est vital pour l’association et nous encourage à poursuivre notre travail. ."
+btn1_text: "Faire un Don"
+btn1_url: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
+
 ---
 
 
