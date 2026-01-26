@@ -21,7 +21,9 @@
         {% for block in section.blocks %}
 
             {% if block.subtitle %}
-            <h3 class="h5 mt-5 mb-3">{{ block.subtitle }}</h3>
+            <h3 class="h4 mt-4 mb-3">
+              {{ block.title }}
+            </h3>
             {% endif %}
 
             {% if block.content %}
