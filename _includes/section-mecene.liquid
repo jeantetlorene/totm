@@ -12,9 +12,9 @@
 
       <!-- Image RIGHT -->
       <div class="col-lg-6 text-lg-end mt-4 mt-lg-0">
-        <img src="{{ section.image | relative_url }}"
-             class="img-fluid rounded-4"
-             alt="{{ section.title }}">
+        <img src="{{ 'assets/img/' | append: section.image | relative_url }}"
+            alt=""
+            class="img-fluid rounded-3" />
       </div>
 
     </div>
