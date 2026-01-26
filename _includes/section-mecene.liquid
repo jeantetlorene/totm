@@ -1,4 +1,4 @@
-<section class="py-6" style="background-color: var(--section-bg-color);">
+<section class="section mt-5 mb-0 py-5{% if section.background %} bg-light{% endif %}">
   <div class="container">
 
     <!-- TOP SPLIT -->
@@ -33,7 +33,7 @@
             {% endif %}
 
             {% if block.type == "highlight" %}
-            <div class="p-4 mb-4 bg-white rounded-4 shadow-sm border-start border-4"
+            <div class="p-4 mb-4 border-start border-4"
                 style="border-color: var(--global-theme-color);">
                 <h4 class="h6 fw-semibold mb-2">{{ block.title }}</h4>
                 {{ block.content | markdownify }}
