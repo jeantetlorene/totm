@@ -2,19 +2,19 @@
   <div class="container">
 
     <!-- TOP SPLIT -->
-    <div class="row align-items-center mb-5">
+    <div class="row align-items-center mb-4">
 
       <!-- Text LEFT -->
       <div class="col-lg-6">
-        <h2 class="mb-4">{{ section.title }}</h2>
+        <h2 class="mb-3">{{ section.title }}</h2>
         <p>{{ section.intro | markdownify }}</p>
       </div>
 
       <!-- Image RIGHT -->
-      <div class="col-lg-6 text-lg-end mt-4 mt-lg-0">
+      <div class="col-lg-6 text-lg-end mt-3 mt-lg-0">
         <img src="{{ 'assets/img/' | append: section.image | relative_url }}"
-            alt=""
-            class="img-fluid rounded-3" />
+             alt=""
+             class="img-fluid rounded-3" />
       </div>
 
     </div>
@@ -22,39 +22,39 @@
     <!-- FULL WIDTH BLOCKS -->
     {% if section.blocks %}
     <div class="row">
-        <div class="col-12">
+      <div class="col-12">
 
         {% for block in section.blocks %}
 
-            {% if block.type == "subtitle" %}
-            <h3 class="h4 mt-5 mb-4">
-                {{ block.title }}
+          {% if block.type == "subtitle" %}
+            <h3 class="h4 mt-4 mb-3">
+              {{ block.title }}
             </h3>
-            {% endif %}
+          {% endif %}
 
-            {% if block.type == "highlight" %}
-            <div class="p-4 mb-4 border-start border-4"
-                style="border-color: var(--global-theme-color);">
-                <h4 class="h6 fw-semibold mb-2">{{ block.title }}</h4>
-                {{ block.content | markdownify }}
+          {% if block.type == "highlight" %}
+            <div class="p-3 mb-3 border-start border-4"
+                 style="border-color: var(--global-theme-color);">
+              <h4 class="h6 fw-semibold mb-2">{{ block.title }}</h4>
+              {{ block.content | markdownify }}
             </div>
-            {% endif %}
+          {% endif %}
 
-            {% if block.type == "text" %}
-            <div class="mt-4">
-                {{ block.content | markdownify }}
+          {% if block.type == "text" %}
+            <div class="mt-3">
+              {{ block.content | markdownify }}
             </div>
-            {% endif %}
+          {% endif %}
 
         {% endfor %}
 
-        </div>
+      </div>
     </div>
     {% endif %}
 
     <!-- BOTTOM IMAGE -->
     {% if section.bottom_image %}
-      <div class="row mt-5">
+      <div class="row mt-4">
         <div class="col-12 text-center">
           <img src="{{ section.bottom_image | relative_url }}"
                class="img-fluid rounded-4"
