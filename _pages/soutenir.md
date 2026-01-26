@@ -9,7 +9,8 @@ nav: true
 nav_order: 5
 
 sections:
-  - title: "Devenir membre"
+  - layout : member
+    title: "Devenir membre"
     image: soutenir_membre.webp
     image_position: left
     intro: >
@@ -31,25 +32,26 @@ sections:
       label: Faire un Don
       link: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
 
-  - title: "Devenir mécène"
+  - layout: mecene
+    title: "Devenir mécène"
     image: soutenir_donation.webp
+    bottom_image: soutenir_donation.webp
     image_position: right
     background: true
 
     intro: >
-      Les tortues marines sont des espèces migratrices emblématiques, au carrefour de
-      nombreux enjeux environnementaux : protection des habitats côtiers et marins,
-      pêche durable, pollution, changement climatique et coopération internationale.
+        Les tortues marines sont des espèces migratrices emblématiques, au carrefour de
+        nombreux enjeux environnementaux : protection des habitats côtiers et marins,
+        pêche durable, pollution, changement climatique et coopération internationale.
 
-      En devenant mécène, vous participez à une action collective à fort impact,
-      fondée sur la science, l’expertise de terrain et la mise en réseau des acteurs.
+        En devenant mécène, vous participez à une action collective à fort impact,
+        fondée sur la science, l’expertise de terrain et la mise en réseau des acteurs.
 
     blocks:
-      - subtitle: "Que finance votre soutien ?"
-        content: >
-          Votre mécénat peut soutenir :
+      - type: subtitle
+        title: "Que finance votre soutien ?"
 
-      - highlight: true
+      - type: highlight
         title: "Le projet global de TOTM"
         content: >
           Vous contribuez à la coordination nationale et transocéanique des acteurs,
@@ -59,7 +61,7 @@ sections:
           à leurs habitats.  
           Ce soutien permet de renforcer durablement l’impact de la conservation.
 
-      - highlight: true
+      - type: highlight
         title: "Un projet ou une thématique spécifique"
         content: >
           Vous pouvez choisir de soutenir un projet précis ou l’une des thématiques
@@ -68,7 +70,7 @@ sections:
           sensibilisation.  
           Les projets et thématiques en cours sont présentés ici.
 
-      - subtitle: 
+      - type: text
         content: >
           Pour échanger sur vos priorités, identifier les modalités de soutien les
           plus adaptées et construire un partenariat sur mesure, nous vous invitons

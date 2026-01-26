@@ -1,0 +1,56 @@
+<div class="container my-5">
+  <div class="row align-items-center">
+
+    <div class="col-lg-5 text-center mb-4 mb-lg-0">
+        <img src="{{ 'assets/img/' | append: section.image | relative_url }}"
+            alt=""
+            class="img-fluid rounded-3" />
+    </div>
+
+
+    <div class="col-lg-7">
+        <h2 class="h2 mb-3" style="color: var(--global-theme-color);">
+        {{ section.title }}
+        </h2>
+
+        {% if section.intro %}
+        <p class="lead mb-4">{{ section.intro }}</p>
+        {% endif %}
+
+        {% if section.blocks %}
+        {% for block in section.blocks %}
+
+            {% if block.subtitle %}
+            <h3 class="h5 mt-5 mb-3">{{ block.subtitle }}</h3>
+            {% endif %}
+
+            {% if block.content %}
+            <div class="mb-3">
+                {{ block.content | markdownify }}
+            </div>
+            {% endif %}
+
+            {% if block.highlight %}
+            <div class="p-4 mb-4 rounded-3 bg-white shadow-sm border-start border-4"
+                style="border-color: var(--global-theme-color);">
+                <h4 class="h6 fw-semibold mb-2">{{ block.title }}</h4>
+                <p class="mb-0">{{ block.content | markdownify }}</p>
+            </div>
+            {% endif %}
+
+        {% endfor %}
+        {% endif %}
+
+        {% if section.button.enable %}
+        <a href="{{ section.button.link }}"
+            class="btn btn-outline-primary mt-3">
+            {{ section.button.label }}
+        </a>
+        {% endif %}
+    </div>
+
+  </div>
+</div>
+
+
+            
