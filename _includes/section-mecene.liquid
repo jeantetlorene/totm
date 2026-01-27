@@ -63,7 +63,7 @@
 
     {% if section.last_content %}
       <div class="mt-3">
-        <p>{{ section.last_content | markdownify }}</p>
+        {{ section.last_content | markdownify }}
       </div>
     {% endif %}
 

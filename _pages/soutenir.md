@@ -39,6 +39,9 @@ sections:
     image_position: right
     background: true
 
+    last_content: >
+        Pour échanger sur vos priorités, identifier les modalités de soutien lesplus adaptées et construire un partenariat sur mesure, nous vous invitons à contacter notre chargée de développement et de déploiement :**margaux.boyer@totm.ong**
+
     intro: >
         Les tortues marines sont des espèces migratrices emblématiques, au carrefour de
         nombreux enjeux environnementaux : protection des habitats côtiers et marins,
@@ -71,11 +74,7 @@ sections:
           Les projets et thématiques en cours sont présentés ici.
 
       
-    last_content: >
-          Pour échanger sur vos priorités, identifier les modalités de soutien les
-          plus adaptées et construire un partenariat sur mesure, nous vous invitons
-          à contacter notre chargée de développement et de déploiement :  
-          **margaux.boyer@totm.ong**
+
 
 
 
