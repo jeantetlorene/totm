@@ -42,11 +42,7 @@
             </div>
           {% endif %}
 
-          {% if block.type == "text" %}
-            <div class="mt-3">
-              {{ block.content | markdownify }}
-            </div>
-          {% endif %}
+          
 
         {% endfor %}
 
@@ -62,6 +58,12 @@
                class="img-fluid rounded-4"
                alt="">
         </div>
+      </div>
+    {% endif %}
+
+    {% if section.last_content %}
+      <div class="mt-3">
+        <p>{{ section.last_content | markdownify }}</p>
       </div>
     {% endif %}
 
