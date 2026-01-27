@@ -70,8 +70,8 @@ sections:
           sensibilisation.  
           Les projets et thématiques en cours sont présentés ici.
 
-      - type: text
-        content: >
+      
+    last_content: >
           Pour échanger sur vos priorités, identifier les modalités de soutien les
           plus adaptées et construire un partenariat sur mesure, nous vous invitons
           à contacter notre chargée de développement et de déploiement :  
