@@ -35,7 +35,7 @@ sections:
   - layout: mecene
     title: "Devenir mécène"
     image: soutenir_donation.webp
-    bottom_image: soutenir_donation.webp
+    bottom_image: anyama-totm.webp
     image_position: right
     background: true
 
