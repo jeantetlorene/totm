@@ -71,10 +71,7 @@ sections:
           du Programme Initiatives de TOTM : interactions avec les activités humaines,
           protection des habitats, suivi des populations, santé des tortues ou
           sensibilisation.  
-          Les projets et thématiques en cours sont présentés ici.
-
-      
-
+          Les projets et thématiques en cours sont présentés <a href="{% if page.lang == 'fr' %}{{ '/nosprojets/' | relative_url }}{% else %}{{ '/en/projects/' | relative_url }}{% endif %}">ici</a>.
 
 
 
