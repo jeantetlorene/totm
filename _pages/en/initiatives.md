@@ -26,7 +26,7 @@ gallery:
     title: Identification
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-4-en/"
-    thumb: 4.jpg
+    thumb: /initiatives/initiative_4_1.webp
     title: Training
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-5-en/"
@@ -38,15 +38,15 @@ gallery:
     title: Fishing Interactions
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-7-en/"
-    thumb: /initiatives/initiative_7.webp
+    thumb: /initiatives/initiative_7_1.webp
     title: Marine Debris Interactions
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-8-en/"
-    thumb: /initiatives/initiative_8.webp
+    thumb: /initiatives/initiative_8_1.webp
     title: Pathology and Care Centers
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-9-en/"
-    thumb: 9.jpg
+    thumb: /initiatives/sensibilisation_9_1.webp
     title: Awareness
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
 

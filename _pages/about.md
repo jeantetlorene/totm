@@ -59,7 +59,7 @@ gallery:
     title: Identification
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-4/"
-    thumb: 4.jpg
+    thumb: /initiatives/initiative_4_1.webp
     title: Formations
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-5/"
@@ -71,15 +71,15 @@ gallery:
     title: Interactions pêche
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-7/"
-    thumb: /initiatives/initiative_7.webp
+    thumb: /initiatives/initiative_7_1.webp
     title: Interactions déchets marins
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-8/"
-    thumb: /initiatives/initiative_8.webp
+    thumb: /initiatives/initiative_8_1.webp
     title: Pathologie et centre de soin
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
   - url: "/nosinitiatives/initiative-9/"
-    thumb: 9.jpg
+    thumb: /initiatives/sensibilisation_9_1.webp
     title: Sensibilisation
     description: Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.
 
