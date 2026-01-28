@@ -34,4 +34,4 @@ De nombreux acteurs sont concern√©s par la conservation des tortues marines, qu‚
 </ul>
     
 
-![Apesct reglemantaires]({{ 'assets/img/9.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_9_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }

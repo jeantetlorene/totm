@@ -28,4 +28,4 @@ Ce groupe de travail s’emploiera dans un premier temps à rédiger et à parta
 
     
 
-![Apesct reglemantaires]({{ 'assets/img/3.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_4_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }

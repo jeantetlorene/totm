@@ -5,7 +5,7 @@ title: Indicators and Standard Minimums
 lang : en
 ref :  initiative5
 description:  
-img: assets/img/10.jpg
+img: assets/img/initiatives/initiative_5_2.webp
 
 
 ---
@@ -34,3 +34,4 @@ TOTM’s complementary role will be to strengthen communication between field ac
 
 <ul> <li>Bring stakeholders together to define new national common indicators (coastal habitats and fishing impacts) and ensure consultation when establishing standard minimums</li> </ul>
     
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_5_2.webp' | relative_url  }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }

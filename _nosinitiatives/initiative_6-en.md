@@ -56,5 +56,5 @@ Developing sustainable fishing practices is a major challenge for marine turtle 
     <li>Contribute to strengthening efforts to combat illegal fishing</li>
 </ul>  
 
-![Apesct reglemantaires]({{ 'assets/img/12.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_6_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
     

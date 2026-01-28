@@ -31,4 +31,4 @@ Caring for injured turtles—including providing first aid, supporting their rec
 </ul>  
 
 
-![Apesct reglemantaires]({{ 'assets/img/7.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_8_2.webpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }

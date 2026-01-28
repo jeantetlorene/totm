@@ -5,7 +5,7 @@ title: Training
 lang : en
 ref :  initiative4
 description:  
-img: assets/img/4.jpg
+img: assets/img/initiatives/initiative_4_2.webp
 
 
 ---
@@ -25,4 +25,4 @@ This working group will initially focus on compiling and sharing a reference cat
 
     
 
-![Apesct reglemantaires]({{ 'assets/img/3.jpg' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_4_2.webp' | relative_url  }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
