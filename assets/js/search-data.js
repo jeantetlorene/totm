@@ -86,8 +86,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/totm/nosactualites/index.html";
           },
-        },{id: "nav-support-us",
-          title: "Support Us",
+        },{id: "nav-they-already-support-us",
+          title: "They already support us",
           description: "",
           section: "Navigation",
           handler: () => {
