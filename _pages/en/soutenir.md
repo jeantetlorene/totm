@@ -8,60 +8,96 @@ description:
 nav: true
 nav_order: 5
 
-banners:
-  - title: "Adhésion"
-    content: "Si vous êtes engagés auprès de la conservation des tortues marines et/ou de leurs habitats, vous pouvez devenir membre de TOTM en adhérant ici."
-    image: soutenir_membre.webp
-    image_position: "left"
-    button:
-      enable: true
-      label: "Devenir Membre"
-      link: "https://www.helloasso.com/associations/trans-oceans-tortues-marines/adhesions/cotisation-totm"
 
-  - title: Donation
-    content: Les donations, comme toutes formes de soutien financier, matériel ou intellectuel, sont vitales au fonctionnement de l’association TOTM. Ils nous permettent de monter des projets et de maintenir une équipe fixe. Vous pouvez donner sur HelloAsso.
-    image: soutenir_donation.webp
-    image_position: "right"
-    background: true
-    button:
-      enable: true
-      label: Faire un Don
-      link: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
+sections:
+- layout : member
+  title: "Become a Member"
+  image: soutenir_membre.webp
+  image_position: left
+  intro: >
+    If you are committed to the conservation of marine turtles and/or their habitats, you can become a member of TOTM. You may join as an individual or as a legal entity/organization.
+  blocks:
+  - subtitle: "Why join?"
+    content: >
+      TOTM’s strength lies in its network. Its members include scientists,
+      managers, NGO stakeholders, public officers, field experts…
+      who are engaged daily in territories with very diverse realities.
 
-  - title: "Achat"
-    content: Bientôt des lycras en vente.
-    image: "2.jpg"
-    image_position: "left"
-    button:
-      enable: false
-      label: "Faire un Don"
-      link: "/nosinitiatives/" 
+      Members help bring forward the issues encountered
+      in the field, the specific challenges, and the needs of their territories.
+  - content: >
+      Thanks to this network, TOTM’s operational team can rely on
+      high-level technical, scientific, and territorial expertise.
+  button:
+    enable: true
+    label: Make a Donation
+    link: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
 
-  - title: Bénévolat
-    content: Le bénévolat est extrêmement important pour TOTM, il a permis le développement de l’association depuis ses débuts. C’est pourquoi nous mettons un point d’honneur à comptabiliser et valoriser les heures de bénévolat de nos membres. Nous sommes très reconnaissants et tenons à remercier toutes les personnes qui se sont impliquées et qui s’impliqueront, à leur échelle. En 2022, nous avons comptabilisé 612 heures des bénévolat !
+- layout: mecene
+  title: "Become a Patron"
+  image: soutenir_donation.webp
+  bottom_image: anyama-totm.webp
+  image_position: right
+  background: true
 
-        Si vous souhaitez participer, vous pouvez nous contacter en présentant vos envies et vos compétences en lien avec les missions de TOTM, à l’adresse totm@totm.ong.
-    image: soutenir_benevole.webp
-    image_position: "right"
-    background: true
-    button:
-      enable: false
-      label: "Faire un Don"
-      link: "/nosinitiatives/"
+  last_content: >
+      To discuss your priorities, identify the most suitable ways to support us,
+      and build a tailored partnership, we invite you to contact our Development
+      and Deployment Officer: **margaux.boyer@totm.ong**
+
+  intro: >
+      Marine turtles are emblematic migratory species, at the crossroads of
+      many environmental challenges: protection of coastal and marine habitats,
+      sustainable fisheries, pollution, climate change, and international cooperation.
+
+      By becoming a patron, you take part in a high-impact collective action,
+      grounded in science, field expertise, and stakeholder networking.
+
+  blocks:
+    - type: subtitle
+      title: "What does your support fund?"
+
+    - type: highlight
+      title: "TOTM’s global project"
+      content: >
+        You contribute to the national and transoceanic coordination of stakeholders,
+        network facilitation, monitoring field needs and opportunities,
+        project structuring, as well as awareness-raising and promotion of issues
+        related to marine turtles and their habitats.  
+        This support helps sustainably strengthen conservation impact.
+
+    - type: highlight
+      title: "A specific project or theme"
+      content: >
+        You may choose to support a specific project or one of the themes
+        of TOTM’s Initiatives Programme: interactions with human activities,
+        habitat protection, population monitoring, turtle health, or
+        awareness-raising.  
+        Ongoing projects and themes are presented <a href="../nosprojets/">here</a>.
+
 
 
 clients_logo_slider:
-  enable: true
-  title: "Ils nous ont déjà soutenu"
-  logos:
-    - light: logo_ministere_light.png
-      dark: logo_ministere_light.png
-    - light: logo_anyama_light.png
-      dark: logo_anyama_dark.png
-    - light: logo_credit_light.png
-      dark: logo_credit_dark.png
-    - light: fondation-de-france-light.jpg
-      dark: fondation-de-france-dark.jpg
+enable: true
+title: "They already support us"
+logos:
+  - light: logo_ministere_light.png
+    dark: logo_ministere_light.png
+  - light: logo_anyama_light.png
+    dark: logo_anyama_dark.png
+  - light: logo_credit_light.png
+    dark: logo_credit_dark.png
+  - light: fondation-de-france-light.jpg
+    dark: fondation-de-france-dark.jpg
+
+
+
+hero_heading: "Make a Donation"
+hero_text: "You can also contribute at an individual level to TOTM’s work by making a donation via HelloAsso. Every contribution is vital for the association and encourages us to continue our work."
+btn1_text: "Make a Donation"
+btn1_url: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
+
+
 ---
 
 
