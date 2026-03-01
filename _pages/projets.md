@@ -9,7 +9,7 @@ banners:
   - title: "Coordination et mise en œuvre du suivi de l'activité de ponte des tortues marines sur les plages de l’archipel Guadeloupe"
     contacts: "Alexandra LeMoal, Cécile Lallemand, Margaux Boyer"
     partenaires: "Réseau Tortues Marines Guadeloupe)"
-    image: "apropos.webp"
+    image: "projets/projet_suivi_pontes.webp"
     description: |-
       Ce projet permet de contribuer à la connaissance des tendances d'évolution des populations de tortues marines en ponte dans les Antilles françaises.
 
