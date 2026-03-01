@@ -38,7 +38,7 @@ banners:
   - title: "Impact de la pêche INN sur la dynamique de population des tortues luth en Guyane Française "
     contacts: "Manon Nivière, Tony Nalovic, Damien Chevalier"
     partenaires: "CNRS, WWF Guyane"
-    image: "apropos.webp"
+    image: "projets/projet_peche_INN_luth.webp"
     description: |-
       Cette étude s’inscrit dans l’action « Renforcer la lutte contre la pêche illégale » du Programme Initiatives TOTM.
 
@@ -54,7 +54,7 @@ banners:
   - title: "Développement d’un protocole de collecte de données sur la pêche INN en Guyane française"
     contacts: "Eve Brunelle, Manon Nivière, Laeticia Demarcy, Tony Nalovic, Margaux Boyer"
     partenaires: "Réserve Naturelle Amana"
-    image: "apropos.webp"
+    image: "projets/projet_collect_INN.webp"
     description: |-
       La Réserve naturelle de l’Amana, à Awala-Yalimapo au nord-ouest de la Guyane, protège des écosystèmes côtiers d’une grande richesse et constitue un site majeur de ponte pour les tortues luth et verte. Située près du Suriname, elle fait face depuis des décennies à la pêche illégale pratiquée par des embarcations étrangères (tapouilles), qui ciblent l’acoupa rouge mais capturent aussi des espèces protégées, tout en générant des tensions avec les pêcheurs locaux et compliquant la gestion des ressources partagées.
 
@@ -65,7 +65,7 @@ banners:
 
   - title: "Animation du Plan National d’Action en faveur des Tortues Marines dans les Antilles françaises (PNATMAF)  "
     contacts: "Nicolas Paranthoen, Alexis Guilleux"
-    image: "apropos.webp"
+    image: "projets/projet_pna.webp"
     description: |-
       Le Plan National d'Actions (PNA) en faveur des tortues marines aux Antilles françaises est un document de planification stratégique dont l'objectif est l’amélioration de l'état de conservation des cinq espèces qui fréquentent les plages et les eaux des Antilles françaises, dont la Guadeloupe, la Martinique et Saint-Martin. Il est en vigueur pour une durée de 10 ans entre 2020 et 2029.
 
@@ -82,7 +82,7 @@ banners:
   - title: "Évaluer l’impact de la pêche au chalut sur les tortues marines dans les pêcheries de crevettes tropicales exportant vers l’UE"
     contacts: "Léna Bourdois, Tony Nalovic, Margaux Boyer"
     partenaires: "Ifremer, WWF Guyane"
-    image: "apropos.webp"
+    image: "projets/projet_peche_chalut.webp"
     description: |-
       La pêche crevettière tropicale au chalut est l’une des pêcheries les plus génératrices de prises accessoires, notamment de tortues marines, espèces protégées et vulnérables. Les États-Unis imposent depuis 1989 l’usage des dispositifs d’exclusion des tortues (TED) comme condition d’accès à leur marché, alors que l’Union européenne ne dispose d’aucune réglementation équivalente. L’UE constitue un marché alternatif pour des crevettes issues de pêcheries non durables.
 
@@ -96,7 +96,7 @@ banners:
   - title: "Évaluation des impacts positifs de l'adoption volontaire de dispositifs d'exclusion des tortues (TED) par la flotte de chalutiers crevettiers de Guyane française"
     contacts: "Laure Newby, Tony Nalovic, Margaux Boyer"
     partenaires: "Ifremer"
-    image: "apropos.webp"
+    image: "projets/projet_ted.webp"
     description: |-
       La pêche au chalut tropicale à la crevette est mondialement reconnue comme une source majeure de prises accessoires de tortues marines, qui sont souvent blessées ou tuées en raison de leur immersion forcée. En Guyane française, où l'on trouve cinq espèces de tortues marines, trois nichent régulièrement : Lepidochelys olivacea, Dermochelys coriacea et Chelonia mydas. En 2010, la flotte de chalutiers crevettiers a volontairement adopté des dispositifs d'exclusion des tortues (TED).
 
@@ -108,7 +108,7 @@ banners:
   - title: "Développer des méthodes d’évaluation de la douleur et du stress chez les tortues "
     contacts: "Tania Gilbert, Mathieu Barret, Margaux Boyer"
     partenaires: "Réunion des Musées Régionaux (Kélonia, l’observatoire des tortues), Université de Valence"
-    image: "apropos.webp"
+    image: "projets/projet_identification.webp"
     description: |-
       Peu de vétérinaires et de soigneurs ont à ce jour l’expertise sur les paramètres de santé des tortues marines, notamment la gestion du stress et de la douleur.
 
@@ -125,7 +125,7 @@ banners:
   - title: "Développer un guide pratique pour la réalisation et l’interprétation des prises de sang des tortues marines"
     contacts: "Tania Gilbert, Mathieu Barret, Florence DelAmico, Margaux Boyer"
     partenaires: "Réunion des Musées Régionaux (Kélonia, l’observatoire des tortues)"
-    image: "apropos.webp"
+    image: "projets/projet_prise_sang.webp"
     description: |-
       Ce projet s’inscrit dans l’action « Identifier des paramètres fiables pour évaluer l’état de santé des tortues marines ».
 
