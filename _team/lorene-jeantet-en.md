@@ -35,4 +35,4 @@ Lorène Jeantet completed her PhD on marine turtles under the supervision of Dam
 
 Her work led her to conduct field research in French Guiana and Martinique, where she equipped green turtles and leatherback turtles with sensors and/or animal-borne cameras to collect data on their environment and behaviour.
 
-Currently a postdoctoral researcher based in South Africa, she continues her research in collaboration with Damien Chevallier. In particular, she analyses data on immature green turtle populations in Martinique and adult turtles in French Guiana, with the aim of improving knowledge of these species and strengthening conservation efforts.
+Currently a researcher based in South Africa, she continues her research in collaboration with Damien Chevallier. In particular, she analyses data on immature green turtle populations in Martinique and adult turtles in French Guiana, with the aim of improving knowledge of these species and strengthening conservation efforts.
