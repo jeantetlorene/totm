@@ -26,12 +26,12 @@
     
     
     <!-- Content -->
-    {% if page.url == '/' or page.url == '/en/' %}
-      <!-- Allow full-width for top banner -->
-      {% assign is_home_with_banner = true %}
+    {% if page.url == '/' or page.url == '/en/' or page.layout == 'initiative' %}
+      <!-- Allow full-width for pages with edge-to-edge banners -->
+      {% assign is_full_width_layout = true %}
     {% endif %}
-    {% if is_home_with_banner %}
-      <!-- Home page: banner should be full width -->
+    {% if is_full_width_layout %}
+      <!-- Full-width layout -->
       <div role="main">
         {{ content }}
       </div>

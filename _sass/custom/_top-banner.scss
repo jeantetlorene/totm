@@ -49,3 +49,13 @@
 .banner-spacer {
   height: 100vh;
 }
+
+.initiative-hero-banner {
+  margin-top: -56px;
+  height: clamp(360px, 72vh, 880px);
+  background-position: center center;
+}
+
+.initiative-hero-banner .top-banner-content {
+  padding-top: 16vh;
+}
