@@ -6,7 +6,7 @@ lang : fr
 ref :  initiative9
 description:  
 img: assets/img/initiatives/initiative_9_2.webp
-banner_image: assets/img/initiatives/initiative_9_1.webp
+banner_image: assets/img/initiatives/sensibilisation_9_1.webp
 
 
 ---
