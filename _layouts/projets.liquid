@@ -39,8 +39,8 @@ layout: page
         </div>
 
         <div class="description">
-          <span class="short-text">{{ banner.description | strip_html | truncate: 190 }}</span>
-          <span class="full-text">{{ banner.description }}</span>
+          <div class="short-text">{{ banner.description | strip_html | normalize_whitespace | truncate: 220 }}</div>
+          <div class="full-text">{{ banner.description | markdownify }}</div>
         </div>
 
         <div class="buttons">

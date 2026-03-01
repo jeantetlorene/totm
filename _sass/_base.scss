@@ -301,33 +301,40 @@ ul.task-list input[type="checkbox"] {
 
 .description {
   margin-top: 0.15rem;
-  overflow: hidden;
-  max-height: 5.3em;
   line-height: 1.55;
   color: var(--global-text-color-light);
-  transition: max-height 0.5s ease;
 }
 
 /* by default: show short text, hide full text */
 .description .full-text {
-  display: none !important;
+  display: none;
 }
 
 .description .short-text {
-  display: inline !important;
+  display: block;
 }
 
 /* when expanded: show full, hide short */
-.description.expanded {
-  max-height: 800px;
-}
-
 .description.expanded .short-text {
-  display: none !important;
+  display: none;
 }
 
 .description.expanded .full-text {
-  display: inline !important;
+  display: block;
+}
+
+.description .full-text p {
+  margin: 0 0 0.75rem;
+}
+
+.description .full-text ul,
+.description .full-text ol {
+  margin: 0 0 0.75rem 1.25rem;
+  padding: 0;
+}
+
+.description .full-text li {
+  margin-bottom: 0.25rem;
 }
 
 .buttons {
