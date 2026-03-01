@@ -8,28 +8,30 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post">
-  {% if page.img %}
-    {% assign initiative_banner = page.img %}
-    {% unless initiative_banner contains '://' %}
-      {% assign initiative_banner = initiative_banner | relative_url %}
-    {% endunless %}
-    <div class="initiative-banner" style="background-image: url('{{ initiative_banner }}');">
-      <div class="initiative-banner-overlay">
-        <div class="initiative-banner-content container">
-          <h1 class="post-title">{{ page.title }}</h1>
-          {% if page.description %}
-            <p class="post-description">{{ page.description }}</p>
-          {% endif %}
-        </div>
+{% if page.img %}
+  {% assign initiative_banner = page.img %}
+  {% unless initiative_banner contains '://' %}
+    {% assign initiative_banner = initiative_banner | relative_url %}
+  {% endunless %}
+  <div class="top-banner" style="background-image: url('{{ initiative_banner }}');">
+    <div class="top-banner-overlay">
+      <div class="top-banner-content container">
+        <h1 class="display-4 text-white font-weight-bold mb-3">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="lead text-white">{{ page.description }}</p>
+        {% endif %}
       </div>
     </div>
-  {% else %}
+  </div>
+{% endif %}
+
+<div class="post">
+  {% unless page.img %}
     <header class="post-header">
       <h1 class="post-title">{{ page.title }}</h1>
       <p class="post-description">{{ page.description }}</p>
     </header>
-  {% endif %}
+  {% endunless %}
 
   <article>
     {{ content }}

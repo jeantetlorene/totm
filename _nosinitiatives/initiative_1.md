@@ -5,7 +5,7 @@ lang : fr
 ref :  initiative1
 order : 1
 description:  
-img: assets/img/initiatives/initiative_1_2.jpg
+img: assets/img/initiatives/initiative_1_2.webp
 importance: 1
 category: Thématiques
 

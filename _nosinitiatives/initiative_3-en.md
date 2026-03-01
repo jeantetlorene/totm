@@ -5,7 +5,7 @@ ref :  initiative3
 title: Identification
 lang : en
 description:  
-img: assets/img/initiatives/initiative_3_2.jpg
+img: assets/img/initiatives/initiative_3_2.webp
 
 
 ---
