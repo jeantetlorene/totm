@@ -6,6 +6,7 @@ title: Identification
 lang : en
 description:  
 img: assets/img/initiatives/initiative_3_2.webp
+banner_image: assets/img/initiatives/initiative_3_1.webp
 
 
 ---
