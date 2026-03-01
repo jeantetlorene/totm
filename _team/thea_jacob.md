@@ -3,7 +3,7 @@ layout: team-member
 title: Thea Jacob
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/alexandra-le-moal.jpg
+image: team/thea_jacob.webp
 association: ca
 lang : fr
 ref : theajacob
