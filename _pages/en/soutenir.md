@@ -73,7 +73,7 @@ sections:
           of TOTM’s Initiatives Programme: interactions with human activities,
           habitat protection, population monitoring, turtle health, or
           awareness-raising.  
-          Ongoing projects and themes are presented <a href="/en/projects/">here</a>.
+          Ongoing projects and themes are presented <a href="https://jeantetlorene.github.io/totm/en/projects/">here</a>.
 
 
 
@@ -99,4 +99,3 @@ btn1_url: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
 
 
 ---
-
