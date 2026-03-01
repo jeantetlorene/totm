@@ -5,7 +5,8 @@ title: Interactions avec les activités de pêche
 lang : fr
 ref :  initiative6
 description:  
-img: assets/img/6.jpg
+img: assets/img/initiatives/initiative_6_2.webp
+banner_image: assets/img/initiatives/initiative_6.webp
 
 
 ---

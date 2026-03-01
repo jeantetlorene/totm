@@ -5,7 +5,8 @@ title: Fishing Interactions
 lang : en
 ref :  initiative6
 description:  
-img: assets/img/6.jpg
+img: assets/img/initiatives/initiative_6_2.webp
+banner_image: assets/img/initiatives/initiative_6.webp
 
 
 ---

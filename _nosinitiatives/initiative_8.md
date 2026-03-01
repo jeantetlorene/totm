@@ -5,7 +5,8 @@ title: Pathologie et centre de soins
 lang : fr
 ref :  initiative8
 description:  
-img: assets/img/8.jpg
+img: assets/img/initiatives/initiative_8_2.webp
+banner_image: assets/img/initiatives/initiative_8_1.webp
 
 
 ---

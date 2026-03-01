@@ -6,6 +6,7 @@ lang : fr
 ref :  initiative5
 description:  
 img: assets/img/initiatives/initiative_5_2.webp
+banner_image: assets/img/initiatives/initiative_5.webp
 
 
 ---

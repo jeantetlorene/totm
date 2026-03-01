@@ -5,8 +5,8 @@ title: Interactions avec les déchets marins
 lang : fr
 ref :  initiative7
 description:  
-img: assets/img/7.jpg
-
+img: assets/img/initiatives/initiative_7_2.webp
+banner_image: assets/img/initiatives/initiative_7_1.webp
 
 ---
 
