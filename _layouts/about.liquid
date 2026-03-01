@@ -44,19 +44,19 @@ layout: default
     </div>
 
     {% if page.lang == "fr" %}
-      <div class="bg-light py-3">
-        <div class="container my-3">
-          <!-- Latest posts -->
+      <section class="about-news-section py-5">
+        <div class="container">
           {% if page.latest_posts and page.latest_posts.enabled %}
-            <h1 class="h1 mb-3">
-              <a href="{{ '/nosactualites/' | relative_url }}">
-                {{ page.news_heading }}
-              </a>
-            </h1>
+            <div class="about-news-heading">
+              <h2 class="about-news-title">
+                <a href="{{ '/nosactualites/' | relative_url }}">{{ page.news_heading }}</a>
+              </h2>
+              <p class="about-news-subtitle mb-0">Les 3 dernières publications de l'association.</p>
+            </div>
             {% include latest_posts.liquid %}
           {% endif %}
         </div>
-      </div>
+      </section>
     {% endif %}
 
 
