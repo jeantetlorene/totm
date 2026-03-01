@@ -2,7 +2,13 @@
 layout: page
 ---
 
-{% assign is_english = page.lang == 'en' %}
+{% assign page_lang = page.lang | to_s | strip | downcase %}
+{% assign page_permalink = page.permalink | to_s %}
+{% assign page_url = page.url | to_s %}
+{% assign is_english = false %}
+{% if page_lang == 'en' or page_permalink contains '/en/' or page_url contains '/en/' %}
+  {% assign is_english = true %}
+{% endif %}
 {% if is_english %}
   {% assign partners_label = 'Partners' %}
   {% assign contacts_label = 'Contacts' %}
