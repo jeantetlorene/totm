@@ -561,6 +561,16 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/totm/equipe/tania-gillbert/";
+            },},{id: "team-thea-jacob",
+          title: 'Thea Jacob',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/thea-jacob-en/";
+            },},{id: "team-thea-jacob",
+          title: 'Thea Jacob',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/totm/equipe/thea-jacob/";
             },},{id: "team-tony-nalovic",
           title: 'Tony Nalovic',
           description: "",
