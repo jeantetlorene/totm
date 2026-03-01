@@ -31,7 +31,7 @@ banners:
   - title: "Définir une méthodologie pour sélectionner les techniques d’identification "
     contacts: "Anouck Baudouin, Claire Jean, Margaux Boyer, Manon Nivière"
     partenaires: "Réunion des Musées Régionaux (Kélonia, l’observatoire des tortues)"
-    image: "apropos.webp"
+    image: "projets/projet_identificattion.webp"
     description: ""
     fiche: "Initiatives_TOTM_21_12_2022.pdf"
 
@@ -108,7 +108,7 @@ banners:
   - title: "Développer des méthodes d’évaluation de la douleur et du stress chez les tortues "
     contacts: "Tania Gilbert, Mathieu Barret, Margaux Boyer"
     partenaires: "Réunion des Musées Régionaux (Kélonia, l’observatoire des tortues), Université de Valence"
-    image: "projets/projet_identification.webp"
+    image: "projets/projet_douleur_stress.webp"
     description: |-
       Peu de vétérinaires et de soigneurs ont à ce jour l’expertise sur les paramètres de santé des tortues marines, notamment la gestion du stress et de la douleur.
 
