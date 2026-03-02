@@ -780,12 +780,135 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 64px;
+  padding-bottom: 32px;
   font-size: 0.9rem;
+}
 
-  .container {
-    text-align: center;
+.totm-footer {
+  .totm-footer-top {
+    gap: 1.5rem;
+  }
+
+  .totm-footer-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+
+    img {
+      height: 40px;
+      width: auto;
+    }
+
+    span {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--global-text-color);
+    }
+  }
+
+  .totm-footer-social {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      background: var(--global-bg-color);
+      border: 1px solid var(--global-divider-color);
+      color: var(--global-text-color);
+      transition: all 0.2s ease;
+      text-decoration: none;
+
+      &:hover {
+        background: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+        color: var(--global-hover-color);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .totm-footer-bottom {
+    border-top: 1px solid var(--global-divider-color);
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .totm-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+    margin: 0;
+    justify-content: flex-start;
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+  }
+
+  .totm-footer-links-main {
+    a {
+      color: var(--global-text-color);
+    }
+  }
+
+  .totm-footer-links-legal {
+    margin-top: 0.8rem;
+
+    a {
+      color: var(--global-text-color-light);
+    }
+  }
+
+  .totm-footer-copyright {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    line-height: 1.6;
+    white-space: normal;
+
+    a {
+      color: var(--global-text-color-light);
+    }
+
+    div + div {
+      margin-top: 0.25rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .totm-footer {
+    .totm-footer-social {
+      margin-top: 0;
+      justify-content: flex-end;
+    }
+
+    .totm-footer-links {
+      justify-content: flex-end;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .totm-footer {
+    .totm-footer-copyright {
+      margin-top: 0;
+    }
   }
 }
 

@@ -1,31 +1,84 @@
-{% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}.
-  {{ site.footer_text }}
-  · <a href="{{ '/mentions-legales/' | relative_url }}">Mentions légales</a>
-  {% if site.impressum_path %}
-    · <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>
-  {% endif %}
-  {% if site.last_updated %}
-    · Last updated: {{ 'now' | date: '%B %d, %Y' }}
-  {% endif %}
-{% endcapture %}
+{% assign current_lang = page.lang | default: site.default_lang %}
+{% assign sorted_pages = site.pages | where: 'lang', current_lang | sort: 'nav_order' %}
 
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {{ footer_contents }}
-    </div>
-  </footer>
+{% if current_lang == 'en' %}
+  {% assign legal_label = 'Legal notice' %}
+  {% assign last_updated_label = 'Last updated:' %}
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
-    {% endif %}
-    <div class="container">
-      {{ footer_contents }}
-    </div>
-  </footer>
+  {% assign legal_label = 'Mentions légales' %}
+  {% assign last_updated_label = 'Dernière mise à jour :' %}
 {% endif %}
+
+<footer class="sticky-bottom mt-5 totm-footer" role="contentinfo">
+  {% if site.newsletter.enabled %}
+    {% include newsletter.liquid %}
+  {% endif %}
+
+  <div class="container">
+    <div class="totm-footer-top d-md-flex align-items-start justify-content-between">
+      <a href="{{ '/' | relative_url }}" class="totm-footer-brand" aria-label="{{ site.title }}">
+        <img src="{{ 'assets/img/logo-light.png' | relative_url }}" alt="Logo Light" class="logo-light" />
+        <img src="{{ 'assets/img/logo-dark.png' | relative_url }}" alt="Logo Dark" class="logo-dark" />
+        <span>{{ site.title }}</span>
+      </a>
+
+      <div class="totm-footer-social" aria-label="Social links">
+        {% include social.liquid %}
+      </div>
+    </div>
+
+    <div class="totm-footer-bottom">
+      <div class="row">
+        <div class="col-lg-8 order-2 order-lg-2">
+          <nav aria-label="Footer main links">
+            <ul class="totm-footer-links totm-footer-links-main list-unstyled">
+              {% for p in sorted_pages %}
+                {% if p.nav and p.autogen == null %}
+                  {% if p.dropdown %}
+                    {% for child in p.children %}
+                      {% if child.title != 'divider' %}
+                        <li>
+                          <a href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}">
+                            {{ child.title }}
+                          </a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  {% else %}
+                    {% if p.permalink != '/' and p.permalink != '/en/' %}
+                      {% if p.permalink contains '://' %}
+                        {% assign page_link = p.permalink %}
+                      {% elsif p.permalink contains '/blog/' %}
+                        {% assign page_link = '/blog/' %}
+                      {% else %}
+                        {% assign page_link = p.url %}
+                      {% endif %}
+                      <li><a href="{{ page_link | relative_url }}">{{ p.title }}</a></li>
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </nav>
+
+          <ul class="totm-footer-links totm-footer-links-legal list-unstyled">
+            <li><a href="{{ '/mentions-legales/' | relative_url }}">{{ legal_label }}</a></li>
+            {% if site.impressum_path %}
+              <li><a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a></li>
+            {% endif %}
+          </ul>
+        </div>
+
+        <div class="col-lg-4 order-1 order-lg-1">
+          <div class="totm-footer-copyright">
+            <div>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</div>
+            <div>{{ site.footer_text }}</div>
+            {% if site.last_updated %}
+              <div>{{ last_updated_label }} {{ 'now' | date: '%B %d, %Y' }}</div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
