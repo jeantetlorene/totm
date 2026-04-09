@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: page
 title: Our Projects
 lang: en
 permalink: /en/projects_1/
