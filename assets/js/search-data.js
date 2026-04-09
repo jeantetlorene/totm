@@ -385,46 +385,96 @@ ninja.data = [{
           description: "",
           section: "Nosinitiatives",handler: () => {
               window.location.href = "/totm/nosinitiatives/initiative-9/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-developing-a-practical-guide-to-blood-sampling-in-marine-turtles",
+          title: 'Developing a Practical Guide to Blood Sampling in Marine Turtles',
+          description: "Preparing a practical guide for blood sampling and interpretation in marine turtles.",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/totm/en/projects_1/blood-sampling-guide/";
+            },},{id: "projects-developper-un-guide-pratique-pour-les-prises-de-sang-chez-les-tortues-marines",
+          title: 'Developper un guide pratique pour les prises de sang chez les tortues marines...',
+          description: "Elaborer un guide francophone pour la realisation et l&#39;interpretation des analyses sanguines.",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "",
+              window.location.href = "/totm/nosprojets_1/guide-prises-de-sang/";
+            },},{id: "projects-coordinating-nesting-activity-monitoring-in-guadeloupe",
+          title: 'Coordinating Nesting Activity Monitoring in Guadeloupe',
+          description: "Coordinated monitoring of marine turtle nesting activity across the Guadeloupe archipelago.",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/totm/en/projects_1/guadeloupe-nesting-monitoring/";
+            },},{id: "projects-coordination-et-mise-en-oeuvre-du-suivi-de-l-39-activite-de-ponte-en-guadeloupe",
+          title: 'Coordination et mise en oeuvre du suivi de l&amp;#39;activite de ponte en Guadeloupe...',
+          description: "Coordination du suivi des pontes sur les plages de l&#39;archipel de Guadeloupe.",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/totm/nosprojets_1/suivi-pontes-guadeloupe/";
+            },},{id: "projects-defining-a-methodology-for-selecting-identification-techniques",
+          title: 'Defining a Methodology for Selecting Identification Techniques',
+          description: "Building a shared framework to choose the most relevant sea turtle identification methods.",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/totm/en/projects_1/identification-methodology/";
+            },},{id: "projects-definir-une-methodologie-pour-selectionner-les-techniques-d-39-identification",
+          title: 'Definir une methodologie pour selectionner les techniques d&amp;#39;identification',
+          description: "Structurer le choix des meilleures techniques d&#39;identification pour les tortues marines.",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/totm/nosprojets_1/methodologie-identification/";
+            },},{id: "projects-developing-a-data-collection-protocol-for-iuu-fishing-in-french-guiana",
+          title: 'Developing a Data Collection Protocol for IUU Fishing in French Guiana',
+          description: "Standardizing illegal fishing data collection to better monitor pressures on turtles and habitats.",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/totm/en/projects_1/inn-data-protocol/";
+            },},{id: "projects-developpement-d-39-un-protocole-de-collecte-de-donnees-sur-la-peche-inn-en-guyane",
+          title: 'Developpement d&amp;#39;un protocole de collecte de donnees sur la peche INN en Guyane...',
+          description: "Harmoniser la collecte des donnees sur la peche illegale pour mieux suivre les pressions.",
           section: "Projects",handler: () => {
-              window.location.href = "/totm/projects/9_project/";
+              window.location.href = "/totm/nosprojets_1/protocole-peche-inn/";
+            },},{id: "projects-impact-of-iuu-fishing-on-leatherback-turtle-population-dynamics-in-french-guiana",
+          title: 'Impact of IUU Fishing on Leatherback Turtle Population Dynamics in French Guiana',
+          description: "Studying how illegal, unreported and unregulated fishing affects marine turtle populations in French Guiana.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/en/projects_1/inn-fishing-french-guiana/";
+            },},{id: "projects-impact-de-la-peche-inn-sur-la-dynamique-des-tortues-luth-en-guyane-francaise",
+          title: 'Impact de la peche INN sur la dynamique des tortues luth en Guyane...',
+          description: "Etudier les interactions entre peche illegale et populations de tortues marines en Guyane.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/nosprojets_1/impact-peche-inn-guyane/";
+            },},{id: "projects-developing-methods-to-assess-pain-and-stress-in-marine-turtles",
+          title: 'Developing Methods to Assess Pain and Stress in Marine Turtles',
+          description: "Improving the clinical assessment of pain and stress in marine turtles.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/en/projects_1/pain-stress-methods/";
+            },},{id: "projects-developper-des-methodes-d-39-evaluation-de-la-douleur-et-du-stress",
+          title: 'Developper des methodes d&amp;#39;evaluation de la douleur et du stress',
+          description: "Mieux caracteriser la douleur et le stress chez les tortues marines pour ameliorer leur prise en charge.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/nosprojets_1/douleur-stress/";
+            },},{id: "projects-coordinating-the-french-west-indies-national-action-plan-for-marine-turtles",
+          title: 'Coordinating the French West Indies National Action Plan for Marine Turtles',
+          description: "Coordinating implementation of the national marine turtle action plan across the French West Indies.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/en/projects_1/pnatmaf-coordination/";
+            },},{id: "projects-animation-du-plan-national-d-39-action-tortues-marines-des-antilles-francaises",
+          title: 'Animation du Plan National d&amp;#39;Action Tortues Marines des Antilles francaises',
+          description: "Animer le PNATMAF et coordonner sa mise en oeuvre dans les Antilles francaises.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/nosprojets_1/pnatmaf/";
+            },},{id: "projects-evaluating-the-benefits-of-voluntary-turtle-excluder-device-adoption",
+          title: 'Evaluating the Benefits of Voluntary Turtle Excluder Device Adoption',
+          description: "Measuring the conservation benefits of voluntary Turtle Excluder Device use in French Guiana.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/en/projects_1/ted-evaluation/";
+            },},{id: "projects-evaluation-des-impacts-positifs-de-l-39-adoption-volontaire-des-ted",
+          title: 'Evaluation des impacts positifs de l&amp;#39;adoption volontaire des TED',
+          description: "Mesurer les benefices de l&#39;adoption volontaire des dispositifs d&#39;exclusion des tortues en Guyane francaise.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/nosprojets_1/evaluation-ted/";
+            },},{id: "projects-assessing-trawl-fishery-impacts-for-tropical-shrimp-exported-to-the-eu",
+          title: 'Assessing Trawl Fishery Impacts for Tropical Shrimp Exported to the EU',
+          description: "Estimating sea turtle bycatch in tropical shrimp fisheries supplying the European Union.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/en/projects_1/trawl-impact-eu/";
+            },},{id: "projects-evaluer-l-39-impact-de-la-peche-au-chalut-exportant-vers-l-39-ue",
+          title: 'Evaluer l&amp;#39;impact de la peche au chalut exportant vers l&amp;#39;UE',
+          description: "Estimer les captures accidentelles de tortues dans les pecheries tropicales exportant vers l&#39;Union europeenne.",
+          section: "Projects",handler: () => {
+              window.location.href = "/totm/nosprojets_1/impact-chalut-ue/";
             },},{id: "team-alexandra-le-moal",
           title: 'Alexandra Le Moal',
           description: "",
