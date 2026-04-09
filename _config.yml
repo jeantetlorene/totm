@@ -152,6 +152,8 @@ collections:
     defaults:
       layout: post
     output: true
+  projects:
+    output: true
   nosinitiatives:
     output: true
     permalink: /nosinitiatives/:name/
