@@ -12,6 +12,7 @@ children:
   - title: divider
   - title: Our Projects
     permalink: /en/projects/
+  - title: divider
   - title: Our Projects bis
     permalink: /en/projects_1/
   - title: divider
