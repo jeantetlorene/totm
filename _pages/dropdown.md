@@ -12,6 +12,8 @@ children:
   - title: divider
   - title: Nos Projets
     permalink: /nosprojets/
+  - title: Nos Projets bis
+    permalink: /nosprojets_1/
   - title: divider
   - title: Publications
     permalink: /publications/
