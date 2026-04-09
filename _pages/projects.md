@@ -64,3 +64,64 @@ ref: projects
   {% endif %}
 {% endif %}
 </div>
+
+<div id="project-modal" class="team-modal">
+  <div class="modal-content">
+    <span class="close" id="project-modal-close">&times;</span>
+    <div id="project-modal-body"></div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById("project-modal");
+    const modalBody = document.getElementById("project-modal-body");
+    const closeBtn = document.getElementById("project-modal-close");
+    const notFoundMessage = {{ page.lang == "en" | jsonify }} ? "Project content not found." : "Contenu du projet introuvable.";
+
+    document.querySelectorAll(".project-link[data-url]").forEach((link) => {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const url = this.dataset.url;
+        if (!url) return;
+
+        fetch(url)
+          .then((response) => response.text())
+          .then((html) => {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, "text/html");
+            const header = doc.querySelector(".post-header");
+            const article = doc.querySelector(".post article");
+
+            if (header || article) {
+              modalBody.innerHTML = `
+                ${header ? header.outerHTML : ""}
+                ${article ? article.innerHTML : ""}
+              `;
+            } else {
+              modalBody.innerHTML = `<p>${notFoundMessage}</p>`;
+            }
+
+            modal.style.display = "block";
+            document.body.style.overflow = "hidden";
+          })
+          .catch(() => {
+            modalBody.innerHTML = `<p>${notFoundMessage}</p>`;
+            modal.style.display = "block";
+            document.body.style.overflow = "hidden";
+          });
+      });
+    });
+
+    closeBtn.onclick = () => {
+      modal.style.display = "none";
+      modalBody.innerHTML = "";
+      document.body.style.overflow = "";
+    };
+
+    window.addEventListener("click", (e) => {
+      if (e.target === modal) closeBtn.onclick();
+    });
+  });
+</script>
