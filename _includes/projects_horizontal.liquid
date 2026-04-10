@@ -1,8 +1,4 @@
 <div class="col mb-4">
-  {% assign partners_label = "Partenaires" %}
-  {% if page.lang == "en" %}
-    {% assign partners_label = "Partners" %}
-  {% endif %}
   {% assign sheet_url = project.fiche | default: project.factsheet %}
   {% assign sheet_href = "" %}
   {% if sheet_url %}
@@ -22,7 +18,7 @@
     data-partners="{{ project.project_partners | default: '' | escape }}"
     data-factsheet="{{ sheet_href | escape }}"
   >
-    <div class="card h-100 hoverable project-card">
+    <div class="card h-100 hoverable">
       <div class="row no-gutters">
         {% if project.img %}
           <div class="col-md-6">
@@ -31,11 +27,8 @@
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
-            <h3 class="card-title project-card-title">{{ project.title }}</h3>
+            <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
-            {% if project.project_partners %}
-              <p class="project-meta"><strong>{{ partners_label }}:</strong> {{ project.project_partners }}</p>
-            {% endif %}
           </div>
         </div>
       </div>

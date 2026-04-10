@@ -1088,12 +1088,6 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
-  .project-link {
-    display: block;
-    width: 100%;
-    cursor: pointer;
-  }
-
   a {
     text-decoration: none;
 
@@ -1105,49 +1099,9 @@ footer.sticky-bottom {
   }
 
   .card {
-    width: 100%;
-    overflow: hidden;
-
     img {
       width: 100%;
-      display: block;
     }
-  }
-
-  .project-card {
-    figure {
-      display: block;
-      margin: 0;
-      width: 100%;
-    }
-
-    picture {
-      display: block;
-      width: 100%;
-    }
-
-    .card-body {
-      display: block;
-      width: 100%;
-    }
-  }
-
-  .project-card-title {
-    font-size: 1.2rem;
-    line-height: 1.35;
-    margin-bottom: 0.75rem;
-  }
-
-  .project-meta {
-    font-size: 0.92rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .project-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1rem;
   }
 
   .col {
