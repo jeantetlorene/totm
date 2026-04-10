@@ -1,6 +1,10 @@
 <div class="col">
   {% assign sheet_url = project.fiche | default: project.factsheet %}
   {% assign sheet_href = "" %}
+  {% assign partners_label = "Partenaires" %}
+  {% if page.lang == "en" %}
+    {% assign partners_label = "Partners" %}
+  {% endif %}
   {% if sheet_url %}
     {% if sheet_url contains '://' %}
       {% assign sheet_href = sheet_url %}
@@ -32,7 +36,7 @@
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         {% if project.project_partners %}
-          <p class="project-partners">{{ project.project_partners }}</p>
+          <p class="project-partners"><strong>{{ partners_label }}:</strong> {{ project.project_partners }}</p>
         {% endif %}
         <p class="card-text">{{ project.description }}</p>
       </div>
