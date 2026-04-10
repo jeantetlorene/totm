@@ -44,12 +44,22 @@ ref: projects
     const modalBody = document.getElementById("project-modal-body");
     const closeBtn = document.getElementById("project-modal-close");
     const notFoundMessage = "Project content not found.";
+    const contactsLabel = "Contacts";
+    const partnersLabel = "Partners";
+    const factsheetLabel = "Initiative brief";
 
-    document.querySelectorAll(".project-link[data-url]").forEach((link) => {
-      link.addEventListener("click", function (e) {
-        e.preventDefault();
-
-        const url = this.dataset.url;
+    document.querySelectorAll(".project-link").forEach((link) => {
+      const openProject = () => {
+        const url = link.dataset.url;
+        const href = link.dataset.href;
+        const projectTitle = link.dataset.title || "";
+        const projectContacts = link.dataset.contacts || "";
+        const projectPartners = link.dataset.partners || "";
+        const projectFactsheet = link.dataset.factsheet || "";
+        if (!url && href) {
+          window.location.href = href;
+          return;
+        }
         if (!url) return;
 
         fetch(url)
@@ -57,13 +67,42 @@ ref: projects
           .then((html) => {
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, "text/html");
-            const header = doc.querySelector(".post-header");
             const article = doc.querySelector(".post article");
 
-            if (header || article) {
+            if (article) {
+              const metadata = [];
+              if (projectContacts) {
+                metadata.push(`
+                  <p class="project-modal-meta">
+                    <span class="project-modal-label">${contactsLabel}:</span> ${projectContacts}
+                  </p>
+                `);
+              }
+              if (projectPartners) {
+                metadata.push(`
+                  <p class="project-modal-meta">
+                    <span class="project-modal-label">${partnersLabel}:</span> ${projectPartners}
+                  </p>
+                `);
+              }
+
+              const factsheetButton = projectFactsheet
+                ? `
+                  <div class="project-modal-actions">
+                    <a class="btn btn-outline-secondary" href="${projectFactsheet}" target="_blank" rel="noopener noreferrer">
+                      ${factsheetLabel}
+                    </a>
+                  </div>
+                `
+                : "";
+
               modalBody.innerHTML = `
-                ${header ? header.outerHTML : ""}
+                <div class="project-modal-header">
+                  <h1 class="project-modal-title">${projectTitle}</h1>
+                  ${metadata.join("")}
+                </div>
                 ${article ? article.innerHTML : ""}
+                ${factsheetButton}
               `;
             } else {
               modalBody.innerHTML = `<p>${notFoundMessage}</p>`;
@@ -77,6 +116,18 @@ ref: projects
             modal.style.display = "block";
             document.body.style.overflow = "hidden";
           });
+      };
+
+      link.addEventListener("click", function (e) {
+        if (e.target.closest(".project-actions a")) return;
+        openProject();
+      });
+
+      link.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          openProject();
+        }
       });
     });
 

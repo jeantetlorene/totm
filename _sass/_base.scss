@@ -505,6 +505,30 @@ ul.task-list input[type="checkbox"] {
   padding: 0.25rem 0.5rem;
 }
 
+.project-modal-header {
+  margin-bottom: 1.5rem;
+}
+
+.project-modal-title {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.project-modal-meta {
+  margin-bottom: 0.5rem;
+}
+
+.project-modal-label {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+
+.project-modal-actions {
+  margin-top: 2rem;
+}
+
 @media (max-width: 768px) {
 
   .team-modal .modal-content {

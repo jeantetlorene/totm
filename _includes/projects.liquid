@@ -6,11 +6,25 @@
     {% assign factsheet_label = "Initiative brief" %}
   {% endif %}
   {% assign sheet_url = project.fiche | default: project.factsheet %}
+  {% assign sheet_href = "" %}
+  {% if sheet_url %}
+    {% if sheet_url contains '://' %}
+      {% assign sheet_href = sheet_url %}
+    {% else %}
+      {% assign sheet_href = sheet_url | relative_url %}
+    {% endif %}
+  {% endif %}
 
-  <a
+  <div
     class="project-link"
-    href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
+    {% if project.redirect %}data-href="{{ project.redirect }}"{% else %}data-href="{{ project.url | relative_url }}"{% endif %}
     {% unless project.redirect %}data-url="{{ project.url | relative_url }}"{% endunless %}
+    data-title="{{ project.title | escape }}"
+    data-contacts="{{ project.project_contacts | default: '' | escape }}"
+    data-partners="{{ project.project_partners | default: '' | escape }}"
+    data-factsheet="{{ sheet_href | escape }}"
+    role="button"
+    tabindex="0"
   >
     <div class="card h-100 hoverable project-card">
       {% if project.img %}
@@ -35,7 +49,7 @@
           <div class="project-actions">
             <a
               class="btn btn-sm btn-outline-secondary"
-              href="{% if sheet_url contains '://' %}{{ sheet_url }}{% else %}{{ sheet_url | relative_url }}{% endif %}"
+              href="{{ sheet_href }}"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,5 +59,5 @@
         {% endif %}
       </div>
     </div>
-  </a>
+  </div>
 </div>
