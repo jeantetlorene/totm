@@ -1,58 +1,48 @@
 <div class="col mb-4">
-  {% assign more_label = "En savoir plus" %}
-  {% assign contacts_label = "Contacts" %}
   {% assign partners_label = "Partenaires" %}
   {% assign factsheet_label = "Fiche initiative" %}
   {% if page.lang == "en" %}
-    {% assign more_label = "Learn more" %}
-    {% assign contacts_label = "Contacts" %}
     {% assign partners_label = "Partners" %}
     {% assign factsheet_label = "Initiative brief" %}
   {% endif %}
   {% assign sheet_url = project.fiche | default: project.factsheet %}
 
-  <div class="card h-100 hoverable project-card">
-    <div class="row no-gutters">
-      {% if project.img %}
-        <div class="col-md-6">
-          {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
-        </div>
-      {% endif %}
-      <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
-        <div class="card-body">
-          <h3 class="card-title project-card-title">{{ project.title }}</h3>
-          <p class="card-text">{{ project.description }}</p>
+  <a
+    class="project-link"
+    href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
+    {% unless project.redirect %}data-url="{{ project.url | relative_url }}"{% endunless %}
+  >
+    <div class="card h-100 hoverable project-card">
+      <div class="row no-gutters">
+        {% if project.img %}
+          <div class="col-md-6">
+            {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
+          </div>
+        {% endif %}
+        <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
+          <div class="card-body">
+            <h3 class="card-title project-card-title">{{ project.title }}</h3>
+            <p class="card-text">{{ project.description }}</p>
 
-          {% if project.project_contacts %}
-            <p class="project-meta"><strong>{{ contacts_label }}:</strong> {{ project.project_contacts }}</p>
-          {% endif %}
-
-          {% if project.project_partners %}
-            <p class="project-meta"><strong>{{ partners_label }}:</strong> {{ project.project_partners }}</p>
-          {% endif %}
-
-          <div class="project-actions">
-            <a
-              class="btn btn-sm btn-outline-primary project-link"
-              href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
-              {% unless project.redirect %}data-url="{{ project.url | relative_url }}"{% endunless %}
-            >
-              {{ more_label }}
-            </a>
+            {% if project.project_partners %}
+              <p class="project-meta"><strong>{{ partners_label }}:</strong> {{ project.project_partners }}</p>
+            {% endif %}
 
             {% if sheet_url %}
-              <a
-                class="btn btn-sm btn-outline-secondary"
-                href="{% if sheet_url contains '://' %}{{ sheet_url }}{% else %}{{ sheet_url | relative_url }}{% endif %}"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {{ factsheet_label }}
-              </a>
+              <div class="project-actions">
+                <a
+                  class="btn btn-sm btn-outline-secondary"
+                  href="{% if sheet_url contains '://' %}{{ sheet_url }}{% else %}{{ sheet_url | relative_url }}{% endif %}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {{ factsheet_label }}
+                </a>
+              </div>
             {% endif %}
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </div>
