@@ -9,6 +9,7 @@ importance: 1
 project_group: current
 project_contacts: Alexandra LeMoal, Cecile Lallemand, Margaux Boyer
 project_partners: Guadeloupe Sea Turtle Network
+fiche: https://jeantetlorene.github.io/totm/assets/pdf/Initiatives_TOTM_21_12_2022.pdf
 permalink: /en/projects_1/guadeloupe-nesting-monitoring/
 ---
 
