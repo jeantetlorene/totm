@@ -390,8 +390,8 @@ ninja.data = [{
           description: "Preparing a practical guide for blood sampling and interpretation in marine turtles.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/blood-sampling-guide/";
-            },},{id: "projects-developper-un-guide-pratique-pour-les-prises-de-sang-chez-les-tortues-marines",
-          title: 'Developper un guide pratique pour les prises de sang chez les tortues marines...',
+            },},{id: "projects-développer-un-guide-pratique-pour-les-prises-de-sang-chez-les-tortues-marines",
+          title: 'Développer un guide pratique pour les prises de sang chez les tortues marines...',
           description: "Elaborer un guide francophone pour la realisation et l&#39;interpretation des analyses sanguines.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/guide-prises-de-sang/";
