@@ -1088,6 +1088,12 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .project-link {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+
   a {
     text-decoration: none;
 
@@ -1099,7 +1105,29 @@ footer.sticky-bottom {
   }
 
   .card {
+    width: 100%;
+    overflow: hidden;
+
     img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .project-card {
+    figure {
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+
+    picture {
+      display: block;
+      width: 100%;
+    }
+
+    .card-body {
+      display: block;
       width: 100%;
     }
   }
