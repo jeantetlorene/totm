@@ -1,9 +1,7 @@
 <div class="col">
   {% assign partners_label = "Partenaires" %}
-  {% assign factsheet_label = "Fiche initiative" %}
   {% if page.lang == "en" %}
     {% assign partners_label = "Partners" %}
-    {% assign factsheet_label = "Initiative brief" %}
   {% endif %}
   {% assign sheet_url = project.fiche | default: project.factsheet %}
   {% assign sheet_href = "" %}
@@ -15,16 +13,14 @@
     {% endif %}
   {% endif %}
 
-  <div
+  <a
     class="project-link"
-    {% if project.redirect %}data-href="{{ project.redirect }}"{% else %}data-href="{{ project.url | relative_url }}"{% endif %}
+    href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
     {% unless project.redirect %}data-url="{{ project.url | relative_url }}"{% endunless %}
     data-title="{{ project.title | escape }}"
     data-contacts="{{ project.project_contacts | default: '' | escape }}"
     data-partners="{{ project.project_partners | default: '' | escape }}"
     data-factsheet="{{ sheet_href | escape }}"
-    role="button"
-    tabindex="0"
   >
     <div class="card h-100 hoverable project-card">
       {% if project.img %}
@@ -40,24 +36,10 @@
       <div class="card-body">
         <h3 class="card-title project-card-title">{{ project.title }}</h3>
         <p class="card-text">{{ project.description }}</p>
-
         {% if project.project_partners %}
           <p class="project-meta"><strong>{{ partners_label }}:</strong> {{ project.project_partners }}</p>
         {% endif %}
-
-        {% if sheet_url %}
-          <div class="project-actions">
-            <a
-              class="btn btn-sm btn-outline-secondary"
-              href="{{ sheet_href }}"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {{ factsheet_label }}
-            </a>
-          </div>
-        {% endif %}
       </div>
     </div>
-  </div>
+  </a>
 </div>
