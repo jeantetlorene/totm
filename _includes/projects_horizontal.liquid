@@ -28,6 +28,9 @@
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
+            {% if project.project_partners %}
+              <p class="project-partners">{{ project.project_partners }}</p>
+            {% endif %}
             <p class="card-text">{{ project.description }}</p>
           </div>
         </div>

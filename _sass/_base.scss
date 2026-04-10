@@ -1099,9 +1099,44 @@ footer.sticky-bottom {
   }
 
   .card {
+    height: 100%;
+
+    figure,
+    picture {
+      display: block;
+      margin: 0;
+    }
+
     img {
       width: 100%;
     }
+  }
+
+  .card-img-top {
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-title {
+    min-height: 3.2em;
+    font-size: 1.35rem;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+  }
+
+  .project-partners {
+    font-size: 0.95rem;
+    color: var(--global-theme-color);
+    margin-bottom: 0.75rem;
+  }
+
+  .card-text {
+    flex-grow: 1;
   }
 
   .col {
