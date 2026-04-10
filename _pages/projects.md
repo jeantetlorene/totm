@@ -48,18 +48,13 @@ ref: projects
     const partnersLabel = "Partenaires";
     const factsheetLabel = "Fiche initiative";
 
-    document.querySelectorAll(".project-link").forEach((link) => {
+    document.querySelectorAll(".project-link[data-url]").forEach((link) => {
       const openProject = () => {
         const url = link.dataset.url;
-        const href = link.dataset.href;
         const projectTitle = link.dataset.title || "";
         const projectContacts = link.dataset.contacts || "";
         const projectPartners = link.dataset.partners || "";
         const projectFactsheet = link.dataset.factsheet || "";
-        if (!url && href) {
-          window.location.href = href;
-          return;
-        }
         if (!url) return;
 
         fetch(url)
@@ -119,7 +114,7 @@ ref: projects
       };
 
       link.addEventListener("click", function (e) {
-        if (e.target.closest(".project-actions a")) return;
+        e.preventDefault();
         openProject();
       });
 
