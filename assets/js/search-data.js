@@ -387,7 +387,7 @@ ninja.data = [{
               window.location.href = "/totm/nosinitiatives/initiative-9/";
             },},{id: "projects-developing-a-practical-guide-to-blood-sampling-in-marine-turtles",
           title: 'Developing a Practical Guide to Blood Sampling in Marine Turtles',
-          description: "Preparing a practical guide for blood sampling and interpretation in marine turtles.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/blood-sampling-guide/";
             },},{id: "projects-développer-un-guide-pratique-pour-la-réalisation-et-l-interprétation-des-prises-de-sang-des-tortues-marines",
@@ -457,7 +457,7 @@ ninja.data = [{
               window.location.href = "/totm/nosprojets_1/pnatmaf/";
             },},{id: "projects-evaluating-the-benefits-of-voluntary-turtle-excluder-device-adoption",
           title: 'Evaluating the Benefits of Voluntary Turtle Excluder Device Adoption',
-          description: "Measuring the conservation benefits of voluntary Turtle Excluder Device use in French Guiana.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/ted-evaluation/";
             },},{id: "projects-évaluation-des-impacts-positifs-de-l-39-adoption-volontaire-de-dispositifs-d-39-exclusion-des-tortues-ted-par-la-flotte-de-chalutiers-crevettiers-de-guyane-française",
