@@ -55,6 +55,7 @@ ref: projects
         const projectContacts = link.dataset.contacts || "";
         const projectPartners = link.dataset.partners || "";
         const projectFactsheet = link.dataset.factsheet || "";
+        const projectImg = link.dataset.img || "";
         if (!url) return;
 
         fetch(url)
@@ -91,6 +92,14 @@ ref: projects
                 `
                 : "";
 
+              const bottomImage = projectImg
+                ? `
+                  <div class="project-modal-image">
+                    <img src="${projectImg}" alt="${projectTitle}">
+                  </div>
+                `
+                : "";
+
               modalBody.innerHTML = `
                 <div class="project-modal-header">
                   <div class="project-modal-header-main">
@@ -100,6 +109,7 @@ ref: projects
                   ${factsheetButton}
                 </div>
                 ${article ? article.innerHTML : ""}
+                ${bottomImage}
               `;
             } else {
               modalBody.innerHTML = `<p>${notFoundMessage}</p>`;

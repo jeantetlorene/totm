@@ -21,6 +21,7 @@
     data-contacts="{{ project.project_contacts | default: '' | escape }}"
     data-partners="{{ project.project_partners | default: '' | escape }}"
     data-factsheet="{{ sheet_href | escape }}"
+    data-img="{{ project.img | default: '' | relative_url }}"
   >
     <div class="card h-100 hoverable">
       {% if project.img %}

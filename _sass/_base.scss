@@ -538,6 +538,18 @@ ul.task-list input[type="checkbox"] {
   margin-top: 0.25rem;
 }
 
+.project-modal-image {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.project-modal-image img {
+  max-width: 100%;
+  max-height: 380px;
+  border-radius: 14px;
+  display: inline-block;
+}
+
 @media (max-width: 768px) {
 
   .team-modal .modal-content {
