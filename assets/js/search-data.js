@@ -390,9 +390,9 @@ ninja.data = [{
           description: "Preparing a practical guide for blood sampling and interpretation in marine turtles.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/blood-sampling-guide/";
-            },},{id: "projects-développer-un-guide-pratique-pour-les-prises-de-sang-chez-les-tortues-marines",
-          title: 'Développer un guide pratique pour les prises de sang chez les tortues marines...',
-          description: "Elaborer un guide francophone pour la realisation et l&#39;interpretation des analyses sanguines.",
+            },},{id: "projects-développer-un-guide-pratique-pour-la-réalisation-et-l-interprétation-des-prises-de-sang-des-tortues-marines",
+          title: 'Développer un guide pratique pour la réalisation et l’interprétation des prises de sang...',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/guide-prises-de-sang/";
             },},{id: "projects-coordinating-nesting-activity-monitoring-in-guadeloupe",
@@ -410,8 +410,8 @@ ninja.data = [{
           description: "Building a shared framework to choose the most relevant sea turtle identification methods.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/identification-methodology/";
-            },},{id: "projects-definir-une-methodologie-pour-selectionner-les-techniques-d-39-identification",
-          title: 'Definir une methodologie pour selectionner les techniques d&amp;#39;identification',
+            },},{id: "projects-définir-une-méthodologie-pour-sélectionner-les-techniques-d-identification",
+          title: 'Définir une méthodologie pour sélectionner les techniques d’identification',
           description: "Structurer le choix des meilleures techniques d&#39;identification pour les tortues marines.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/methodologie-identification/";
@@ -420,9 +420,9 @@ ninja.data = [{
           description: "Standardizing illegal fishing data collection to better monitor pressures on turtles and habitats.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/inn-data-protocol/";
-            },},{id: "projects-developpement-d-39-un-protocole-de-collecte-de-donnees-sur-la-peche-inn-en-guyane",
-          title: 'Developpement d&amp;#39;un protocole de collecte de donnees sur la peche INN en Guyane...',
-          description: "Harmoniser la collecte des donnees sur la peche illegale pour mieux suivre les pressions.",
+            },},{id: "projects-développement-d-un-protocole-de-collecte-de-données-sur-la-pêche-inn-en-guyane-française",
+          title: 'Développement d’un protocole de collecte de données sur la pêche INN en Guyane...',
+          description: "Harmoniser la collecte des données sur la pêche illégale pour mieux suivre les pressions.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/protocole-peche-inn/";
             },},{id: "projects-impact-of-iuu-fishing-on-leatherback-turtle-population-dynamics-in-french-guiana",
@@ -430,9 +430,9 @@ ninja.data = [{
           description: "Studying how illegal, unreported and unregulated fishing affects marine turtle populations in French Guiana.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/inn-fishing-french-guiana/";
-            },},{id: "projects-impact-de-la-peche-inn-sur-la-dynamique-des-tortues-luth-en-guyane-francaise",
-          title: 'Impact de la peche INN sur la dynamique des tortues luth en Guyane...',
-          description: "Etudier les interactions entre peche illegale et populations de tortues marines en Guyane.",
+            },},{id: "projects-impact-de-la-pêche-inn-sur-la-dynamique-de-population-des-tortues-luth-en-guyane-française",
+          title: 'Impact de la pêche INN sur la dynamique de population des tortues luth...',
+          description: "Etudier les interactions entre pêche illégale et populations de tortues marines en Guyane.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/impact-peche-inn-guyane/";
             },},{id: "projects-developing-methods-to-assess-pain-and-stress-in-marine-turtles",
@@ -440,8 +440,8 @@ ninja.data = [{
           description: "Improving the clinical assessment of pain and stress in marine turtles.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/pain-stress-methods/";
-            },},{id: "projects-developper-des-methodes-d-39-evaluation-de-la-douleur-et-du-stress",
-          title: 'Developper des methodes d&amp;#39;evaluation de la douleur et du stress',
+            },},{id: "projects-développer-des-méthodes-d-évaluation-de-la-douleur-et-du-stress-chez-les-tortues",
+          title: 'Développer des méthodes d’évaluation de la douleur et du stress chez les tortues...',
           description: "Mieux caracteriser la douleur et le stress chez les tortues marines pour ameliorer leur prise en charge.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/douleur-stress/";
@@ -460,9 +460,9 @@ ninja.data = [{
           description: "Measuring the conservation benefits of voluntary Turtle Excluder Device use in French Guiana.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/ted-evaluation/";
-            },},{id: "projects-evaluation-des-impacts-positifs-de-l-39-adoption-volontaire-des-ted",
-          title: 'Evaluation des impacts positifs de l&amp;#39;adoption volontaire des TED',
-          description: "Mesurer les benefices de l&#39;adoption volontaire des dispositifs d&#39;exclusion des tortues en Guyane francaise.",
+            },},{id: "projects-évaluation-des-impacts-positifs-de-l-39-adoption-volontaire-de-dispositifs-d-39-exclusion-des-tortues-ted-par-la-flotte-de-chalutiers-crevettiers-de-guyane-française",
+          title: 'Évaluation des impacts positifs de l&amp;#39;adoption volontaire de dispositifs d&amp;#39;exclusion des tortues (TED)...',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/evaluation-ted/";
             },},{id: "projects-assessing-trawl-fishery-impacts-for-tropical-shrimp-exported-to-the-eu",
@@ -470,8 +470,8 @@ ninja.data = [{
           description: "Estimating sea turtle bycatch in tropical shrimp fisheries supplying the European Union.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/trawl-impact-eu/";
-            },},{id: "projects-evaluer-l-39-impact-de-la-peche-au-chalut-exportant-vers-l-39-ue",
-          title: 'Evaluer l&amp;#39;impact de la peche au chalut exportant vers l&amp;#39;UE',
+            },},{id: "projects-évaluer-l-impact-de-la-pêche-au-chalut-sur-les-tortues-marines-dans-les-pêcheries-de-crevettes-tropicales-exportant-vers-l-ue",
+          title: 'Évaluer l’impact de la pêche au chalut sur les tortues marines dans les...',
           description: "Estimer les captures accidentelles de tortues dans les pecheries tropicales exportant vers l&#39;Union europeenne.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/impact-chalut-ue/";
