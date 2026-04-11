@@ -55,11 +55,13 @@
 
               modalBody.innerHTML = `
                 <div class="project-modal-header">
-                  <h1 class="project-modal-title">${projectTitle}</h1>
-                  ${metadata.join("")}
+                  <div class="project-modal-header-main">
+                    <h1 class="project-modal-title">${projectTitle}</h1>
+                    ${metadata.join("")}
+                  </div>
+                  ${factsheetButton}
                 </div>
                 ${article ? article.innerHTML : ""}
-                ${factsheetButton}
               `;
             } else {
               modalBody.innerHTML = `<p>${notFoundMessage}</p>`;
