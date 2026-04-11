@@ -11,16 +11,17 @@ project_contacts: Nicolas Paranthoen, Alexis Guilleux
 permalink: /nosprojets_1/pnatmaf/
 ---
 
-Le Plan National d'Actions en faveur des tortues marines dans les Antilles francaises est un cadre strategique de dix ans couvrant la Guadeloupe, la Martinique et Saint-Martin.
+Le Plan National d'Actions (PNA) en faveur des tortues marines aux Antilles françaises est un document de planification stratégique dont l'objectif est l’amélioration de l'état de conservation des cinq espèces qui fréquentent les plages et les eaux des Antilles françaises, dont la Guadeloupe, la Martinique et Saint-Martin. Il est en vigueur pour une durée de 10 ans entre 2020 et 2029.
 
-TOTM en assure l'animation afin de soutenir la mise en oeuvre des actions, la coordination entre territoires et la circulation de l'information.
+Ce plan s'applique de façon commune à ces trois territoires, avec des actions tenant compte des spécificités locales. Il est piloté par la Direction de l'Environnement, de l'Aménagement et du Logement (DEAL) et est animé par TOTM.
 
-## Objectifs
+Le Plan National d'Action en faveur des tortues marines se décline en 3 grands volets :
+- Connaissance
+- Sensibilisation
+- Conservation
 
-- Coordonner les acteurs impliques dans le plan d'action.
-- Accompagner la mise en oeuvre des 36 actions prevues.
-- Articuler les travaux autour de trois volets: connaissance, sensibilisation et conservation.
+Ces volets se déclinent en 36 actions mises en œuvre par les acteurs composant les Réseaux tortues marines de Guadeloupe et Martinique.
 
-## Portee
 
-Le projet vise a renforcer la coherence des actions menees dans les differents territoires des Antilles francaises.
+
+

@@ -2,8 +2,8 @@
 layout: page
 lang: fr
 ref: inn-leatherback-dynamics
-title: Impact de la peche INN sur la dynamique des tortues luth en Guyane francaise
-description: Etudier les interactions entre peche illegale et populations de tortues marines en Guyane.
+title: Impact de la pêche INN sur la dynamique de population des tortues luth en Guyane Française
+description: Etudier les interactions entre pêche illégale et populations de tortues marines en Guyane.
 img: assets/img/projets/projet_peche_INN_luth.webp
 importance: 3
 project_group: current
@@ -12,16 +12,20 @@ project_partners: CNRS, WWF Guyane
 permalink: /nosprojets_1/impact-peche-inn-guyane/
 ---
 
-Cette etude s'inscrit dans l'action "Renforcer la lutte contre la peche illegale" du programme Initiatives TOTM.
+Cette étude s’inscrit dans l’action « Renforcer la lutte contre la pêche illégale » du Programme Initiatives TOTM.
 
-La peche illegale, non declaree et non reglementee represente une menace majeure en Guyane francaise. Elle opere a proximite des sites de nidification et augmente fortement le risque de captures accidentelles.
+La pêche illégale, non déclarée et non réglementée (INN), constitue une menace majeure pour la conservation des ressources marines et la biodiversité en Guyane française. Elle dépasse l’effort de pêche légal local, utilise de longs filets maillants déployés de nuit et opère à proximité immédiate des sites de nidification, augmentant fortement le risque de captures accidentelles de tortues marines.
+
+Les tortues luth (Dermochelys coriacea) connaissent un déclin dramatique sur les plages de l’Ouest guyanais, avec plus de 5000 pontes enregistrées en 2009 contre seulement 71 en 2025, soit une baisse de plus de 95 % en deux décennies, soulignant l’urgence écologique.
+
+Les tortues vertes (Chelonia mydas), bien que moins impactées pour l’instant, présentent des effectifs de ponte fluctuants et partagent des zones interponte avec la tortue luth.
 
 ## Objectifs
 
-- Etudier l'interaction entre peche INN et populations de tortues luth et vertes.
-- Spatialiser les zones maritimes a risque pour orienter la conservation.
+- Etudier l'interaction entre pêche INN et populations de tortues luth et vertes.
+- Spatialiser les zones maritimes à risque pour orienter la conservation.
 - Produire des cartes et analyses utiles aux institutions et partenaires de gestion.
 
 ## Enjeux
 
-Les resultats doivent aider a definir des zones prioritaires pour la surveillance et alimenter les discussions regionales sur la protection des tortues marines.
+Les résultats doivent aider à définir des zones prioritaires pour la surveillance et alimenter les discussions régionales sur la protection des tortues marines et l’orientation des actions de conservation en Guyane française.

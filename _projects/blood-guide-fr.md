@@ -2,11 +2,11 @@
 layout: page
 lang: fr
 ref: blood-guide
-title: Développer un guide pratique pour les prises de sang chez les tortues marines
-description: Elaborer un guide francophone pour la realisation et l'interpretation des analyses sanguines.
+title: Développer un guide pratique pour la réalisation et l’interprétation des prises de sang des tortues marines
+description: 
 img: assets/img/projets/projet_prise_sang.webp
 importance: 9
-project_group: past
+project_group: current
 project_contacts: Tania Gilbert, Mathieu Barret, Florence DelAmico, Margaux Boyer
 project_partners: Reunion des Musees Regionaux (Kelonia, l'Observatoire des Tortues)
 permalink: /nosprojets_1/guide-prises-de-sang/

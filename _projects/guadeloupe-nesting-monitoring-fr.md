@@ -13,17 +13,18 @@ fiche: https://jeantetlorene.github.io/totm/assets/pdf/Initiatives_TOTM_21_12_20
 permalink: /nosprojets_1/suivi-pontes-guadeloupe/
 ---
 
-Ce projet contribue a la connaissance des tendances d'evolution des populations de tortues marines en ponte dans les Antilles francaises.
+Ce projet permet de contribuer à la connaissance des tendances d'évolution des populations de tortues marines en ponte dans les Antilles françaises.
 
-Il s'inscrit dans la mise en oeuvre de l'action n°24 du Plan National d'Actions en faveur des Tortues Marines des Antilles Francaises 2020-2029. L'objectif est d'assurer un suivi coordonne des populations en ponte en Guadeloupe.
+Il s’agit plus concrètement de contribuer à la mise en œuvre de l’action n°24 du Plan National d’Actions en faveur des Tortues Marines des Antilles Françaises 2020-2029 (PNATMAF). Dans ce cadre, l’objectif général du projet est d’assurer un suivi des populations de tortues marines en ponte en Guadeloupe.
 
-## Objectifs
+Axe 1 : Mettre en œuvre et coordonner le suivi des pontes par comptages traces et assurer la bancarisation des données.
 
-- Mettre en oeuvre et coordonner le suivi des pontes par comptages de traces sur une selection d'environ soixante plages.
-- Centraliser, valider et bancariser les donnees produites dans la base Karunati/SINP.
-- Renforcer la dynamique inter-associative et la montee en competences des observateurs.
-- Favoriser la mobilisation citoyenne grace a des actions d'initiation et de formation.
+1.1. Assurer la mise en oeuvre du protocole de suivi des pontes des tortues marines par comptages traces (CT) sur l’année 2026 sur une sélection d’une soixantaine de plages ciblées, en lien avec l’ensemble des acteurs du Réseau Tortues Marines de Guadeloupe (RTMG).
 
-## Partenariat
+1.2. Centraliser et valider l’ensemble des données collectées et les bancariser dans la base Karunati/SINP.
 
-Ce travail est mene avec le Reseau Tortues Marines Guadeloupe et mobilise des observateurs, structures locales et partenaires techniques.
+Axe 2 : Consolider la dynamique inter-associative, renforcer les compétences des observateurs et favoriser la mobilisation citoyenne.
+
+2.1. Mobiliser les observateurs à travers un programme annuel de formation initiale.
+
+2.2. Mobiliser de nouveaux observateurs à travers un programme d’initiation.
