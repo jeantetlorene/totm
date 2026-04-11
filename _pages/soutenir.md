@@ -29,8 +29,8 @@ sections:
         expertise technique, scientifique et territoriale de haut niveau.
     button:
       enable: true
-      label: Faire un Don
-      link: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
+      label: Devenir Membre
+      link: "https://www.helloasso.com/associations/trans-oceans-tortues-marines/adhesions/cotisation-totm"
 
   - layout: mecene
     title: "Devenir mécène"
