@@ -506,7 +506,15 @@ ul.task-list input[type="checkbox"] {
 }
 
 .project-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.project-modal-header-main {
+  flex: 1 1 auto;
 }
 
 .project-modal-title {
@@ -526,7 +534,8 @@ ul.task-list input[type="checkbox"] {
 }
 
 .project-modal-actions {
-  margin-top: 2rem;
+  flex: 0 0 auto;
+  margin-top: 0.25rem;
 }
 
 @media (max-width: 768px) {
@@ -543,6 +552,10 @@ ul.task-list input[type="checkbox"] {
 
   .team-modal .close {
     font-size: 32px;
+  }
+
+  .project-modal-header {
+    flex-direction: column;
   }
 }
 
