@@ -12,16 +12,10 @@ project_partners: Ifremer, WWF French Guiana
 permalink: /en/projects_1/trawl-impact-eu/
 ---
 
-This project assessed the impact of tropical shrimp trawl fisheries on marine turtles in several countries exporting to the European Union.
+Tropical shrimp trawl fishing is one of the fisheries that generates the highest levels of bycatch, especially of marine turtles, which are protected and vulnerable species. Since 1989, the United States has required the use of Turtle Excluder Devices (TEDs) as a condition of market access, whereas the European Union has no equivalent regulation. The EU therefore represents an alternative market for shrimp coming from unsustainable fisheries.
 
-The study relied on harmonized literature sources and bycatch-per-unit-effort estimates to compare the scale of accidental turtle capture across fisheries.
+This work consisted of estimating marine turtle bycatch (CPUE) in tropical shrimp fisheries from five countries exporting to the EU: India, Bangladesh, Vietnam, Madagascar and Mozambique. These countries were selected based on the volume of tropical shrimp exported to the EU and the absence, or weak implementation, of regulations aimed at reducing marine turtle captures. The study relied on the compilation and harmonization of bibliographic data (scientific papers, FAO and Eurostat). Catch per unit effort (CPUE) was used to extrapolate the number of turtles captured according to fleet size and export volumes, with or without the hypothetical presence of Turtle Excluder Devices.
 
-## Expected outcomes
+The results indicate very different orders of magnitude between countries. India stands out with more than two million turtles potentially captured each year by a fleet of 30,000 trawlers, a much higher impact than the other countries. Bangladesh, Madagascar and Mozambique show estimates ranging from several hundred to a few thousand turtles per year, while Vietnam has lower but still concerning values. The main EU importers of tropical shrimp from these unsustainable fisheries are Belgium, France and the Netherlands.
 
-- Compare bycatch levels across exporting countries.
-- Document the link between international trade and high-risk fisheries.
-- Support discussion around stronger European regulation.
-
-## Contribution
-
-The project highlights the need for more robust rules to reduce turtle mortality and ensure fairer competition between seafood sectors.
+Although based on estimates constrained by limited data availability, these results highlight the need for a European regulation. Such a measure would significantly reduce marine turtle mortality while ensuring fairer competition between sectors.

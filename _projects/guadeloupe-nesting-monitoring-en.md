@@ -13,17 +13,18 @@ fiche: https://jeantetlorene.github.io/totm/assets/pdf/Initiatives_TOTM_21_12_20
 permalink: /en/projects_1/guadeloupe-nesting-monitoring/
 ---
 
-This project supports long-term knowledge of nesting trends for marine turtle populations in the French West Indies.
+This project helps improve knowledge of population trends for nesting marine turtles in the French West Indies.
 
-More specifically, it contributes to action no. 24 of the French West Indies National Action Plan for Marine Turtles 2020-2029. Its main goal is to coordinate nesting population monitoring in Guadeloupe.
+More specifically, it contributes to the implementation of action no. 24 of the French West Indies National Action Plan for Marine Turtles 2020-2029 (PNATMAF). Within this framework, the overall objective is to ensure monitoring of nesting marine turtle populations in Guadeloupe.
 
-## Objectives
+Axe 1: Implement and coordinate nesting monitoring through track counts and ensure data storage.
 
-- Implement and coordinate track-count monitoring on roughly sixty target beaches.
-- Centralize, validate and store the resulting data in the Karunati/SINP database.
-- Strengthen collaboration between local organizations and improve observer skills.
-- Encourage citizen participation through training and introductory sessions.
+1.1. Implement the monitoring protocol for marine turtle nesting through track counts during 2026 on a selected group of around sixty targeted beaches, in connection with all stakeholders in the Guadeloupe Sea Turtle Network (RTMG).
 
-## Partnership
+1.2. Centralize and validate all collected data and store it in the Karunati/SINP database.
 
-The project is carried out with the Guadeloupe Sea Turtle Network and relies on local observers, partner organizations and technical support structures.
+Axe 2: Strengthen inter-association dynamics, improve observer skills and encourage citizen engagement.
+
+2.1. Mobilize observers through an annual initial training program.
+
+2.2. Engage new observers through an introduction program.

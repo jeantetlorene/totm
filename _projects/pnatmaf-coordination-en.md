@@ -11,16 +11,13 @@ project_contacts: Nicolas Paranthoen, Alexis Guilleux
 permalink: /en/projects_1/pnatmaf-coordination/
 ---
 
-The French West Indies National Action Plan for Marine Turtles is a ten-year strategic framework covering Guadeloupe, Martinique and Saint-Martin.
+The French West Indies National Action Plan (PNA) for marine turtles is a strategic planning document whose objective is to improve the conservation status of the five species that use the beaches and waters of the French West Indies, including Guadeloupe, Martinique and Saint-Martin. It is in force for a period of 10 years, from 2020 to 2029.
 
-TOTM coordinates the plan in order to support implementation, improve connections between territories and keep information flowing between stakeholders.
+This plan applies jointly to the three territories, with actions that take local specificities into account. It is led by the Directorate for Environment, Planning and Housing (DEAL) and coordinated by TOTM.
 
-## Objectives
+The National Action Plan for marine turtles is structured around three major pillars:
+- Knowledge
+- Awareness
+- Conservation
 
-- Coordinate the organizations involved in the action plan.
-- Support implementation of the 36 planned actions.
-- Structure the work around three pillars: knowledge, awareness and conservation.
-
-## Scope
-
-The project is designed to strengthen consistency between actions carried out across the French West Indies.
+These pillars are divided into 36 actions implemented by the stakeholders that make up the marine turtle networks of Guadeloupe and Martinique.

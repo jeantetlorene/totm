@@ -12,16 +12,12 @@ project_partners: Amana Nature Reserve
 permalink: /en/projects_1/inn-data-protocol/
 ---
 
-This project addresses the need to standardize data collected on illegal fishing around the Amana Nature Reserve in Awala-Yalimapo.
+The Amana Nature Reserve, in Awala-Yalimapo in northwestern French Guiana, protects rich coastal ecosystems and is a major nesting site for leatherback and green turtles. Located near Suriname, it has long faced illegal fishing by foreign boats, which target acoupa weakfish but also catch protected species, while creating tensions with local fishers and complicating the management of shared resources.
 
-At the moment, information gathered through patrols, official reports, microlight flights and drones remains heterogeneous. A shared protocol is needed to better track pressures on marine turtles and coastal habitats.
+To monitor this phenomenon, the reserve collects data through patrols, official reports, microlight surveys and drones. This information remains heterogeneous and requires a standardized protocol so that it can be fully used to assess pressures on turtles and habitats and support management decisions, particularly in the context of a national case file on IUU fishing.
 
-## Objectives
+TOTM is working to produce a reproducible method at the scale of eastern French Guiana in order to improve monitoring of illegal fishing activities.
 
 - Design a standardized protocol for collecting and analyzing data.
-- Make information comparable over time and across areas.
-- Improve its usefulness for management and advocacy work.
-
-## TOTM's role
-
-TOTM is developing a reproducible method that can be used more broadly across eastern French Guiana to improve monitoring of illegal fishing activities.
+- Produce a reproducible method at the scale of eastern French Guiana.
+- Facilitate its use in order to improve monitoring of illegal fishing activities.

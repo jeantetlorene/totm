@@ -12,16 +12,13 @@ project_partners: Reunion Regional Museums Network (Kelonia, Sea Turtle Observat
 permalink: /en/projects_1/identification-methodology/
 ---
 
-This project aims to define a shared methodology for selecting the most suitable identification techniques depending on the monitoring, research or conservation context.
+This project aims to define a shared methodology for choosing the most relevant identification techniques depending on research, monitoring and conservation contexts.
 
-The challenge is both scientific and operational: improve protocol consistency, compare existing methods and make them easier for field teams to use.
+The challenges are both scientific and operational: improve the reliability of protocols, compare the available methods and make them easier for field teams to use.
 
 ## Objectives
 
-- Review identification techniques already used by partner networks.
-- Assess their strengths, limitations and conditions of use.
-- Provide a decision-support framework tailored to stakeholder needs.
+- Identify the identification techniques already used within partner networks.
+- Assess their advantages, limitations and conditions of use.
+- Propose a decision-support framework tailored to stakeholder needs.
 
-## Partnership
-
-The project is developed with Kelonia and the Sea Turtle Observatory to connect scientific expertise, field experience and conservation needs.
