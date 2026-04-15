@@ -23,4 +23,9 @@ Les tortues marines sont fortement affectées par les activités humaines pendan
     <li>Appuyer l’entrée en vigueur d’une règlementation qui interdise les lâchers de ballons sur le territoire national</li>
 </ul>
 
-![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_1_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/totm-unoc-2025.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls-1.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls-2.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
