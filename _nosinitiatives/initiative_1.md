@@ -24,8 +24,15 @@ Les tortues marines sont fortement affectées par les activités humaines pendan
 </ul>
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/totm-unoc-2025.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls-1.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/unoc-ted-manuel-valls-2.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>
+    <a href="{{ 'assets/fiches_initiative/fiche_initiative_18.pdf' | relative_url }}" target="_blank">
+      <img src="{{ 'assets/img/fiches/fiche_initiative_18.jpg' | relative_url }}" class="img-fluid rounded">
+    </a>
+  </swiper-slide>
+  <swiper-slide>
+    <a href="{{ 'assets/fiches_initiative/fiche_initiative_19.pdf' | relative_url }}" target="_blank">
+      <img src="{{ 'assets/img/fiches/fiche_initiative_19.jpg' | relative_url }}" class="img-fluid rounded">
+    </a>
+  </swiper-slide>
+
 </swiper-container>
