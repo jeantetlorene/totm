@@ -38,4 +38,30 @@ Les experts se sont accordés sur la nécessité de définir une méthodologie q
 </ul>
     
 
-![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_3_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_12.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_12.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_13.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_13.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_14.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_14.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_15.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_15.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_16.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_16.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+</swiper-container>

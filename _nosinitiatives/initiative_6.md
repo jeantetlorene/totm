@@ -55,5 +55,61 @@ Le développement de pratiques de pêche durables est un enjeu majeur pour la pr
     <li>Contribuer au renforcement des moyens de lutte contre la pêche illégale</li>
 </ul>
 
-![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_6_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_25.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_25.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_26.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_26.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_27.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_27.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_28.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_28.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_29.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_29.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_30.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_30.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_31.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_31.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_32.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_32.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_33.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_33.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_34.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_34.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_35.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_35.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+</swiper-container>
     

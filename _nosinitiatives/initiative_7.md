@@ -33,4 +33,27 @@ Des millions de tonnes de déchets sont déversés chaque année dans les océan
     <li>Monter un projet de recherche et développement national sur les interactions entre tortues et déchets marins sur le territoire français</li>
 </ul>
 
-![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_7_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_01.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_01.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_02.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_02.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_03.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_03.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_04.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_04.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+
+</swiper-container>

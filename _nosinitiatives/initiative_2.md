@@ -55,16 +55,35 @@ Les missions et études envisagées apporteront de nouveaux éclairages sur les 
     
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>
-    <a href="{{ 'assets/fiches_initiative/fiche_initiative_18.pdf' | relative_url }}" target="_blank">
-      <img src="{{ 'assets/fiches_initiative/fiche_initiative_18.jpg' | relative_url }}" class="img-fluid rounded">
-    </a>
-  </swiper-slide>
-  <swiper-slide>
-    <a href="{{ 'assets/fiches_initiative/fiche_initiative_19.pdf' | relative_url }}" target="_blank">
-      <img src="{{ 'assets/fiches_initiative/fiche_initiative_19.jpg' | relative_url }}" class="img-fluid rounded">
-    </a>
-  </swiper-slide>
-
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_40.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_40.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_41.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_41.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_42.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_42.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_43.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_43.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_44.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_44.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_45.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_45.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
 </swiper-container>
 

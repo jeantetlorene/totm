@@ -34,4 +34,36 @@ Accueillir les tortues blessées, leur prodiguer les premiers soins, accompagner
 
 
 
-![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_8_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_05.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_06.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_06.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_06.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_07.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_07.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_08.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_08.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_09.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_09.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_10.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_10.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+
+</swiper-container>

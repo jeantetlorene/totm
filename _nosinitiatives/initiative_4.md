@@ -28,4 +28,11 @@ Ce groupe de travail s’emploiera dans un premier temps à rédiger et à parta
 
     
 
-![Apesct reglemantaires]({{ 'assets/img/initiatives/initiative_4_2.webp' | relative_url }}){: style="display: block; margin: 2rem auto; max-width: 100%; height: auto;" }
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+    <swiper-slide>
+        <a href="{{ 'assets/fiches_initiative/fiche_initiative_11.pdf' | relative_url }}" target="_blank">
+            <img src="{{ 'assets/fiches_initiative/fiche_initiative_11.webp' | relative_url }}" class="img-fluid rounded">
+        </a>
+    </swiper-slide>
+
+</swiper-container>
