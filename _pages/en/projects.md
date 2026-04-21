@@ -2,7 +2,7 @@
 layout: page
 title: Our Projects
 lang: en
-permalink: /en/projects_1/
+permalink: /en/projects/
 ref: projects
 ---
 

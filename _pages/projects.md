@@ -2,7 +2,7 @@
 layout: page
 title: Nos Projets
 lang: fr
-permalink: /nosprojets_1/
+permalink: /nosprojets/
 ref: projects
 ---
 

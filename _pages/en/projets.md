@@ -2,7 +2,7 @@
 layout: projets
 title: Our Projects
 lang: en
-permalink: /en/projects/
+permalink: /en/projects_1/
 ref: projets
 
 banners:

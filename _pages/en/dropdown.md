@@ -13,9 +13,6 @@ children:
   - title: Our Projects
     permalink: /en/projects/
   - title: divider
-  - title: Our Projects bis
-    permalink: /en/projects_1/
-  - title: divider
   - title: Publications
     permalink: /en/publications/
 
