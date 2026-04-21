@@ -51,13 +51,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/totm/en/projects/";
               },
-            },{id: "dropdown-our-projects-bis",
-              title: "Our Projects bis",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/totm/en/projects_1/";
-              },
             },{id: "dropdown-publications",
               title: "Publications",
               description: "",
@@ -78,13 +71,6 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/totm/nosprojets/";
-              },
-            },{id: "dropdown-nos-projets-bis",
-              title: "Nos Projets bis",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/totm/nosprojets_1/";
               },
             },{id: "dropdown-publications",
               title: "Publications",
