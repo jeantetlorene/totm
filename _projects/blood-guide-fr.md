@@ -2,7 +2,7 @@
 layout: page
 lang: fr
 ref: blood-guide
-title: Développer un guide pratique pour la réalisation et l’interprétation des prises de sang des tortues marines
+title: Réalisation d’un guide pratique sur les prises de sang chez les tortues marines 
 description: 
 img: assets/img/projets/projet_prise_sang.webp
 importance: 9
@@ -12,15 +12,19 @@ project_partners: Reunion des Musees Regionaux (Kelonia, l'Observatoire des Tort
 permalink: /nosprojets_1/guide-prises-de-sang/
 ---
 
-Ce projet s’inscrit dans l’action « Identifier des paramètres fiables pour évaluer l’état de santé des tortues marines ».
+Afin d’améliorer la prise en charge des tortues marines en centre de soins et de renforcer l’évaluation de leur état de santé, TOTM lance un projet dédié à l’élaboration d’un guide pratique sur les analyses sanguines chez les tortues marines. Cette action s’inscrit dans l’objectif d’identifier des paramètres fiables pour évaluer l’état physiologique de ces espèces, à la fois en contexte de soins et dans le cadre d’études scientifiques sur les populations sauvages.
 
-Les échantillons sanguins, quand ils sont correctement analysés et interprétés, sont un outil précieux et de plus en plus utilisé pour évaluer l’état physiologique des tortues marines. Leur analyse nécessite des équipements relativement accessibles, disponibles dans la plupart des cliniques ou laboratoires vétérinaires. L’interprétation de ces résultats requiert des connaissances appartenant au domaine de la médecine vétérinaire d’une part et spécifiques aux tortues marines d’autre part. En effet, de nombreux aspects de l'hématologie et de la biochimie de ces dernières diffèrent de ceux observés chez les autres espèces de reptiles, et plus encore des mammifères.
+Ce travail, d’une durée de 10 mois, est mené dans le cadre d’un service civique assuré par Tania Gilbert, en partenariat avec Kélonia. Le projet repose sur une revue approfondie de la littérature scientifique internationale afin de synthétiser les connaissances existantes et de produire un guide pratique rédigé en français, spécifiquement adapté aux tortues marines.
 
-La bonne prise en charge des tortues marines repose sur la collaboration étroite et le partage d’expertise entre soigneurs, capacitaires, responsables de centres de soins et des vétérinaires en charge.
+Les analyses sanguines constituent un outil de plus en plus utilisé pour évaluer l’état physiologique des tortues marines. Lorsqu’elles sont correctement réalisées et interprétées, elles permettent d’obtenir des informations précieuses sur la santé des individus. Leur analyse nécessite toutefois des connaissances spécifiques, car de nombreux paramètres hématologiques et biochimiques diffèrent de ceux observés chez d’autres reptiles, et plus encore chez les mammifères. L’interprétation des résultats repose donc sur une expertise croisée entre médecine vétérinaire et biologie des tortues marines.
 
-Cette action vise à élaborer un guide pratique de réalisation et d’interprétation cliniques des paramètres mesurés grâce aux prises de sang, spécifiquement adapté aux tortues marines et rédigé en français à partir de la bibliographie actuellement disponible. Ce support servira de base pour :
-- les vétérinaires novices dans le domaine des tortues marines et pour renforcer le lien opérationnel avec les équipes des centres de soins ;
-- les soigneurs, capacitaires et responsables de centres de soins directement impliqués dans les soins quotidiens et le suivi clinique et dont la compréhension des décisions vétérinaires est déterminante pour la réussite des traitements ;
-- les chercheurs en biologie et en écologie marine dans le cadre d’études impliquant des prélèvements sanguins, pour une meilleure interprétation et valorisation des données issues des populations sauvages.
+Le guide en cours d’élaboration vise à synthétiser les recommandations d’experts internationaux concernant les protocoles de prélèvement, les méthodes d’analyse (hématologie, biochimie) et l’interprétation clinique des résultats. Ce travail sera décliné
 
-Cette révision bibliographique permettra également de mettre en évidence les domaines qui nécessitent des recherches complémentaires.
+sous forme de fiches techniques pratiques couvrant les différentes étapes, depuis la réalisation des prélèvements jusqu’à l’exploitation des données. Des supports vulgarisés seront également proposés afin de faciliter la compréhension des paramètres étudiés par les équipes de terrain.
+
+Ce guide s’adresse à plusieurs publics complémentaires :
+- les vétérinaires, notamment ceux débutant dans la prise en charge des tortues marines ;
+- les soigneurs, capacitaires et responsables de centres de soins impliqués dans le suivi clinique quotidien ;
+- les chercheurs en biologie et en écologie marine réalisant des prélèvements sanguins sur des populations sauvages.
+
+En favorisant une meilleure standardisation des pratiques et une interprétation plus fiable des analyses, ce projet contribuera à améliorer la qualité des diagnostics, à renforcer la collaboration entre centres de soins, vétérinaires et chercheurs, et à valoriser les données issues des prises de sang réalisées aussi bien sur des individus en soins que dans le cadre de programmes scientifiques. Cette revue bibliographique permettra également d’identifier les lacunes de connaissances et les besoins de recherche complémentaires sur la santé des tortues marines. 

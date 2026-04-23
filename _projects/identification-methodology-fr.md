@@ -2,7 +2,7 @@
 layout: page
 lang: fr
 ref: identification-methodology
-title: Définir une méthodologie pour sélectionner les techniques d’identification
+title: Développement d’un outil d’aide à la décision pour l’identification individuelle des tortues marines 
 description: Structurer le choix des meilleures techniques d'identification pour les tortues marines.
 img: assets/img/projets/projet_identificattion.webp
 importance: 2
@@ -12,14 +12,9 @@ project_partners: Reunion des Musees Regionaux (Kelonia, l'Observatoire des Tort
 permalink: /nosprojets_1/methodologie-identification/
 ---
 
-Ce projet vise à définir une méthodologie commune pour choisir les techniques d'identification les plus pertinentes selon les contextes d'étude, de suivi et de conservation.
+L’identification individuelle des tortues marines (marquage, PIT tags, photo-identification) est indispensable pour suivre ou estimer les populations via des approches de capture marquage-recapture. Elle quantifie des paramètres démographiques clés tels que la survie, l’abondance et les intervalles de reproduction, tout en corrigeant les biais de double comptage.
 
-Les enjeux sont à la fois scientifiques et opérationnels: fiabiliser les protocoles, comparer les methodes disponibles et faciliter leur appropriation par les équipes de terrain.
+En 2025, TOTM a encadré un service civique consacré au développement d’un outil d’aide à la décision sur les techniques d’identification individuelle des tortues marines, afin de renforcer la qualité des données collectées. Ce travail a été mené en collaboration avec Claire Jean, experte en identification et administratrice de TOTM, ainsi qu’avec l’équipe de Kélonia - l’Observatoire des Tortues Marines de La Réunion.
 
-## Objectifs
-
-- Recenser les techniques d'identification déjà utilisées au sein des réseaux parténaires.
-- Evaluer leurs avantages, limites et conditions d'utilisation.
-- Proposer un cadre d'aide à la décision adaptée aux besoins des acteurs.
-
+Un des objectives du projet est la réalisation d’une revue de littérature scientifique, prochainement soumise pour publication, recensant les différentes méthodes d’identification (marquage externe, marquage interne, photo-identification, génétique, etc.) et analysant leurs avantages, limites et contextes d’application. En complément, un rapport technique détaillé a été élaboré, intégrant un arbre décisionnel et des tableaux comparatifs afin d’orienter les gestionnaires, chercheurs et acteurs de terrain vers les méthodes les plus adaptées selon leurs objectifs et contraintes. 
 

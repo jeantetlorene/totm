@@ -12,17 +12,17 @@ project_partners: Reserve Naturelle de l'Amana
 permalink: /nosprojets_1/protocole-peche-inn/
 ---
 
-La Réserve naturelle de l’Amana, à Awala-Yalimapo au nord-ouest de la Guyane, protège des écosystèmes côtiers d’une grande richesse et constitue un site majeur de ponte pour les tortues luth et verte. Située près du Suriname, elle fait face depuis des décennies à la pêche illégale pratiquée par des embarcations étrangères (tapouilles), qui ciblent l’acoupa rouge mais capturent aussi des espèces protégées, tout en générant des tensions avec les pêcheurs locaux et compliquant la gestion des ressources partagées.
+La Réserve naturelle nationale de l’Amana, située à Awala-Yalimapo, au nord-ouest de la Guyane française, protège des écosystèmes côtiers d’une grande richesse et constitue un site majeur de ponte pour les tortues marines, en particulier la tortue luth et la tortue verte, mais aussi la tortue olivâtre et, plus ponctuellement, la tortue imbriquée. Située à proximité du Suriname, cette zone est confrontée depuis plusieurs décennies à une pression importante liée à la pêche illégale, non déclarée et non réglementée (INN), pratiquée par des embarcations étrangères, communément appelées « tapouilles ». Ces activités ciblent notamment l’acoupa rouge, mais entraînent également des captures
 
-Pour suivre ce phénomène, la réserve collecte des données via patrouilles, procès-verbaux, survols en ULM et drones. Ces informations, encore hétérogènes, nécessitent un protocole standardisé afin d’être pleinement exploitables pour évaluer les pressions sur les tortues et les habitats, et appuyer les décisions de gestion, notamment dans le cadre d’un dossier national sur la pêche INN.
+accidentelles d’espèces protégées, dont les tortues marines, tout en générant des tensions avec les pêcheurs locaux et en compliquant la gestion des ressources partagées.
 
-TOTM travaille a produire une methode reproductible a l'echelle de l'est guyanais afin d'ameliorer le suivi des activites de peche illegale.
+Un récent projet d’évaluation du risque d’interaction entre la pêche INN et les tortues luth en Guyane française a permis d’identifier plusieurs zones critiques, où les aires d’activité des femelles en période intra-pontes chevauchent des secteurs de forte pression de pêche illégale. Ces zones se situent notamment à proximité immédiate de la Réserve naturelle nationale de l’Amana. Ces résultats soulignent la nécessité de renforcer le suivi de ces activités et de mieux caractériser les pressions exercées sur les tortues marines et leurs habitats.
 
-## Objectifs
+Pour suivre ce phénomène, la Réserve de l’Amana collecte depuis de nombreuses années des données à partir de différents dispositifs complémentaires : patrouilles de plage, contrôles en mer, procès-verbaux, survols aériens (ULM) et observations par drone. Toutefois, ces informations restent aujourd’hui hétérogènes, dispersées et difficilement comparables dans le temps. La mise en place d’un protocole de suivi harmonisé, s’appuyant sur ces dispositifs existants, constitue donc une étape essentielle pour structurer les données, améliorer leur exploitation et appuyer les décisions de gestion, notamment dans le cadre des travaux nationaux sur la pêche INN.
 
-- Concevoir un protocole standardisé de collecte et d'analyse des données.
-- Produire une méthode reproductible a l'échelle de l'est guyanais
-- Faciliter leur utilisation afin d’améliorer le suivi des activités de pêche illégale.
+Dans cette optique, TOTM a engagé le recrutement d’une stagiaire dédiée aux actions menées au sein de la Réserve naturelle nationale de l’Amana. Ce stage vise à harmoniser et analyser les données existantes sur la présence des embarcations illégales (« tapouilles »), collectées par les différents moyens de suivi (patrouilles de plage, survols, drones et procès-verbaux). L’objectif est de développer un protocole standardisé de collecte et d’analyse des données, permettant d’améliorer le suivi de la pêche INN et d’évaluer plus précisément les pressions qu’elle exerce sur les tortues marines et les écosystèmes côtiers.
+
+À plus long terme, ce travail contribuera à la mise en place d’une méthode reproductible à l’échelle de l’est guyanais, afin de renforcer le suivi des activités de pêche illégale et d’appuyer les actions de conservation dans l’ensemble de la région. 
 
 
 

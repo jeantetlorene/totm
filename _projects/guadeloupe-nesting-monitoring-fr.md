@@ -2,8 +2,8 @@
 layout: page
 lang: fr
 ref: guadeloupe-nesting-monitoring
-title: Coordination et mise en oeuvre du suivi de l'activite de ponte en Guadeloupe
-description: Coordination du suivi des pontes sur les plages de l'archipel de Guadeloupe.
+title: Mise en œuvre et coordination des suivis de l’activité de ponte des tortues marines sur les plages de l’archipel de Guadeloupe 
+description: 
 img: assets/img/projets/projet_suivi_pontes.webp
 importance: 1
 project_group: current
@@ -13,18 +13,4 @@ fiche: https://jeantetlorene.github.io/totm/assets/pdf/Initiatives_TOTM_21_12_20
 permalink: /nosprojets_1/suivi-pontes-guadeloupe/
 ---
 
-Ce projet permet de contribuer à la connaissance des tendances d'évolution des populations de tortues marines en ponte dans les Antilles françaises.
-
-Il s’agit plus concrètement de contribuer à la mise en œuvre de l’action n°24 du Plan National d’Actions en faveur des Tortues Marines des Antilles Françaises 2020-2029 (PNATMAF). Dans ce cadre, l’objectif général du projet est d’assurer un suivi des populations de tortues marines en ponte en Guadeloupe.
-
-Axe 1 : Mettre en œuvre et coordonner le suivi des pontes par comptages traces et assurer la bancarisation des données.
-
-1.1. Assurer la mise en oeuvre du protocole de suivi des pontes des tortues marines par comptages traces (CT) sur l’année 2026 sur une sélection d’une soixantaine de plages ciblées, en lien avec l’ensemble des acteurs du Réseau Tortues Marines de Guadeloupe (RTMG).
-
-1.2. Centraliser et valider l’ensemble des données collectées et les bancariser dans la base Karunati/SINP.
-
-Axe 2 : Consolider la dynamique inter-associative, renforcer les compétences des observateurs et favoriser la mobilisation citoyenne.
-
-2.1. Mobiliser les observateurs à travers un programme annuel de formation initiale.
-
-2.2. Mobiliser de nouveaux observateurs à travers un programme d’initiation.
+Cette mission de TOTM avec l’aide d’une subvention de la DEAL Guadeloupe, vise à garantir la continuité d’un suivi scientifique indispensable à l’évaluation des tendances démographiques et à la mesure de l’efficacité des actions de conservation. TOTM coordonnera ainsi les 6 associations du réseau Tortues Marines Guadeloupe qui réaliseront les suivis sur les plages : - Kap Natirel sur les secteurs Sud Basse-Terre, Sud Grande Terre et Est Grande-Terre ;- Ecolambda sur le secteur de Marie-Galante ;- Evasion Tropicale sur le secteur de la Côtes-Sous-le-Vent ;- Totijon sur le secteur du Nord Basse-Terre ;- Le Gaïac sur le secteur du Nord Basse-Terre ;- Titè sur le secteur de la Désirade. Le suivi des pontes permet non seulement d’estimer l’évolution des populations, mais aussi d’assurer une veille active sur l’état des sites de reproduction et les pressions qui les affectent (urbanisation, pollution lumineuse, érosion, dégradation des habitats). Après deux années sans mise en œuvre complète du suivi (2024 et 2025), l’enjeu est aujourd’hui de rétablir un dispositif annuel pérenne, condition essentielle à la robustesse des données et à la pertinence des stratégies de gestion. 

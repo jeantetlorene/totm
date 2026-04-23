@@ -22,7 +22,7 @@ ref: projects
 {% endif %}
 
 {% if past_projects.size > 0 %}
-  <h2 class="category">Anciens projets</h2>
+  <h2 class="category">Projets terminés</h2>
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in past_projects %}
       {% include projects.liquid project=project %}
