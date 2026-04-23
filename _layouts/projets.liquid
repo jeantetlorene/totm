@@ -38,6 +38,23 @@ layout: page
           <p><span class="meta-label">{{ contacts_label }}:</span> {{ banner.contacts }}</p>
         </div>
 
+        {% assign secondary_button_url = banner.secondary_button_url | default: banner.second_button_url %}
+        {% assign secondary_button_label = banner.secondary_button_label | default: banner.second_button_label %}
+        {% if banner.fiche or secondary_button_url %}
+          <div class="buttons">
+            {% if banner.fiche %}
+              <a href="{{ banner.fiche | prepend: 'assets/pdf/' | relative_url }}" class="btn_projets btn_projets-secondary" target="_blank" rel="noopener noreferrer">
+                {{ factsheet_label }}
+              </a>
+            {% endif %}
+            {% if secondary_button_url and secondary_button_label %}
+              <a href="{% if secondary_button_url contains '://' %}{{ secondary_button_url }}{% else %}{{ secondary_button_url | relative_url }}{% endif %}" class="btn_projets btn_projets-secondary" target="_blank" rel="noopener noreferrer">
+                {{ secondary_button_label }}
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+
         <div class="description">
           <div class="short-text">{{ banner.description | strip_html | normalize_whitespace | truncate: 220 }}</div>
           <div class="full-text">{{ banner.description | markdownify }}</div>
@@ -52,9 +69,6 @@ layout: page
           >
             {{ read_more_label }}
           </button>
-          <a href="{{ banner.fiche | prepend: 'assets/pdf/' | relative_url }}" class="btn_projets btn_projets-secondary" target="_blank" rel="noopener noreferrer">
-            {{ factsheet_label }}
-          </a>
         </div>
       </div>
     </article>

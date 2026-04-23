@@ -1,6 +1,8 @@
 <div class="col mb-4">
   {% assign sheet_url = project.fiche | default: project.factsheet %}
   {% assign sheet_href = "" %}
+  {% assign secondary_button_url = project.secondary_button_url | default: project.second_button_url %}
+  {% assign secondary_button_href = "" %}
   {% assign partners_label = "Partenaires" %}
   {% if page.lang == "en" %}
     {% assign partners_label = "Partners" %}
@@ -12,6 +14,13 @@
       {% assign sheet_href = sheet_url | relative_url %}
     {% endif %}
   {% endif %}
+  {% if secondary_button_url %}
+    {% if secondary_button_url contains '://' %}
+      {% assign secondary_button_href = secondary_button_url %}
+    {% else %}
+      {% assign secondary_button_href = secondary_button_url | relative_url %}
+    {% endif %}
+  {% endif %}
 
   <a
     class="project-link"
@@ -21,6 +30,8 @@
     data-contacts="{{ project.project_contacts | default: '' | escape }}"
     data-partners="{{ project.project_partners | default: '' | escape }}"
     data-factsheet="{{ sheet_href | escape }}"
+    data-secondary-button-url="{{ secondary_button_href | escape }}"
+    data-secondary-button-label="{{ project.secondary_button_label | default: project.second_button_label | default: '' | escape }}"
     data-img="{{ project.img | default: '' | relative_url }}"
   >
     <div class="card h-100 hoverable">

@@ -55,6 +55,8 @@ ref: projects
         const projectContacts = link.dataset.contacts || "";
         const projectPartners = link.dataset.partners || "";
         const projectFactsheet = link.dataset.factsheet || "";
+        const projectSecondaryButtonUrl = link.dataset.secondaryButtonUrl || "";
+        const projectSecondaryButtonLabel = link.dataset.secondaryButtonLabel || "";
         const projectImg = link.dataset.img || "";
         if (!url) return;
 
@@ -82,12 +84,25 @@ ref: projects
                 `);
               }
 
-              const factsheetButton = projectFactsheet
+              const actionButtons = [];
+              if (projectFactsheet) {
+                actionButtons.push(`
+                  <a class="btn btn-outline-primary" href="${projectFactsheet}" target="_blank" rel="noopener noreferrer">
+                    ${factsheetLabel}
+                  </a>
+                `);
+              }
+              if (projectSecondaryButtonUrl && projectSecondaryButtonLabel) {
+                actionButtons.push(`
+                  <a class="btn btn-outline-primary" href="${projectSecondaryButtonUrl}" target="_blank" rel="noopener noreferrer">
+                    ${projectSecondaryButtonLabel}
+                  </a>
+                `);
+              }
+              const projectActions = actionButtons.length
                 ? `
                   <div class="project-modal-actions">
-                    <a class="btn btn-outline-primary" href="${projectFactsheet}" target="_blank" rel="noopener noreferrer">
-                      ${factsheetLabel}
-                    </a>
+                    ${actionButtons.join("")}
                   </div>
                 `
                 : "";
@@ -105,8 +120,8 @@ ref: projects
                   <div class="project-modal-header-main">
                     <h1 class="project-modal-title">${projectTitle}</h1>
                     ${metadata.join("")}
+                    ${projectActions}
                   </div>
-                  ${factsheetButton}
                 </div>
                 ${article ? article.innerHTML : ""}
                 ${bottomImage}
