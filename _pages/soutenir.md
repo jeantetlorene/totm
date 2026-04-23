@@ -40,7 +40,7 @@ sections:
     background: true
 
     last_content: >
-        Pour échanger sur vos priorités, identifier les modalités de soutien lesplus adaptées et construire un partenariat sur mesure, nous vous invitons à contacter notre chargée de développement et de déploiement :**margaux.boyer@totm.ong**
+        Pour échanger sur vos priorités, identifier les modalités de soutien lesplus adaptées et construire un partenariat sur mesure, nous vous invitons à contacter notre chargée de développement et de déploiement: **margaux.boyer@totm.ong**
 
     intro: >
         Les tortues marines sont des espèces migratrices emblématiques, au carrefour de

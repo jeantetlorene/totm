@@ -12,20 +12,10 @@ project_partners: CNRS, WWF French Guiana
 permalink: /en/projects_1/inn-fishing-french-guiana/
 ---
 
-This study is part of the action "Strengthening the fight against illegal fishing" within the TOTM Initiatives Program.
+In partnership with CNRS, TOTM contributes to a scientific study led by Damien Chevallier and Manon Niviere that aims to quantify the impact of illegal, unreported and unregulated (IUU) fishing on the population dynamics of the leatherback turtle (Dermochelys coriacea) in French Guiana.
 
-Illegal, unreported and unregulated fishing (IUU) is a major threat to marine resources and biodiversity in French Guiana. It exceeds the local legal fishing effort, uses long gillnets deployed at night and operates very close to nesting sites, greatly increasing the risk of accidental capture of marine turtles.
+French Guiana is one of the world's main nesting sites for this species, which is listed as Vulnerable globally by the IUCN and Critically Endangered at the regional scale of the western Atlantic. Despite this major ecological importance, the local population is undergoing a rapid collapse: the number of nests fell from more than 5,000 in 2009 to only 17 in 2025, reflecting a drastic decline in the number of breeding females. Results from previous studies indicate that mortality at sea is now the main limiting factor for the population. In particular, accidental capture in IUU fisheries represents a critical pressure on adult females, whose survival directly determines population renewal.
 
-Leatherback turtles (Dermochelys coriacea) have experienced a dramatic decline on the beaches of western French Guiana, with more than 5,000 nests recorded in 2009 compared with only 71 in 2025, a drop of over 95% in two decades, underlining the ecological urgency.
+This decline is occurring in a context of documented growth in illegal fishing pressure in French Guianese waters over the last decade, increasing the risk of interactions with marine turtles. Combined analysis of telemetry data and fishing activity highlights a strong spatial and temporal overlap between essential marine habitats used by turtles and zones of intense IUU fishing, particularly within the three high-risk interaction areas identified in transboundary waters west of French Guiana. Beyond documenting the problem, the project provides robust indicators to guide public action, including identification of priority surveillance areas, support for targeted deployment of enforcement resources at sea, and contributions to the design of management measures at regional scale. It also strengthens the capacity of local stakeholders to integrate scientific data into conservation strategies.
 
-Green turtles (Chelonia mydas), although currently less affected, show fluctuating nesting numbers and share inter-nesting areas with leatherbacks.
-
-## Objectives
-
-- Study the interaction between IUU fishing and leatherback and green turtle populations.
-- Map marine areas at risk in order to guide conservation action.
-- Produce maps and analyses useful to institutions and management partners.
-
-## Stakes
-
-The results should help define priority areas for surveillance and support regional discussions on marine turtle protection and the orientation of conservation actions in French Guiana.
+By improving understanding of the mechanisms behind the decline and identifying high-risk zones, this study will provide an operational lever for strengthening anti-IUU fishing policies and supporting the long-term conservation of one of the last major leatherback turtle populations in the Atlantic.

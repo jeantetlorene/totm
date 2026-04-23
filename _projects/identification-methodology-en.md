@@ -12,13 +12,8 @@ project_partners: Reunion Regional Museums Network (Kelonia, Sea Turtle Observat
 permalink: /en/projects_1/identification-methodology/
 ---
 
-This project aims to define a shared methodology for choosing the most relevant identification techniques depending on research, monitoring and conservation contexts.
+Individual identification of marine turtles through flipper tags, PIT tags and photo-identification is essential for monitoring or estimating populations using capture-mark-recapture approaches. It allows key demographic parameters such as survival, abundance and remigration intervals to be quantified, while also reducing bias linked to double counting.
 
-The challenges are both scientific and operational: improve the reliability of protocols, compare the available methods and make them easier for field teams to use.
+In 2025, TOTM supervised a civic service project dedicated to developing a decision-support tool for individual identification techniques in marine turtles, with the goal of improving data quality. This work was carried out in collaboration with Claire Jean, a specialist in identification methods and TOTM board member, as well as with the Kelonia team, the Sea Turtle Observatory of Reunion Island.
 
-## Objectives
-
-- Identify the identification techniques already used within partner networks.
-- Assess their advantages, limitations and conditions of use.
-- Propose a decision-support framework tailored to stakeholder needs.
-
+One of the project's objectives is a scientific literature review, which will soon be submitted for publication, covering the different identification methods such as external tagging, internal tagging, photo-identification and genetics, and analyzing their advantages, limitations and contexts of use. In parallel, a detailed technical report was produced, including a decision tree and comparison tables to help managers, researchers and field practitioners choose the most appropriate methods according to their objectives and constraints.

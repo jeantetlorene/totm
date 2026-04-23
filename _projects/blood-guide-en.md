@@ -12,15 +12,17 @@ project_partners: Reunion Regional Museums Network (Kelonia, Sea Turtle Observat
 permalink: /en/projects_1/blood-sampling-guide/
 ---
 
-This project is part of the action "Identifying reliable parameters to assess the health status of marine turtles."
+To improve the care provided to marine turtles in rehabilitation centers and strengthen health assessments, TOTM is launching a project dedicated to producing a practical guide on blood analyses in marine turtles. This work is part of a broader effort to identify reliable parameters for assessing the physiological condition of these species, both in rehabilitation settings and in scientific studies of wild populations.
 
-Blood samples, when properly analyzed and interpreted, are a valuable and increasingly used tool for assessing the physiological condition of marine turtles. Their analysis requires equipment that is relatively accessible and available in most veterinary clinics or laboratories. Interpreting these results requires knowledge from the field of veterinary medicine on the one hand, and marine turtle-specific expertise on the other. Many aspects of marine turtle hematology and biochemistry differ from those observed in other reptile species, and even more so from mammals.
+This 10-month project is being carried out through a civic service position held by Tania Gilbert, in partnership with Kelonia. It is based on an in-depth review of the international scientific literature in order to synthesize current knowledge and produce a practical guide written in French and specifically tailored to marine turtles.
 
-Proper care for marine turtles relies on close collaboration and knowledge sharing between caretakers, authorized handlers, rehabilitation center managers and the veterinarians in charge.
+Blood analyses are an increasingly important tool for assessing the physiological condition of marine turtles. When sampling and interpretation are performed properly, they provide valuable information on individual health. Their interpretation nonetheless requires specific expertise, because many hematological and biochemical parameters differ from those observed in other reptiles, and even more so in mammals. Making sense of these results therefore relies on combined expertise in veterinary medicine and marine turtle biology.
 
-This action aims to develop a practical guide to the collection and clinical interpretation of blood parameters in marine turtles, written in French and based on the currently available literature. This resource will serve as a basis for:
-- veterinarians who are new to the field of marine turtles and to strengthen operational links with rehabilitation center teams;
-- caretakers, authorized handlers and rehabilitation center managers who are directly involved in daily care and clinical monitoring, and for whom understanding veterinary decisions is essential to treatment success;
-- researchers in marine biology and ecology working on studies involving blood sampling, in order to improve interpretation and use of data collected from wild populations.
+The guide currently being developed aims to synthesize recommendations from international experts on sampling protocols, analytical methods such as hematology and biochemistry, and clinical interpretation of results. This work will be translated into practical technical sheets covering the different steps, from sample collection to data interpretation. Outreach materials will also be produced to help field teams better understand the parameters being studied.
 
-This literature review will also help highlight the areas where further research is needed.
+This guide is intended for several complementary audiences:
+- veterinarians, especially those who are new to caring for marine turtles;
+- caretakers, licensed handlers and rehabilitation center managers involved in day-to-day clinical monitoring;
+- researchers in marine biology and marine ecology who collect blood samples from wild populations.
+
+By promoting better standardization of practices and more reliable interpretation of results, this project will help improve diagnostic quality, strengthen collaboration between rehabilitation centers, veterinarians and researchers, and enhance the value of blood sampling data collected both from animals in care and within scientific programs. This literature review will also identify current knowledge gaps and additional research needs regarding marine turtle health.

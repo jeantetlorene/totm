@@ -13,18 +13,12 @@ fiche: https://jeantetlorene.github.io/totm/assets/pdf/Initiatives_TOTM_21_12_20
 permalink: /en/projects_1/guadeloupe-nesting-monitoring/
 ---
 
-This project helps improve knowledge of population trends for nesting marine turtles in the French West Indies.
+This TOTM mission, supported by funding from DEAL Guadeloupe, aims to ensure continuity of scientific monitoring that is essential for assessing demographic trends and measuring the effectiveness of conservation actions. TOTM will coordinate the six associations of the Guadeloupe Marine Turtle Network that carry out beach monitoring:
+- Kap Natirel on the South Basse-Terre, South Grande-Terre and East Grande-Terre sectors;
+- Ecolambda on Marie-Galante;
+- Evasion Tropicale on the Cote-sous-le-Vent sector;
+- Totijon on North Basse-Terre;
+- Le Gaiac on North Basse-Terre;
+- Tite on La Desirade.
 
-More specifically, it contributes to the implementation of action no. 24 of the French West Indies National Action Plan for Marine Turtles 2020-2029 (PNATMAF). Within this framework, the overall objective is to ensure monitoring of nesting marine turtle populations in Guadeloupe.
-
-Axe 1: Implement and coordinate nesting monitoring through track counts and ensure data storage.
-
-1.1. Implement the monitoring protocol for marine turtle nesting through track counts during 2026 on a selected group of around sixty targeted beaches, in connection with all stakeholders in the Guadeloupe Sea Turtle Network (RTMG).
-
-1.2. Centralize and validate all collected data and store it in the Karunati/SINP database.
-
-Axe 2: Strengthen inter-association dynamics, improve observer skills and encourage citizen engagement.
-
-2.1. Mobilize observers through an annual initial training program.
-
-2.2. Engage new observers through an introduction program.
+Nesting monitoring not only helps estimate population trends, but also provides active surveillance of nesting sites and the pressures affecting them, including urbanization, light pollution, erosion and habitat degradation. After two years without full implementation of the monitoring program, in 2024 and 2025, the current priority is to restore a sustainable annual monitoring system, which is essential for robust data and relevant management strategies.
