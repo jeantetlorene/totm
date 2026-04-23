@@ -376,8 +376,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/blood-sampling-guide/";
-            },},{id: "projects-développer-un-guide-pratique-pour-la-réalisation-et-l-interprétation-des-prises-de-sang-des-tortues-marines",
-          title: 'Développer un guide pratique pour la réalisation et l’interprétation des prises de sang...',
+            },},{id: "projects-réalisation-d-un-guide-pratique-sur-les-prises-de-sang-chez-les-tortues-marines",
+          title: 'Réalisation d’un guide pratique sur les prises de sang chez les tortues marines...',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/guide-prises-de-sang/";
@@ -386,9 +386,9 @@ ninja.data = [{
           description: "Coordinated monitoring of marine turtle nesting activity across the Guadeloupe archipelago.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/guadeloupe-nesting-monitoring/";
-            },},{id: "projects-coordination-et-mise-en-oeuvre-du-suivi-de-l-39-activite-de-ponte-en-guadeloupe",
-          title: 'Coordination et mise en oeuvre du suivi de l&amp;#39;activite de ponte en Guadeloupe...',
-          description: "Coordination du suivi des pontes sur les plages de l&#39;archipel de Guadeloupe.",
+            },},{id: "projects-mise-en-œuvre-et-coordination-des-suivis-de-l-activité-de-ponte-des-tortues-marines-sur-les-plages-de-l-archipel-de-guadeloupe",
+          title: 'Mise en œuvre et coordination des suivis de l’activité de ponte des tortues...',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/suivi-pontes-guadeloupe/";
             },},{id: "projects-defining-a-methodology-for-selecting-identification-techniques",
@@ -396,8 +396,8 @@ ninja.data = [{
           description: "Building a shared framework to choose the most relevant sea turtle identification methods.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/identification-methodology/";
-            },},{id: "projects-définir-une-méthodologie-pour-sélectionner-les-techniques-d-identification",
-          title: 'Définir une méthodologie pour sélectionner les techniques d’identification',
+            },},{id: "projects-développement-d-un-outil-d-aide-à-la-décision-pour-l-identification-individuelle-des-tortues-marines",
+          title: 'Développement d’un outil d’aide à la décision pour l’identification individuelle des tortues marines...',
           description: "Structurer le choix des meilleures techniques d&#39;identification pour les tortues marines.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/methodologie-identification/";
@@ -416,8 +416,8 @@ ninja.data = [{
           description: "Studying how illegal, unreported and unregulated fishing affects marine turtle populations in French Guiana.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/inn-fishing-french-guiana/";
-            },},{id: "projects-impact-de-la-pêche-inn-sur-la-dynamique-de-population-des-tortues-luth-en-guyane-française",
-          title: 'Impact de la pêche INN sur la dynamique de population des tortues luth...',
+            },},{id: "projects-évaluation-du-risque-d-interaction-entre-la-pêche-inn-et-les-tortues-luths-en-guyane",
+          title: 'Évaluation du risque d’interaction entre la pêche INN et les tortues luths en...',
           description: "Etudier les interactions entre pêche illégale et populations de tortues marines en Guyane.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/impact-peche-inn-guyane/";
@@ -436,8 +436,8 @@ ninja.data = [{
           description: "Coordinating implementation of the national marine turtle action plan across the French West Indies.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/en/projects_1/pnatmaf-coordination/";
-            },},{id: "projects-animation-du-plan-national-d-39-action-tortues-marines-des-antilles-francaises",
-          title: 'Animation du Plan National d&amp;#39;Action Tortues Marines des Antilles francaises',
+            },},{id: "projects-animation-du-plan-national-d-actions-en-faveur-des-tortues-marines-aux-antilles-françaises-pnatmaf",
+          title: 'Animation du Plan National d’Actions en faveur des Tortues Marines aux Antilles françaises...',
           description: "Animer le PNATMAF et coordonner sa mise en oeuvre dans les Antilles francaises.",
           section: "Projects",handler: () => {
               window.location.href = "/totm/nosprojets_1/pnatmaf/";
