@@ -96,6 +96,8 @@ hero_heading: "Make a Donation"
 hero_text: "You can also contribute at an individual level to TOTM’s work by making a donation via HelloAsso. Every contribution is vital for the association and encourages us to continue our work."
 btn1_text: "Make a Donation"
 btn1_url: "https://www.helloasso.com/associations/trans-oceans-tortues-marines"
+contact_heading: "Contact"
+contact_text: "For any questions, recommendations, or to get in touch, write to us at **totm@totm.ong**."
 
 
 ---

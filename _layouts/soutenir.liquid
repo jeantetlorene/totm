@@ -65,11 +65,10 @@ layout: page
 
     <article>
     <div class="text-center my-5 px-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-      <h3  style="color: var(--global-theme-color);" class="display-4 mb-4">Contact</h2>
-      <p class="lead" style="font-size: 2.0rem; color: var(--global-theme-color);">
-         Pour toute question, recommandation, prise de contact, écrivez-nous à totm@totm.ong.
-      </p>
+      <h3 style="color: var(--global-theme-color);" class="display-4 mb-4">{{ page.contact_heading }}</h3>
+      <div class="lead" style="font-size: 2.0rem; color: var(--global-theme-color);">
+        {{ page.contact_text | markdownify }}
+      </div>
     </div>
 
 </div>
-
