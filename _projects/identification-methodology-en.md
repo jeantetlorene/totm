@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Anouck Baudouin, Claire Jean, Margaux Boyer, Manon Niviere
 project_partners: Reunion Regional Museums Network (Kelonia, Sea Turtle Observatory)
 permalink: /en/projects_1/identification-methodology/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_12.pdf
 ---
 
 Individual identification of marine turtles through flipper tags, PIT tags and photo-identification is essential for monitoring or estimating populations using capture-mark-recapture approaches. It allows key demographic parameters such as survival, abundance and remigration intervals to be quantified, while also reducing bias linked to double counting.

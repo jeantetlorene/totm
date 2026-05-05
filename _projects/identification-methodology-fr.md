@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Anouck Baudouin, Claire Jean, Margaux Boyer, Manon Niviere
 project_partners: Reunion des Musees Regionaux (Kelonia, l'Observatoire des Tortues)
 permalink: /nosprojets_1/methodologie-identification/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_12.pdf
 ---
 
 L’identification individuelle des tortues marines (marquage, PIT tags, photo-identification) est indispensable pour suivre ou estimer les populations via des approches de capture marquage-recapture. Elle quantifie des paramètres démographiques clés tels que la survie, l’abondance et les intervalles de reproduction, tout en corrigeant les biais de double comptage.
