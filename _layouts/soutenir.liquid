@@ -64,10 +64,16 @@ layout: page
 
 
     <article>
+    {% capture contact_text_html %}
+      {{ page.contact_text | markdownify }}
+    {% endcapture %}
     <div class="text-center my-5 px-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
       <h3 style="color: var(--global-theme-color);" class="display-4 mb-4">{{ page.contact_heading }}</h3>
       <div class="lead" style="font-size: 2.0rem; color: var(--global-theme-color);">
-        {{ page.contact_text | markdownify }}
+        {{ contact_text_html
+          | replace: '<p>', '<p style="color: var(--global-theme-color);">'
+          | replace: '<strong>', '<strong style="color: var(--global-theme-color);">'
+        }}
       </div>
     </div>
 
