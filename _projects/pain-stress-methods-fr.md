@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Tania Gilbert, Mathieu Barret, Margaux Boyer
 project_partners: Reunion des Musees Regionaux (Kelonia, l'Observatoire des Tortues), Universite de Valence
 permalink: /nosprojets_1/douleur-stress/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_08.pdf
 ---
 
 Peu de vétérinaires et de soigneurs ont à ce jour l’expertise sur les paramètres de santé des tortues marines, notamment la gestion du stress et de la douleur.

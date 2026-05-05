@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Eve Brunelle, Manon Niviere, Laeticia Demarcy, Tony Nalovic, Margaux Boyer
 project_partners: Reserve Naturelle de l'Amana
 permalink: /nosprojets_1/protocole-peche-inn/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_35.pdf
 ---
 
 La Réserve naturelle nationale de l’Amana, située à Awala-Yalimapo, au nord-ouest de la Guyane française, protège des écosystèmes côtiers d’une grande richesse et constitue un site majeur de ponte pour les tortues marines, en particulier la tortue luth et la tortue verte, mais aussi la tortue olivâtre et, plus ponctuellement, la tortue imbriquée. Située à proximité du Suriname, cette zone est confrontée depuis plusieurs décennies à une pression importante liée à la pêche illégale, non déclarée et non réglementée (INN), pratiquée par des embarcations étrangères, communément appelées « tapouilles ». Ces activités ciblent notamment l’acoupa rouge, mais entraînent également des captures

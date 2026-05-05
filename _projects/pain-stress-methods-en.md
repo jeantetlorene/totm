@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Tania Gilbert, Mathieu Barret, Margaux Boyer
 project_partners: Reunion Regional Museums Network (Kelonia, Sea Turtle Observatory), University of Valencia
 permalink: /en/projects_1/pain-stress-methods/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_08.pdf
 ---
 
 Few veterinarians and caretakers currently have expertise in marine turtle health parameters, especially in managing stress and pain.

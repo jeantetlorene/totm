@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Tania Gilbert, Mathieu Barret, Florence DelAmico, Margaux Boyer
 project_partners: Reunion des Musees Regionaux (Kelonia, l'Observatoire des Tortues)
 permalink: /nosprojets_1/guide-prises-de-sang/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_09.pdf
 ---
 
 Afin d’améliorer la prise en charge des tortues marines en centre de soins et de renforcer l’évaluation de leur état de santé, TOTM lance un projet dédié à l’élaboration d’un guide pratique sur les analyses sanguines chez les tortues marines. Cette action s’inscrit dans l’objectif d’identifier des paramètres fiables pour évaluer l’état physiologique de ces espèces, à la fois en contexte de soins et dans le cadre d’études scientifiques sur les populations sauvages.

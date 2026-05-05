@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Tania Gilbert, Mathieu Barret, Florence DelAmico, Margaux Boyer
 project_partners: Reunion Regional Museums Network (Kelonia, Sea Turtle Observatory)
 permalink: /en/projects_1/blood-sampling-guide/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_09.pdf
 ---
 
 To improve the care provided to marine turtles in rehabilitation centers and strengthen health assessments, TOTM is launching a project dedicated to producing a practical guide on blood analyses in marine turtles. This work is part of a broader effort to identify reliable parameters for assessing the physiological condition of these species, both in rehabilitation settings and in scientific studies of wild populations.

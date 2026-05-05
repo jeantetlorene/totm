@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Manon Niviere, Tony Nalovic, Damien Chevalier
 project_partners: CNRS, WWF Guyane
 permalink: /nosprojets_1/impact-peche-inn-guyane/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_35.pdf
 ---
 
 En partenariat avec le CNRS, TOTM contribue à une étude scientifique menée par Damien Chevallier et Manon Nivière, visant à quantifier l’impact de la pêche illicite, non déclarée

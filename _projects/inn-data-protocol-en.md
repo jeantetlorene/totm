@@ -10,6 +10,7 @@ project_group: current
 project_contacts: Eve Brunelle, Manon Niviere, Laeticia Demarcy, Tony Nalovic, Margaux Boyer
 project_partners: Amana Nature Reserve
 permalink: /en/projects_1/inn-data-protocol/
+fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_35.pdf
 ---
 
 The Amana National Nature Reserve, located in Awala-Yalimapo in northwestern French Guiana, protects highly valuable coastal ecosystems and is a major nesting site for marine turtles, especially leatherbacks and green turtles, but also olive ridleys and, more occasionally, hawksbills. Located near Suriname, this area has faced strong pressure for several decades from illegal, unreported and unregulated (IUU) fishing carried out by foreign vessels commonly known as "tapouilles." These activities mainly target acoupa weakfish, but also result in accidental captures of protected species, including marine turtles, while creating tensions with local fishers and complicating management of shared resources.
