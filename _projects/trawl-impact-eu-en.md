@@ -11,6 +11,8 @@ project_contacts: Lena Bourdois, Tony Nalovic, Margaux Boyer
 project_partners: Ifremer, WWF French Guiana
 permalink: /en/projects_1/trawl-impact-eu/
 fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_27.pdf
+secondary_button_label: "Report (french)"
+secondary_button_url: "https://jeantetlorene.github.io/totm/assets/projets/Rapport de stage_Léna Bourdois_parcours MAD.pdf"
 ---
 
 Tropical shrimp trawl fishing is one of the fisheries that generates the highest levels of bycatch, especially of marine turtles, which are protected and vulnerable species. Since 1989, the United States has required the use of Turtle Excluder Devices (TEDs) as a condition of market access, whereas the European Union has no equivalent regulation. The EU therefore represents an alternative market for shrimp coming from unsustainable fisheries.

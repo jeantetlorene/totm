@@ -12,7 +12,7 @@ project_partners: Ifremer, WWF Guyane
 permalink: /nosprojets_1/impact-chalut-ue/
 fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_27.pdf
 secondary_button_label: "Rapport de stage"
-secondary_button_url: "https://example.com"
+secondary_button_url: "https://jeantetlorene.github.io/totm/assets/projets/Rapport de stage_Léna Bourdois_parcours MAD.pdf"
 ---
 
 La pêche crevettière tropicale au chalut est l’une des pêcheries les plus génératrices de prises accessoires, notamment de tortues marines, espèces protégées et vulnérables. Les États-Unis imposent depuis 1989 l’usage des dispositifs d’exclusion des tortues (TED) comme condition d’accès à leur marché, alors que l’Union européenne ne dispose d’aucune réglementation équivalente. L’UE constitue un marché alternatif pour des crevettes issues de pêcheries non durables.
