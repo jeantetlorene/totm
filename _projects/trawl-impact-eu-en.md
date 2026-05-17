@@ -5,7 +5,7 @@ ref: trawl-impact-eu
 title: Assessing Trawl Fishery Impacts for Tropical Shrimp Exported to the EU
 description: Estimating sea turtle bycatch in tropical shrimp fisheries supplying the European Union.
 img: assets/img/projets/projet_peche_chalut.webp
-importance: 6
+importance: 2
 project_group: past
 project_contacts: Lena Bourdois, Tony Nalovic, Margaux Boyer
 project_partners: Ifremer, WWF French Guiana
