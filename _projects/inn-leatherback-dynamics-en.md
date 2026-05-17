@@ -11,6 +11,11 @@ project_contacts: Manon Niviere, Tony Nalovic, Damien Chevalier
 project_partners: CNRS, WWF French Guiana
 permalink: /en/projects_1/inn-fishing-french-guiana/
 fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_35.pdf
+secondary_button_label: "Report (FR)"
+secondary_button_url: "https://jeantetlorene.github.io/totm/assets/projets/Rapport de stage_Léna Bourdois_parcours MAD.pdf"
+third_button_label: "Report (EN)"
+third_button_url: "https://example.com/file.pdf"
+
 ---
 
 In partnership with CNRS, TOTM contributes to a scientific study led by Damien Chevallier and Manon Niviere that aims to quantify the impact of illegal, unreported and unregulated (IUU) fishing on the population dynamics of the leatherback turtle (Dermochelys coriacea) in French Guiana.
