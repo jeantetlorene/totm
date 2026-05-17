@@ -57,6 +57,8 @@ ref: projects
         const projectFactsheet = link.dataset.factsheet || "";
         const projectSecondaryButtonUrl = link.dataset.secondaryButtonUrl || "";
         const projectSecondaryButtonLabel = link.dataset.secondaryButtonLabel || "";
+        const projectThirdButtonUrl = link.dataset.thirdButtonUrl || "";
+        const projectThirdButtonLabel = link.dataset.thirdButtonLabel || "";
         const projectImg = link.dataset.img || "";
         if (!url) return;
 
@@ -96,6 +98,13 @@ ref: projects
                 actionButtons.push(`
                   <a class="btn btn-outline-primary" href="${projectSecondaryButtonUrl}" target="_blank" rel="noopener noreferrer">
                     ${projectSecondaryButtonLabel}
+                  </a>
+                `);
+              }
+              if (projectThirdButtonUrl && projectThirdButtonLabel) {
+                actionButtons.push(`
+                  <a class="btn btn-outline-primary" href="${projectThirdButtonUrl}" target="_blank" rel="noopener noreferrer">
+                    ${projectThirdButtonLabel}
                   </a>
                 `);
               }

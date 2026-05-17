@@ -5,12 +5,17 @@ ref: inn-leatherback-dynamics
 title: Impact of IUU Fishing on Leatherback Turtle Population Dynamics in French Guiana
 description: Studying how illegal, unreported and unregulated fishing affects marine turtle populations in French Guiana.
 img: assets/img/projets/projet_peche_INN_luth.webp
-importance: 3
-project_group: current
+importance: 1
+project_group: past
 project_contacts: Manon Niviere, Tony Nalovic, Damien Chevalier
 project_partners: CNRS, WWF French Guiana
 permalink: /en/projects_1/inn-fishing-french-guiana/
 fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_35.pdf
+secondary_button_label: "Report (FR)"
+secondary_button_url: "assets/projets/2026-05-05_RapportPreliminaire_IUUfishing_FR.pdf"
+third_button_label: "Report (EN)"
+third_button_url: "assets/projets/2026-05-05_RapportPreliminaire_IUUfishing_EN.pdf"
+
 ---
 
 In partnership with CNRS, TOTM contributes to a scientific study led by Damien Chevallier and Manon Niviere that aims to quantify the impact of illegal, unreported and unregulated (IUU) fishing on the population dynamics of the leatherback turtle (Dermochelys coriacea) in French Guiana.
