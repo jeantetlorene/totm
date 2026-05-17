@@ -6,7 +6,7 @@ title: Évaluation du risque d’interaction entre la pêche INN et les tortues 
 description: Etudier les interactions entre pêche illégale et populations de tortues marines en Guyane.
 img: assets/img/projets/projet_peche_INN_luth.webp
 importance: 3
-project_group: current
+project_group: past
 project_contacts: Manon Niviere, Tony Nalovic, Damien Chevalier
 project_partners: CNRS, WWF Guyane
 permalink: /nosprojets_1/impact-peche-inn-guyane/
