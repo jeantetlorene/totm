@@ -58,6 +58,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/totm/en/publications/";
               },
+            },{id: "dropdown-activity-reports",
+              title: "Activity Reports",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/en/reports/";
+              },
             },{id: "dropdown-programme-initiatives",
               title: "Programme Initiatives",
               description: "",
@@ -78,6 +85,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/totm/publications/";
+              },
+            },{id: "dropdown-rapports-d-39-activités",
+              title: "Rapports d&#39;Activités",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/totm/rapports/";
               },
             },{id: "nav-actualités",
           title: "Actualités",
