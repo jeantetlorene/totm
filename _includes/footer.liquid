@@ -71,7 +71,9 @@
         <div class="col-lg-4 order-1 order-lg-1">
           <div class="totm-footer-copyright">
             <div>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</div>
-            <div>{{ site.footer_text }}</div>
+            {% if site.footer_text %}
+              <div>{{ site.footer_text }}</div>
+            {% endif %}
             {% if site.last_updated %}
               <div>{{ last_updated_label }} {{ 'now' | date: '%B %d, %Y' }}</div>
             {% endif %}

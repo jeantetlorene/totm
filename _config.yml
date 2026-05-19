@@ -10,9 +10,7 @@ contact_note: >
   Pour toute prise de contact, écrivez-nous à totm@totm.ong.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Association loi 1901, Trans Océans Tortues Marines (TOTM) regroupe les acteurs des territoires français pour la conservation des tortues marines à travers le monde.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text:
 keywords: tortue-marine, protection, association-website # add your own keywords or leave empty
 #lang: fr # the language of your site (for example: en, fr, cn, ru, etc.)
 languages:
