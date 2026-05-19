@@ -1301,7 +1301,8 @@ footer.sticky-bottom {
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
-        a.abstract.btn {
+        a.abstract.btn,
+        a.pdf.btn {
           font-size: 0.95rem;
           padding: 0.35rem 1.2rem;
         }
