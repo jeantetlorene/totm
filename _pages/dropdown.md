@@ -15,5 +15,8 @@ children:
   - title: divider
   - title: Publications
     permalink: /publications/
+  - title: divider
+  - title: Rapports d'Activités
+    permalink: /rapports/
 
 ---

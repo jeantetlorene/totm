@@ -1,0 +1,39 @@
+---
+layout: page
+---
+
+{% assign reports = page.reports %}
+
+{% if reports %}
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4 activity-reports">
+    {% for report in reports %}
+      <div class="col">
+        <article class="card h-100 border-0 bg-transparent text-center activity-report-card">
+          <a href="{{ report.link | relative_url }}" class="activity-report-link" target="_blank" rel="noopener noreferrer">
+            {% if report.image %}
+              <img
+                src="{{ report.image | relative_url }}"
+                alt="{{ report.name }}"
+                class="card-img-top rounded-2 activity-report-image"
+                loading="lazy"
+              >
+            {% else %}
+              <div class="activity-report-placeholder rounded-2" aria-hidden="true">
+                <span>{{ report.year | default: report.name }}</span>
+              </div>
+            {% endif %}
+
+            <div class="card-body px-0">
+              <h2 class="h5 card-title mb-2">{{ report.name }}</h2>
+              <span class="btn-link">
+                {{ page.report_button_label | default: "Lire le rapport" }}
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </span>
+            </div>
+          </a>
+        </article>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
