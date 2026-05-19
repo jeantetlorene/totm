@@ -171,7 +171,9 @@
         </a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button">
+          {%- if page.lang == 'en' -%}Abstract{%- else -%}Résumé{%- endif -%}
+        </a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
@@ -319,21 +321,22 @@
 
     {% if entry.award %}
       <!-- Hidden Award block -->
-      <div class="award hidden d-print-inline">
+      <div class="award pub-hidden d-print-inline">
         <p>{{ entry.award | markdownify }}</p>
       </div>
     {% endif %}
 
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
+      <div class="abstract pub-hidden">
+        {% assign abstract = entry.abstract | strip | regex_replace: '\n[ \t]+', '\n' %}
+        {{ abstract | markdownify }}
       </div>
     {% endif %}
 
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
+      <div class="bibtex pub-hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
@@ -342,7 +345,7 @@
 
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
-      <div class="abstract hidden">
+      <div class="abstract pub-hidden">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}

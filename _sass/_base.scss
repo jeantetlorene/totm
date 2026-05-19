@@ -1295,6 +1295,10 @@ footer.sticky-bottom {
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
+        a.abstract.btn {
+          font-size: 0.95rem;
+          padding: 0.35rem 1.2rem;
+        }
       }
 
       .badges {
@@ -1312,7 +1316,7 @@ footer.sticky-bottom {
         }
       }
 
-      .hidden {
+      .pub-hidden {
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
@@ -1335,7 +1339,7 @@ footer.sticky-bottom {
         }
       }
 
-      .hidden.open {
+      .pub-hidden.open {
         max-height: 100em;
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
@@ -1344,18 +1348,18 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
 
-      div.abstract.hidden {
+      div.abstract.pub-hidden {
         border: dashed 1px var(--global-bg-color);
       }
 
-      div.abstract.hidden.open {
+      div.abstract.pub-hidden.open {
         border-color: var(--global-text-color);
       }
     }
-    div.award.hidden {
+    div.award.pub-hidden {
       border: dashed 1px var(--global-bg-color);
     }
-    div.award.hidden.open {
+    div.award.pub-hidden.open {
       border-color: var(--global-highlight-color);
     }
   }
