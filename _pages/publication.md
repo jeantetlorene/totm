@@ -24,15 +24,15 @@ permalink: /publications/
 
 
 <h2>
-  <a href="{{ '/assets/pdf/Rapport activité 2024-FINAL-sept2025.pdf' | relative_url }}" target="_blank">Rapport d’activités 2024 </a>
+  <a href="{{ '/assets/pdf/Rapport_activite_2024-FINAL-sept2025.pdf' | relative_url }}" target="_blank">Rapport d’activités 2024 </a>
 </h2>
 
 <h2>
-  <a href="{{ '/assets/pdf/Rapport d'activités TOTM 2023.pdf' | relative_url }}" target="_blank">Rapport d’activités 2023 </a>
+  <a href="{{ '/assets/pdf/Rapport_activites_TOTM_2023.pdf' | relative_url }}" target="_blank">Rapport d’activités 2023 </a>
 </h2>
 
 <h2>
-  <a href="{{ '/assets/pdf/Rapport d'activités 2022 TOTM.pdf' | relative_url }}" target="_blank">Rapport d’activités 2022 </a>
+  <a href="{{ '/assets/pdf/Rapport _activites_2022_TOTM.pdf' | relative_url }}" target="_blank">Rapport d’activités 2022 </a>
 </h2>
 
 <h2>
