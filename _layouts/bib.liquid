@@ -181,9 +181,6 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
-      {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
           <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
@@ -329,8 +326,16 @@
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
       <div class="abstract pub-hidden">
-        {% assign abstract = entry.abstract | strip | regex_replace: '\n[ \t]+', '\n' %}
-        {{ abstract | markdownify }}
+        {% capture newline %}
+        {% endcapture %}
+        {% capture paragraph_break %}{{ newline }}{{ newline }}{% endcapture %}
+        {% assign abstract_paragraphs = entry.abstract | strip | split: paragraph_break %}
+        {% for paragraph in abstract_paragraphs %}
+          {% assign paragraph_text = paragraph | strip | replace: newline, ' ' %}
+          {% if paragraph_text != '' %}
+            <p>{{ paragraph_text }}</p>
+          {% endif %}
+        {% endfor %}
       </div>
     {% endif %}
 
