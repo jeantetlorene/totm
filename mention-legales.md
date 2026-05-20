@@ -12,13 +12,14 @@ Le présent site est édité par l’association **Trans Oceans Tortues Marines*
 association loi 1901.
 
 **Siège social :**  
-[Adresse du siège social]
+78 rue Justin Catayée 
+97300 Cayenne
 
 **Numéro RNA :**  
-[Numéro RNA]
+W9C1008072
 
 **Responsable de la publication :**  
-[Nom et prénom du/de la président·e]
+ Michel Nalovic, président de TOTM
 
 **Contact :**  
 totm@totm.ong
