@@ -7,112 +7,112 @@ ninja.data = [{
     title: "TOTM",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/totm/";
     },
   },{id: "nav-about-us",
           title: "About Us",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/en/aboutus/";
+            window.location.href = "/totm/en/aboutus/";
           },
         },{id: "nav-a-propos",
           title: "A Propos",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/apropos/";
+            window.location.href = "/totm/apropos/";
           },
         },{id: "nav-our-team",
           title: "Our Team",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/en/team/";
+            window.location.href = "/totm/en/team/";
           },
         },{id: "nav-notre-equipe",
           title: "Notre Equipe",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/equipe/";
+            window.location.href = "/totm/equipe/";
           },
         },{id: "dropdown-initiatives-program",
               title: "Initiatives Program",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/en/initiatives/";
+                window.location.href = "/totm/en/initiatives/";
               },
             },{id: "dropdown-our-projects",
               title: "Our Projects",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/en/projects/";
+                window.location.href = "/totm/en/projects/";
               },
             },{id: "dropdown-publications",
               title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/en/publications/";
+                window.location.href = "/totm/en/publications/";
               },
             },{id: "dropdown-activity-reports",
               title: "Activity Reports",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/en/reports/";
+                window.location.href = "/totm/en/reports/";
               },
             },{id: "dropdown-programme-initiatives",
               title: "Programme Initiatives",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/nosinitiatives/";
+                window.location.href = "/totm/nosinitiatives/";
               },
             },{id: "dropdown-nos-projets",
               title: "Nos Projets",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/nosprojets/";
+                window.location.href = "/totm/nosprojets/";
               },
             },{id: "dropdown-publications",
               title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/publications/";
+                window.location.href = "/totm/publications/";
               },
             },{id: "dropdown-rapports-d-39-activités",
               title: "Rapports d&#39;Activités",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/rapports/";
+                window.location.href = "/totm/rapports/";
               },
             },{id: "nav-actualités",
           title: "Actualités",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/nosactualites/index.html";
+            window.location.href = "/totm/nosactualites/index.html";
           },
         },{id: "nav-support-us",
           title: "Support Us",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/en/supportus/";
+            window.location.href = "/totm/en/supportus/";
           },
         },{id: "nav-nous-soutenir",
           title: "Nous Soutenir",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/noussoutenir/";
+            window.location.href = "/totm/noussoutenir/";
           },
         },{id: "post-totm-participe-à-la-conférence-sur-le-climat-cop30-à-belém",
         
@@ -122,7 +122,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/cop30/";
+            window.location.href = "/totm/nosactualites/2025/cop30/";
           
         },
       },{id: "post-totm-a-remporté-le-marché-de-l-39-animation-du-plan-national-d-39-actions-en-faveur-des-tortues-marines-des-antilles-françaises",
@@ -133,7 +133,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/pna-antilles/";
+            window.location.href = "/totm/nosactualites/2025/pna-antilles/";
           
         },
       },{id: "post-participation-de-totm-à-l-assemblée-générale-du-ccrup-aux-canaries",
@@ -144,7 +144,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/ccrup/";
+            window.location.href = "/totm/nosactualites/2025/ccrup/";
           
         },
       },{id: "post-dernière-ligne-droite-pour-laure-et-son-stage-sur-la-pêcherie-crevettière-au-chalut-en-guyane-française-et-son-adoption-des-ted",
@@ -155,7 +155,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/Laure-last-week/";
+            window.location.href = "/totm/nosactualites/2025/Laure-last-week/";
           
         },
       },{id: "post-recrutement-d-39-anouck-pour-une-mission-de-6-mois-sur-l-identification-individuelle-des-tortues-marines",
@@ -166,7 +166,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/recrutement-anouck/";
+            window.location.href = "/totm/nosactualites/2025/recrutement-anouck/";
           
         },
       },{id: "post-en-avant-pour-l-39-unoc-2025",
@@ -177,7 +177,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/UNOC-2025/";
+            window.location.href = "/totm/nosactualites/2025/UNOC-2025/";
           
         },
       },{id: "post-une-pétition-citoyenne-pour-les-tortues-marines",
@@ -188,7 +188,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/petition-ted/";
+            window.location.href = "/totm/nosactualites/2025/petition-ted/";
           
         },
       },{id: "post-recrutement-d-une-nouvelle-chargée-de-mission-conservation-chez-totm",
@@ -199,7 +199,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/recrutement-cm-vs2/";
+            window.location.href = "/totm/nosactualites/2025/recrutement-cm-vs2/";
           
         },
       },{id: "post-participation-de-totm-à-l-international-sea-turtle-society-symposium-2025",
@@ -210,7 +210,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/ISTS-2025/";
+            window.location.href = "/totm/nosactualites/2025/ISTS-2025/";
           
         },
       },{id: "post-recrutement-de-léna-pour-son-stage-de-master-2-sur-l-39-impact-de-la-pêche-au-chalut-sur-les-tortues-marines",
@@ -221,7 +221,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/recrutement-Lena/";
+            window.location.href = "/totm/nosactualites/2025/recrutement-Lena/";
           
         },
       },{id: "post-voeux-2025",
@@ -232,7 +232,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2025/voeux-2025/";
+            window.location.href = "/totm/nosactualites/2025/voeux-2025/";
           
         },
       },{id: "post-recrutement-d-39-une-chargée-de-mission",
@@ -243,7 +243,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2024/recrutement-cm/";
+            window.location.href = "/totm/nosactualites/2024/recrutement-cm/";
           
         },
       },{id: "post-voeux-2024",
@@ -254,7 +254,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2024/voeux-2024/";
+            window.location.href = "/totm/nosactualites/2024/voeux-2024/";
           
         },
       },{id: "post-finalisation-du-programme-initiatives",
@@ -265,7 +265,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2023/finalisation-programme-initiatives/";
+            window.location.href = "/totm/nosactualites/2023/finalisation-programme-initiatives/";
           
         },
       },{id: "post-organisation-du-colloque-gtmf-2022",
@@ -276,14 +276,14 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/nosactualites/2022/organisation-gtmf/";
+            window.location.href = "/totm/nosactualites/2022/organisation-gtmf/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/totm/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -291,7 +291,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
+              window.location.href = "/totm/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -299,402 +299,402 @@ ninja.data = [{
           title: 'Regulatory aspects',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-1-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-1-en/";
             },},{id: "nosinitiatives-aspects-réglementaires",
           title: 'Aspects réglementaires',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-1/";
+              window.location.href = "/totm/nosinitiatives/initiative-1/";
             },},{id: "nosinitiatives-climate-noise-and-renewable-energy",
           title: 'Climate, Noise, and Renewable Energy',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-2-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-2-en/";
             },},{id: "nosinitiatives-climat-bruit-et-énergies-renouvelables",
           title: 'Climat, bruit et énergies renouvelables',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-2/";
+              window.location.href = "/totm/nosinitiatives/initiative-2/";
             },},{id: "nosinitiatives-identification",
           title: 'Identification',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-3-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-3-en/";
             },},{id: "nosinitiatives-identification",
           title: 'Identification',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-3/";
+              window.location.href = "/totm/nosinitiatives/initiative-3/";
             },},{id: "nosinitiatives-training",
           title: 'Training',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-4-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-4-en/";
             },},{id: "nosinitiatives-formations",
           title: 'Formations',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-4/";
+              window.location.href = "/totm/nosinitiatives/initiative-4/";
             },},{id: "nosinitiatives-indicators-and-standard-minimums",
           title: 'Indicators and Standard Minimums',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-5-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-5-en/";
             },},{id: "nosinitiatives-indicateurs-et-minima-standard",
           title: 'Indicateurs et minima standard',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-5/";
+              window.location.href = "/totm/nosinitiatives/initiative-5/";
             },},{id: "nosinitiatives-fishing-interactions",
           title: 'Fishing Interactions',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-6-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-6-en/";
             },},{id: "nosinitiatives-interactions-avec-les-activités-de-pêche",
           title: 'Interactions avec les activités de pêche',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-6/";
+              window.location.href = "/totm/nosinitiatives/initiative-6/";
             },},{id: "nosinitiatives-marine-debris-interactions",
           title: 'Marine Debris Interactions',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-7-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-7-en/";
             },},{id: "nosinitiatives-interactions-avec-les-déchets-marins",
           title: 'Interactions avec les déchets marins',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-7/";
+              window.location.href = "/totm/nosinitiatives/initiative-7/";
             },},{id: "nosinitiatives-pathologie-et-centre-de-soins",
           title: 'Pathologie et centre de soins',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-8-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-8-en/";
             },},{id: "nosinitiatives-pathologie-et-centre-de-soins",
           title: 'Pathologie et centre de soins',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-8/";
+              window.location.href = "/totm/nosinitiatives/initiative-8/";
             },},{id: "nosinitiatives-awareness",
           title: 'Awareness',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-9-en/";
+              window.location.href = "/totm/nosinitiatives/initiative-9-en/";
             },},{id: "nosinitiatives-sensibilisation",
           title: 'Sensibilisation',
           description: "",
           section: "Nosinitiatives",handler: () => {
-              window.location.href = "/nosinitiatives/initiative-9/";
+              window.location.href = "/totm/nosinitiatives/initiative-9/";
             },},{id: "projects-developing-a-practical-guide-to-blood-sampling-in-marine-turtles",
           title: 'Developing a Practical Guide to Blood Sampling in Marine Turtles',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/blood-sampling-guide/";
+              window.location.href = "/totm/en/projects_1/blood-sampling-guide/";
             },},{id: "projects-réalisation-d-un-guide-pratique-sur-les-prises-de-sang-chez-les-tortues-marines",
           title: 'Réalisation d’un guide pratique sur les prises de sang chez les tortues marines...',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/guide-prises-de-sang/";
+              window.location.href = "/totm/nosprojets_1/guide-prises-de-sang/";
             },},{id: "projects-coordinating-nesting-activity-monitoring-in-guadeloupe",
           title: 'Coordinating Nesting Activity Monitoring in Guadeloupe',
           description: "Coordinated monitoring of marine turtle nesting activity across the Guadeloupe archipelago.",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/guadeloupe-nesting-monitoring/";
+              window.location.href = "/totm/en/projects_1/guadeloupe-nesting-monitoring/";
             },},{id: "projects-mise-en-œuvre-et-coordination-des-suivis-de-l-activité-de-ponte-des-tortues-marines-sur-les-plages-de-l-archipel-de-guadeloupe",
           title: 'Mise en œuvre et coordination des suivis de l’activité de ponte des tortues...',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/suivi-pontes-guadeloupe/";
+              window.location.href = "/totm/nosprojets_1/suivi-pontes-guadeloupe/";
             },},{id: "projects-defining-a-methodology-for-selecting-identification-techniques",
           title: 'Defining a Methodology for Selecting Identification Techniques',
           description: "Building a shared framework to choose the most relevant sea turtle identification methods.",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/identification-methodology/";
+              window.location.href = "/totm/en/projects_1/identification-methodology/";
             },},{id: "projects-développement-d-un-outil-d-aide-à-la-décision-pour-l-identification-individuelle-des-tortues-marines",
           title: 'Développement d’un outil d’aide à la décision pour l’identification individuelle des tortues marines...',
           description: "Structurer le choix des meilleures techniques d&#39;identification pour les tortues marines.",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/methodologie-identification/";
+              window.location.href = "/totm/nosprojets_1/methodologie-identification/";
             },},{id: "projects-developing-a-data-collection-protocol-for-iuu-fishing-in-french-guiana",
           title: 'Developing a Data Collection Protocol for IUU Fishing in French Guiana',
           description: "Standardizing illegal fishing data collection to better monitor pressures on turtles and habitats.",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/inn-data-protocol/";
+              window.location.href = "/totm/en/projects_1/inn-data-protocol/";
             },},{id: "projects-développement-d-un-protocole-de-collecte-de-données-sur-la-pêche-inn-en-guyane-française",
           title: 'Développement d’un protocole de collecte de données sur la pêche INN en Guyane...',
           description: "Harmoniser la collecte des données sur la pêche illégale pour mieux suivre les pressions.",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/protocole-peche-inn/";
+              window.location.href = "/totm/nosprojets_1/protocole-peche-inn/";
             },},{id: "projects-impact-of-iuu-fishing-on-leatherback-turtle-population-dynamics-in-french-guiana",
           title: 'Impact of IUU Fishing on Leatherback Turtle Population Dynamics in French Guiana',
           description: "Studying how illegal, unreported and unregulated fishing affects marine turtle populations in French Guiana.",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/inn-fishing-french-guiana/";
+              window.location.href = "/totm/en/projects_1/inn-fishing-french-guiana/";
             },},{id: "projects-évaluation-du-risque-d-interaction-entre-la-pêche-inn-et-les-tortues-luths-en-guyane",
           title: 'Évaluation du risque d’interaction entre la pêche INN et les tortues luths en...',
           description: "Etudier les interactions entre pêche illégale et populations de tortues marines en Guyane.",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/impact-peche-inn-guyane/";
+              window.location.href = "/totm/nosprojets_1/impact-peche-inn-guyane/";
             },},{id: "projects-developing-methods-to-assess-pain-and-stress-in-marine-turtles",
           title: 'Developing Methods to Assess Pain and Stress in Marine Turtles',
           description: "Improving the clinical assessment of pain and stress in marine turtles.",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/pain-stress-methods/";
+              window.location.href = "/totm/en/projects_1/pain-stress-methods/";
             },},{id: "projects-développer-des-méthodes-d-évaluation-de-la-douleur-et-du-stress-chez-les-tortues",
           title: 'Développer des méthodes d’évaluation de la douleur et du stress chez les tortues...',
           description: "Mieux caracteriser la douleur et le stress chez les tortues marines pour ameliorer leur prise en charge.",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/douleur-stress/";
+              window.location.href = "/totm/nosprojets_1/douleur-stress/";
             },},{id: "projects-coordinating-the-french-west-indies-national-action-plan-for-marine-turtles",
           title: 'Coordinating the French West Indies National Action Plan for Marine Turtles',
           description: "Coordinating implementation of the national marine turtle action plan across the French West Indies.",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/pnatmaf-coordination/";
+              window.location.href = "/totm/en/projects_1/pnatmaf-coordination/";
             },},{id: "projects-animation-du-plan-national-d-actions-en-faveur-des-tortues-marines-aux-antilles-françaises-pnatmaf",
           title: 'Animation du Plan National d’Actions en faveur des Tortues Marines aux Antilles françaises...',
           description: "Animer le PNATMAF et coordonner sa mise en oeuvre dans les Antilles francaises.",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/pnatmaf/";
+              window.location.href = "/totm/nosprojets_1/pnatmaf/";
             },},{id: "projects-evaluating-the-benefits-of-voluntary-turtle-excluder-device-adoption",
           title: 'Evaluating the Benefits of Voluntary Turtle Excluder Device Adoption',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/ted-evaluation/";
+              window.location.href = "/totm/en/projects_1/ted-evaluation/";
             },},{id: "projects-évaluation-des-impacts-positifs-de-l-39-adoption-volontaire-de-dispositifs-d-39-exclusion-des-tortues-ted-par-la-flotte-de-chalutiers-crevettiers-de-guyane-française",
           title: 'Évaluation des impacts positifs de l&amp;#39;adoption volontaire de dispositifs d&amp;#39;exclusion des tortues (TED)...',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/evaluation-ted/";
+              window.location.href = "/totm/nosprojets_1/evaluation-ted/";
             },},{id: "projects-assessing-trawl-fishery-impacts-for-tropical-shrimp-exported-to-the-eu",
           title: 'Assessing Trawl Fishery Impacts for Tropical Shrimp Exported to the EU',
           description: "Estimating sea turtle bycatch in tropical shrimp fisheries supplying the European Union.",
           section: "Projects",handler: () => {
-              window.location.href = "/en/projects_1/trawl-impact-eu/";
+              window.location.href = "/totm/en/projects_1/trawl-impact-eu/";
             },},{id: "projects-évaluer-l-impact-de-la-pêche-au-chalut-sur-les-tortues-marines-dans-les-pêcheries-de-crevettes-tropicales-exportant-vers-l-ue",
           title: 'Évaluer l’impact de la pêche au chalut sur les tortues marines dans les...',
           description: "Estimer les captures accidentelles de tortues dans les pecheries tropicales exportant vers l&#39;Union europeenne.",
           section: "Projects",handler: () => {
-              window.location.href = "/nosprojets_1/impact-chalut-ue/";
+              window.location.href = "/totm/nosprojets_1/impact-chalut-ue/";
             },},{id: "team-alexandra-le-moal",
           title: 'Alexandra Le Moal',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/alexandra-moal-en/";
+              window.location.href = "/totm/equipe/alexandra-moal-en/";
             },},{id: "team-alexandra-le-moal",
           title: 'Alexandra Le Moal',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/alexandra-moal/";
+              window.location.href = "/totm/equipe/alexandra-moal/";
             },},{id: "team-alexis-guilleux",
           title: 'Alexis Guilleux',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/alexis-guilleux-en/";
+              window.location.href = "/totm/equipe/alexis-guilleux-en/";
             },},{id: "team-alexis-guilleux",
           title: 'Alexis Guilleux',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/alexis-guilleux/";
+              window.location.href = "/totm/equipe/alexis-guilleux/";
             },},{id: "team-cécile-gaspar",
           title: 'Cécile Gaspar',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/cecile-gaspar-en/";
+              window.location.href = "/totm/equipe/cecile-gaspar-en/";
             },},{id: "team-cécile-gaspar",
           title: 'Cécile Gaspar',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/cecile-gaspar/";
+              window.location.href = "/totm/equipe/cecile-gaspar/";
             },},{id: "team-claire-jean",
           title: 'Claire Jean',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/claire-jean-en/";
+              window.location.href = "/totm/equipe/claire-jean-en/";
             },},{id: "team-claire-jean",
           title: 'Claire Jean',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/claire-jean/";
+              window.location.href = "/totm/equipe/claire-jean/";
             },},{id: "team-damien-chevallier",
           title: 'Damien Chevallier',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/damien-chevallier-en/";
+              window.location.href = "/totm/equipe/damien-chevallier-en/";
             },},{id: "team-damien-chevallier",
           title: 'Damien Chevallier',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/damien-chevallier/";
+              window.location.href = "/totm/equipe/damien-chevallier/";
             },},{id: "team-anne-emmanuelle-landes",
           title: 'Anne-Emmanuelle Landes',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/emmanuelle-landes-en/";
+              window.location.href = "/totm/equipe/emmanuelle-landes-en/";
             },},{id: "team-anne-emmanuelle-landes",
           title: 'Anne-Emmanuelle Landes',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/emmanuelle-landes/";
+              window.location.href = "/totm/equipe/emmanuelle-landes/";
             },},{id: "team-eric-delcroix",
           title: 'Eric Delcroix',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/eric-delcroix-en/";
+              window.location.href = "/totm/equipe/eric-delcroix-en/";
             },},{id: "team-eric-delcroix",
           title: 'Eric Delcroix',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/eric-delcroix/";
+              window.location.href = "/totm/equipe/eric-delcroix/";
             },},{id: "team-flora-siegwalt",
           title: 'Flora Siegwalt',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/flora-siegwalt-en/";
+              window.location.href = "/totm/equipe/flora-siegwalt-en/";
             },},{id: "team-flora-siegwalt",
           title: 'Flora Siegwalt',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/flora-siegwalt/";
+              window.location.href = "/totm/equipe/flora-siegwalt/";
             },},{id: "team-francois-elie-paute",
           title: 'Francois-Elie Paute',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/francois-paute-en/";
+              window.location.href = "/totm/equipe/francois-paute-en/";
             },},{id: "team-francois-elie-paute",
           title: 'Francois-Elie Paute',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/francois-paute/";
+              window.location.href = "/totm/equipe/francois-paute/";
             },},{id: "team-jonathan-monsinjon",
           title: 'Jonathan Monsinjon',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/jonathan-monsinjon-en/";
+              window.location.href = "/totm/equipe/jonathan-monsinjon-en/";
             },},{id: "team-jonathan-monsinjon",
           title: 'Jonathan Monsinjon',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/jonathan-monsinjon/";
+              window.location.href = "/totm/equipe/jonathan-monsinjon/";
             },},{id: "team-katia-ballorain",
           title: 'Katia Ballorain',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/katia-ballorain-en/";
+              window.location.href = "/totm/equipe/katia-ballorain-en/";
             },},{id: "team-katia-ballorain",
           title: 'Katia Ballorain',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/katia-ballorain/";
+              window.location.href = "/totm/equipe/katia-ballorain/";
             },},{id: "team-lorène-jeantet",
           title: 'Lorène Jeantet',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/lorene-jeantet-en/";
+              window.location.href = "/totm/equipe/lorene-jeantet-en/";
             },},{id: "team-lorène-jeantet",
           title: 'Lorène Jeantet',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/lorene-jeantet/";
+              window.location.href = "/totm/equipe/lorene-jeantet/";
             },},{id: "team-manon-nivière",
           title: 'Manon Nivière',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/manon-niviere-en/";
+              window.location.href = "/totm/equipe/manon-niviere-en/";
             },},{id: "team-manon-nivière",
           title: 'Manon Nivière',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/manon-niviere/";
+              window.location.href = "/totm/equipe/manon-niviere/";
             },},{id: "team-margaux-boyer",
           title: 'Margaux Boyer',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/margaux-boyer-en/";
+              window.location.href = "/totm/equipe/margaux-boyer-en/";
             },},{id: "team-margaux-boyer",
           title: 'Margaux Boyer',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/margaux-boyer/";
+              window.location.href = "/totm/equipe/margaux-boyer/";
             },},{id: "team-mathieu-barret",
           title: 'Mathieu Barret',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/mathieu-barret-en/";
+              window.location.href = "/totm/equipe/mathieu-barret-en/";
             },},{id: "team-mathieu-barret",
           title: 'Mathieu Barret',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/mathieu-barret/";
+              window.location.href = "/totm/equipe/mathieu-barret/";
             },},{id: "team-mayeul-dalleau",
           title: 'Mayeul Dalleau',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/mayeul-dalleau-en/";
+              window.location.href = "/totm/equipe/mayeul-dalleau-en/";
             },},{id: "team-mayeul-dalleau",
           title: 'Mayeul Dalleau',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/mayeul-dalleau/";
+              window.location.href = "/totm/equipe/mayeul-dalleau/";
             },},{id: "team-mireille-quillard",
           title: 'Mireille Quillard',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/mireille-quillard-en/";
+              window.location.href = "/totm/equipe/mireille-quillard-en/";
             },},{id: "team-mireille-quillard",
           title: 'Mireille Quillard',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/mireille-quillard/";
+              window.location.href = "/totm/equipe/mireille-quillard/";
             },},{id: "team-nicolas-paranthoen",
           title: 'Nicolas Paranthoen',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/nicolas-paranthoen-en/";
+              window.location.href = "/totm/equipe/nicolas-paranthoen-en/";
             },},{id: "team-nicolas-paranthoen",
           title: 'Nicolas Paranthoen',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/nicolas-paranthoen/";
+              window.location.href = "/totm/equipe/nicolas-paranthoen/";
             },},{id: "team-tania-gilbert",
           title: 'Tania Gilbert',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/tania-gilbert-en/";
+              window.location.href = "/totm/equipe/tania-gilbert-en/";
             },},{id: "team-tania-gilbert",
           title: 'Tania Gilbert',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/tania-gillbert/";
+              window.location.href = "/totm/equipe/tania-gillbert/";
             },},{id: "team-thea-jacob",
           title: 'Thea Jacob',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/thea-jacob-en/";
+              window.location.href = "/totm/equipe/thea-jacob-en/";
             },},{id: "team-thea-jacob",
           title: 'Thea Jacob',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/thea-jacob/";
+              window.location.href = "/totm/equipe/thea-jacob/";
             },},{id: "team-tony-nalovic",
           title: 'Tony Nalovic',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/tony-nalovic-en/";
+              window.location.href = "/totm/equipe/tony-nalovic-en/";
             },},{id: "team-tony-nalovic",
           title: 'Tony Nalovic',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/tony-nalovic/";
+              window.location.href = "/totm/equipe/tony-nalovic/";
             },},{id: "team-tyffen-read",
           title: 'Tyffen Read',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/tyffen-read-en/";
+              window.location.href = "/totm/equipe/tyffen-read-en/";
             },},{id: "team-tyffen-read",
           title: 'Tyffen Read',
           description: "",
           section: "Team",handler: () => {
-              window.location.href = "/equipe/tyffen-read/";
+              window.location.href = "/totm/equipe/tyffen-read/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',

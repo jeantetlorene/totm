@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.totm.ong/sitemap.xml
+Sitemap: https://jeantetlorene.github.io/totm/sitemap.xml
