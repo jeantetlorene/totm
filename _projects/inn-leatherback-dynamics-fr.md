@@ -12,9 +12,9 @@ project_partners: CNRS, WWF Guyane
 permalink: /nosprojets_1/impact-peche-inn-guyane/
 fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_35.pdf
 secondary_button_label: "Rapport (FR)"
-secondary_button_url: "https://jeantetlorene.github.io/totm/assets/projets/2026-05-05_RapportPreliminaire_IUUfishing_FR.pdf"
+secondary_button_url: "https://jeantetlorene.github.io/totm/assets/bibliography/2026-05-05_RapportPreliminaire_IUUfishing_FR.pdf"
 third_button_label: "Rapport (EN)"
-third_button_url: "https://jeantetlorene.github.io/totm/assets/projets/2026-05-05_RapportPreliminaire_IUUfishing_EN.pdf"
+third_button_url: "https://jeantetlorene.github.io/totm/assets/bibliography/2026-05-05_RapportPreliminaire_IUUfishing_EN.pdf"
 ---
 
 En partenariat avec le CNRS, TOTM contribue à une étude scientifique menée par Damien Chevallier et Manon Nivière, visant à quantifier l’impact de la pêche illicite, non déclarée
