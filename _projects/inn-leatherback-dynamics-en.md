@@ -12,9 +12,9 @@ project_partners: CNRS, WWF French Guiana
 permalink: /en/projects_1/inn-fishing-french-guiana/
 fiche: https://jeantetlorene.github.io/totm/assets/fiches_initiative/fiche_initiative_35.pdf
 secondary_button_label: "Report (FR)"
-secondary_button_url: "assets/projets/2026-05-05_RapportPreliminaire_IUUfishing_FR.pdf"
+secondary_button_url: "assets/bibliography/2026-05-05_RapportPreliminaire_IUUfishing_FR.pdf"
 third_button_label: "Report (EN)"
-third_button_url: "assets/projets/2026-05-05_RapportPreliminaire_IUUfishing_EN.pdf"
+third_button_url: "assets/bibliography/2026-05-05_RapportPreliminaire_IUUfishing_EN.pdf"
 
 ---
 
