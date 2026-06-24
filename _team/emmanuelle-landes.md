@@ -7,8 +7,8 @@ lang : fr
 image: team/anne-emmanuelle-landes.png
 association: bureau
 representation: Trésorière
-research_areas: ["La Réunion", "Sensibilisation"]
-email: "anne-emmanuelle.landes@totm.ong"
+research_areas: ["La Réunion"]
+email: 
 website: 
 
 
