@@ -51,6 +51,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/en/projects/";
               },
+            },{id: "dropdown-pna",
+              title: "PNA",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
             },{id: "dropdown-publications",
               title: "Publications",
               description: "",
@@ -78,6 +85,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/nosprojets/";
+              },
+            },{id: "dropdown-pna-tortues-marines",
+              title: "PNA tortues marines",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
               },
             },{id: "dropdown-publications",
               title: "Publications",
