@@ -14,7 +14,7 @@ children:
     permalink: /en/projects/
   - title: divider
   - title: PNA
-    url: https://www.tortues-marines-antilles.org/le-plan-national-d-actions
+    permalink: https://www.tortues-marines-antilles.org/le-plan-national-d-actions
   - title: divider
   - title: Publications
     permalink: /en/publications/
