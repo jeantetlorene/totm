@@ -56,7 +56,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://www.tortues-marines-antilles.org/le-plan-national-d-actions";
               },
             },{id: "dropdown-publications",
               title: "Publications",
@@ -91,7 +91,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://www.tortues-marines-antilles.org/le-plan-national-d-actions";
               },
             },{id: "dropdown-publications",
               title: "Publications",
