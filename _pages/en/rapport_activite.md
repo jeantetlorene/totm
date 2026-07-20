@@ -7,6 +7,10 @@ permalink: /en/reports/
 ref: rapports
 report_button_label: Read the report
 reports:
+  - name: "2025 Activity Report - French Version"
+    year: "2025"
+    link: "/assets/pdf/Rapport_activites_2025_fin_compressed.pdf"
+    image: "/assets/img/rapport-activite/RA_TOTM_2025_first_page.png"
   - name: "2024 Activity Report - French Version"
     year: "2024"
     link: "/assets/pdf/Rapport_activite_2024-FINAL-sept2025.pdf"
