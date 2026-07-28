@@ -7,7 +7,7 @@ tags: Action
 categories: post
 lang : fr
 thumbnail: assets/img/post/pna_24072026/turtle_in_water.webp
-
+image: assets/img/post/pna_24072026/turtle_in_water.webp
 
 ---
 
