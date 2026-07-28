@@ -7,8 +7,7 @@ tags: Action
 categories: post
 lang : fr
 thumbnail: assets/img/post/pna_24072026/turtle_in_water.webp
-images:
-  slider: true
+
 
 ---
 
@@ -36,9 +35,3 @@ Une nouvelle étape commence donc pour renforcer la conservation des tortues mar
 
 Pour en savoir plus sur la conservation des tortues marines aux Antilles, visitez : Réseaux Tortues Marines des Antilles françaises.  
 
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/pna_24072026/nicolas.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/pna_24072026/turtle_in_car.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/pna_24072026/turtle_in_water.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/post/pna_24072026/leatherback.webp" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-</swiper-container>
