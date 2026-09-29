@@ -139,6 +139,28 @@ ninja.data = [{
             window.location.href = "/nosactualites/2026/marche-pna/";
           
         },
+      },{id: "post-voeux-2026",
+        
+          title: "Voeux 2026",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/nosactualites/2026/voeux-2026/";
+          
+        },
+      },{id: "post-deux-sessions-productives-pour-totm-à-la-cop30-du-climat-à-belém",
+        
+          title: "Deux sessions productives pour TOTM à la COP30 du climat à Belém",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/nosactualites/2025/sessions-cop30/";
+          
+        },
       },{id: "post-totm-participe-à-la-conférence-sur-le-climat-cop30-à-belém",
         
           title: "TOTM participe à la Conférence sur le climat COP30 à Belém",
@@ -159,6 +181,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/nosactualites/2025/pna-antilles/";
+          
+        },
+      },{id: "post-lancement-du-suivi-des-traces-en-guadeloupe-coordonné-par-totm",
+        
+          title: "Lancement du suivi des traces en Guadeloupe, coordonné par TOTM",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/nosactualites/2025/suivi-traces-guadeloupe/";
           
         },
       },{id: "post-participation-de-totm-à-l-assemblée-générale-du-ccrup-aux-canaries",
