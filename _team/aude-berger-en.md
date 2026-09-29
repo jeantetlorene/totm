@@ -3,7 +3,7 @@ layout: team-member
 title: Aude Berger
 date: 2023-01-15T10:00:00+02:00
 draft: false
-image: team/alexandra-le-moal.jpg
+image: team/aude-berger.webp
 association: ca
 lang : en
 ref : audeberger
