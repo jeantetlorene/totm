@@ -610,16 +610,6 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/equipe/lorene-jeantet/";
-            },},{id: "team-manon-nivière",
-          title: 'Manon Nivière',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/equipe/manon-niviere-en/";
-            },},{id: "team-manon-nivière",
-          title: 'Manon Nivière',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/equipe/manon-niviere/";
             },},{id: "team-margaux-boyer",
           title: 'Margaux Boyer',
           description: "",
