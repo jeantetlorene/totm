@@ -540,16 +540,6 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/equipe/claire-jean/";
-            },},{id: "team-damien-chevallier",
-          title: 'Damien Chevallier',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/equipe/damien-chevallier-en/";
-            },},{id: "team-damien-chevallier",
-          title: 'Damien Chevallier',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/equipe/damien-chevallier/";
             },},{id: "team-anne-emmanuelle-landes",
           title: 'Anne-Emmanuelle Landes',
           description: "",
@@ -570,16 +560,6 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/equipe/eric-delcroix/";
-            },},{id: "team-flora-siegwalt",
-          title: 'Flora Siegwalt',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/equipe/flora-siegwalt-en/";
-            },},{id: "team-flora-siegwalt",
-          title: 'Flora Siegwalt',
-          description: "",
-          section: "Team",handler: () => {
-              window.location.href = "/equipe/flora-siegwalt/";
             },},{id: "team-francois-elie-paute",
           title: 'Francois-Elie Paute',
           description: "",
