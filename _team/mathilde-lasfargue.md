@@ -9,7 +9,7 @@ lang : fr
 ref : mathildelasfargue
 representation: Administratrice
 research_areas: ["Guyane"]
-email: contact@missocom.com 
+
 
 
 
