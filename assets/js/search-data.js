@@ -520,6 +520,16 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/equipe/alexis-guilleux/";
+            },},{id: "team-aude-berger",
+          title: 'Aude Berger',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/equipe/aude-berger-en/";
+            },},{id: "team-aude-berger",
+          title: 'Aude Berger',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/equipe/aude-berger/";
             },},{id: "team-cécile-gaspar",
           title: 'Cécile Gaspar',
           description: "",
@@ -630,6 +640,16 @@ ninja.data = [{
           description: "",
           section: "Team",handler: () => {
               window.location.href = "/equipe/mathieu-barret/";
+            },},{id: "team-mathilde-lasfargue",
+          title: 'Mathilde Lasfargue',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/equipe/mathilde-lasfargue-en/";
+            },},{id: "team-mathilde-lasfargue",
+          title: 'Mathilde Lasfargue',
+          description: "",
+          section: "Team",handler: () => {
+              window.location.href = "/equipe/mathilde-lasfargue/";
             },},{id: "team-mayeul-dalleau",
           title: 'Mayeul Dalleau',
           description: "",
