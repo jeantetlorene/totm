@@ -5,8 +5,8 @@ date: 2023-01-15T10:00:00+02:00
 draft: false
 lang : en
 image: team/anne-emmanuelle-landes.png
-association: bureau
-representation: Treasurer
+association: ca
+representation: Board Member
 research_areas: ["La Réunion"]
 email: 
 website: 
