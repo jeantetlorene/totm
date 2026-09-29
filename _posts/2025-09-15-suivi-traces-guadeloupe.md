@@ -6,8 +6,8 @@ description:
 tags: Membre
 categories: post
 lang : fr
-
-
+thumbnail: assets/img/post/pna_24072026/Suivi_traces_Gadeloupe_1.webp
+image: assets/img/post/pna_24072026/Suivi_traces_Gadeloupe_2.webp
 
 ---
 

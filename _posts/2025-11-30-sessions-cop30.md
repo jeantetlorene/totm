@@ -6,8 +6,8 @@ description:
 tags: Action
 categories: post
 lang : fr
-image: assets/img/post/ccrup.webp
-thumbnail: assets/img/post/ccrup.webp
+image: assets/img/post/Sessions_COP30.webp
+thumbnail: assets/img/post/Sessions_COP30.webp
 
 ---
 
