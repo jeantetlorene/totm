@@ -8,7 +8,7 @@ categories: post
 lang : fr
 images:
   slider: true
-
+thumbnail: assets/img/post/laure-last-week-2.webp
 ---
 
 🌊🐢 C’est avec plaisir que nous partageons que <span class="highlight-name">Laure Newby</span>, étudiante M1 TROPIMUNDO, entre dans les dernières semaines de son stage après plusieurs mois au sein de l’équipe TOTM, co-encadré par l’Ifremer à Cayenne, en Guyane française. Ce projet a grandement bénéficié de partenariats avec CRPMEM-Guyane et WWF-Guyane.  
