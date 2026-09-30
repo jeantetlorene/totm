@@ -128,7 +128,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/noussoutenir/";
           },
-        },{id: "post-totm-poursuivra-l-39-animation-du-plan-nation-d-39-actions-en-faveur-des-tortues-marines-des-antilles-ces-4-prochaines-années",
+        },{id: "post-lancement-du-suivi-des-traces-en-guadeloupe-coordonné-par-totm",
+        
+          title: "Lancement du suivi des traces en Guadeloupe, coordonné par TOTM",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/nosactualites/2026/test-news/";
+          
+        },
+      },{id: "post-totm-poursuivra-l-39-animation-du-plan-nation-d-39-actions-en-faveur-des-tortues-marines-des-antilles-ces-4-prochaines-années",
         
           title: "TOTM poursuivra l&#39;animation du Plan Nation d&#39;Actions en faveur des tortues marines des...",
         
